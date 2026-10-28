@@ -4,6 +4,7 @@
 
 Canonical: https://coreyjames.ai/research/family-two-durable-work-and-lossless-recovery/  
 Author: Corey James · Published: 2026-10-28 · Kind: patent family  
+DOI: https://doi.org/10.5281/zenodo.23735144  
 Systems: [Inference Fabric](https://github.com/coreyjames-ai/inference-fabric)  
 Skills: [exactly-once delivery and crash recovery](https://github.com/coreyjames-ai/portfolio/tree/main/skills/exactly-once-delivery-and-crash-recovery) · [message broker and queue design](https://github.com/coreyjames-ai/portfolio/tree/main/skills/message-broker-and-queue-design) · [distributed systems correctness](https://github.com/coreyjames-ai/portfolio/tree/main/skills/distributed-systems-correctness) · [AI-assisted engineering methodology](https://github.com/coreyjames-ai/portfolio/tree/main/skills/ai-assisted-engineering-methodology)  
 
@@ -77,7 +78,7 @@ Each line is a claim the canonical page supports, with the figure as the page st
 
 ## Citation
 
-Corey James. "Family Two: Durable work, tombstones and lossless recovery." coreyjames.ai, 2026. https://coreyjames.ai/research/family-two-durable-work-and-lossless-recovery/
+Corey James. "Family Two: Durable work, tombstones and lossless recovery." coreyjames.ai, 2026. https://coreyjames.ai/research/family-two-durable-work-and-lossless-recovery/ In: the portfolio technical report, doi:10.5281/zenodo.23735144.
 
 ```bibtex
 @misc{coreyjames-family-two-durable-work-and-lossless-recovery,
@@ -85,7 +86,8 @@ Corey James. "Family Two: Durable work, tombstones and lossless recovery." corey
   title = {Family Two: Durable work, tombstones and lossless recovery},
   year = {2026},
   howpublished = {\url{https://coreyjames.ai/research/family-two-durable-work-and-lossless-recovery/}},
-  note = {GitHub copy: https://github.com/coreyjames-ai/portfolio/tree/main/research/patent-families/family-two-durable-work-and-lossless-recovery}
+  note = {GitHub copy: https://github.com/coreyjames-ai/portfolio/tree/main/research/patent-families/family-two-durable-work-and-lossless-recovery},
+  doi = {10.5281/zenodo.23735144}
 }
 ```
 

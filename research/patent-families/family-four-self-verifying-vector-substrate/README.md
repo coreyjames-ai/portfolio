@@ -4,6 +4,7 @@
 
 Canonical: https://coreyjames.ai/research/family-four-self-verifying-vector-substrate/  
 Author: Corey James · Published: 2026-10-28 · Kind: patent family  
+DOI: https://doi.org/10.5281/zenodo.23735138  
 Systems: [Inference Fabric](https://github.com/coreyjames-ai/inference-fabric)  
 Skills: [vector search and ANN indexes](https://github.com/coreyjames-ai/portfolio/tree/main/skills/vector-search-and-ann-indexes) · [embedding analytics and cluster metrics](https://github.com/coreyjames-ai/portfolio/tree/main/skills/embedding-analytics-and-cluster-metrics) · [distributed systems correctness](https://github.com/coreyjames-ai/portfolio/tree/main/skills/distributed-systems-correctness) · [AI-assisted engineering methodology](https://github.com/coreyjames-ai/portfolio/tree/main/skills/ai-assisted-engineering-methodology)  
 
@@ -108,7 +109,7 @@ Each line is a claim the canonical page supports, with the figure as the page st
 
 ## Citation
 
-Corey James. "Family Four: Self-verifying vector and GPU retrieval substrate." coreyjames.ai, 2026. https://coreyjames.ai/research/family-four-self-verifying-vector-substrate/
+Corey James. "Family Four: Self-verifying vector and GPU retrieval substrate." coreyjames.ai, 2026. https://coreyjames.ai/research/family-four-self-verifying-vector-substrate/ In: the portfolio technical report, doi:10.5281/zenodo.23735138.
 
 ```bibtex
 @misc{coreyjames-family-four-self-verifying-vector-substrate,
@@ -116,7 +117,8 @@ Corey James. "Family Four: Self-verifying vector and GPU retrieval substrate." c
   title = {Family Four: Self-verifying vector and GPU retrieval substrate},
   year = {2026},
   howpublished = {\url{https://coreyjames.ai/research/family-four-self-verifying-vector-substrate/}},
-  note = {GitHub copy: https://github.com/coreyjames-ai/portfolio/tree/main/research/patent-families/family-four-self-verifying-vector-substrate}
+  note = {GitHub copy: https://github.com/coreyjames-ai/portfolio/tree/main/research/patent-families/family-four-self-verifying-vector-substrate},
+  doi = {10.5281/zenodo.23735138}
 }
 ```
 

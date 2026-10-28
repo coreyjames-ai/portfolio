@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: Cite this repository's report by its DOI.
+type: dataset
+title: "Corey James: portfolio"
+authors:
+  - given-names: Corey
+    family-names: James
+    orcid: https://orcid.org/0009-0008-7246-963X
+doi: 10.5281/zenodo.23735152
+date-released: 2026-10-28
+url: https://coreyjames.ai/
+repository-code: https://github.com/coreyjames-ai/portfolio
+license: CC-BY-4.0
+abstract: "The portfolio as citable research: research, technologies, skills, tools and problem classes, every figure on the page it cites."

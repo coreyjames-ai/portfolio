@@ -4,6 +4,7 @@
 
 Canonical: https://coreyjames.ai/research/family-three-unified-context-across-models/  
 Author: Corey James · Published: 2026-10-28 · Kind: patent family  
+DOI: https://doi.org/10.5281/zenodo.23735142  
 Systems: [Helix](https://github.com/coreyjames-ai/helix)  
 Skills: [AI-assisted engineering methodology](https://github.com/coreyjames-ai/portfolio/tree/main/skills/ai-assisted-engineering-methodology)  
 
@@ -98,7 +99,7 @@ Each line is a claim the canonical page supports, with the figure as the page st
 
 ## Citation
 
-Corey James. "Family Three: Unified context across AI models and knowledge systems." coreyjames.ai, 2026. https://coreyjames.ai/research/family-three-unified-context-across-models/
+Corey James. "Family Three: Unified context across AI models and knowledge systems." coreyjames.ai, 2026. https://coreyjames.ai/research/family-three-unified-context-across-models/ In: the portfolio technical report, doi:10.5281/zenodo.23735142.
 
 ```bibtex
 @misc{coreyjames-family-three-unified-context-across-models,
@@ -106,7 +107,8 @@ Corey James. "Family Three: Unified context across AI models and knowledge syste
   title = {Family Three: Unified context across AI models and knowledge systems},
   year = {2026},
   howpublished = {\url{https://coreyjames.ai/research/family-three-unified-context-across-models/}},
-  note = {GitHub copy: https://github.com/coreyjames-ai/portfolio/tree/main/research/patent-families/family-three-unified-context-across-models}
+  note = {GitHub copy: https://github.com/coreyjames-ai/portfolio/tree/main/research/patent-families/family-three-unified-context-across-models},
+  doi = {10.5281/zenodo.23735142}
 }
 ```
 

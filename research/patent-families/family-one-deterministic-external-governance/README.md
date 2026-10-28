@@ -4,6 +4,7 @@
 
 Canonical: https://coreyjames.ai/research/family-one-deterministic-external-governance/  
 Author: Corey James · Published: 2026-10-28 · Kind: patent family  
+DOI: https://doi.org/10.5281/zenodo.23735140  
 Systems: [AgentOS](https://github.com/coreyjames-ai/agentos)  
 Skills: [evidence-gated acceptance](https://github.com/coreyjames-ai/portfolio/tree/main/skills/evidence-gated-acceptance) · [multi-agent governance](https://github.com/coreyjames-ai/portfolio/tree/main/skills/multi-agent-governance) · [agent orchestration](https://github.com/coreyjames-ai/portfolio/tree/main/skills/agent-orchestration) · [AI-assisted engineering methodology](https://github.com/coreyjames-ai/portfolio/tree/main/skills/ai-assisted-engineering-methodology)  
 
@@ -76,7 +77,7 @@ Each line is a claim the canonical page supports, with the figure as the page st
 
 ## Citation
 
-Corey James. "Family One: Deterministic external governance of autonomous AI work." coreyjames.ai, 2026. https://coreyjames.ai/research/family-one-deterministic-external-governance/
+Corey James. "Family One: Deterministic external governance of autonomous AI work." coreyjames.ai, 2026. https://coreyjames.ai/research/family-one-deterministic-external-governance/ In: the portfolio technical report, doi:10.5281/zenodo.23735140.
 
 ```bibtex
 @misc{coreyjames-family-one-deterministic-external-governance,
@@ -84,7 +85,8 @@ Corey James. "Family One: Deterministic external governance of autonomous AI wor
   title = {Family One: Deterministic external governance of autonomous AI work},
   year = {2026},
   howpublished = {\url{https://coreyjames.ai/research/family-one-deterministic-external-governance/}},
-  note = {GitHub copy: https://github.com/coreyjames-ai/portfolio/tree/main/research/patent-families/family-one-deterministic-external-governance}
+  note = {GitHub copy: https://github.com/coreyjames-ai/portfolio/tree/main/research/patent-families/family-one-deterministic-external-governance},
+  doi = {10.5281/zenodo.23735140}
 }
 ```
 
