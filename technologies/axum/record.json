@@ -1,0 +1,43 @@
+{
+ "url": "https://coreyjames.ai/technologies/axum/",
+ "kind": "technology",
+ "title": "Axum",
+ "subtitle": "Axum is the HTTP layer under most of my Rust services: the memory gateway, the voice engine's control surface, the execution substrate's endpoints.",
+ "systems": [
+  "fafohive",
+  "fafo-core",
+  "helix",
+  "agent-swarm"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "~70",
+   "label": "REST endpoints in FAFOHive's API, beside its MCP transport"
+  },
+  {
+   "value": "19,000",
+   "label": "lines in that API module"
+  },
+  {
+   "value": "1,900",
+   "label": "lines in Helix's WebSocket endpoint for media frames"
+  },
+  {
+   "value": "2 min",
+   "label": "timeout for the code-path explainer, one of the per-tool limits"
+  }
+ ],
+ "lede": "FAFOHive is one Rust process that every managed agent seat in my estate connects to, and Axum is its HTTP layer. It serves the MCP transport and a REST API. The MCP transport started on the rmcp SDK's streaming server-sent-events service, and that service broke whenever a container restarted. Container restarts are routine in my estate, so I replaced it with a per-request, TLS-terminated POST handler in Axum. Long-running tools get their own timeouts, sized to what each tool does, so one slow tool cannot hold a connection open indefinitely. FAFO Core and Function Forge needed a gateway that turns any generated function into an agent-callable tool without someone editing a router by hand.",
+ "quote": "My work with Axum is in transport choice, routing and middleware structure.",
+ "evidence": [
+  "Rust web services with Axum: the HTTP layer of an MCP server with ~70 REST endpoints in a 19,000-line API module, beside the MCP transport.",
+  "MCP server design: a streaming transport that broke on container restart replaced with a per-request, TLS-terminated POST handler, with per-tool timeouts such as 2 min for the code-path explainer.",
+  "API gateway design: a gateway whose MCP tool routes are generated from YAML at build time, with authentication applied as middleware per route group so new handlers inherit it."
+ ],
+ "technology_kind": "framework",
+ "canonical": "https://coreyjames.ai/technologies/axum/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/axum"
+}

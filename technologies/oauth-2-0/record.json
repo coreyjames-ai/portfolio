@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/technologies/oauth-2-0/",
+ "kind": "technology",
+ "title": "OAuth 2.0",
+ "subtitle": "I built an OAuth 2.0 authorization server for commercial AI assistants, with consent as the real control, and my memory gateway validates tokens from several issuers against published keys.",
+ "systems": [
+  "auth-and-access-plane",
+  "fafohive",
+  "fafo-core",
+  "helix"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "30 days",
+   "label": "a newly registered client waits for a person's approval before it lapses"
+  }
+ ],
+ "lede": "Auth and access plane exists because I wanted commercial AI assistants to reach my private tool estate through standard OAuth, with a person approving every grant. I built the authorization server. It implements the authorization-code grant with PKCE, with the S256 check written from primitives, plus client credentials, refresh tokens and revocation, with separate authentication paths for confidential and public clients. Tokens are RS256-signed JWTs. The signing key persists, so tokens survive restarts, and the public keys are published for every verifier. Assistants find the server through authorization-server and protected-resource metadata, register through dynamic client registration and name the resource they want, with a default when they do not.",
+ "quote": "The consent screen is the control point, so open registration works with every assistant and no token is issued without a person's approval.",
+ "evidence": [
+  "OAuth 2.0 and identity architecture: an authorization server with the authorization-code grant and PKCE, an S256 check written from primitives, client credentials, refresh tokens, revocation and RS256-signed JWTs.",
+  "Dynamic client registration and consent design: discovery metadata and open registration for AI assistants, a pending client lapsing after 30 days without a person's approval, and no token issued without it.",
+  "Zero-trust architecture: a protected MCP resource that introspects every bearer token on every request and refuses, with no cached allow, when introspection cannot answer.",
+  "Delegated authorization for AI agents: offline multi-issuer token validation with a scope tree and one-time-code step-up, sub-agent tokens that end with their parent, and atomic refresh so no refresh token is spent twice."
+ ],
+ "technology_kind": "protocol",
+ "canonical": "https://coreyjames.ai/technologies/oauth-2-0/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/oauth-2-0"
+}

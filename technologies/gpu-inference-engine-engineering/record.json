@@ -1,0 +1,41 @@
+{
+ "url": "https://coreyjames.ai/technologies/gpu-inference-engine-engineering/",
+ "kind": "technology",
+ "title": "GPU inference engine engineering",
+ "subtitle": "I built a batched continuous-decode engine with paged key-value memory, admission control, canary-gated binding and typed refusals, and I tried the vendor's industrial stack first and closed it on measurements.",
+ "systems": [
+  "capabilities-model"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "518 µs",
+   "label": "removed per token by the on-GPU decode loop, up to 696 under load"
+  },
+  {
+   "value": "13.4×",
+   "label": "faster prefill in 256-token chunks, identical answers"
+  },
+  {
+   "value": "503 MiB",
+   "label": "CUDA context, reported apart so admission stays honest"
+  },
+  {
+   "value": "2.53×",
+   "label": "less device memory with NVFP4 weights, about 5 percent slower"
+  }
+ ],
+ "lede": "Capabilities model is a 0.6-billion-parameter tool-discovery model that had to serve two thousand concurrent agents. It had only the memory a resident 30-billion-parameter model left free on one NVIDIA Blackwell GPU. I had the vendor's industrial stack tried first. Its weight conversion corrupted some tensors by up to a thousand times. That is Trying the industrial path first. I can take a model from weights to a custom inference engine whose speed and numerics I can defend. I then directed the build of a purpose-built engine in Rust and CUDA, with its lab. It uses hand-written FP32-accumulating kernels with no cuBLAS and no tensor cores.",
+ "quote": "I build custom only after measuring the standard option.",
+ "evidence": [
+  "GPU inference optimisation: a purpose-built Rust and CUDA decode engine for a 0.6B tool-discovery model, with the decode loop as one CUDA graph removing 518 microseconds per token.",
+  "Deterministic GPU computation: one block per output row and fixed reduction trees, passing 12 of 12 bit-identity gates and 2,345 of 2,345 rank-one results across shuffled batches.",
+  "TensorRT and TensorRT-LLM engineering: the vendor stack measured first at 492 requests per second with the card to itself and 56 beside the serving model, before building custom.",
+  "LLM quantization: NVFP4 weights using 2.53 times less device memory than FP8 at about 5 percent slower."
+ ],
+ "technology_kind": "discipline",
+ "canonical": "https://coreyjames.ai/technologies/gpu-inference-engine-engineering/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/gpu-inference-engine-engineering"
+}

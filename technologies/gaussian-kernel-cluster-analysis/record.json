@@ -1,0 +1,36 @@
+{
+ "url": "https://coreyjames.ai/technologies/gaussian-kernel-cluster-analysis/",
+ "kind": "technology",
+ "title": "Gaussian-kernel cluster analysis",
+ "subtitle": "A per-cluster length scale from a histogram median, then potential depth, curvature, escape probability, superposition, interference and entanglement as field metrics over an embedding cluster.",
+ "systems": [
+  "inference-fabric"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "256",
+   "label": "bins in the shared-memory histogram that finds the median distance"
+  },
+  {
+   "value": "0.4%",
+   "label": "resolution of that median, held in 10 KB of shared memory"
+  },
+  {
+   "value": "2,000",
+   "label": "members, the most the CPU spectral metrics will report on"
+  }
+ ],
+ "lede": "One family of my cluster metrics treats a cluster of embeddings as a field rather than a point set. Each member contributes a Gaussian kernel of its distance, the width of the kernel is a per-cluster length scale, and the shape of the resulting potential describes the cluster. The family runs in the Inference Fabric's CUDA engine and is told in Physics as a lens on embeddings. The length scale is a constant times the median pairwise distance of the cluster, clamped to a documented range. A per-cluster scale makes the metrics independent of the embedding model's units.",
+ "quote": "I left three metrics off the GPU until they can run without a hidden cap.",
+ "evidence": [
+  "Embedding analytics and cluster metrics: Gaussian-kernel field metrics per cluster (potential depth, curvature, escape probability, superposition, interference, entanglement) on a per-cluster length scale.",
+  "CUDA kernel development: the median pairwise distance read from a 256-bin shared-memory histogram at 0.4% resolution in 10 KB, and entanglement tiled over the upper triangle with no Gram matrix.",
+  "Bounded numerical methods: three Gram-matrix spectral metrics kept as CPU reference code that reports nothing above 2,000 members instead of sampling."
+ ],
+ "technology_kind": "discipline",
+ "canonical": "https://coreyjames.ai/technologies/gaussian-kernel-cluster-analysis/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/gaussian-kernel-cluster-analysis"
+}

@@ -1,0 +1,22 @@
+{
+ "url": "https://coreyjames.ai/tools/reddit/",
+ "kind": "tool-group",
+ "title": "Reddit provider",
+ "subtitle": "",
+ "systems": [
+  "fafohive"
+ ],
+ "technologies": [],
+ "stats": [],
+ "lede": "I wanted agents to take part in Reddit threads from an account a person already uses, and I was not willing to copy that person's session or credentials into a server. So the Reddit provider runs inside the browser that is already logged in. A browser extension makes the same requests Reddit's own page would make, and a small native host connects it to the FAFOHive hub over a private local socket. There are no clicks, no navigation and no login. Every write checks first that the session belongs to the expected account, and is read back afterwards until the exact result is confirmed. Each write carries an idempotency key, so a retry cannot post twice.",
+ "quote": "",
+ "evidence": [
+  "Browser-based platform integration: 6 tools let an agent read Reddit threads and comments and post or edit its own comments from an account a person already uses, with no copied credentials.",
+  "Safe automation design: every write checks the session's account first, is read back until the exact result is confirmed, and carries an idempotency key so a retry cannot post twice."
+ ],
+ "tool_count": 6,
+ "canonical": "https://coreyjames.ai/tools/reddit/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/tools/reddit"
+}

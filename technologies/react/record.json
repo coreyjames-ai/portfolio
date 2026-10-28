@@ -1,0 +1,23 @@
+{
+ "url": "https://coreyjames.ai/technologies/react/",
+ "kind": "technology",
+ "title": "React",
+ "subtitle": "React builds the Mattermost plugins, the Teams work tab and the meeting-stage app for Helix.",
+ "systems": [
+  "helix",
+  "auth-and-access-plane"
+ ],
+ "technologies": [],
+ "stats": [],
+ "lede": "In Helix I wanted people, and the AI colleague they work with, to stay inside the platforms they already use. I build front ends as integration surfaces inside other people's platforms: small, native-looking and backed by a server-side source of truth. The Control Center, Helix's multi-model collaboration shell, runs on an unmodified Mattermost server. I extend it only through its supported plugin model: everything Helix adds to its interface is a Mattermost webapp plugin in React and JSX, and the plugins are thin. In Teams, the working service has a tab built with React and Microsoft's Fluent UI, so it looks native where it appears.",
+ "quote": "Where a vendor feature has no control an agent can use, I build a surface I control.",
+ "evidence": [
+  "Microsoft Teams app development: a Fluent UI work tab with Teams single sign-on, and a meeting-stage app an AI agent drives with each action bound to tenant, employee and meeting.",
+  "Mattermost plugin development: React webapp plugins for a multi-model collaboration shell, kept thin over server-side state in Rust and PostgreSQL."
+ ],
+ "technology_kind": "framework",
+ "canonical": "https://coreyjames.ai/technologies/react/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/react"
+}

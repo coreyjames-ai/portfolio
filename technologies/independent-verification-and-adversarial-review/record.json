@@ -1,0 +1,39 @@
+{
+ "url": "https://coreyjames.ai/technologies/independent-verification-and-adversarial-review/",
+ "kind": "technology",
+ "title": "Independent verification and adversarial review",
+ "subtitle": "Builders do not judge their own work. Quality assurance, a gatekeeper that accepts only delivered facts, and an adversarial reviewer on a different vendor's model are separate seats, and a FAIL stays a FAIL.",
+ "systems": [
+  "agentos",
+  "auth-and-access-plane",
+  "inference-fabric"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "5",
+   "label": "judging seats, each with its own authority and none with the builder's"
+  },
+  {
+   "value": "23",
+   "label": "close items, each needing a current independent pass"
+  },
+  {
+   "value": "14 days",
+   "label": "a work order held open until every one of them had it"
+  }
+ ],
+ "lede": "AgentOS: agent teams report success because they are built to finish tasks, and saying \"done\" finishes one. I decided the agent that builds a piece of work never judges it, and that the judging has to finish. AgentOS splits judgment into separate seats with separate authority, and the builders and the adversary run on models from different vendors so their blind spots do not overlap. When the team proposed a dedicated testing role, I ruled that testing is a developer activity that produces evidence; a separate seat would have let builders stop testing. I hold the one human override on closure, and using it requires a written reason.",
+ "quote": "I treat AI-produced work the way a quality organisation treats any work: the people who build it do not sign it off, and the sign-off has to end in a verdict.",
+ "evidence": [
+  "Separation of duties for AI work: builders never judge their own work; quality, a facts-only gatekeeper, a cross-vendor adversary, an envelope auditor and a closer hold separate authority.",
+  "Evidence-gated acceptance: a work order held open 14 days until all 23 close items had a current independent pass.",
+  "Converging quality loops for AI agents: findings frozen after the first broad pass, later rounds limited to fix claims and changed evidence, with round caps and an identical-failure guard.",
+  "Adversarial code audit: read-only audits in parallel lanes grounded in code-graph tracing, one of which overturned an earlier sign-off on a vector shard manager."
+ ],
+ "technology_kind": "discipline",
+ "canonical": "https://coreyjames.ai/technologies/independent-verification-and-adversarial-review/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/independent-verification-and-adversarial-review"
+}

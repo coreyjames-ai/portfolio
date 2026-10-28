@@ -1,0 +1,25 @@
+{
+ "url": "https://coreyjames.ai/ideas/a-human-at-the-privileged-step/",
+ "kind": "idea",
+ "title": "A human at the privileged step",
+ "subtitle": "Automate everything up to the one action that carries real authority, and put a person exactly there",
+ "systems": [
+  "fafo-core",
+  "agentos",
+  "auth-and-access-plane",
+  "fafohive"
+ ],
+ "technologies": [],
+ "stats": [],
+ "lede": "Full autonomy is a slogan and so is a human in every loop. I put the human at the one step that carries real authority, putting a generated tool into service, setting a day's spend, approving a client's grant, unlocking a work order, deciding the fate of an uncertain send, and nowhere else. The gate sits at the narrowest point, so agents keep their speed everywhere else and the human's attention is spent where it changes something. Identify the action whose consequence cannot be undone or whose authority cannot be delegated. Build the automation to run flat out up to that action and to stop there with everything prepared. Make the human step small and explicit.",
+ "quote": "The gate is placed by consequence, not by fear.",
+ "evidence": [
+  "Human-in-the-loop design for AI agents: a person placed only at the step that carries authority, such as deploying a generated tool, setting a day's spend or approving a grant, with agents working flat out up to it.",
+  "Governed tool synthesis: agent-authored tools take effect only when a human rebuilds and restarts the gateway, and the budget path sits on no agent's tool surface.",
+  "OAuth consent as a control point: assistants register themselves and a person approves each grant on the consent screen."
+ ],
+ "canonical": "https://coreyjames.ai/ideas/a-human-at-the-privileged-step/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/research/ideas/a-human-at-the-privileged-step"
+}

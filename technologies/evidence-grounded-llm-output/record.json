@@ -1,0 +1,23 @@
+{
+ "url": "https://coreyjames.ai/technologies/evidence-grounded-llm-output/",
+ "kind": "technology",
+ "title": "Evidence-grounded LLM output",
+ "subtitle": "A model in my systems may narrate evidence it was handed; it may not produce evidence.",
+ "systems": [
+  "fafohive"
+ ],
+ "technologies": [],
+ "stats": [],
+ "lede": "Engineers act on a model's explanation of how code works, and a fluent explanation can include call paths that do not exist. In FAFOHive I decided the explainer would compute first and narrate second, with that order enforced in code: explain code path does every structural step before a language model is called, using the parser-built code graph and the index, so every structural statement in an answer comes from a computation that already ran. Each request is pinned to one graph generation, so the path, the code and the narrative all describe the same version. Filtering happens in the data layer, so the model never sees an unresolved edge it could build on.",
+ "quote": "A caveat attached to a plausible guess is the first thing a reader stops seeing.",
+ "evidence": [
+  "Grounded LLM output: a code explainer that computes the graph path before calling a model and returns a typed coverage-incomplete result instead of a guess.",
+  "Code intelligence and static analysis: answers drawn from a parser-built code graph pinned to one generation, with file and line citations.",
+  "Multi-vendor LLM integration: one contract binding every narration provider, local open models included, so a model swap changes prose and never structure."
+ ],
+ "technology_kind": "discipline",
+ "canonical": "https://coreyjames.ai/technologies/evidence-grounded-llm-output/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/evidence-grounded-llm-output"
+}

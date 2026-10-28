@@ -1,0 +1,40 @@
+{
+ "url": "https://coreyjames.ai/technologies/bash/",
+ "kind": "technology",
+ "title": "Bash",
+ "subtitle": "Test harnesses, release scripts, proof runs and service glue across every system are shell.",
+ "systems": [
+  "activekv",
+  "agentos",
+  "helix",
+  "fafo-core",
+  "agent-swarm"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "316",
+   "label": "shell scripts in ActiveKV, most of them validation and release harnesses"
+  },
+  {
+   "value": "32",
+   "label": "probes against the AgentOS work graph"
+  },
+  {
+   "value": "11",
+   "label": "checks in the integration platform's conformance suite, about 1,100 lines"
+  }
+ ],
+ "lede": "ActiveKV is judged by A/B runs on a quiet host, and a harness that misreports one cell can promote a regression. The main validation driver runs a matrix of serving cells, each named by prompt length, output length and concurrency. I wanted the result impossible to lose, whatever happened to the run after the client returned. The release payload's entrypoint is shell too: it selects serve and diagnostic modes and redacts credentials from its logs. AgentOS enforces policy through the coding CLI's hook system, and shell is its edge. Thin shims connect hook events to the Rust hook binary.",
+ "quote": "When shell hooks became policy, I ported them to Rust, because policy needs types and tests.",
+ "evidence": [
+  "Test harness engineering: A/B validation harnesses across 316 shell scripts whose results survive failure, cleanup and interruption, with the exit code captured first and reported by an EXIT trap.",
+  "Release and provisioning automation: Microsoft 365 tenant provisioning in bash, curl and Graph that stops with a specific exit code rather than leaving a half-configured identity.",
+  "Quality engineering for AI-produced work: 32 probes against the AgentOS work graph and an 11-check conformance suite of about 1,100 lines, each probe written to fail before its fix."
+ ],
+ "technology_kind": "language",
+ "canonical": "https://coreyjames.ai/technologies/bash/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/bash"
+}

@@ -1,0 +1,37 @@
+{
+ "url": "https://coreyjames.ai/technologies/acme/",
+ "kind": "technology",
+ "title": "ACME",
+ "subtitle": "Automated certificate issuance keeps my services' TLS current without a human in the loop, in the agent runtime and the access plane.",
+ "systems": [
+  "auth-and-access-plane",
+  "agent-swarm"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "46",
+   "label": "lines of Python in the HTTP-01 challenge responder"
+  },
+  {
+   "value": "2",
+   "label": "challenge types, picked per surface"
+  },
+  {
+   "value": "2",
+   "label": "issuance backends behind one interface"
+  }
+ ],
+ "lede": "Auth and access plane serves an OAuth authorization server, MCP gateways and webhook intake to the internet from an estate with no open inbound ports. Every one of those surfaces sits behind an NGINX TLS front, and I wanted each certificate to renew without me. I chose ACME's HTTP-01 challenge for the web fronts, where a proxy already answers on port 80, and answered it on the same proxy path that carries real traffic. The front it serves is the template for the rest, and that pattern is on the Zero-inbound network exposure page. Agent Swarm had a different problem.",
+ "quote": "I treat certificate issuance as part of the platform.",
+ "evidence": [
+  "TLS certificate automation: ACME issuance for web fronts and agent containers with no person in the loop, HTTP-01 answered by a 46-line responder on the path real traffic takes.",
+  "Rust systems engineering: DNS-01 certificate minting written into the agent runtime as Rust crates, two issuance backends behind one interface, challenge records removed on every exit path.",
+  "Secrets hygiene in container platforms: certificates mounted into containers at launch and never baked into an image, so rebuilding an image can never ship a key."
+ ],
+ "technology_kind": "protocol",
+ "canonical": "https://coreyjames.ai/technologies/acme/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/acme"
+}

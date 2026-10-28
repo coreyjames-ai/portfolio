@@ -1,0 +1,40 @@
+{
+ "url": "https://coreyjames.ai/technologies/tree-sitter/",
+ "kind": "technology",
+ "title": "tree-sitter",
+ "subtitle": "tree-sitter parses a multi-language monorepo into the chunks and edges behind my code search and dependency graph.",
+ "systems": [
+  "fafohive"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "19,000",
+   "label": "files in the multi-language monorepo"
+  },
+  {
+   "value": "294,000",
+   "label": "chunks from the monorepo"
+  },
+  {
+   "value": "100",
+   "label": "lines, the longest unit kept whole"
+  },
+  {
+   "value": "40",
+   "label": "lines per overlapping sub-chunk"
+  }
+ ],
+ "lede": "FAFOHive serves AI agents that ask questions about a large multi-language monorepo, and I wanted their answers to come from the code's structure. Embeddings of arbitrary line windows give agents half a function and a guess. I decided to parse every file with tree-sitter and use the syntax tree twice: to cut code into meaningful chunks for search, and to extract the dependency graph the code tools traverse. The chunker uses pinned grammars for Rust, Python, JavaScript, TypeScript, C, C++, Go and Java and cuts along function, class and module boundaries. A long unit splits into overlapping sub-chunks, so a long function stays findable without becoming one diluted vector. Files in other languages go through a plain chunker.",
+ "quote": "I give AI agents computed facts about code and limit the model to explaining them.",
+ "evidence": [
+  "Code intelligence for AI agents: a 19,000-file multi-language monorepo parsed with tree-sitter into 294,000 syntax-aligned chunks for code search.",
+  "Static dependency analysis: calls, imports and implementations extracted into a generation-versioned graph whose edges appear only when both ends are indexed.",
+  "Evidence-grounded LLM output: dependency tracing by bounded search in SQL, with a model allowed to narrate only edges the graph holds."
+ ],
+ "technology_kind": "framework",
+ "canonical": "https://coreyjames.ai/technologies/tree-sitter/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/tree-sitter"
+}

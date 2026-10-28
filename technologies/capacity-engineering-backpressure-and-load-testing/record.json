@@ -1,0 +1,38 @@
+{
+ "url": "https://coreyjames.ai/technologies/capacity-engineering-backpressure-and-load-testing/",
+ "kind": "technology",
+ "title": "Capacity engineering, backpressure and load testing",
+ "subtitle": "I load-test what I build and report the misses: a 2,048-client ladder against a GPU decoder, bounded endpoints and saturating rerank in the memory service, and a pre-registered target I missed and explained.",
+ "systems": [
+  "fafohive",
+  "capabilities-model"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "85.9",
+   "label": "requests per second in a burst of 2,048 simultaneous clients"
+  },
+  {
+   "value": "0",
+   "label": "requests in that burst failed, rejected or corrupted"
+  },
+  {
+   "value": "2,740",
+   "label": "MiB, the decoder's memory budget beside a resident serving model"
+  }
+ ],
+ "lede": "I engineer for the overloaded case first, make failure modes typed and distinct, and report capacity misses with their cause. FAFOHive serves search to whole teams of agents at once, and under that concurrency its embedding and reranking endpoints saturate. I decided callers would never see a raw HTTP error from those endpoints, only a result or one of two typed outcomes, and I had both endpoints wrapped in a bounded-endpoint primitive to deliver that. Embedding calls are gated only on cache misses, and observation writes have their own connection pool. FAFOHive also had an observation write that looked slow under benchmark.",
+ "quote": "Writing the target down before the engine existed meant the miss could not be reframed afterwards.",
+ "evidence": [
+  "Load testing and capacity engineering: a concurrency ladder from 1 to 2,048 clients with abort conditions at every rung; a burst of 2,048 served at 85.9 requests per second with none failed.",
+  "Backpressure design: bounded endpoints that return busy with a retry hint or a fatal error with its own alarm counter, so search degrades to lexical results instead of failing.",
+  "Performance benchmarking methodology: a pre-registered sustained target of 200 requests per second reported as missed at 6.9 because about 6 GB of key-value memory was needed against 1.4 free.",
+  "Benchmark harness debugging: a slow observation write traced to a benchmark harness that forked a process per call, with a hypothesised cause retracted."
+ ],
+ "technology_kind": "discipline",
+ "canonical": "https://coreyjames.ai/technologies/capacity-engineering-backpressure-and-load-testing/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/capacity-engineering-backpressure-and-load-testing"
+}

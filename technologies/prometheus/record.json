@@ -1,0 +1,43 @@
+{
+ "url": "https://coreyjames.ai/technologies/prometheus/",
+ "kind": "technology",
+ "title": "Prometheus",
+ "subtitle": "Prometheus carries the numbers that decide whether GPUs earn their keep, follows a fleet that changes under it, and pages one operator's phone.",
+ "systems": [
+  "inference-fabric",
+  "fafo-core",
+  "auth-and-access-plane",
+  "agentos"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "~137",
+   "label": "metrics the broker exports of its own"
+  },
+  {
+   "value": "31",
+   "label": "panels on the fabric's Grafana dashboard"
+  },
+  {
+   "value": "96.9%",
+   "label": "SM utilisation on the larger card in the 163,000-tokens-a-second run"
+  },
+  {
+   "value": "12",
+   "label": "scrape jobs across hosts, GPUs and inference nodes"
+  }
+ ],
+ "lede": "In Inference Fabric generic service health told me nothing about whether the GPUs were earning their keep, so I instrumented the quantities that decide GPU economics: padding, cache reuse and token conservation. The broker exports its own metrics into a Grafana dashboard, and GPU utilisation comes from NVIDIA's DCGM exporter beside the runtime's counters. The token-accounting panel is how I proved the broker fix in Millions of queued items that were not there. Each step of From 44K to 163K tokens per second is a capture from these dashboards.",
+ "quote": "A panel that should read zero is a test; any non-zero difference between tokens received and routed is a defect.",
+ "evidence": [
+  "Observability and alerting: Prometheus, Grafana and alerting built end to end, about 137 broker metrics on a 31-panel dashboard and 12 scrape jobs across hosts, GPUs and inference nodes.",
+  "GPU utilisation monitoring: token-conservation and padding panels beside DCGM exporter data, with 96.9% SM utilisation on the larger card in the 163,000-tokens-a-second run.",
+  "Dynamic service discovery: provisioning code writes GPU nodes into Prometheus's file-based service discovery as agents add and drain them, so monitoring follows the fleet."
+ ],
+ "technology_kind": "platform",
+ "canonical": "https://coreyjames.ai/technologies/prometheus/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/prometheus"
+}

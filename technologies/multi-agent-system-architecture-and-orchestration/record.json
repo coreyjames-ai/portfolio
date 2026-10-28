@@ -1,0 +1,25 @@
+{
+ "url": "https://coreyjames.ai/technologies/multi-agent-system-architecture-and-orchestration/",
+ "kind": "technology",
+ "title": "Multi-agent system architecture and orchestration",
+ "subtitle": "A governance control plane, a persona-driven runtime and a voice-first collaboration shell: three ways I have organised many agents around one body of work, with the state outside any model's head.",
+ "systems": [
+  "agentos",
+  "agent-swarm",
+  "helix"
+ ],
+ "technologies": [],
+ "stats": [],
+ "lede": "Governance, a runtime and collaboration: each time, I treated many agents as a distributed system held to the accountability I expect from people, with explicit state, separated duties, traceable messages and failure domains drawn on purpose. AgentOS started from a diagnosis: long agent runs drift because the lead agent has to hold every teammate's state in its head, and past some horizon it forgets one. I moved team state into a PostgreSQL work graph. Seats from more than one vendor run in containers on more than one machine under one contract, emit signed events and carry cost per seat, and adding a vendor means adding an adapter to that contract.",
+ "quote": "Team state lives in a database, because an agent that must remember everyone's status eventually forgets one.",
+ "evidence": [
+  "Agent orchestration: team state for long agent runs moved into a PostgreSQL work graph, with each seat given a small, freshly rendered job.",
+  "Separation of duties for AI work: separate builder and checker seats, an adversarial seat on a different vendor's model and a gatekeeper that judges only what was delivered.",
+  "Multi-agent collaboration systems: signed agent messages that carry their call chain and refuse delegation loops, and a council where models deliberate and ratify a decision."
+ ],
+ "technology_kind": "discipline",
+ "canonical": "https://coreyjames.ai/technologies/multi-agent-system-architecture-and-orchestration/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/multi-agent-system-architecture-and-orchestration"
+}

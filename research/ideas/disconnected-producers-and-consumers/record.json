@@ -1,0 +1,34 @@
+{
+ "url": "https://coreyjames.ai/ideas/disconnected-producers-and-consumers/",
+ "kind": "idea",
+ "title": "Disconnected producers and consumers",
+ "subtitle": "Nothing waits on anything else: the method under most of my high-throughput work",
+ "systems": [
+  "inference-fabric",
+  "fafo-core",
+  "fafohive",
+  "agent-swarm"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "163K",
+   "label": "tokens per second, five-minute mean on two cards, from about 44,000"
+  },
+  {
+   "value": "3",
+   "label": "batching modes any Function Forge function can run in by configuration"
+  }
+ ],
+ "lede": "Most pipelines are built as request and response: the thing that wants work done waits for the thing that does it. That coupling is why GPUs sit idle while a producer formats the next request, why a slow database stalls generation, and why a crash in one process takes the others down with it. I build the opposite shape wherever throughput or resilience matters. Producers submit work to a durable queue and exit. Consumers pull from the queue at their own pace. A separate completion path lands results where they belong. No component ever waits on another, and every component restarts on its own. A producer's job ends the moment its work is durably stored.",
+ "quote": "I cut at the point where the two sides have different natural rates: producers that are bursty and cheap, consumers that are expensive and steady.",
+ "evidence": [
+  "High-throughput batch inference: producers that submit and exit, a durable queue, pull-based GPU consumers and a separate completion path, the shape behind 163K tokens per second from about 44,000.",
+  "Message broker and queue design: backpressure by not pulling, local restarts, and one definition of done, an item complete only when its completion is acknowledged.",
+  "Asynchronous execution design: decoupled submit-and-exit as one of 3 batching modes any Function Forge function can run in by configuration."
+ ],
+ "canonical": "https://coreyjames.ai/ideas/disconnected-producers-and-consumers/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/research/ideas/disconnected-producers-and-consumers"
+}

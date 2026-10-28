@@ -1,0 +1,36 @@
+{
+ "url": "https://coreyjames.ai/technologies/model-families-and-types/",
+ "kind": "technology",
+ "title": "Model families and types",
+ "subtitle": "I pick a model for the job and the hardware it has to run on, then I change it until it fits.",
+ "systems": [
+  "helix",
+  "fafohive",
+  "inference-fabric",
+  "activekv",
+  "capabilities-model"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "3B",
+   "label": "active parameters per token, of 30B, in the mixture-of-experts build"
+  },
+  {
+   "value": "1,024",
+   "label": "dimensions in the memory search embedder"
+  }
+ ],
+ "lede": "Depending on the job, I fine-tune a model, quantize it, convert it, build an inference engine for it, or measure it against alternatives. The work spans most of the model families in use today. My Capabilities model is a dense model of about half a billion parameters, fully fine-tuned so that a tool catalog lives in its weights. I trained a ladder of small dense models at sub-billion, half-billion and low-billion sizes, and chose the size from measured recall and training time. A half-billion-parameter model became a tool index because a full fine-tune takes minutes. I try the standard runtime first.",
+ "quote": "I size the model to the problem.",
+ "evidence": [
+  "LLM quantization (FP8 and 4-bit): 4-bit and mixed 4-bit/FP8 builds of a 27B-class hybrid model on one 32 GB card, the all-4-bit build +36% throughput at +3.3% perplexity.",
+  "Model selection across families: dense, mixture-of-experts at 3B of 30B active, hybrid recurrent-attention, embedding, speech and diffusion models from <1B to 70B+ parameters.",
+  "Inference serving architecture: runtimes chosen per hardware and job, TensorRT-LLM and my own CUDA engine on NVIDIA, vLLM's XPU build and OpenVINO on Intel."
+ ],
+ "technology_kind": "model",
+ "canonical": "https://coreyjames.ai/technologies/model-families-and-types/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/model-families-and-types"
+}

@@ -1,0 +1,24 @@
+{
+ "url": "https://coreyjames.ai/ideas/role-contracts-not-vendors/",
+ "kind": "idea",
+ "title": "Role contracts, with vendors as data",
+ "subtitle": "Work is assigned to a role with a contract; which model fills the seat is configuration, and reviewers can be a different vendor from builders on purpose",
+ "systems": [
+  "agentos",
+  "agent-swarm",
+  "helix"
+ ],
+ "technologies": [],
+ "stats": [],
+ "lede": "Every model vendor would like to be the system. I treat them as workers. A job in my platform is addressed to a role with a contract: what it receives, what it must return, what it may touch, how much it may spend. Which model fills that seat, at what reasoning effort, under which account, is per-seat data. The same role can be filled by a frontier model through its subscription command-line tool, by an API seat, by a local open-source model on my own GPUs, or by a swarm job, and the contract does not change. A role contract names inputs, outputs, tool classes and budget.",
+ "quote": "The contract is the product and the vendor is a supplier.",
+ "evidence": [
+  "Model-agnostic agent architecture: jobs addressed to role contracts naming inputs, outputs, tool classes and budget, with model, reasoning effort and account as per-seat data.",
+  "Separation of duties for AI work: builders on one model family and quality and adversarial reviewers on another, so their blind spots do not overlap.",
+  "Agent orchestration: subscription command-line tools, API seats, local open-source models and swarm jobs filling the same role, behind a terms-of-service firewall."
+ ],
+ "canonical": "https://coreyjames.ai/ideas/role-contracts-not-vendors/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/research/ideas/role-contracts-not-vendors"
+}

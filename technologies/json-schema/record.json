@@ -1,0 +1,39 @@
+{
+ "url": "https://coreyjames.ai/technologies/json-schema/",
+ "kind": "technology",
+ "title": "JSON Schema",
+ "subtitle": "Every work-order contract, tool definition and generated function surface in my estate is a JSON Schema, and schemas compile into dispatch at build time.",
+ "systems": [
+  "agentos",
+  "agent-swarm",
+  "fafo-core"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "33",
+   "label": "schema contracts governing AgentOS handoffs"
+  },
+  {
+   "value": "12",
+   "label": "semantic rules checking each API reference"
+  },
+  {
+   "value": "≈2,000",
+   "label": "lines of Rust in the harness validator"
+  }
+ ],
+ "lede": "Long agent runs drift when the handoffs between agents are prose, because each agent reinterprets what the last one meant. In AgentOS I made every handoff a contract and chose JSON Schema as the contract language. The .schema.json contracts cover work-order sources, authoring plans, work packages and the structured output of model checkers. Every seam is checked on both sides, so a malformed artefact cannot pass through a component that trusts its upstream. The PostgreSQL work graph and its schemas are the truth; Markdown views are generated from them, and edits to those views are discarded. Work-order authoring starts from an operator-only source document.",
+ "quote": "I put the checks where a bad artefact would otherwise pass unnoticed.",
+ "evidence": [
+  "Contract-driven agent handoffs: 33 JSON Schema contracts in AgentOS, each seam checked by both producer and consumer.",
+  "Structured output for LLMs: flat, closed verdict schemas so model checkers return data instead of drifting prose.",
+  "Evidence-gated API integration: a field enters an API manifest only once a successful call to the real API returned it, checked by 12 semantic rules.",
+  "Input validation at scale: about 2,000 lines of Rust validating every tool call as the first step of the harness."
+ ],
+ "technology_kind": "protocol",
+ "canonical": "https://coreyjames.ai/technologies/json-schema/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/json-schema"
+}

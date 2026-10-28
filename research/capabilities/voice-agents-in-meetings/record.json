@@ -1,0 +1,37 @@
+{
+ "url": "https://coreyjames.ai/capabilities/voice-agents-in-meetings/",
+ "kind": "capability",
+ "title": "Voice agents in calls and meetings",
+ "subtitle": "Speech recognition, synthesis and turn-taking on my own hardware, joined to the platforms people already use",
+ "systems": [
+  "helix"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "25×",
+   "label": "faster speech recognition on the GPU than on the CPU path, 18× at the least, in real turns"
+  },
+  {
+   "value": "< 1 ms",
+   "label": "to play the lines an assistant says most, pre-rendered per voice"
+  },
+  {
+   "value": "5,668",
+   "label": "turns in a ten-minute loopback soak, every one processed"
+  }
+ ],
+ "lede": "An AI that people can talk to in a real call has to answer in conversational time, stop when it is interrupted, and keep the audio away from third-party AI services. I built a conversational voice engine in Rust with speech recognition, neural speech synthesis, floor control so several AI voices share one conversation without talking over each other, interruption handling so a person speaking stops the agent, and tool calls made mid-conversation. The gap between the end of a question and the first sound of the reply was taken apart stage by stage. See From two seconds to under one.",
+ "quote": "A proof that passes with the wrong input is a proof of the test harness.",
+ "evidence": [
+  "Real-time voice AI: a Rust conversational engine on my own GPUs with question-to-first-sound cut from about 2.1 s to about 0.9 s, stage by stage.",
+  "Speech recognition and synthesis pipelines: recognition on a GPU at 38 to 74 ms per turn, 18 to 25 times faster than the CPU path, and streaming built for a voice model that had none.",
+  "Full-duplex barge-in design: interruptions that only a person can make, with the agent's own echo below a measured threshold and a false stop re-spoken.",
+  "Test methodology with negative controls: an echo-cancellation score of 36.8 dB exposed when an unrelated reference scored 37.8 dB, and the proof rebuilt with a control.",
+  "Latency diagnosis: a slow Teams turn traced to a shared speech GPU, about 78% of the turn against about 1% for the network, so compute moved and the cloud bridge stayed."
+ ],
+ "canonical": "https://coreyjames.ai/capabilities/voice-agents-in-meetings/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/research/capabilities/voice-agents-in-meetings"
+}

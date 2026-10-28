@@ -1,0 +1,36 @@
+{
+ "url": "https://coreyjames.ai/technologies/hugging-face-text-embeddings-inference/",
+ "kind": "technology",
+ "title": "Hugging Face Text Embeddings Inference",
+ "subtitle": "A local text-embedding inference server serves the embedding model to the memory service, replacing an earlier in-process binding.",
+ "systems": [
+  "fafohive"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "1,024",
+   "label": "dimensions per embedding"
+  },
+  {
+   "value": "~19,000",
+   "label": "files in the monorepo's code index"
+  },
+  {
+   "value": "~294,000",
+   "label": "structure-aware chunks embedded from them"
+  }
+ ],
+ "lede": "The memory capability in FAFOHive searches code, reference documents and past decisions, and all of it depends on one multilingual embedding model. The first version ran that model in-process through a Python binding inside the Rust service. That put a Python runtime and a GPU model inside the Rust service, and every other service that needed embeddings would have loaded its own copy. I moved the model behind a service boundary, so it is loaded once and shared. Hugging Face's Text Embeddings Inference server runs that model on a local GPU, and the memory service calls it over HTTP through a provider abstraction.",
+ "quote": "I make deliberate calls about where a model should live in a system and how a migration should land without breaking callers.",
+ "evidence": [
+  "Embedding inference serving: an in-process embedding model moved behind Hugging Face's inference server on a local GPU, with the embedding interface unchanged for every caller.",
+  "Code search indexing: ~19,000 files embedded into ~294,000 structure-aware chunks at 1,024 dimensions.",
+  "Mutual TLS client security: client certificates held only in memory and wiped on release, never written to disk, with capacity errors told apart from fatal ones."
+ ],
+ "technology_kind": "runtime",
+ "canonical": "https://coreyjames.ai/technologies/hugging-face-text-embeddings-inference/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/hugging-face-text-embeddings-inference"
+}

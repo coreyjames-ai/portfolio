@@ -1,0 +1,43 @@
+{
+ "url": "https://coreyjames.ai/research/family-one-deterministic-external-governance/",
+ "kind": "patent-family",
+ "title": "Family One: Deterministic external governance of autonomous AI work",
+ "subtitle": "The AI never decides what it is allowed to do, what step it is on, or whether it is finished. External deterministic rules do.",
+ "systems": [
+  "agentos"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "9",
+   "label": "states each action can be in"
+  },
+  {
+   "value": "326",
+   "label": "actions active at once in one busy work order"
+  },
+  {
+   "value": "2,000",
+   "label": "work orders the platform runs at the same time"
+  },
+  {
+   "value": "52",
+   "label": "legal transitions in the whole governance map"
+  }
+ ],
+ "lede": "Systems and Methods for Structurally Enforced Governance of Autonomous AI Agents. U.S. Provisional Patent Application No. 64/146,881 (patent pending). Embodied in AgentOS. The model is a nondeterministic worker inside a deterministic authority system. It does the work; it never decides what it is allowed to do, what step it is on, or whether it is finished. External rules, mathematics and database state decide all of that, and they decide it the same way every time. The reason this has to be structural is the size of the state space. Each action in a work order sits in one of nine states, and one busy work order had 326 actions active at once.",
+ "quote": "Completion is evidence-based; the AI never self-declares it.",
+ "evidence": [
+  "Multi-agent governance: autonomous AI work governed by external deterministic rules that decide what the model may do, what step it is on and whether it is finished.",
+  "State-machine design for AI agents: a governance map of 52 legal transitions over actions in 9 states, constraining moves instead of enumerating a space of 326 concurrent actions.",
+  "Evidence-gated acceptance: every step evaluated deterministically into one of six verdicts, completion reached only on evidence and every refusal an answer with a reason.",
+  "Scale analysis of agent state spaces: about 2,000 concurrent work orders, each with about 10 to the 311 arrangements, shown to be beyond enumeration or exhaustive testing.",
+  "Patent filing for AI systems: U.S. Provisional Patent Application No. 64/146,881 (patent pending) on structurally enforced governance of autonomous AI agents."
+ ],
+ "application_number": "64/146,881",
+ "status": "provisional patent application, patent pending",
+ "canonical": "https://coreyjames.ai/research/family-one-deterministic-external-governance/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/research/patent-families/family-one-deterministic-external-governance"
+}

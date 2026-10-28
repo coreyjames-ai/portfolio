@@ -1,0 +1,38 @@
+{
+ "url": "https://coreyjames.ai/technologies/microsoft-teams/",
+ "kind": "technology",
+ "title": "Microsoft Teams",
+ "subtitle": "People call my digital employee in Teams and it answers; they invite it to meetings and it presents, shares a screen and calls on raised hands. It does not raise its own, because the platform offers no way to.",
+ "systems": [
+  "helix",
+  "auth-and-access-plane"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "13",
+   "label": "meeting actions with exact schemas, each naming the acting employee"
+  },
+  {
+   "value": "30 min",
+   "label": "Teams media soak from Azure to Linux"
+  },
+  {
+   "value": "0",
+   "label": "receive stalls through the soak and a forced mid-call reconnect"
+  }
+ ],
+ "lede": "Helix exists because I wanted one AI colleague that shows up where people already work, under an identity the organisation governs, and behaves in a call and a meeting the way a colleague does. People call the digital employee in Teams and it answers. Call audio crosses from a .NET 8 service on the Microsoft real-time media SDK to a Rust voice engine on my GPUs. When someone talks over the agent, it stops. A Teams call is one more implementation of the engine's sealed audio interface, so the same conversation engine runs on a desk microphone and in Teams. See A self-hosted colleague in a Teams call.",
+ "quote": "Reporting a hand as raised from local state would be a lie nobody in the meeting could see through.",
+ "evidence": [
+  "Microsoft Teams real-time media: a self-hosted AI participant whose Rust voice engine treats a Teams call as one more implementation of its sealed audio interface, with a 30 min soak and 0 receive stalls.",
+  "AI agents in Microsoft Teams meetings: 13 meeting actions with exact schemas, each naming the acting employee, each counted done only when it works in a real meeting.",
+  "Teams app development: a meeting-stage app on TeamsJS with an authenticated relay so the agent drives a deck, and a React personal tab signed in through Teams single sign-on with MSAL and PKCE.",
+  "Screen-sharing pipelines: a headless Linux desktop captured with FFmpeg and framed as H.264 under one typed frame contract across Linux, Windows and Teams."
+ ],
+ "technology_kind": "platform",
+ "canonical": "https://coreyjames.ai/technologies/microsoft-teams/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/microsoft-teams"
+}

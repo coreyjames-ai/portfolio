@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/technologies/hugging-face-transformers/",
+ "kind": "technology",
+ "title": "Hugging Face Transformers",
+ "subtitle": "Hugging Face Transformers is the training path for my capabilities model: a full fine-tune of every parameter, finished in minutes, rebuilt whenever the catalog changes.",
+ "systems": [
+  "capabilities-model"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "~44%",
+   "label": "of the base's parameters in feed-forward layers"
+  },
+  {
+   "value": "28",
+   "label": "layers, all with full attention"
+  }
+ ],
+ "lede": "Capabilities model holds an agent's tool catalog in the weights of a small model, and the catalog changes every week. If retraining took a day, the model would be stale on arrival. I chose a full fine-tune of every parameter of a small open-weight base model with Hugging Face Transformers, on a corpus generated from the tool registry. At this size the run takes minutes, so the model is rebuilt whenever the registry changes. I ran a full fine-tune over adapters, because at this size the cost that usually justifies adapters was absent and the full fine-tune removes a layer of indirection. I chose the base model by checking each candidate.",
+ "quote": "I choose models by reading their architecture against the task, and I make training cheap enough to repeat on every catalog change.",
+ "evidence": [
+  "LLM fine-tuning: a full fine-tune of every parameter of a small base model with Hugging Face Transformers, rebuilt whenever the tool catalog changes.",
+  "Model selection by architecture: candidates checked for feed-forward share (~44%), full attention on all 28 layers, remote code off and tokenizer fit, on a 360M, 0.6B and 1.7B capacity ladder.",
+  "Training-to-inference handoff: safetensors loaded into a custom CUDA decoding engine behind an FP32 parity check."
+ ],
+ "technology_kind": "framework",
+ "canonical": "https://coreyjames.ai/technologies/hugging-face-transformers/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/hugging-face-transformers"
+}

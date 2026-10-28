@@ -1,0 +1,27 @@
+{
+ "url": "https://coreyjames.ai/technologies/applied-cryptography/",
+ "kind": "technology",
+ "title": "Applied cryptography",
+ "subtitle": "I apply cryptography where it buys attribution and non-repudiation, and I do not invent primitives.",
+ "systems": [
+  "agent-swarm",
+  "auth-and-access-plane",
+  "fafohive",
+  "helix"
+ ],
+ "technologies": [],
+ "stats": [],
+ "lede": "Signed agent-to-agent envelopes, certificate-based token minting for Microsoft identities, signed webhooks and signed event feeds. I place each check where it runs on every call, and every construction is standard, RS256, HMAC and X.509 certificate assertions from maintained libraries. Agent Swarm lets agents delegate to each other, and I wanted every request to carry proof of who sent it. I sign wherever attribution matters, so agent messages, access tokens and event feeds each carry a provable sender. Each agent-to-agent envelope is signed as a JWT with the sending agent's own key, and verification is local, which keeps signature checks off the latency path of stream messaging. The protocol around these envelopes is on the Agent Client Protocol (ACP) page.",
+ "quote": "The model asks for an action; the server holds the key.",
+ "evidence": [
+  "Message signing for multi-agent systems: each agent-to-agent envelope signed as an RS256 JWT with the sending agent's own key and checked locally, off the latency path of stream messaging.",
+  "OAuth 2.0 and identity architecture: an authorization server signing RS256 tokens published as JWKS, and a Rust gateway validating tokens from more than one issuer offline on every call.",
+  "Webhook security: an HMAC computed over the raw request body before any parsing, so a parser quirk cannot change what was signed.",
+  "Credential isolation for AI agents: Graph tokens for a Microsoft 365 digital employee minted on the server from X.509 certificate assertions; the model asks for actions and never holds the key."
+ ],
+ "technology_kind": "discipline",
+ "canonical": "https://coreyjames.ai/technologies/applied-cryptography/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/applied-cryptography"
+}

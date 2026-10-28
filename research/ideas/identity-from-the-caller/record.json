@@ -1,0 +1,25 @@
+{
+ "url": "https://coreyjames.ai/ideas/identity-from-the-caller/",
+ "kind": "idea",
+ "title": "Identity from the caller, credentials on the server",
+ "subtitle": "An agent is who it authenticated as, never who it says it is, and it never holds a key it does not need",
+ "systems": [
+  "fafohive",
+  "helix",
+  "agent-swarm",
+  "auth-and-access-plane"
+ ],
+ "technologies": [],
+ "stats": [],
+ "lede": "The confused-deputy problem is the standing failure of agent systems: an agent acting for one principal is talked into acting for another, or holds a credential that leaks into a transcript. I remove it by construction. Identity is derived from how a caller authenticated, never from an argument in a tool call. Credentials for external services live on the server side of a gateway, are minted per identity where the platform allows it, and are never handed to a model. A gateway between agents and the outside world authenticates the agent, derives its assignment or employee identity from that authentication, and performs the external call itself with credentials it holds.",
+ "quote": "Anything that works by trusting what an agent says about itself is a design that has not failed yet.",
+ "evidence": [
+  "Identity and least privilege for AI agents: identity derived on the server from how an agent authenticated, never from an argument in a tool call.",
+  "Credential brokering and secrets management: external credentials held behind a gateway and minted per identity on the server, never handed to a model, with the repository credential held by a gatekeeper agent.",
+  "Digital-employee identity: every meeting action names the digital employee it acts for, with employee tokens minted on the server."
+ ],
+ "canonical": "https://coreyjames.ai/ideas/identity-from-the-caller/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/research/ideas/identity-from-the-caller"
+}

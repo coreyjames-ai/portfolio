@@ -1,0 +1,24 @@
+{
+ "url": "https://coreyjames.ai/ideas/agents-that-react-to-the-world/",
+ "kind": "idea",
+ "title": "Agents that react to the world",
+ "subtitle": "Mailboxes, inbound event sources and standing work orders, so an agent team runs on what happens and never only on prompts",
+ "systems": [
+  "agentos",
+  "agent-swarm",
+  "fafohive"
+ ],
+ "technologies": [],
+ "stats": [],
+ "lede": "An agent that only answers prompts is a tool. An agent team that runs a business has to react to things that happen while nobody is typing: a payment lands, a customer replies, a post gets a comment, a document arrives, a job finishes somewhere else. I built the agent platform so that every seat has a mailbox, every external system can become a governed event source, and a work order can stay open indefinitely as a standing lead that turns events into finite tasks and brings specialists online when they are needed. Every team lead and every seat has a mailbox.",
+ "quote": "An event that becomes a task inherits budgets, evidence and review for free.",
+ "evidence": [
+  "Event-driven agent systems: signed provider webhooks checked at an edge, persisted, batched and delivered across hosts into a work order's team-lead mailbox as finite governed tasks.",
+  "Exactly-once delivery and crash recovery: uncertain event batches retained, never dropped and never blindly replayed, with receipt causing no provider-side effect.",
+  "Agent orchestration for continuous operations: standing work orders with an open-ended envelope that admit tasks as events arrive and bring specialist seats online on demand."
+ ],
+ "canonical": "https://coreyjames.ai/ideas/agents-that-react-to-the-world/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/research/ideas/agents-that-react-to-the-world"
+}

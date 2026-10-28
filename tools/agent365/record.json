@@ -1,0 +1,23 @@
+{
+ "url": "https://coreyjames.ai/tools/agent365/",
+ "kind": "tool-group",
+ "title": "Agent365",
+ "subtitle": "",
+ "systems": [
+  "helix",
+  "fafohive"
+ ],
+ "technologies": [],
+ "stats": [],
+ "lede": "My digital employees work inside Microsoft Teams as colleagues with their own identities, and an AI model needs tools to do that: join the meeting, speak up in chat, raise a hand, put a deck on screen, write a document and remember what was decided. This server gives it those tools. Every action names the exact digital employee it acts as, and the server resolves that employee's identity itself. Microsoft stays the authority on what the employee may do, so the server adds capability without adding a second permission system. The employees and their voice are described on the Helix page, and a self-hosted colleague in a Teams call tells the story.",
+ "quote": "",
+ "evidence": [
+  "Microsoft Teams agent tooling: 24 tools that let a digital employee join a Teams meeting as its own participant, speak in chat, present a deck, write documents and remember decisions.",
+  "Identity for AI agents in Microsoft 365: every action names the exact digital employee it acts as, the server resolves its Entra identity, and Microsoft stays the authority on what it may do."
+ ],
+ "tool_count": 24,
+ "canonical": "https://coreyjames.ai/tools/agent365/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/tools/agent365"
+}

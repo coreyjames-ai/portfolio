@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/technologies/meta-graph-api/",
+ "kind": "technology",
+ "title": "Meta Graph API",
+ "subtitle": "An in-house integration with Meta's Graph API, with usage telemetry, a ledger of everything the app created, and signature-checked webhooks.",
+ "systems": [
+  "fafohive"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "24",
+   "label": "agent tools on the Graph API"
+  },
+  {
+   "value": "24 hours",
+   "label": "Messenger response window the inbox works inside"
+  }
+ ],
+ "lede": "In FAFOHive, agents managing a business Page needed to publish every kind of media, answer comments and messages inside Meta's rules, read insights, and undo anything they created. The social-publishing provider I had covered posting and little else, so I built an in-house module directly on Meta's Graph API and held it to my tool standard. Every result carries the Graph usage headers for the business use case, the app and the Page, so an agent can see how much of its rate budget remains before it hits a throttle. The inbound poller skips a run when usage is high. A local ledger lists everything the app created.",
+ "quote": "I learn a platform's real behaviour by exercising it end to end.",
+ "evidence": [
+  "Social platform API integration: 24 agent tools built on Meta's Graph API, covering posts of every media kind, comments, the inbox and insights.",
+  "Safe destructive operations for agents: a ledger that can veto a delete but never authorise one, with Graph's own record as the authority.",
+  "Acceptance testing for agent tools: a full post lifecycle created and deleted through the tools with zero HTTP requests outside a tool body."
+ ],
+ "technology_kind": "platform",
+ "canonical": "https://coreyjames.ai/technologies/meta-graph-api/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/meta-graph-api"
+}

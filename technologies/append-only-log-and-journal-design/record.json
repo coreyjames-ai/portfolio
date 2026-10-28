@@ -1,0 +1,36 @@
+{
+ "url": "https://coreyjames.ai/technologies/append-only-log-and-journal-design/",
+ "kind": "technology",
+ "title": "Append-only log and journal design",
+ "subtitle": "The Inference Fabric's broker is an append-only, memory-mapped log on NVMe whose unit is the token.",
+ "systems": [
+  "inference-fabric"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "256 MB",
+   "label": "a segment rotates at this size, or when it goes idle"
+  },
+  {
+   "value": "4 bytes",
+   "label": "the in-place write that retires a work item, with no compaction"
+  },
+  {
+   "value": "12.3B",
+   "label": "tokens received and routed, a 7B dense FP8 workload on two Blackwell GPUs"
+  }
+ ],
+ "lede": "I designed completion accounting on the broker's log so that work retires only when acknowledged, which is how a six-million-item loss was closed. I fix data loss at the definition that caused it and build recovery on one source of truth. Inference Fabric needed producers to drop millions of tokenised tasks and walk away while GPUs on other machines worked through them for hours. I made the broker's backlog an append-only, memory-mapped log on NVMe and made that log the only durable copy, with no write-ahead log beside it. The log is the queue, which is what lets producers submit and exit.",
+ "quote": "Computation can repeat after a failure; observable completion happens once.",
+ "evidence": [
+  "Append-only log design: a memory-mapped log on NVMe as the broker's only durable copy, segments rotating at 256 MB, and a work item retired by a 4-byte in-place write with no compaction.",
+  "Exactly-once delivery and crash recovery: recovery from deletion markers alone and two-phase dispatch that checks before it mutates, closing a six-million-item loss; 12.3B tokens received and routed.",
+  "Write-ahead journalling: a vector shard store that writes its journal before the shard and accepts no connection until every mid-build shard is replayed and truncated."
+ ],
+ "technology_kind": "discipline",
+ "canonical": "https://coreyjames.ai/technologies/append-only-log-and-journal-design/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/append-only-log-and-journal-design"
+}

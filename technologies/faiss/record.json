@@ -1,0 +1,38 @@
+{
+ "url": "https://coreyjames.ai/technologies/faiss/",
+ "kind": "technology",
+ "title": "FAISS",
+ "subtitle": "FAISS is a reference and a bake-off participant in my vector work; my own GPU store builds deterministic indexes and reports their health.",
+ "systems": [
+  "fafohive",
+  "inference-fabric",
+  "capabilities-model"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "3",
+   "label": "index families, each chosen for the set it held"
+  },
+  {
+   "value": "7B",
+   "label": "dense model in FP8 whose answers the pipeline searched"
+  },
+  {
+   "value": "1",
+   "label": "bulk update per build writes index positions back"
+  }
+ ],
+ "lede": "Inference Fabric grew out of a research pipeline I ran first, and FAISS was the vector engine in both. The pipeline interrogated a model through vLLM, embedded the answers with an embedding model, grouped them into concept clusters of question-and-answer units, and searched for gaps in what the model knew. FAISS ran the batch nearest-neighbour search that found those gaps, rebuilt the GPU indexes after each restructuring pass, and fed the centroid updates. The knowledge base reached hundreds of thousands of clusters and millions of units. I picked the index type per set, because the centroids, the answer embeddings and the candidates differ by orders of magnitude in size and in how exact the search needs to be.",
+ "quote": "I use a library where it solves the problem at hand and replace it when the architecture outgrows it.",
+ "evidence": [
+  "Vector search and ANN indexes: inverted-file, HNSW and flat FAISS indexes chosen per set for hundreds of thousands of cluster centroids and millions of answer embeddings from a 7B model.",
+  "PostgreSQL bulk data movement: vectors read out with binary COPY and parsed directly, staged in an unlogged table, and index positions written back in one bulk update per build.",
+  "Architecture evolution: a FAISS index service retired for a GPU-resident vector store once its SQL and Python round trip set the cost, keeping the neighbour distances the CUDA health kernels read."
+ ],
+ "technology_kind": "datastore",
+ "canonical": "https://coreyjames.ai/technologies/faiss/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/faiss"
+}

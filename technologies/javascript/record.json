@@ -1,0 +1,43 @@
+{
+ "url": "https://coreyjames.ai/technologies/javascript/",
+ "kind": "technology",
+ "title": "JavaScript",
+ "subtitle": "Relays, meeting-stage apps, extension scripts and the OAuth consent surfaces are JavaScript where the platform demands it.",
+ "systems": [
+  "helix",
+  "fafohive",
+  "auth-and-access-plane"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "≈300",
+   "label": "lines in the edge proxy"
+  },
+  {
+   "value": "≈11,000",
+   "label": "lines of Mattermost webapp plugin code"
+  },
+  {
+   "value": "95",
+   "label": "webapp tests on the council interface"
+  },
+  {
+   "value": "20",
+   "label": "test cases on the meeting-stage relay"
+  }
+ ],
+ "lede": "Microsoft Copilot Studio needed to call tools on my private MCP server in the Auth and access plane, and I did not want that server to accept a single public connection. I put a small edge proxy in front of it, written in JavaScript for an edge Workers runtime, and it is the only public surface. The connector sends unauthenticated discovery probes, and the proxy answers those without credentials. On every real call it checks a tenant-pinned Microsoft Entra JWT. The edge runtime has no Node crypto, so the RS256 check uses WebCrypto against signing keys cached in the edge key-value store, and a call never waits on a key fetch.",
+ "quote": "I pick the language the platform dictates and hold it to the same security bar as the Rust services behind it.",
+ "evidence": [
+  "Edge security in JavaScript: a proxy of about 300 lines as the only public surface of a private MCP server, checking Entra JWTs with WebCrypto and rotating keys without downtime.",
+  "Browser extension development: a Manifest V3 extension that acts in my own session through same-origin requests and never exports cookies or tokens.",
+  "Chat platform plugins: about 11,000 lines of Mattermost webapp plugin code with 95 tests, keeping the chat server stock.",
+  "Webhook security: a timestamped HMAC over the exact bytes inside a replay window, with duplicates dropped and two secrets accepted during rotation."
+ ],
+ "technology_kind": "language",
+ "canonical": "https://coreyjames.ai/technologies/javascript/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/javascript"
+}

@@ -1,0 +1,33 @@
+{
+ "url": "https://coreyjames.ai/technologies/context-engineering-and-persistent-agent-memory/",
+ "kind": "technology",
+ "title": "Context engineering and persistent agent memory",
+ "subtitle": "Agents forget between sessions, so I built the memory that remembers for them: every tool call captured, extracted and re-injected into later sessions, and a council shell with durable state in PostgreSQL.",
+ "systems": [
+  "fafohive",
+  "helix"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "7",
+   "label": "lifecycle events hooked, from session start to sub-agent stop"
+  },
+  {
+   "value": "~6,000",
+   "label": "tokens of grounding per turn, the budget for one scope"
+  }
+ ],
+ "lede": "In FAFOHive, my coding agents used to forget everything between sessions and rediscover the same facts about my code over and over. Hooks on the coding agent's lifecycle events capture every tool interaction, and a worker pool hands each one to a configurable model provider, local models included. Context that matters has to survive compaction, so it lives in a store and is injected again; the same diagnosis shaped AgentOS, told in Why long agent runs fail. In very long sessions, older tool outputs are compressed into references the agent can expand on demand, so compaction loses nothing.",
+ "quote": "Knowledge outlives any model session, so the system owns the context and each model holds only its own continuity.",
+ "evidence": [
+  "Persistent memory for AI agents: 7 lifecycle events hooked to capture every tool interaction, which is extracted, embedded, stored in PostgreSQL and injected into later sessions.",
+  "Context engineering for multi-model systems: one authoritative context owned by the system, with each model given a scoped grounding packet budgeted at ~6,000 tokens per turn.",
+  "Scoped retrieval for agent hierarchies: context follows a system, project, work order and conversation hierarchy, and a work order never sees a sibling."
+ ],
+ "technology_kind": "discipline",
+ "canonical": "https://coreyjames.ai/technologies/context-engineering-and-persistent-agent-memory/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/context-engineering-and-persistent-agent-memory"
+}

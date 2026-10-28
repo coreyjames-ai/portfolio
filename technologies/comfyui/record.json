@@ -1,0 +1,36 @@
+{
+ "url": "https://coreyjames.ai/technologies/comfyui/",
+ "kind": "technology",
+ "title": "ComfyUI",
+ "subtitle": "A node-based media pipeline runs as a GPU media studio behind my memory gateway, with provenance tracked on every generated asset.",
+ "systems": [
+  "fafohive"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "33",
+   "label": "media tools any agent can call"
+  },
+  {
+   "value": "1",
+   "label": "CPU-only controller container per host"
+  },
+  {
+   "value": "9",
+   "label": "frames in the video workflows that render and deliver end to end"
+  }
+ ],
+ "lede": "FAFOHive hosts a GPU media studio as tools any agent can call, and ComfyUI is its render engine. The risk I saw was agents treating a GPU and a third-party HTTP engine as free and repeatable: a retried render costs GPU time, a crash mid-render leaves an unknown outcome, and an agent-supplied Docker or shell option is an escape hatch. I decided to leave ComfyUI unmodified and put all of the control in a Rust controller in front of it. ComfyUI's own APIs do the rendering; I built no engine and changed none of its code. A render's identity is written down before ComfyUI sees the request, so a crash never pays for the same render twice.",
+ "quote": "When agents are the callers, I wrap third-party engines in idempotent, crash-safe control and place the human decision at the licence boundary.",
+ "evidence": [
+  "Governed AI media pipelines: 33 media tools for agents on an unmodified ComfyUI engine behind a Rust controller that accepts typed choices only, with no Docker options, mounts or shell strings.",
+  "Exactly-once delivery and crash recovery: render identity persisted before submission, uncertain outcomes reconciled against the engine and never resubmitted, outputs registered immutably.",
+  "Human approval at the licence boundary: model downloads approved by a person at a local console that no remote call can reach, then resumable, hash-checked and registered."
+ ],
+ "technology_kind": "platform",
+ "canonical": "https://coreyjames.ai/technologies/comfyui/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/comfyui"
+}

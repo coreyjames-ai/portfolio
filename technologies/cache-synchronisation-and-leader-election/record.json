@@ -1,0 +1,23 @@
+{
+ "url": "https://coreyjames.ai/technologies/cache-synchronisation-and-leader-election/",
+ "kind": "technology",
+ "title": "Cache synchronisation and leader election",
+ "subtitle": "The API integration platform keeps its cache coherent across workers and elects a leader for its sync worker.",
+ "systems": [
+  "fafo-core"
+ ],
+ "technologies": [],
+ "stats": [],
+ "lede": "I treat a cache that agents trust as replicated state with explicit rules for leadership, progress and deletion. FAFO Core and Function Forge has a sibling platform I designed for putting any third-party or internal API behind a governed MCP server. Each API is described by a declarative connectivity profile, and agents read from a Redis cache of that API's entities, which spares the API a call on every agent request. That makes the cache the thing agents trust, so it has to follow the source. How it was built is told in Closed by evidence. Only one process may drive the sync for a namespace at a time.",
+ "quote": "Eviction requires a complete view of the source; with an incomplete view the cache keeps what it has.",
+ "evidence": [
+  "Distributed systems correctness: a Redis cache of third-party API entities kept coherent by a delta sync whose watermark advances only when a whole cycle succeeds.",
+  "Leader election: one sync worker per namespace elected through a Redis lease that expires on its own, so a dead leader's successor takes over with no operator.",
+  "Cache invalidation: eviction only after a complete enumeration of the source, so a pass cut short by its read budget deletes nothing."
+ ],
+ "technology_kind": "discipline",
+ "canonical": "https://coreyjames.ai/technologies/cache-synchronisation-and-leader-election/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/cache-synchronisation-and-leader-election"
+}

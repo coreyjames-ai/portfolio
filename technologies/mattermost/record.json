@@ -1,0 +1,36 @@
+{
+ "url": "https://coreyjames.ai/technologies/mattermost/",
+ "kind": "technology",
+ "title": "Mattermost",
+ "subtitle": "An unmodified open-source team chat server hosts my multi-model collaboration shell, with bot seats for several vendors and a council mode that deliberates rather than fans out.",
+ "systems": [
+  "helix"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "8",
+   "label": "frontier seats across three model families"
+  },
+  {
+   "value": "100",
+   "label": "posts, or 192 KiB, of room history read per turn"
+  },
+  {
+   "value": "66 KB",
+   "label": "prompt one terminal tool dropped without a word"
+  }
+ ],
+ "lede": "I work with several frontier models and a local one at the same time, and separate chat windows kept losing the thread. For Helix I wanted one room where people and models work together, each model a named participant, so I built it on Mattermost Team Edition, run unmodified. Helix is the product and Mattermost is the shell, and every fact has one owner, which keeps the two from becoming competing control planes. Helix reaches Mattermost only through its REST and WebSocket APIs and never touches its database. I switched off Mattermost's own calls and AI plugins, so Helix is the only AI and voice in the room.",
+ "quote": "The room itself became the council.",
+ "evidence": [
+  "Multi-agent collaboration systems: an unmodified Mattermost server hosting people and 8 frontier model seats, extended only through plugins, bots and a bridge.",
+  "Exactly-once delivery and crash recovery: a Rust bridge that repairs missing posts after a restart and never runs a model turn twice.",
+  "Consensus protocols for AI agents: a council that runs every seat at once in the room and closes only on agreement with the exact current outcome."
+ ],
+ "technology_kind": "platform",
+ "canonical": "https://coreyjames.ai/technologies/mattermost/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/mattermost"
+}

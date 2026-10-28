@@ -1,0 +1,37 @@
+{
+ "url": "https://coreyjames.ai/technologies/policy-as-code-enforcement/",
+ "kind": "technology",
+ "title": "Policy-as-code enforcement",
+ "subtitle": "Policy in my governance platform is enforced by hooks, not remembered by prompts: a lead cannot edit an artifact, work cannot dispatch before its evidence exists, a hook may never report an operation that did not happen.",
+ "systems": [
+  "agentos"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "~100",
+   "label": "hook modules served by one binary"
+  },
+  {
+   "value": "11",
+   "label": "lifecycle events where policy runs"
+  },
+  {
+   "value": "63",
+   "label": "shell hooks it replaced, ported with tests"
+  }
+ ],
+ "lede": "In AgentOS I found that long agent runs fail because the agent is asked to remember the rules along with everything else. I moved the rules out of the agent and into code that runs inside its runtime, in the hook points the agent cannot route around. The coding tools I govern expose lifecycle hooks, before a tool call, after one, at session start, when the agent tries to stop. One Rust binary serves all of them. The diagnosis is in Why long agent runs fail. A publisher writes the hook configuration into each agent environment and checks it byte for byte, so the rules that run are the rules I wrote. The effects are what matter.",
+ "quote": "I turn an operating procedure into enforcement an autonomous agent cannot ignore, and I phrase each refusal so it teaches the next correct step.",
+ "evidence": [
+  "Policy-as-code for AI agents: about 100 hook modules across 11 lifecycle events in one Rust binary, ported from 63 shell hooks, enforcing rules inside the agent runtime.",
+  "Multi-agent governance: ratified work orders locked to the operator, agents confined to their assigned paths, and refusals that name only a command that exists for that agent.",
+  "Configuration integrity: hook configuration published into every agent environment with a byte-for-byte check against the approved copy.",
+  "Incident-driven guardrails: a test that wrote into the real database became a source-scanning rule that fails the build on any unapproved database connection."
+ ],
+ "technology_kind": "discipline",
+ "canonical": "https://coreyjames.ai/technologies/policy-as-code-enforcement/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/policy-as-code-enforcement"
+}

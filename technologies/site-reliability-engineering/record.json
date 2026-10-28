@@ -1,0 +1,38 @@
+{
+ "url": "https://coreyjames.ai/technologies/site-reliability-engineering/",
+ "kind": "technology",
+ "title": "Site reliability engineering",
+ "subtitle": "A declared systemd fleet, tunnelled ingress, a documented Redis topology and written runbooks keep my estate recoverable.",
+ "systems": [
+  "auth-and-access-plane",
+  "agentos"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "8",
+   "label": "written runbooks, from startup to performance degradation"
+  },
+  {
+   "value": "1 day",
+   "label": "to roll back the registration lock that broke every client"
+  },
+  {
+   "value": "0",
+   "label": "open inbound ports"
+  }
+ ],
+ "lede": "Auth and access plane holds the operations layer for my whole estate. As its only operator, I need the estate to start, fail and recover the same way every time, so the fleet is declared and versioned and startup order is a property of configuration. A few dozen services run under one systemd stack target. PartOf cascades carry a dependency's restart to its dependants, drop-ins make data-store clients wait for the network, and timers run routine work such as container cleanup. Unit files and a readable inventory are versioned with the code, so the fleet is rebuilt from source. AgentOS gets the same practice for its own releases.",
+ "quote": "I reverse my own change when the evidence calls for it.",
+ "evidence": [
+  "Site reliability engineering: a declared systemd fleet of a few dozen services under one stack target, with restart cascades and start order versioned with the code.",
+  "Incident response and runbooks: 8 written runbooks with thresholds, a severity model and escalation paths, and a registration lock that broke every client rolled back within 1 day.",
+  "Observability and alerting: Prometheus with file-based discovery of GPU nodes, Grafana dashboards and Alertmanager routing by severity to SMS paging.",
+  "Zero-trust and zero-inbound networking: public surfaces reached only through outbound tunnels and a private mesh, with 0 open inbound ports."
+ ],
+ "technology_kind": "discipline",
+ "canonical": "https://coreyjames.ai/technologies/site-reliability-engineering/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/site-reliability-engineering"
+}

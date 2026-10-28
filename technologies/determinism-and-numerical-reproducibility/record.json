@@ -1,0 +1,38 @@
+{
+ "url": "https://coreyjames.ai/technologies/determinism-and-numerical-reproducibility/",
+ "kind": "technology",
+ "title": "Determinism and numerical reproducibility",
+ "subtitle": "Bit-identical or nothing, wherever the reference is bitwise with itself.",
+ "systems": [
+  "activekv",
+  "capabilities-model",
+  "inference-fabric"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "13 of 13",
+   "label": "exact cells matched bitwise by the Python-to-C++ port, and 12 of 12 compressed"
+  },
+  {
+   "value": "2,345",
+   "label": "of 2,345 rank-one checks held across shuffled batch compositions"
+  },
+  {
+   "value": "484",
+   "label": "of 484 ranked lists matched against an independent implementation"
+  }
+ ],
+ "lede": "A rewrite or a kernel patch that changes one output bit invalidates every parity result above it, so I made bit-for-bit reproducibility ActiveKV's release standard. The exact BF16 path passes only when its output is bit-identical to fully resident attention. To make that reachable, I had the paged-attention kernel patched to emit its log-sum-exp statistic, so attention computed over on-card and host-resident history merges exactly. For parity runs, a validation switch makes the variable 4-bit GEMM reductions deterministic, and the release build is bit-identical to it with the switch off. I wrote the parity doctrine, and its first rule is that I run the reference twice before trusting a bitwise gate.",
+ "quote": "A non-deterministic baseline fails against itself.",
+ "evidence": [
+  "Numerical reproducibility and bitwise validation: a Python-to-C++ port that matched 13 of 13 exact cells and 12 of 12 compressed cells bitwise.",
+  "Deterministic GPU computation: a batched CUDA decoder identical across shuffled batch compositions in 2,345 of 2,345 rank-one checks, 484 of 484 ranked lists matched.",
+  "Reproducible ML pipelines: NVFP4 quantisation in about 15 seconds, byte-identical on re-run, so a rebuilt model can be compared with the one it replaces."
+ ],
+ "technology_kind": "discipline",
+ "canonical": "https://coreyjames.ai/technologies/determinism-and-numerical-reproducibility/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/determinism-and-numerical-reproducibility"
+}

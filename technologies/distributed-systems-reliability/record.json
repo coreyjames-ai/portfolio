@@ -1,0 +1,38 @@
+{
+ "url": "https://coreyjames.ai/technologies/distributed-systems-reliability/",
+ "kind": "technology",
+ "title": "Distributed-systems reliability",
+ "subtitle": "Nothing waits on anything else, every component restarts independently, and the accounting balances.",
+ "systems": [
+  "inference-fabric",
+  "agent-swarm"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "32",
+   "label": "at-most-once windows written into the gap register"
+  },
+  {
+   "value": "3,099",
+   "label": "batches whose fill once blocked the broker for 17 seconds"
+  },
+  {
+   "value": "6",
+   "label": "leakage rules binding the delivery, coordination and durability planes"
+  }
+ ],
+ "lede": "The Inference Fabric lost work silently under load. Its buffer service is a custom distributed system: producers, a durable broker and pull-based GPU consumers on separate machines, each restartable on its own, with no distributed transactions and no shared state store on the hot path. I traced it to a definition. An item counted as consumed when it was read and was dropped if the consumer's channel happened to be full. I redefined done as delivered and acknowledged and rebuilt the accounting around it, accepting bookkeeping cost on the read path, so a full channel delays work and loses none.",
+ "quote": "“Consumed on read” was the bug, and “acknowledged on completion” was the cure.",
+ "evidence": [
+  "Exactly-once delivery and crash recovery: a broker whose registry showed 6.67M items pending against 118K in storage, fixed by redefining done as delivered and acknowledged.",
+  "Distributed systems correctness: liveness restored after a 3,099-batch fill blocked the broker for 17 seconds, with a time budget on channel filling.",
+  "Failure-domain design: delivery, coordination and durability planes bound by 6 leakage rules, so a coordinator outage leaves delivery alone.",
+  "Delivery guarantees: 32 at-most-once windows written into a gap register instead of paying for exactly-once delivery."
+ ],
+ "technology_kind": "discipline",
+ "canonical": "https://coreyjames.ai/technologies/distributed-systems-reliability/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/distributed-systems-reliability"
+}

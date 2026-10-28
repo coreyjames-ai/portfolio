@@ -1,0 +1,39 @@
+{
+ "url": "https://coreyjames.ai/technologies/runpod/",
+ "kind": "technology",
+ "title": "RunPod",
+ "subtitle": "Rented cloud GPU spot capacity is one provisioning target behind my substrate's fail-closed daily budget; always available, never uncapped.",
+ "systems": [
+  "fafo-core",
+  "inference-fabric",
+  "fafohive"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "0",
+   "label": "dollar cap on a day with no budget set; paid provisioning is refused"
+  },
+  {
+   "value": "1/100 ¢",
+   "label": "resolution of spend, counted per second"
+  },
+  {
+   "value": "5 min",
+   "label": "price cache, which can list cheaper GPU types under a ceiling"
+  }
+ ],
+ "lede": "FAFO Core and Function Forge needed to burst onto rented GPUs. RunPod is one implementation of a provider-neutral compute trait, next to local Docker and remote Docker on LAN hosts over mutual TLS, so location is configuration and one function binary runs in any of the three. Paid provisioning passes a fail-closed daily dollar cap. Only a person can set it, through a command-line tool I kept off the MCP surface. Inference Fabric uses the same provider to add inference capacity. One call starts a TensorRT-LLM consumer node on an interruptible spot GPU, reaching the platform through outbound connections only, and the node pulls work like a local card. See A message broker that understands tokens.",
+ "quote": "I let agents drive cloud GPU capacity without letting them spend money nobody approved, by putting the budget in the critical path.",
+ "evidence": [
+  "Cloud GPU provisioning with cost controls: rented spot GPUs behind a provider-neutral compute trait and a fail-closed daily cap only a person sets, with a cap of 0 on a day with no budget.",
+  "Cost attribution for AI work: spend counted per second to 1/100 of a cent, in Redis first and PostgreSQL for durability, with each container reporting its final cost.",
+  "Inference serving architecture: TensorRT-LLM consumer nodes on interruptible spot GPUs joining the token-aware broker over outbound connections only, an engine without declared limits refused.",
+  "NVIDIA Blackwell development: datacentre Blackwell parts reached through the same provisioning path with an engine tier, SM 100 kernels and a widened hardware check."
+ ],
+ "technology_kind": "platform",
+ "canonical": "https://coreyjames.ai/technologies/runpod/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/runpod"
+}

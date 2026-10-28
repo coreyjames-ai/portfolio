@@ -1,0 +1,40 @@
+{
+ "url": "https://coreyjames.ai/technologies/code-graph-and-static-dependency-analysis/",
+ "kind": "technology",
+ "title": "Code graph and static dependency analysis",
+ "subtitle": "The code graph under my memory service is extracted with a parser into partitioned edge tables; dependency traces are bounded database traversals with no model involved, and the explainer may narrate only proven edges.",
+ "systems": [
+  "fafohive"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "6",
+   "label": "edge kinds extracted from source by the parser"
+  },
+  {
+   "value": "3",
+   "label": "languages with edge extractors: Rust, Python and TypeScript"
+  },
+  {
+   "value": "294,033",
+   "label": "of the index's 294,362 code chunks covered by the graph"
+  },
+  {
+   "value": "~19,000",
+   "label": "files in the monorepo the graph is built over"
+  }
+ ],
+ "lede": "In FAFOHive, my agents had to know the blast radius of a symbol before changing it, and a language model asked for call paths invents some. tree-sitter extracts calls, imports, implements, references, definitions and re-exports from source, and they land in partitioned PostgreSQL edge tables. An edge whose endpoint is not indexed yet stays pending, and a resolver promotes it only once both endpoints are indexed. Graph generations let me rebuild an index without serving a half-built graph, and each request is pinned to one generation. trace symbol dependencies is plain traversal: a bounded breadth-first search in SQL with a Redis fast path, returning edges and nodes with file and line.",
+ "quote": "Structure must come from a parser and a database; a model may only put that structure into words.",
+ "evidence": [
+  "Static dependency analysis: a parser-built code graph of 6 edge kinds over a monorepo of ~19,000 files, covering 294,033 of 294,362 code chunks.",
+  "PostgreSQL graph traversal: dependency traces as bounded breadth-first searches in SQL with a Redis fast path and no model call.",
+  "Evidence-grounded LLM output: an explainer that hands a model only a path the code graph has proven, up to five hops."
+ ],
+ "technology_kind": "discipline",
+ "canonical": "https://coreyjames.ai/technologies/code-graph-and-static-dependency-analysis/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/code-graph-and-static-dependency-analysis"
+}

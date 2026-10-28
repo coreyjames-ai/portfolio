@@ -1,0 +1,42 @@
+{
+ "url": "https://coreyjames.ai/technologies/tmux/",
+ "kind": "technology",
+ "title": "tmux",
+ "subtitle": "tmux is how my governance platform drives vendors' interactive command-line tools as persistent governed sessions, and how I verify that a message actually landed.",
+ "systems": [
+  "agentos",
+  "agent-swarm",
+  "helix"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "PID 1",
+   "label": "the supervisor's place in each seat's container"
+  },
+  {
+   "value": "1",
+   "label": "vendor TUI per tmux session"
+  },
+  {
+   "value": "2",
+   "label": "Enter keys for the vendor whose composer swallows the first"
+  },
+  {
+   "value": "9",
+   "label": "tests in the transport experiment for checking seats"
+  }
+ ],
+ "lede": "AgentOS governs coding agents that live inside the vendors' own command-line tools, and those tools are terminal programs built for a person at a keyboard. I chose to drive them the way a person does, through a terminal, and to make every delivery's outcome explicit. The supervisor for each agent seat owns a tmux session in its container. Operators attach to the same session to watch or take over, so humans and the automation see the same screen. The wider program is in Directing AI coding agents at program scale. I treat a terminal UI as an unreliable transport. A message is loaded into a tmux buffer, pasted as one bracketed paste, and submitted with separately delivered Enter keys.",
+ "quote": "I can turn tools built for people into dependable machine interfaces and still keep duplicates out.",
+ "evidence": [
+  "Agent orchestration: vendor coding CLIs driven as governed sessions, 1 vendor TUI per tmux session under a supervisor at PID 1 of each container.",
+  "Delivery semantics for terminal interfaces: every delivery ends accepted, rejected or unknown, confirmed from the transcript and never retried when unknown.",
+  "Separation of duties for AI work: the transport for checking seats chosen by a 9-test experiment on write-scope integrity."
+ ],
+ "technology_kind": "platform",
+ "canonical": "https://coreyjames.ai/technologies/tmux/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/tmux"
+}

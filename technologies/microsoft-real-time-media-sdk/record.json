@@ -1,0 +1,41 @@
+{
+ "url": "https://coreyjames.ai/technologies/microsoft-real-time-media-sdk/",
+ "kind": "technology",
+ "title": "Microsoft real-time media SDK",
+ "subtitle": "A .NET 8 media service on Microsoft's real-time media SDK, handling unmanaged buffers on the SDK's clock and joined to a Linux voice engine across clouds.",
+ "systems": [
+  "helix"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "91,643",
+   "label": "audio buffers through the soak, zero receive stalls and zero reconnects"
+  },
+  {
+   "value": "50.001",
+   "label": "buffers a second against the SDK's 20-millisecond cadence"
+  },
+  {
+   "value": "8,833",
+   "label": "buffers through a forced mid-call reconnect, with one 250 ms retry"
+  },
+  {
+   "value": "65–67 ms",
+   "label": "media round trip on one probe"
+  }
+ ],
+ "lede": "Helix runs its speech models and conversation engine on Linux GPUs I own, and Microsoft Teams hands raw call audio only to a Windows application built on Microsoft's real-time media SDK. I refused to send call audio to a hosted AI service to avoid that mismatch, so I built a bridge and kept the brain at home. The bridge is a .NET 8 solution of six projects (host, calls, media, transport, contracts and unit tests) on a Microsoft Azure Windows machine. Its only job is media: join the call, receive and send audio frames, and publish the agent's screen as video.",
+ "quote": "A colleague who answers a question from twenty seconds ago is worse than one who asks you to repeat it.",
+ "evidence": [
+  "Microsoft Teams real-time media: a .NET 8 bridge on Microsoft's real-time media SDK that moved 91,643 audio buffers at 50.001 a second from Azure to Linux with zero receive stalls.",
+  "Real-time audio with unmanaged memory: buffers allocated and freed under the SDK's ownership rules, a paced 20-millisecond pump and bounded channels for back-pressure.",
+  "Failure testing for real-time systems: a forced mid-call reconnect inside the same call, 8,833 buffers with one 250 ms retry, and microphone audio from the break dropped.",
+  "Cross-language wire protocols: one authenticated WebSocket per call carrying a binary media protocol implemented in C# and Rust, tested byte for byte against shared golden vectors."
+ ],
+ "technology_kind": "framework",
+ "canonical": "https://coreyjames.ai/technologies/microsoft-real-time-media-sdk/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/microsoft-real-time-media-sdk"
+}

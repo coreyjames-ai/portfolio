@@ -1,0 +1,37 @@
+{
+ "url": "https://coreyjames.ai/ideas/the-token-as-the-unit/",
+ "kind": "idea",
+ "title": "The token as the unit",
+ "subtitle": "Schedule, budget and account for GPU work in the unit the hardware actually pays in",
+ "systems": [
+  "inference-fabric",
+  "fafo-core",
+  "activekv",
+  "capabilities-model"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "0.42%",
+   "label": "padding waste across two NVIDIA Blackwell GPUs"
+  },
+  {
+   "value": "99.9%",
+   "label": "cache hit rate on the same pair"
+  },
+  {
+   "value": "12.3 B",
+   "label": "tokens received, balanced against the same number routed"
+  }
+ ],
+ "lede": "Queues move messages. Schedulers count jobs. Budgets count dollars or requests. None of those is what a GPU pays in. A GPU pays in tokens, and its cost for a batch depends on the shape of those tokens: how long each sequence is, how much of each prefix is shared with its neighbours, how much padding the batch carries, whether the cache already holds the work. Once I made the token the unit of scheduling, packing, budgeting and accounting, a whole class of inefficiency became visible and fixable. Work is described to the scheduler by its token geometry. Batches are packed to a consumer's declared token limits, not to a count of items.",
+ "quote": "The broker must not know the model; it must know only what the consumer needs to pack well, and four integers turn out to be enough.",
+ "evidence": [
+  "Token-aware scheduling: shape-pure batches packed to each consumer's declared token limits, with 0.42% padding waste and a 99.9% cache hit rate across two NVIDIA Blackwell GPUs.",
+  "Distributed systems correctness: token accounting that balanced 12.3 B tokens received against the same number routed."
+ ],
+ "canonical": "https://coreyjames.ai/ideas/the-token-as-the-unit/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/research/ideas/the-token-as-the-unit"
+}

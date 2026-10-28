@@ -1,0 +1,38 @@
+{
+ "url": "https://coreyjames.ai/capabilities/longer-context-on-the-gpus-you-own/",
+ "kind": "capability",
+ "title": "Bigger models and longer context on fixed GPU memory",
+ "subtitle": "When GPU memory, not the workload, is the limit",
+ "systems": [
+  "activekv",
+  "capabilities-model"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "13 of 13",
+   "label": "exact cells bit-identical to fully resident attention at the native port, 12 of 12 hybrid"
+  },
+  {
+   "value": "0",
+   "label": "Python files in the release payload of the memory layer"
+  },
+  {
+   "value": "+36%",
+   "label": "sustained output throughput of the 4-bit build over the mixed 4- and 8-bit control, 64 clients"
+  }
+ ],
+ "lede": "A model's context, or the number of long sessions that can stay alive, is capped by the memory on the cards at hand. The usual answers are bigger cards, more cards or less context. I built an inference-memory layer for vLLM that moves a context's history into host RAM and treats the GPU as a bounded working set, with an exact tier that is bit-identical to fully resident attention. I ported it entirely to native C++ under parity gates, as a patch that applies to an unmodified vLLM. Start with Context beyond VRAM. I fit a 27-billion-parameter model on a single 32 GB Intel card through a published, measured quantization.",
+ "quote": "Exactness is a property I want in the system.",
+ "evidence": [
+  "KV-cache offload for LLM inference: a context's history in host RAM and the GPU as a bounded working set inside vLLM, with an exact tier bit-identical to fully resident attention in 13 of 13 cells.",
+  "C++ and native ports with parity proof: the memory layer ported entirely to native C++ under parity gates, 12 of 12 hybrid cells matching and 0 Python files in the release payload.",
+  "LLM quantization (4-bit): a 27B model fitted on one 32 GB Intel card as a W4A16 build, +36% sustained output throughput over the mixed control at a stated 3.33% perplexity cost.",
+  "Intel GPU and SYCL/oneAPI engineering: vendor kernel patches on new silicon with identical outputs, cutting a cold 32K-token prefill from 21.54 s to 17.23 s.",
+  "Performance benchmarking methodology: time to first token of 3.68 s against stock vLLM's 4.71 s on a single 8K request, with the 128K regime where stock still decodes faster stated beside it."
+ ],
+ "canonical": "https://coreyjames.ai/capabilities/longer-context-on-the-gpus-you-own/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/research/capabilities/longer-context-on-the-gpus-you-own"
+}

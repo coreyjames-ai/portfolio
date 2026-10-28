@@ -1,0 +1,23 @@
+{
+ "url": "https://coreyjames.ai/technologies/reversible-infrastructure-mutation/",
+ "kind": "technology",
+ "title": "Reversible infrastructure mutation",
+ "subtitle": "Edits that touch several services happen in one rollback-protected transaction, and every create has a symmetric delete. The function generator is the worked example.",
+ "systems": [
+  "fafo-core"
+ ],
+ "technologies": [],
+ "stats": [],
+ "lede": "FAFO Core and Function Forge lets an agent add a function to a working multi-service estate, and I wanted every such change to be undoable exactly. Creating a function adds a crate and edits four other parts of the estate in one operation. Each edit runs through an atomic file layer with its own rollback per integration, so a failure halfway leaves the estate as it was and a function cannot end up registered in one service and missing from another. I built the exit path with the entry path. The generator writes every edit at a known landmark in its target file, and delete finds those landmarks and reverses each edit, which makes reversal exact.",
+ "quote": "I design changes to a working system so they can be undone exactly, and I put the human decision on the one step where undo stops being free.",
+ "evidence": [
+  "Reversible infrastructure changes: a function generator whose edits across five parts of a multi-service estate run through one atomic file layer with rollback.",
+  "Code generation with exact undo: every generated edit anchored at a landmark so delete reverses it exactly, and regeneration over a developer zone refused unless forced.",
+  "Human-in-the-loop operations: build and restart separated, so every automated step can be repeated or undone and the restart is the one human step."
+ ],
+ "technology_kind": "discipline",
+ "canonical": "https://coreyjames.ai/technologies/reversible-infrastructure-mutation/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/reversible-infrastructure-mutation"
+}

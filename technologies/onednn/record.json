@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/technologies/onednn/",
+ "kind": "technology",
+ "title": "oneDNN",
+ "subtitle": "Patches to Intel's math library for a GPU architecture the ecosystem had not caught up with, each one held to bit-identical output.",
+ "systems": [
+  "activekv"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "20%",
+   "label": "off cold 32,000-token prefill, outputs identical"
+  },
+  {
+   "value": "48",
+   "label": "special-value combinations behind the exact-arithmetic rewrite"
+  }
+ ],
+ "lede": "ActiveKV serves a 27-billion-parameter hybrid recurrent-attention open-weight model on one Intel Arc Pro GPU, and on that card prefill and the 4-bit-weight model path run their large matrix multiplications through Intel's oneDNN. The Intel Arc Pro GPU is a new architecture and the open kernel stack had gaps. I decided to patch oneDNN's own sources inside Intel's toolchain image, so the binary matches what the serving engine loads, and to gate every change on bit-identical output against the unpatched path, measured on the whole workload on a quiet benchmark host. The gate exists because of what sits above oneDNN: ActiveKV's exact mode must match fully resident attention bit for bit.",
+ "quote": "A GEMM patch that moved a single bit would void every parity result built on it.",
+ "evidence": [
+  "Intel GPU and SYCL/oneAPI engineering: oneDNN patched inside Intel's toolchain image for Xe2, one added GEMM catalogue entry cutting cold 32,000-token prefill from 21.54 s to 17.23 s.",
+  "Bit-exact numerical verification: every vendor-library patch gated on bit-identical output against the unpatched path, measured on the whole workload on a quiet host.",
+  "LLM quantization (4-bit): a tighter W4A16 lowering in oneDNN, and an exact instruction-set arithmetic rewrite tested across 48 special-value combinations and kept at flat speed."
+ ],
+ "technology_kind": "runtime",
+ "canonical": "https://coreyjames.ai/technologies/onednn/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/onednn"
+}

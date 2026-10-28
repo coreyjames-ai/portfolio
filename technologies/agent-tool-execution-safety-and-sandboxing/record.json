@@ -1,0 +1,37 @@
+{
+ "url": "https://coreyjames.ai/technologies/agent-tool-execution-safety-and-sandboxing/",
+ "kind": "technology",
+ "title": "Agent tool-execution safety and sandboxing",
+ "subtitle": "Every action any agent takes in my runtime passes one frozen pipeline: validation, authorisation, limits, sanitisation, audit, observation.",
+ "systems": [
+  "agent-swarm"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "12 steps",
+   "label": "every tool call passes, in a fixed order"
+  },
+  {
+   "value": "22,600",
+   "label": "lines in the tools module, with its schema validator, tool kinds and built-ins"
+  },
+  {
+   "value": "0",
+   "label": "commits by the coding agent straight to the main repository; the gatekeeper opens the merge"
+  }
+ ],
+ "lede": "I make the safe path the only path, and I take flexibility away where flexibility would let an action skip a check. Agent Swarm runs agents that act on real systems. If every tool does its own validation, permission checks and logging, each new tool is a new place for a mistake, and nobody can audit a fleet of them. I decided there would be exactly one path for an action and that the path would be frozen. Every tool call, of every kind, goes through one Rust harness in a fixed order, and a tool marked as needing approval pauses the agent loop until approval arrives.",
+ "quote": "A configurable pipeline is more flexible; a fixed one is something I can trust, because there is one way an action happens.",
+ "evidence": [
+  "Agent tool governance: every tool call of every kind through one Rust harness of 12 steps in a fixed order, a new tool supplying only its execute body, in a tools module of about 22,600 lines.",
+  "Sandboxing and container hardening: each agent persona launched as a Docker container with CPU, memory, process, runtime and egress caps, a turn budget and its own workspace.",
+  "Injection defence for agent tools: shell templates with typed parameter classes and an attack fixture beside every golden fixture, and HTTP templates encoded per RFC 3986.",
+  "Separation of duties for AI work: a coding agent that edited, tested and pushed on its own branch and asked a gatekeeper agent to open the merge request, with 0 commits to the main repository."
+ ],
+ "technology_kind": "discipline",
+ "canonical": "https://coreyjames.ai/technologies/agent-tool-execution-safety-and-sandboxing/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/agent-tool-execution-safety-and-sandboxing"
+}

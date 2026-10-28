@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/technologies/prompt-injection-aware-tooling/",
+ "kind": "technology",
+ "title": "Prompt-injection-aware tooling",
+ "subtitle": "Tool descriptions are attack surface. Shell-template injection fixtures are mandatory for the tool kind that needs them, and the discovery tool's description is capped by a test.",
+ "systems": [
+  "fafohive"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "~500",
+   "label": "tool descriptions treated as untrusted text"
+  },
+  {
+   "value": "3",
+   "label": "servers whose catalogs are read, never called"
+  }
+ ],
+ "lede": "In FAFOHive I wanted readable guides to every tool across its servers, most of them published by vendors. Asking a model to summarise each tool has a trap in it: a tool's name, description and schema are text written by whoever published the tool, and a model that reads them with any authority can be steered by them. I decided every tool description is untrusted data and built a tool explorer around that. Discovery is read-only. The explorer reads each server's catalog and never calls a tool, so exploring cannot cause a side effect. Official descriptions and AI-written guides are stored and shown separately and never merge, so a reader always knows which one they are reading.",
+ "quote": "I build AI features on the assumption that model inputs can be hostile: the model gets text without trust, and its output is checked against facts it could not forge.",
+ "evidence": [
+  "Prompt-injection defence: about 500 tool descriptions treated as untrusted data, read from the catalogs of 3 servers and never called during discovery.",
+  "LLM output verification: AI-written tool guides keyed to a SHA-256 hash of each tool, in batches rejected whole on one forged identifier, duplicate entry or mismatched hash.",
+  "Sandboxed model sessions: audits that start only when I start them, in a locked-down command-line session that can write nothing but its output file."
+ ],
+ "technology_kind": "discipline",
+ "canonical": "https://coreyjames.ai/technologies/prompt-injection-aware-tooling/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/prompt-injection-aware-tooling"
+}

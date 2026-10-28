@@ -1,0 +1,33 @@
+{
+ "url": "https://coreyjames.ai/technologies/write-behind-persistence/",
+ "kind": "technology",
+ "title": "Write-behind persistence",
+ "subtitle": "Writes in my substrate go through a write-behind queue and a batching writer, so producers never block on the database.",
+ "systems": [
+  "postgresql-fabric",
+  "fafo-core",
+  "inference-fabric"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "196 → 0",
+   "label": "deadlocks, before and after one schema change on the shared path"
+  },
+  {
+   "value": "2 s",
+   "label": "the slowest batches before that change"
+  }
+ ],
+ "lede": "FAFO Core and Function Forge runs functions that fan out to many GPU workers on several machines, each producing results in bursts. If every worker wrote to PostgreSQL itself, the database would see as many writers as there are workers, each holding connections and locks while it waits on a GPU. I made a house rule. Workers hand off results and move on, and the writer, not the workers, sets the database's write load. Schema validation lives on that single path and nowhere else, so a malformed row is rejected in one place for every function. A function that writes to several related tables hands off the set together, so related rows land as a unit.",
+ "quote": "Functions read from PostgreSQL directly, and every write leaves the function as a message that one governed writer applies.",
+ "evidence": [
+  "Write-behind persistence: every write from GPU-scale workers leaves as a message one governed writer applies, so the database takes writes at a rate it can sustain.",
+  "PostgreSQL performance tuning: deadlocks on the shared write path went 196 → 0 after one schema change, measured from committed rows rather than queue intake."
+ ],
+ "technology_kind": "discipline",
+ "canonical": "https://coreyjames.ai/technologies/write-behind-persistence/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/write-behind-persistence"
+}

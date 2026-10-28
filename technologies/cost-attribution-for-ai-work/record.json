@@ -1,0 +1,36 @@
+{
+ "url": "https://coreyjames.ai/technologies/cost-attribution-for-ai-work/",
+ "kind": "technology",
+ "title": "Cost attribution for AI work",
+ "subtitle": "Every token my agents spend is attributed to the work order that bought it.",
+ "systems": [
+  "agentos"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "31,811",
+   "label": "metered usage records tied to work orders"
+  },
+  {
+   "value": "246",
+   "label": "work orders those records roll up to"
+  },
+  {
+   "value": "43–97%",
+   "label": "cache reuse across seats on one work order over a 24-hour window"
+  }
+ ],
+ "lede": "AI work costs money per token, and a cost nobody can tie to a deliverable cannot be managed. AgentOS gathers usage from three sources. Hooks capture coding-agent transcripts. Managed seats emit signed, replay-safe usage events, each attributed to the model the provider reported, which is the model that actually ran. Planning a work order costs tokens too. A capture step binds the authoring of a work order to the exact native conversation where the planning happened, passing only private file references, so no transcript content crosses the tool boundary. On top of attribution sits a value measure, Validated Human-Equivalent Engineering Hours (Validated HEH).",
+ "quote": "Cost informs strategy and must never silently block dispatch.",
+ "evidence": [
+  "Cost attribution for AI work: 31,811 metered usage records tied to 246 work orders, every token placed on the work that bought it.",
+  "Engineering productivity metrics: a value measure rebuilt after 99.7 percent of the first version's headline turned out to be token spend.",
+  "Prompt caching analysis: cache reuse of 43-97% across seats on one work order over a 24-hour window."
+ ],
+ "technology_kind": "discipline",
+ "canonical": "https://coreyjames.ai/technologies/cost-attribution-for-ai-work/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/cost-attribution-for-ai-work"
+}

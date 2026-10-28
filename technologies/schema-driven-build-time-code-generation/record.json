@@ -1,0 +1,37 @@
+{
+ "url": "https://coreyjames.ai/technologies/schema-driven-build-time-code-generation/",
+ "kind": "technology",
+ "title": "Schema-driven build-time code generation",
+ "subtitle": "YAML tool schemas compile into dispatch at build time in my MCP gateway and the execution substrate, so a tool cannot be half-wired.",
+ "systems": [
+  "fafo-core",
+  "fafohive"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "18",
+   "label": "tool surfaces declared in YAML"
+  },
+  {
+   "value": "~180",
+   "label": "actions across those surfaces"
+  },
+  {
+   "value": "8",
+   "label": "sections in every API connectivity profile"
+  }
+ ],
+ "lede": "FAFO Core and Function Forge has a tool surface that grows constantly, and I decided nobody would hand-edit dispatch code to add a tool. Declarations live in YAML and the dispatch code is generated, so a new tool is a data change. The model-facing MCP gateway compiles YAML at build time, and input schemas come from the same metadata that drives routing, so they cannot drift from the implementation. The control plane compiles an auto-registration file into its dependency list and an extern-crate macro, and each function crate registers its execution handler and control target at link time. That is how Function Forge adds a tool by writing files.",
+ "quote": "I move integration work out of hand-written code into declarations the build compiles and checks, because that keeps a fast-growing tool estate consistent.",
+ "evidence": [
+  "Build-time code generation in Rust: YAML tool declarations compiled into modules, a routing table and JSON Schema by build scripts and procedural macros, registered at link time.",
+  "MCP server design: 18 tool surfaces with about 180 actions declared in YAML and generated, so a tool cannot be half-wired.",
+  "Tool synthesis and governed API integration: each external API described by an 8-section connectivity profile and compiled into one generic runtime built once."
+ ],
+ "technology_kind": "discipline",
+ "canonical": "https://coreyjames.ai/technologies/schema-driven-build-time-code-generation/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/schema-driven-build-time-code-generation"
+}

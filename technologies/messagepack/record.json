@@ -1,0 +1,35 @@
+{
+ "url": "https://coreyjames.ai/technologies/messagepack/",
+ "kind": "technology",
+ "title": "MessagePack",
+ "subtitle": "Compact binary serialisation on the agent runtime's message bus and the broker's internal entries.",
+ "systems": [
+  "agent-swarm",
+  "fafo-core",
+  "inference-fabric",
+  "postgresql-fabric"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "16",
+   "label": "fixed fields in every write message"
+  },
+  {
+   "value": "3",
+   "label": "encodings, each chosen for its path"
+  }
+ ],
+ "lede": "In FAFO Core and Function Forge I wanted hundreds of workers to write results without any of them holding a database connection, so functions never write to PostgreSQL directly. A producer client encodes each write as a flat MessagePack message and appends it fire-and-forget to a Redis stream. A single governed write service then owns the write, one path from many producers into the database. I chose MessagePack because producers needed a compact, self-describing encoding that the writer could route without decoding the whole message. On a hot path I prefer a flat, fixed field set: the writer reads where a message goes with no database query and no schema lookup. The flat contract also taught me a lesson.",
+ "quote": "A wire contract that matters has to be checked where it is consumed.",
+ "evidence": [
+  "Write-path design: producers append flat MessagePack messages with 16 fixed fields to a Redis stream, so no worker holds a database connection.",
+  "Data contract enforcement: a convention-only contract left one producer's messages stranded, so contracts are now checked where they are consumed.",
+  "Serialisation design: MessagePack, canonical CBOR and bincode each chosen for what its path needs."
+ ],
+ "technology_kind": "protocol",
+ "canonical": "https://coreyjames.ai/technologies/messagepack/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/messagepack"
+}

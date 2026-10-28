@@ -1,0 +1,28 @@
+{
+ "url": "https://coreyjames.ai/technologies/microsoft-graph/",
+ "kind": "technology",
+ "title": "Microsoft Graph",
+ "subtitle": "Microsoft Graph is how the employee reads mail, posts in meeting chat and answers calls, with tokens minted per employee and validated before use.",
+ "systems": [
+  "helix"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "24",
+   "label": "tools on the digital-employee server through which a model acts as the employee"
+  }
+ ],
+ "lede": "Helix puts a governed digital employee into Teams calls and meetings, and Microsoft Graph is the surface it acts through. The first problem was calling: no single Microsoft principal can both answer a call as the employee and own the media session. I composed two Graph Communications clients. The employee's identity answers inbound calls under its own name, and a transport-only client owns the native media platform that carries the audio. That composition is the core of A self-hosted colleague in a Teams call. The second problem was acting in meetings with attribution any model could rely on. I built a Rust MCP server for those meeting actions.",
+ "quote": "I can turn Microsoft Graph into a governed action surface for an AI colleague, where every call, message and screen share is attributed to one identity and grounded in what Graph reports.",
+ "evidence": [
+  "Microsoft Graph and Entra integration: two composed Graph Communications clients, so a digital employee answers Teams calls under its own identity while a transport-only client owns the media.",
+  "Identity for AI agents in Microsoft Entra: a Rust MCP server of 24 meeting tools where every call names the acting employee and the server mints that employee's token by certificate assertion.",
+  "Fail-closed agent tool design: a room-state projector over Graph participant data, joins counted only once the roster shows the employee, and a typed refusal where Graph offers no way to raise a hand."
+ ],
+ "technology_kind": "platform",
+ "canonical": "https://coreyjames.ai/technologies/microsoft-graph/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/microsoft-graph"
+}

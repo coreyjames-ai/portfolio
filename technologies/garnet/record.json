@@ -1,0 +1,27 @@
+{
+ "url": "https://coreyjames.ai/technologies/garnet/",
+ "kind": "technology",
+ "title": "Garnet",
+ "subtitle": "A Redis-compatible store evaluated for the memory service's hot path.",
+ "systems": [
+  "fafohive"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "242",
+   "label": "lines of Rust run the managed instance from start to stop"
+  }
+ ],
+ "lede": "The memory service in FAFOHive keeps PostgreSQL as its source of truth and a Redis-protocol tier in front of it. Protocol compatibility is the seam. The service talks the Redis protocol. On my own host the tier is Redis. Garnet, Microsoft's Redis-compatible server, is wired in as an optional managed instance for that tier. It came in with a self-contained distribution build of the service, and it is a dedicated instance, never shared with any existing cache on the machine. This is a lifecycle adapter, not Garnet-specific engineering.",
+ "quote": "The backing server is a deployment choice, not a code change.",
+ "evidence": [
+  "Redis-protocol caching tiers: a hot tier for vector search, cached results and an observation write queue in front of PostgreSQL, with the backing server a deployment choice.",
+  "Rust systems engineering: a 242-line lifecycle module that starts a managed Garnet instance on localhost with its own port and checkpoints, waits for PING and stops with the service."
+ ],
+ "technology_kind": "datastore",
+ "canonical": "https://coreyjames.ai/technologies/garnet/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/garnet"
+}

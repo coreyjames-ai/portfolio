@@ -1,0 +1,23 @@
+{
+ "url": "https://coreyjames.ai/technologies/web-crawling-and-document-extraction/",
+ "kind": "technology",
+ "title": "Web crawling and document extraction",
+ "subtitle": "A native crawler and section extractor for PDFs, Markdown and HTML feed the reference index behind my memory service.",
+ "systems": [
+  "fafohive"
+ ],
+ "technologies": [],
+ "stats": [],
+ "lede": "The memory capability in FAFOHive serves agents that port patterns from vendor SDKs and call vendor APIs. I decided agents should cite the vendor's own source and documentation, so I built a reference library next to the code index: vendor SDK repositories, API documentation and crawled developer sites, each in its own named index so a vendor sample never surfaces as the team's code, and all searched under one contract with the same tools as the working code. Other systems lean on these indexes. Microsoft's Teams SDK, Graph API reference and Copilot Studio samples back the work in Helix, and the vLLM source backs ActiveKV.",
+ "quote": "An agent that guesses an API produces code that compiles and fails.",
+ "evidence": [
+  "Web crawling and document extraction: a Rust documentation crawler honouring robots.txt and rate limits, stripping boilerplate and re-crawling incrementally.",
+  "Document structuring for RAG: PDF, Markdown and HTML split into hierarchical sections with breadcrumbs and page ranges, with model-written section summaries before embedding.",
+  "Retrieval for AI agents: vendor SDKs, API documentation and crawled sites in separate named indexes under one search contract with the working code."
+ ],
+ "technology_kind": "discipline",
+ "canonical": "https://coreyjames.ai/technologies/web-crawling-and-document-extraction/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/web-crawling-and-document-extraction"
+}

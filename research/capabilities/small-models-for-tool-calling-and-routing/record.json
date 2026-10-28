@@ -1,0 +1,36 @@
+{
+ "url": "https://coreyjames.ai/capabilities/small-models-for-tool-calling-and-routing/",
+ "kind": "capability",
+ "title": "Custom small models for tool calling and routing",
+ "subtitle": "When a 0.6B model that cannot be wrong in the dangerous way beats a large model reading a catalog",
+ "systems": [
+  "capabilities-model"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "2,048",
+   "label": "simultaneous clients in one burst, none failed or rejected"
+  },
+  {
+   "value": "2,740",
+   "label": "MiB, the engine's whole footprint, on the card the larger serving model already uses"
+  },
+  {
+   "value": "12 of 12",
+   "label": "bit-identity gates passed across batch compositions"
+  }
+ ],
+ "lede": "Every tool an agent can reach is described to it on every turn, and the bill and the latency grow with the estate. Meanwhile an agent that cannot see the right tool improvises. I compiled a tool catalog into a fine-tuned 0.6-billion-parameter model that cannot name a tool outside the catalog, with a decoder whose output bits are identical across batch compositions. Start with A hundred tokens instead of forty-two thousand and Bit-identical across batch compositions. I measured it against the strongest retrieval baseline I could build, which tied it, and I published the tie. See The baseline that tied us.",
+ "quote": "A wrong real tool name is a recoverable error; a plausible fake one is a silent failure.",
+ "evidence": [
+  "Small language models for tool routing: a 0.6B model fine-tuned on a tool catalog with a decoder that cannot name a tool outside it, serving 2,048 simultaneous clients with none failed.",
+  "Deterministic GPU computation: a CUDA decoder bit-identical across batch compositions, 12 of 12 gates passed and all 2,345 shuffled compositions agreeing on the top result.",
+  "ML evaluation methodology: 469 frozen queries over 42 tools against the strongest classical baseline, published as a tie at 0.955 against 0.949 and a loss of 0.67 against 0.90 on buried requests.",
+  "Inference serving on a shared GPU: a 2,740 MiB engine beside a 30B model that admits work against measured memory, with a missed throughput target reported with its cause."
+ ],
+ "canonical": "https://coreyjames.ai/capabilities/small-models-for-tool-calling-and-routing/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/research/capabilities/small-models-for-tool-calling-and-routing"
+}

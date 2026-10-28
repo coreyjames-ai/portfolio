@@ -1,0 +1,38 @@
+{
+ "url": "https://coreyjames.ai/technologies/static-analysis-as-tests/",
+ "kind": "technology",
+ "title": "Static analysis as tests",
+ "subtitle": "Static checks run as tests in my governance platform: a carve gate on imports, a check that no hook can surface a non-operation.",
+ "systems": [
+  "agentos",
+  "agent-swarm",
+  "capabilities-model"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "41,990",
+   "label": "tokens of tool schemas replaced by one description"
+  },
+  {
+   "value": "44",
+   "label": "tools across three servers behind that description"
+  },
+  {
+   "value": "520",
+   "label": "characters, the cap a test holds the description to"
+  }
+ ],
+ "lede": "AgentOS once had a test that built a real store and wrote synthetic rows into the real work graph. I had a test added to the hook crate that scans the crate's own source and fails the build if any test constructs a store outside the isolated path. Test isolation became a property of the build, enforced by a source scan that sees a structural rule no unit test can. Agent Swarm needed its runtime to stay separable from the estate it grew up in, so a carve gate in CI fails the build when a product crate imports platform-specific code.",
+ "quote": "When a rule breaks once, I add a test that fails the build for the whole class of mistake.",
+ "evidence": [
+  "Static analysis as tests: source-scanning tests and a CI carve gate that fail the build for a whole class of mistake, such as any test building a store outside the isolated path.",
+  "FFI safety across Rust and CUDA: layout tests that compare the Rust and C views of every shared struct and fail the build when they diverge.",
+  "Design budgets enforced in CI: a test caps the one tool description that replaced 41,990 tokens of schemas for 44 tools at 520 characters."
+ ],
+ "technology_kind": "discipline",
+ "canonical": "https://coreyjames.ai/technologies/static-analysis-as-tests/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/static-analysis-as-tests"
+}

@@ -1,0 +1,42 @@
+{
+ "url": "https://coreyjames.ai/technologies/code-generation-and-metaprogramming/",
+ "kind": "technology",
+ "title": "Code generation and metaprogramming",
+ "subtitle": "I generate code where repetition is the risk: a generator that emits a whole function and wires it into the estate transactionally, and YAML tool schemas compiled into dispatch at build time.",
+ "systems": [
+  "fafo-core",
+  "fafohive"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "8 + 6",
+   "label": "files in each generated crate: framework the author leaves alone, and a sandboxed developer zone"
+  },
+  {
+   "value": "7 of 14",
+   "label": "function crates in the estate carry the generator's fingerprints"
+  },
+  {
+   "value": "83",
+   "label": "operations compiled from a vendor's OpenAPI specification into an internal catalog"
+  },
+  {
+   "value": "15",
+   "label": "points in the integration check the first generator passed while its code did not compile"
+  }
+ ],
+ "lede": "In FAFO Core and Function Forge, every new capability used to mean a person wiring a crate into the gateway, the control plane and the result path by hand, and a half-wired function shows up later as a hang. I decided agents should generate fully wired functions themselves, inside a sandbox, active only after a human rebuild. Function Forge is a Rust generator built on Handlebars templates and exposed as an MCP (Model Context Protocol) tool. One create function call emits the crate and, in the same rollback-protected transaction, edits the rest of the estate: the gateway's module, function and metadata definitions, the control plane's composition root and the completion service's dispatch.",
+ "quote": "The generated breadth stays private.",
+ "evidence": [
+  "Code generation and metaprogramming: a Rust generator on Handlebars templates that emits a crate of 8 + 6 files and edits four services in one rollback-protected transaction.",
+  "Tool synthesis and governed API integration: a vendor OpenAPI specification compiled into an internal catalog of 83 typed, costed operations, with about fifteen designed tools shown to agents.",
+  "Sandboxing for AI-authored code: generated logic confined to a developer zone with a capability-bounded context object, active only after a rebuild and a human restart.",
+  "Build-time schema compilation: YAML tool definitions compiled into dispatch code and JSON-Schema tool inputs at build time."
+ ],
+ "technology_kind": "discipline",
+ "canonical": "https://coreyjames.ai/technologies/code-generation-and-metaprogramming/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/code-generation-and-metaprogramming"
+}

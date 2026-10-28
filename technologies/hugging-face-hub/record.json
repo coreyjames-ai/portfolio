@@ -1,0 +1,37 @@
+{
+ "url": "https://coreyjames.ai/technologies/hugging-face-hub/",
+ "kind": "technology",
+ "title": "Hugging Face Hub",
+ "subtitle": "I published a 4-bit quantization of a 27-billion-parameter model with its card, provenance and measured trade-off.",
+ "systems": [
+  "activekv",
+  "helix"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "400",
+   "label": "text projection modules quantized to 4-bit"
+  },
+  {
+   "value": "799",
+   "label": "tensors left bit-identical to the source"
+  },
+  {
+   "value": "433",
+   "label": "files checked on the uploaded copy"
+  }
+ ],
+ "lede": "ActiveKV needed a 27-billion-parameter model on one 32 GB Intel Arc Pro GPU, and the hybrid recurrent-attention open-weight model I chose does not fit on it in BF16. I decided to quantize it myself on Intel's stock XPU vLLM build, measure the trade-off, and publish the result on the Hugging Face Hub so anyone with an Intel Arc Pro GPU could run it. The recipe is weight-only W4A16 on the text projection modules, with every other tensor bit-identical to the source. I pinned the source to a revision and checked every shard hash, and a per-module manifest lists what was quantized. I skipped calibration, so the checkpoint can be reproduced from the source weights alone.",
+ "quote": "I ran the release checks on the bytes that were uploaded, because a copy step can change them.",
+ "evidence": [
+  "LLM quantization (4-bit): a W4A16 build of a 27-billion-parameter model, 400 modules quantized and 799 tensors bit-identical, 55.6 GB to 20.6 GB, +36% throughput for +3.33% perplexity.",
+  "Model release engineering: a published model card with method, tested environment and untested areas, and release checks run on the uploaded copy across 433 files.",
+  "Human-approved model acquisition: agents plan a download and only a person at the local console approves it, with registration in a single transaction."
+ ],
+ "technology_kind": "platform",
+ "canonical": "https://coreyjames.ai/technologies/hugging-face-hub/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/hugging-face-hub"
+}

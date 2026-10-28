@@ -1,0 +1,24 @@
+{
+ "url": "https://coreyjames.ai/technologies/credential-brokering-and-secrets-management/",
+ "kind": "technology",
+ "title": "Credential brokering and secrets management",
+ "subtitle": "No agent in my estate holds a credential it does not need, and most hold none.",
+ "systems": [
+  "agentos",
+  "agent-swarm"
+ ],
+ "technologies": [],
+ "stats": [],
+ "lede": "The usual way to give an agent access is a scoped token and hope. In Agent Swarm I wanted a plain property instead: an agent cannot call what it was not granted and never holds a credential it does not need. How sensitive an action is depends on which agent holds the credential for it, so I decide which agent may hold one, and every other agent asks that one for an outcome. Git is the domain with its own gatekeeper. A coding agent on a local open-source model edits, tests and pushes to its own branch in a throwaway container, then asks the gatekeeper persona to open a merge request.",
+ "quote": "Sensitivity follows the holder.",
+ "evidence": [
+  "Identity and least privilege for AI agents: a gatekeeper persona holds the git credential, and a coding agent on a local model opens merge requests without ever holding it.",
+  "Secrets management: operator tools that store, rotate, revoke, list and push secrets without ever returning a value, and no secret bytes in any log.",
+  "Credential isolation for managed AI seats: each seat's login held by reference in its own private state directory, never in an image or a log."
+ ],
+ "technology_kind": "discipline",
+ "canonical": "https://coreyjames.ai/technologies/credential-brokering-and-secrets-management/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/credential-brokering-and-secrets-management"
+}

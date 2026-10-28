@@ -1,0 +1,36 @@
+{
+ "url": "https://coreyjames.ai/technologies/json-web-token-jwt/",
+ "kind": "technology",
+ "title": "JSON Web Token (JWT)",
+ "subtitle": "Scoped JWTs for agent seats, employee-scoped tokens for Microsoft identities, bearer introspection that fails closed. Identity in my systems is derived from the token, never from tool input.",
+ "systems": [
+  "agentos",
+  "agent-swarm",
+  "fafohive",
+  "fafo-core",
+  "auth-and-access-plane"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "1 hour",
+   "label": "each issuer's key set is cached at the gateway"
+  },
+  {
+   "value": "3",
+   "label": "runtimes trusting the same kind of anchor"
+  }
+ ],
+ "lede": "In the Auth and access plane I had assistants from several vendors calling one private tool estate, and I wanted every call checked without a round trip to the issuer. I made JWTs the token format and published keys the trust anchor. My Python OAuth server issues RS256-signed access tokens carrying issuer, audience, expiry and coarse MCP scope claims, publishes its key set and persists its signing key, so assistants holding long-lived refresh tokens keep working through a restart. The Rust tool gateway validates against published key sets from more than one issuer, which lets it accept tokens from my server and from Microsoft's platform.",
+ "quote": "A caller cannot name itself in the arguments.",
+ "evidence": [
+  "OAuth and identity architecture: RS256 tokens issued in Python and checked offline in Rust and at the edge against published key sets cached for 1 hour.",
+  "Delegation security for AI agents: every agent-to-agent message a signed JWT over a canonical hash, with depth limits and cycle detection.",
+  "Least privilege for AI agents: identity derived from the token on every surface, never from tool arguments, and a sub-agent's identity ends with its parent's."
+ ],
+ "technology_kind": "protocol",
+ "canonical": "https://coreyjames.ai/technologies/json-web-token-jwt/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/json-web-token-jwt"
+}

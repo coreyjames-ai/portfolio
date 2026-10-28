@@ -1,0 +1,38 @@
+{
+ "url": "https://coreyjames.ai/ideas/authority-outside-the-model/",
+ "kind": "idea",
+ "title": "Authority outside the model",
+ "subtitle": "The model is a nondeterministic worker inside a deterministic system that decides what it may do, what step it is on, and whether it is finished",
+ "systems": [
+  "agentos",
+  "agent-swarm",
+  "fafohive",
+  "fafo-core"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "326",
+   "label": "active actions in one busy work order"
+  },
+  {
+   "value": "9",
+   "label": "states each of those actions can be in"
+  },
+  {
+   "value": "52",
+   "label": "legal transitions in the whole governance map, across all states"
+  }
+ ],
+ "lede": "A language model is a superb worker and a terrible authority. It will do the task in front of it with skill, and it will also decide it has permission it was never given, declare a step complete because the transcript reads that way, and talk itself out of a rule that is inconvenient. Every failure I had with autonomous agents came back to the same cause: the model was being asked to hold the authority as well as do the work. I now build systems where the model never decides what it is allowed to do, what step it is on, or whether it is finished. External rules, data and machinery decide all of that.",
+ "quote": "Anything the system can decide deterministically, the system decides, and the model is left with the work that requires judgment.",
+ "evidence": [
+  "Multi-agent governance: agent state held in a database and policy enforced by hooks that refuse forbidden actions; one busy work order holds 326 active actions in 9 states, governed by a map of 52 legal transitions.",
+  "Identity and least privilege for AI agents: identity derived from how an agent authenticated, never its claims in a tool call, a budget it cannot raise, and agent-written tools that take effect only after a human rebuilds the gateway.",
+  "Evidence-gated acceptance: completion judged by evidence in the system and examined by a reviewer that did not do the work, with a work order closing as one act over all of its acceptance evidence."
+ ],
+ "canonical": "https://coreyjames.ai/ideas/authority-outside-the-model/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/research/ideas/authority-outside-the-model"
+}

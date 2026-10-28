@@ -1,0 +1,22 @@
+{
+ "url": "https://coreyjames.ai/technologies/reranker-model/",
+ "kind": "technology",
+ "title": "Reranker model",
+ "subtitle": "A cross-encoder reranker sits behind my hybrid retrieval, on a seam that tells load from breakage.",
+ "systems": [
+  "fafohive"
+ ],
+ "technologies": [],
+ "stats": [],
+ "lede": "The reranker is the published model, used without training or tuning; the engineering is in where it sits and how it fails. FAFOHive serves search to many agents at once, and the most expensive step in a search is the cross-encoder that reorders the candidates. the reranker model is that cross-encoder: it rescores the merged results of lexical and dense retrieval for code, reference and observation search. It runs as a local HTTP service. The call stays in process, with no queue hop between search and rerank, so its latency budget is predictable. The retrieval design is on Hybrid retrieval.",
+ "quote": "When the reranker saturates, search quality degrades and search availability does not.",
+ "evidence": [
+  "Cross-encoder reranking: a published reranker rescoring merged lexical and dense results for code, reference and observation search, called in process with no queue hop.",
+  "Capacity engineering for model endpoints: the reranker client wrapped in a bounded-endpoint primitive that sorts every failure into busy or broken, with separate counters."
+ ],
+ "technology_kind": "model",
+ "canonical": "https://coreyjames.ai/technologies/reranker-model/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/reranker-model"
+}

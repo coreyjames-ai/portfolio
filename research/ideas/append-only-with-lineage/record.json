@@ -1,0 +1,25 @@
+{
+ "url": "https://coreyjames.ai/ideas/append-only-with-lineage/",
+ "kind": "idea",
+ "title": "Append-only, with tombstones and lineage",
+ "subtitle": "Durable logs are only ever appended, deletion is a mark, and every derived artefact can prove where it came from",
+ "systems": [
+  "inference-fabric",
+  "agentos",
+  "fafohive",
+  "activekv"
+ ],
+ "technologies": [],
+ "stats": [],
+ "lede": "When the history of what happened can be rewritten, recovery becomes archaeology. I build the durable state in my systems as append-only logs. Completion or deletion is a tombstone written in place, in a fixed order relative to the data it refers to, so that a crash between two writes is repaired by a scan rather than a guess. Every derived artefact, an index, an extraction, a projection, carries a hash or a reference back to its source, so lineage is a property of the data and not a convention. Writes append. A segment or a table is never rewritten in place except for the tombstone mark.",
+ "quote": "I pay both, because the alternative is a second bookkeeping file that can disagree with the data.",
+ "evidence": [
+  "Append-only log design: memory-mapped append-only segments where completion is a tombstone written at the entry's offset and recovery reads only tombstones.",
+  "Exactly-once delivery and crash recovery: a fixed write order, output persisted before the tombstone and the input retired last, so every recovery path is a scan.",
+  "Data provenance and lineage: derived indexes, extractions and projections carry the identity of their inputs, checked at build, persist and load and refused on mismatch."
+ ],
+ "canonical": "https://coreyjames.ai/ideas/append-only-with-lineage/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/research/ideas/append-only-with-lineage"
+}

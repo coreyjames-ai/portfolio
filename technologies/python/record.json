@@ -1,0 +1,47 @@
+{
+ "url": "https://coreyjames.ai/technologies/python/",
+ "kind": "technology",
+ "title": "Python",
+ "subtitle": "Python is where I prototype and where frameworks demand it: ActiveKV began in Python inside vLLM before the native port, the OAuth server is Python, and the training and evaluation harnesses are Python.",
+ "systems": [
+  "auth-and-access-plane",
+  "fafohive",
+  "helix",
+  "activekv",
+  "capabilities-model",
+  "agentos",
+  "fafo-core"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "22,000",
+   "label": "lines of Python in the OAuth authorization server"
+  },
+  {
+   "value": "11,800",
+   "label": "hand-written lines in the X module"
+  },
+  {
+   "value": "45,000",
+   "label": "lines of Python that proved ActiveKV before the native port"
+  },
+  {
+   "value": "~1 s",
+   "label": "fixed cost per speech request removed by caching voice conditioning"
+  }
+ ],
+ "lede": "I use Python where integration speed and ecosystem matter. In the Auth and access plane I needed commercial AI assistants, including Copilot Studio, to authenticate to my private tool estate, and a FastAPI service was the fastest way to speak OAuth correctly. See The hardening fix that locked everyone out. In FAFOHive agents needed social platforms the hosted vendor could not reach, and I chose Python on the FastMCP framework for speed against the platforms' APIs. The X module is the largest, the Facebook module about 4,500 lines, and a Reddit module is small. The tool explorer that treats tool descriptions as untrusted input is Python too.",
+ "quote": "Components that must be long-lived, concurrent and governed move to Rust once the Python prototype has proved the idea.",
+ "evidence": [
+  "OAuth and identity architecture: a 22,000-line Python authorization server with PKCE, dynamic client registration and a consent screen for outside AI assistants.",
+  "API integration in Python: social-platform modules on FastMCP, 11,800 hand-written lines in one, each with its own rate limiter, budget reservations and a durable SQLite ledger.",
+  "Prototype-to-native migration: 45,000 lines of Python that proved a vLLM extension, kept unwired as the bit-exact parity reference after the C++ port.",
+  "Numerical validation before kernel work: candidate 4-bit weight layouts correlated in Python against the full-precision checkpoint before any kernel was written."
+ ],
+ "technology_kind": "language",
+ "canonical": "https://coreyjames.ai/technologies/python/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/python"
+}

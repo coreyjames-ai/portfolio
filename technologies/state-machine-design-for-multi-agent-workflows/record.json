@@ -1,0 +1,23 @@
+{
+ "url": "https://coreyjames.ai/technologies/state-machine-design-for-multi-agent-workflows/",
+ "kind": "technology",
+ "title": "State-machine design for multi-agent workflows",
+ "subtitle": "Work-order lifecycles, stand-down and resume, and transition compilation: the governance platform is state machines all the way down.",
+ "systems": [
+  "agentos"
+ ],
+ "technologies": [],
+ "stats": [],
+ "lede": "AgentOS is a state machine for multi-agent work, and I decided the state machine would live in data where agents cannot rewrite it. A PostgreSQL registry holds objects with kinds, typed edges between them, and a stored transition for every change of state. Work orders, tasks, evidence and verdicts are all instances of that model. Where a piece of work stands is in the graph, and the documents agents read are generated from it. Because the machine is data, it can be queried, audited and changed under migration discipline. Movement is deterministic. A pending step is stored durably and maps to exactly one next step.",
+ "quote": "A system that cannot tell stopped from done eventually closes unfinished work.",
+ "evidence": [
+  "Control-plane and state-machine architecture: a multi-agent workflow kept as data in a PostgreSQL registry of typed objects, edges and stored transitions that agents cannot rewrite.",
+  "Crash recovery by replay: every pending step maps to exactly one next step and is consumed only by its receipt, so resuming after a crash is a replay of the graph.",
+  "Formal checks of workflow design: workflow changes compiled and qualified on an isolated database, and a pure walker that found real dead-end gaps in the platform's own state graph."
+ ],
+ "technology_kind": "discipline",
+ "canonical": "https://coreyjames.ai/technologies/state-machine-design-for-multi-agent-workflows/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/state-machine-design-for-multi-agent-workflows"
+}

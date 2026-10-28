@@ -1,0 +1,45 @@
+{
+ "url": "https://coreyjames.ai/technologies/nvidia-blackwell-gpus/",
+ "kind": "technology",
+ "title": "NVIDIA Blackwell GPUs",
+ "subtitle": "Consumer NVIDIA Blackwell GPUs carried the Inference Fabric, the capabilities model and early ActiveKV work, first on one card and then on two mismatched cards draining one broker queue.",
+ "systems": [
+  "inference-fabric",
+  "capabilities-model",
+  "fafo-core",
+  "helix",
+  "activekv"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "96.9%",
+   "label": "streaming-multiprocessor utilisation on one card"
+  },
+  {
+   "value": "~65,000",
+   "label": "tokens a second held for ten hours on one card"
+  },
+  {
+   "value": "4.95M",
+   "label": "tasks in that ten-hour run, with zero retries"
+  },
+  {
+   "value": "3–4 h",
+   "label": "to build the shared TensorRT-LLM image from source"
+  }
+ ],
+ "lede": "I have run consumer Blackwell GPUs hard in five roles: bulk generation, a co-resident custom decoder, real-time speech, provisioned compute and early cache-offload work. In each I measured what the card does and built to that; cache windows, memory left beside a resident model and utilisation all come from the card. Inference Fabric asked how much of a consumer Blackwell GPU's real throughput a disciplined serving design could reach on bulk generation. On one 32 GB card the 7-billion-parameter dense model ran in FP8. Then a second, smaller 16 GB Blackwell GPU joined it, both draining one backlog.",
+ "quote": "Mismatched cards are where a plain queue breaks down.",
+ "evidence": [
+  "NVIDIA Blackwell development: TensorRT-LLM built from source for compute capability 12.0 and kernels compiled with CUDA 13.1 as native SM 120 binaries, other GPUs refused at runtime.",
+  "High-throughput batch inference: one 32 GB card at 96.9% streaming-multiprocessor utilisation, holding ~65,000 tokens a second for ten hours through 4.95M tasks with zero retries.",
+  "Heterogeneous GPU scheduling: a 32 GB and a 16 GB card on one broker queue, each described by four integers, reaching a five-minute mean of 163,000 tokens a second.",
+  "GPU memory co-residency: a router engine in 2,740 MiB beside a resident model of about 30B, serving a burst of 2,048 simultaneous clients with none rejected or corrupted."
+ ],
+ "technology_kind": "hardware",
+ "canonical": "https://coreyjames.ai/technologies/nvidia-blackwell-gpus/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/nvidia-blackwell-gpus"
+}

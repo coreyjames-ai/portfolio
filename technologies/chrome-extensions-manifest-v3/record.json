@@ -1,0 +1,35 @@
+{
+ "url": "https://coreyjames.ai/technologies/chrome-extensions-manifest-v3/",
+ "kind": "technology",
+ "title": "Chrome extensions (Manifest V3)",
+ "subtitle": "A browser extension lets an agent act through my own authenticated browser session where no API exists, with duplicate-safe receipts and a read-back after every change.",
+ "systems": [
+  "fafohive"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "~800",
+   "label": "lines across the extension, native host and installer"
+  },
+  {
+   "value": "6",
+   "label": "agent tools behind it"
+  },
+  {
+   "value": "5",
+   "label": "read-only checks at most after each change, one second apart"
+  }
+ ],
+ "lede": "FAFOHive needed a way for agents to read Reddit threads and to post, edit and delete their own comments, and no Reddit API path was usable from my estate. Copying session cookies to a server or running an automation browser would have moved my credentials somewhere they should never be. So I built a Manifest V3 Chrome extension that lives in my normal, signed-in Chrome. The provider service reaches it through Chrome's native messaging, the extension returns only results, and the provider is reachable only through the existing tunnel. The service never switches accounts, and an idempotency key is bound to each operation's inputs. An unconfirmed send is never resent, so a network error cannot become a duplicate comment.",
+ "quote": "A change counts when the page itself shows it.",
+ "evidence": [
+  "Browser extension development (Manifest V3): about 800 lines across an extension, native host and installer that let agents act through a signed-in browser session where no API exists, with no copied cookies.",
+  "Idempotent agent actions on external platforms: every change read back with at most 5 read-only checks one second apart, idempotency keys bound to inputs, and an unconfirmed send never resent."
+ ],
+ "technology_kind": "platform",
+ "canonical": "https://coreyjames.ai/technologies/chrome-extensions-manifest-v3/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/chrome-extensions-manifest-v3"
+}

@@ -1,0 +1,23 @@
+{
+ "url": "https://coreyjames.ai/technologies/rmcp-rust-mcp-sdk/",
+ "kind": "technology",
+ "title": "rmcp (Rust MCP SDK)",
+ "subtitle": "The Rust MCP SDK underlies my memory gateway and the meeting action server.",
+ "systems": [
+  "fafohive",
+  "helix"
+ ],
+ "technologies": [],
+ "stats": [],
+ "lede": "FAFOHive needed an MCP server in Rust, and I built it on rmcp, the Rust MCP SDK, for its protocol types and server traits. The tool surface, dispatch and security are mine. The server registers three families of tools behind one list. An earlier standalone code-search server ran on the same SDK: a small Rust MCP prototype with tree-sitter chunking and hybrid lexical and vector search. Its chunking and fusion settled the approach that FAFOHive's memory capability's code intelligence uses. Its session-holding transport broke at every container restart, so I replaced it with a stateless one over Axum, behind TLS and fail-closed bearer-token introspection: a token that cannot be introspected is refused.",
+ "quote": "I use a vendor SDK for what it does well and replace the part that breaks under real operation, once, in the server.",
+ "evidence": [
+  "MCP server design: a Rust MCP server on rmcp presenting native, hosted and provider tools in one list, each family under its own trust model.",
+  "Zero-trust architecture: a stateless per-request transport over Axum with fail-closed bearer-token introspection, replacing a session transport that broke on restart, with per-tool timeouts up to 120 seconds."
+ ],
+ "technology_kind": "framework",
+ "canonical": "https://coreyjames.ai/technologies/rmcp-rust-mcp-sdk/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/rmcp-rust-mcp-sdk"
+}

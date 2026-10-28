@@ -1,0 +1,22 @@
+{
+ "url": "https://coreyjames.ai/tools/memory-and-code-search/",
+ "kind": "tool-group",
+ "title": "Memory and code search",
+ "subtitle": "",
+ "systems": [
+  "fafohive"
+ ],
+ "technologies": [],
+ "stats": [],
+ "lede": "Agents waste most of their effort rediscovering things: where a behaviour lives in the code, why a decision was made, what went wrong last week. I gave every agent in my estate the same memory, served by FAFOHive. These eight tools are how an agent asks it questions. Code is indexed by syntax tree, so a search returns whole functions and types with file and line. The code graph answers structural questions without a model. Decisions and fixes are kept as observations, so the reasoning behind a change outlives the session that made it. list indexes lists the code and reference collections that exist and how much each holds. Its names are the scope every search uses.",
+ "quote": "",
+ "evidence": [
+  "Memory for AI agents: 8 tools let an agent search code by syntax tree, search reference material, recall past decisions and fixes, and record new observations.",
+  "Code intelligence for AI agents: code-graph tools answer callers, callees and dependency questions without a model, returning file paths and lines."
+ ],
+ "tool_count": 8,
+ "canonical": "https://coreyjames.ai/tools/memory-and-code-search/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/tools/memory-and-code-search"
+}

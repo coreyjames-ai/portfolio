@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/technologies/research-data-forensics/",
+ "kind": "technology",
+ "title": "Research data forensics",
+ "subtitle": "I rebuild and prove a research dataset before I trust it.",
+ "systems": [
+  "capabilities-model"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "~12,000",
+   "label": "golden examples rebuilt from two sources"
+  },
+  {
+   "value": "13 GB",
+   "label": "SQLite backup, the second witness"
+  }
+ ],
+ "lede": "Research and inventions mentions the curated corpus of golden examples from my first distillation pipeline. When I came back to it, the corpus was split between a PostgreSQL database that had kept changing and a SQLite backup. Neither was complete, and no notes said how its cluster centroids had been computed. I decided to rebuild it from both sources and reproduce its derived data exactly before trusting any of it. I directed the recovery in phases, each closed by a written report. I treated the database and the backup as two independent witnesses: they were compared entry by entry, every gap in one was explained from the other, and each filled the other's gaps.",
+ "quote": "Two views of the same data that disagree mislead every model trained on them.",
+ "evidence": [
+  "Data recovery and forensics: a corpus of about 12,000 golden examples rebuilt from a changing PostgreSQL database and a 13 GB SQLite backup, compared entry by entry.",
+  "Reproducible data pipelines: the centroid computation reverse-engineered from the stored centroids, so recovered data is derived the same way as the original.",
+  "ML data quality: alignment measured between passage medoids and mean question-and-answer embeddings, with phantom clusters that had no source text set aside."
+ ],
+ "technology_kind": "discipline",
+ "canonical": "https://coreyjames.ai/technologies/research-data-forensics/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/research-data-forensics"
+}

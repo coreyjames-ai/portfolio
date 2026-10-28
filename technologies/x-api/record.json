@@ -1,0 +1,36 @@
+{
+ "url": "https://coreyjames.ai/technologies/x-api/",
+ "kind": "technology",
+ "title": "X API",
+ "subtitle": "An in-house X integration where one service owns the rate limit, the monthly budget and the send log, and never re-sends an action whose outcome is unknown.",
+ "systems": [
+  "fafohive"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "36",
+   "label": "tools in the integration"
+  },
+  {
+   "value": "21",
+   "label": "reading and analysis tools"
+  },
+  {
+   "value": "15",
+   "label": "action tools, each with an inverse"
+  }
+ ],
+ "lede": "FAFOHive needed an X integration that AI agents could use for research and replies without burning a metered budget or posting twice. I built it behind the same governed tool gateway as every other tool, with the same identity, attribution and audit, on two programmatic routes: the official X API v2, and a third-party X data API that costs less for public research. A third route, the operator's own signed-in session, covers actions the official API does not allow here. The official API goes through an allow-listed transport with OAuth 2.0 and PKCE for user context, and its Activity webhooks are checked before ingestion. Routing is fixed per action, chosen from measured platform behaviour.",
+ "quote": "A duplicated public post is worse than a missing one.",
+ "evidence": [
+  "Tool synthesis and governed API integration: an X integration of 36 tools, 21 for reading and 15 for actions, with read and act on separately authorised endpoints.",
+  "Rate limiting and budget control: one service owns the rate limit, a monthly budget with reservations and a durable send log, and every result states its cost.",
+  "Exactly-once delivery: every write read back, and a write whose outcome is unknown never resent automatically."
+ ],
+ "technology_kind": "platform",
+ "canonical": "https://coreyjames.ai/technologies/x-api/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/x-api"
+}

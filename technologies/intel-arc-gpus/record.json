@@ -1,0 +1,39 @@
+{
+ "url": "https://coreyjames.ai/technologies/intel-arc-gpus/",
+ "kind": "technology",
+ "title": "Intel Arc GPUs",
+ "subtitle": "An Intel Arc Pro GPU is ActiveKV's home: a 27B model serving 128,000-token histories on one 32 GB card, kernel patches on a new architecture, and a published quantization built for it.",
+ "systems": [
+  "activekv",
+  "capabilities-model",
+  "helix"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "4",
+   "label": "patches to Intel's own kernel sources, each with identical outputs"
+  },
+  {
+   "value": "~36%",
+   "label": "more sustained throughput, all-4-bit against a mixed 4-bit and 8-bit control"
+  },
+  {
+   "value": "3.33%",
+   "label": "higher perplexity paid for that throughput, eight-document diagnostic set"
+  }
+ ],
+ "lede": "ActiveKV: I wanted a 27B hybrid model to serve long contexts on one 32 GB card. On a 32 GB Intel Arc Pro GPU the key-value cache was the wall, and I chose to make that card the target and fix the stack where it fell short. ActiveKV keeps attention history in pinned host memory and gives the card a bounded working set, so a 4-bit-weight build of a 27-billion-parameter hybrid recurrent-attention open-weight model serves histories from 32K tokens upward on a single card.",
+ "quote": "Every kernel patch had to produce identical outputs before I took any speed from it.",
+ "evidence": [
+  "Intel GPU and SYCL/oneAPI engineering: Intel kernel sources patched on Xe2 with identical outputs, cold 32K-token prefill cut from 21.54 s to 17.23 s and recurrent prefill from 53.8 to 27.4 ms per chunk.",
+  "LLM quantization (4-bit): a calibration-free W4A16 build taking a 27B hybrid model from 55.6 GB to 20.6 GB for one 32 GB card, about 36% more throughput for 3.33% higher perplexity.",
+  "GPU inference optimisation: an 8,000-token request at 3.68 s to first token and 43.3 ms per token, against 4.71 s and 45.3 ms for stock vLLM on the same Intel Arc Pro card.",
+  "Profiling methodology: a trace conclusion about copy and compute overlap retracted after a controlled experiment showed the timing events themselves serialised the copy engine."
+ ],
+ "technology_kind": "hardware",
+ "canonical": "https://coreyjames.ai/technologies/intel-arc-gpus/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/intel-arc-gpus"
+}

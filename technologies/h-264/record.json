@@ -1,0 +1,23 @@
+{
+ "url": "https://coreyjames.ai/technologies/h-264/",
+ "kind": "technology",
+ "title": "H.264",
+ "subtitle": "H.264 framing from a headless Linux desktop to the Windows media bridge, so an AI meeting attendee can share a terminal or browser as it works.",
+ "systems": [
+  "helix"
+ ],
+ "technologies": [],
+ "stats": [],
+ "lede": "Helix puts a digital employee in Teams meetings, and people wanted to watch it work: a browser page it was reading, a terminal it was typing into. I decided the employee would share a real screen through Teams' own screen-sharing path, with H.264 as the video format end to end. A headless Linux desktop (virtual display, window manager, Chromium, terminal) is captured and encoded by FFmpeg as an H.264 elementary stream. The employee can share a browser, a terminal or the whole desktop, and stop cleanly. Terminal text is typed at a pace people can follow, faster for long outputs so large updates finish.",
+ "quote": "I picked a low frame rate on purpose, because the content is text and the bandwidth is better spent on sharpness.",
+ "evidence": [
+  "Microsoft Teams real-time media: an AI participant sharing a browser, terminal or desktop into Teams as H.264 over the existing authenticated meeting connection.",
+  "Binary wire protocol design: a small frame contract carrying one H.264 access unit per frame between a Rust voice engine and a C# media bridge, cut on access-unit boundaries.",
+  "Video encoding for legibility: a low frame rate and stream headers repeated at every keyframe, so a late joiner or reconnected bridge starts decoding within a couple of seconds."
+ ],
+ "technology_kind": "protocol",
+ "canonical": "https://coreyjames.ai/technologies/h-264/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/h-264"
+}

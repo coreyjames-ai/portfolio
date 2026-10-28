@@ -1,0 +1,37 @@
+{
+ "url": "https://coreyjames.ai/technologies/webhook-ingestion-and-verification/",
+ "kind": "technology",
+ "title": "Webhook ingestion and verification",
+ "subtitle": "Inbound vendor events are signature-checked, batched durably and delivered to the team that caused them, in the gateway and in the in-house social integrations.",
+ "systems": [
+  "fafohive",
+  "fafo-core"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "300 s",
+   "label": "replay window on every signed delivery"
+  },
+  {
+   "value": "6",
+   "label": "attempts at most, at widening intervals, on network and server errors only"
+  },
+  {
+   "value": "5 min",
+   "label": "between checks for events left unanswered past their deadline"
+  }
+ ],
+ "lede": "FAFOHive receives webhooks in two event planes, and I set the same three rules for both: check the signature over the untouched body, store before acknowledging, and keep event redelivery separate from action repetition. Signatures are checked over raw bytes, because re-serialised JSON no longer matches. Events may be redelivered; payment and social actions are never repeated. The platforms define their webhook formats; the receivers, the shared contract, the listener and the delivery semantics are mine. FAFO Core and Function Forge has a sibling platform that puts third-party APIs behind generic MCP servers, and webhook ingestion keeps its local copy of each vendor's data current between calls.",
+ "quote": "An unanswered event escalates on a timer, so \"answer every customer\" is something the system checks.",
+ "evidence": [
+  "Webhook ingestion and verification: signatures checked over the raw body before parsing, events stored before acknowledging, redelivery kept apart from action repetition.",
+  "Message signing and replay protection: a shared HMAC contract with a 300 s replay window and two secret slots for rotation.",
+  "Reliable delivery: retries at widening intervals up to 6 attempts on network and server errors only, and breach events every 5 min for anything unanswered past its deadline."
+ ],
+ "technology_kind": "discipline",
+ "canonical": "https://coreyjames.ai/technologies/webhook-ingestion-and-verification/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/webhook-ingestion-and-verification"
+}

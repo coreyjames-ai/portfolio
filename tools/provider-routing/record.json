@@ -1,0 +1,23 @@
+{
+ "url": "https://coreyjames.ai/tools/provider-routing/",
+ "kind": "tool-group",
+ "title": "Provider routing",
+ "subtitle": "",
+ "systems": [
+  "fafohive",
+  "agentos"
+ ],
+ "technologies": [],
+ "stats": [],
+ "lede": "When an agent team builds a business, the providers that business uses start talking back: a customer pays, an email is answered, a post gets a comment. Those events have to reach the team that caused them, and a website the team deploys has to call the providers under that team's name. I built three small tools for that wiring. None of them takes a work order as input. The work order, its team lead and its execution come from the caller's identity, so an agent can only wire its own work. register provider inbox sends the provider events that belong to the current work order to its team lead's mailbox.",
+ "quote": "",
+ "evidence": [
+  "Event routing for agent teams: 3 tools wire a work order's provider events to its team lead's mailbox, bind the team's website to its provider connections, and route inbound email to the team.",
+  "Identity-derived authorization: none of the tools takes a work order as input; the work order comes from the caller's identity, so an agent can only wire its own work."
+ ],
+ "tool_count": 3,
+ "canonical": "https://coreyjames.ai/tools/provider-routing/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/tools/provider-routing"
+}

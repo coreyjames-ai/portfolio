@@ -1,0 +1,38 @@
+{
+ "url": "https://coreyjames.ai/technologies/fastapi/",
+ "kind": "technology",
+ "title": "FastAPI",
+ "subtitle": "The OAuth authorization server and the earlier Python dispatch layer are FastAPI.",
+ "systems": [
+  "auth-and-access-plane",
+  "fafo-core"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "4",
+   "label": "Uvicorn workers on uvloop behind NGINX"
+  },
+  {
+   "value": "3",
+   "label": "vendors' assistants authenticating against one server"
+  },
+  {
+   "value": "2",
+   "label": "FastAPI apps: the authorization server and the operator console"
+  }
+ ],
+ "lede": "Auth and access plane exists because I wanted commercial AI assistants to reach my private tool estate through standard OAuth, with a person approving every grant. I built the authorization server as a FastAPI application. Access tokens are RS256-signed JWTs. I put TLS, rate limits and process sandboxing in NGINX and systemd, so the front end protects the application independently of the application's own code. Most of the effort went into interoperability, which is where the real work in OAuth for AI assistants lies. Each vendor reads discovery documents its own way, orders consent differently and caches its client identity differently, and it took a long series of fixes before every vendor's assistant authenticated against one server.",
+ "quote": "I made the consent screen the control point, because it is the one place a person sees exactly which client is asking for exactly what.",
+ "evidence": [
+  "OAuth and identity architecture: a FastAPI authorization server with PKCE, consent, token, revocation, key set and discovery endpoints and RS256-signed JWTs, 4 Uvicorn workers behind NGINX.",
+  "Interoperability engineering: 3 vendors' AI assistants authenticating against one server despite reading discovery, ordering consent and caching client identity differently.",
+  "Application security hardening: generated API documentation turned off on the operator console, the health endpoint cut to a bare status, and a registration lock reverted when it broke every client.",
+  "Prototyping to Rust systems engineering: a FastAPI dispatch service proved the idea and was rebuilt in Rust as a control plane, admission controller and gateway."
+ ],
+ "technology_kind": "framework",
+ "canonical": "https://coreyjames.ai/technologies/fastapi/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/fastapi"
+}

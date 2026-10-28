@@ -1,0 +1,27 @@
+{
+ "url": "https://coreyjames.ai/technologies/handlebars/",
+ "kind": "technology",
+ "title": "Handlebars",
+ "subtitle": "Handlebars templates drive the function generator's fourteen-file output.",
+ "systems": [
+  "fafo-core"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "7 of 14",
+   "label": "function crates in the estate carry the generator's fingerprints"
+  }
+ ],
+ "lede": "FAFO Core and Function Forge had a gap I wanted closed: agents could call tools but could not add one, and every new capability meant a person wiring a crate into the gateway, the orchestrator and the result path by hand. I built Function Forge, a generator that lets an agent author a new function, and Handlebars is its template engine. The generator is a Rust crate exposed as an MCP (Model Context Protocol) tool. From one function specification (name, parameters, data source, flags) it renders a crate. One flag reshapes the generated code for a function that submits GPU inference work and exits, with routing by model id enforced.",
+ "quote": "Templates own everything structural and authors write only inside a bounded zone, which keeps agent-written code inside the platform's write-path architecture.",
+ "evidence": [
+  "Code generation and metaprogramming: a Rust generator exposed as an MCP tool that renders a function crate from one specification, with fixed framework files and a sandboxed developer zone.",
+  "Tool synthesis under governance: one operation that wires gateway, control plane and completion service with rollback and link-time registration; 7 of 14 function crates carry the generator's fingerprints."
+ ],
+ "technology_kind": "framework",
+ "canonical": "https://coreyjames.ai/technologies/handlebars/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/handlebars"
+}

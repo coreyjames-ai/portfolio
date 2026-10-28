@@ -1,0 +1,44 @@
+{
+ "url": "https://coreyjames.ai/technologies/admission-control-and-rate-limiting/",
+ "kind": "technology",
+ "title": "Admission control and rate limiting",
+ "subtitle": "Every surface I expose has a stated limit and a typed refusal.",
+ "systems": [
+  "fafo-core",
+  "postgresql-fabric",
+  "fafohive",
+  "capabilities-model"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "3 modes",
+   "label": "for every admission limit, so a new one is watched before it refuses"
+  },
+  {
+   "value": "3",
+   "label": "processes, agent calls, a scheduler and a poller, on one account-wide X limit"
+  },
+  {
+   "value": "60%",
+   "label": "platform usage past which the Facebook poller skips its run"
+  },
+  {
+   "value": "0",
+   "label": "daily caps of my own on the social modules"
+  }
+ ],
+ "lede": "I built admission control into the memory service, the execution substrate's admission controller and a GPU decoder that refuses with a number rather than queueing silently. I decide where a limit sits by asking what the protected resource actually runs out of. FAFO Core and Function Forge lets agents call database-heavy functions over MCP, and agents submit as much work as you let them. The database has a fixed number of connections, a fixed write budget and fixed I/O, and the operations behind those functions range from zero-write reads to rewrites of a whole vector lattice. One request-per-second limit cannot fit that range.",
+ "quote": "A refusal carries a type and a number the caller can act on; a silent queue or a timeout gives the caller nothing.",
+ "evidence": [
+  "Database admission control: a Rust admission service that prices each request by its expected cost to the database, so heavy rewrites wait and cheap reads flow, with off, shadow and enforcing modes.",
+  "Rate limiting for third-party APIs: Redis buckets on the server's clock, reads refused when a rolling budget is spent and writes paced, never rejected; one service owning a limit shared by 3 processes.",
+  "API quota sharing: a Facebook module that returns the platform's usage headers with every tool result and skips background polls past 60 percent usage, leaving room for agents.",
+  "Backpressure with typed refusal: a GPU tool-discovery decoder that admits work against measured free memory beside a serving model and answers a full engine with a typed busy response and a retry hint."
+ ],
+ "technology_kind": "discipline",
+ "canonical": "https://coreyjames.ai/technologies/admission-control-and-rate-limiting/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/admission-control-and-rate-limiting"
+}

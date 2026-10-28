@@ -1,0 +1,40 @@
+{
+ "url": "https://coreyjames.ai/technologies/ml-evaluation-methodology/",
+ "kind": "technology",
+ "title": "ML evaluation methodology",
+ "subtitle": "Frozen evaluation sets, pre-registered targets, known-answer controls, a list of results never to quote, and a baseline built to beat me. It tied, and the tie is what I publish.",
+ "systems": [
+  "capabilities-model"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "41,990",
+   "label": "tokens of tool catalog the model replaces"
+  },
+  {
+   "value": "15",
+   "label": "buried-request probes"
+  },
+  {
+   "value": "5",
+   "label": "embedding models in the bake-off"
+  },
+  {
+   "value": "4 arms",
+   "label": "crossed over across two cards to attribute a throughput gain"
+  }
+ ],
+ "lede": "Capabilities model replaces a whole tool catalog with one discovery tool backed by a fine-tuned 0.6-billion-parameter open-weight base model. A model like that is only worth publishing if its evaluation can catch it being wrong, so I built the evaluation as an instrument with fixed rules before any result came in. Its core is a frozen pair: a held-out query set and a set of long probes in which the needed tool is buried deep inside a verbose request. Nothing about the instrument could move to help the model. Every comparison is like for like, and I keep a written list of results that must not be quoted, with the reason beside each.",
+ "quote": "Known-answer controls run inside the harness so it can catch the team as readily as the model.",
+ "evidence": [
+  "ML evaluation methodology: a frozen held-out set and 15 buried-request probes fixed before any result, with known-answer controls that stopped the whole matrix when one failed.",
+  "Baseline engineering: a dense and BM25 fusion baseline with every constant swept and an embedder chosen from 5 in a bake-off, which tied the fine-tuned model.",
+  "Reporting negative results: published 0.67 against 0.90 recall on buried requests and 6.9 against a 200 requests-a-second serving target."
+ ],
+ "technology_kind": "discipline",
+ "canonical": "https://coreyjames.ai/technologies/ml-evaluation-methodology/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/ml-evaluation-methodology"
+}

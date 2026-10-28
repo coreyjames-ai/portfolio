@@ -1,0 +1,35 @@
+{
+ "url": "https://coreyjames.ai/technologies/systemd/",
+ "kind": "technology",
+ "title": "systemd",
+ "subtitle": "Every service in my estate that stays up is a locked-down systemd unit; the agent runtime, the credential service and the governance watcher among them.",
+ "systems": [
+  "auth-and-access-plane",
+  "agentos",
+  "inference-fabric",
+  "fafohive"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "1 min",
+   "label": "timer cadence for container cleanup"
+  },
+  {
+   "value": "2 min",
+   "label": "poller cadence in FAFOHive"
+  }
+ ],
+ "lede": "Auth and access plane holds the operations layer, and I wanted the fleet's behaviour fixed in configuration. A few dozen services sit under one stack target, with explicit ordering, and the unit files and an inventory are versioned with the code. PartOf cascades carry a dependency's restart through to its dependants, drop-ins make data-store clients wait for the network and declare cascade membership, and Docker-wrapped services are managed like native ones. Routine work such as container cleanup is a timer, visible and controllable on its own rather than a loop hidden in a script. The OAuth server faces the public, so its unit runs sandboxed.",
+ "quote": "I build services to be operated: declared dependencies, sandboxing on anything public, secrets handled by the init system and recurring work in the open.",
+ "evidence": [
+  "Linux service operations with systemd: a declared fleet under one stack target, with PartOf restart cascades and timers instead of hidden loops.",
+  "Sandboxing and container hardening: the public OAuth server's unit with no new privileges, a read-only system, a system-call filter and a memory limit, secrets through LoadCredential.",
+  "Inference serving architecture: pipeline services each restartable on its own, so one can be upgraded without draining the pipeline."
+ ],
+ "technology_kind": "platform",
+ "canonical": "https://coreyjames.ai/technologies/systemd/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/systemd"
+}

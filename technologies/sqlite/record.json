@@ -1,0 +1,22 @@
+{
+ "url": "https://coreyjames.ai/technologies/sqlite/",
+ "kind": "technology",
+ "title": "SQLite",
+ "subtitle": "SQLite gives each of FAFOHive's social and media modules durable, transactional state that one process owns.",
+ "systems": [
+  "fafohive"
+ ],
+ "technologies": [],
+ "stats": [],
+ "lede": "FAFOHive's in-house social modules each need durable, transactional state owned by one process, and I gave each its own SQLite database. Where one process owns the state, most concurrency turns into ordinary transactions. The X module keeps a work queue in SQLite and claims jobs inside BEGIN IMMEDIATE transactions, which take the write lock up front, so two workers never claim the same job after a scheduler restart. The Facebook module keeps an inventory of every object it creates, which gives cleanup and reconciliation an exact list. The Reddit module stores a receipt for every change and an archive of every response it reads, so a repeated request with the same idempotency key returns the first receipt.",
+ "quote": "I pick the smallest storage that gives a component its guarantee, and I design around the moment between sent and confirmed.",
+ "evidence": [
+  "Embedded database design with SQLite: one database per process-owned module, so work-queue claims, object inventories and idempotent receipts are ordinary transactions.",
+  "Exactly-once delivery and crash recovery: render-job identity written before sending, and an explicit outcome-unknown state settled by reading the renderer at startup, never resubmitted."
+ ],
+ "technology_kind": "datastore",
+ "canonical": "https://coreyjames.ai/technologies/sqlite/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/sqlite"
+}

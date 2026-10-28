@@ -1,0 +1,37 @@
+{
+ "url": "https://coreyjames.ai/technologies/approximate-nearest-neighbour-search/",
+ "kind": "technology",
+ "title": "Approximate nearest-neighbour search",
+ "subtitle": "I built exact, inverted-file and lattice nearest-neighbour search as GPU kernels with CPU references and equivalence tests, inside a vector store whose index builds are deterministic and whose search reports its own health.",
+ "systems": [
+  "inference-fabric"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "0.85",
+   "label": "IVF recall at 10 against exact search, the floor a CI test holds"
+  },
+  {
+   "value": "128",
+   "label": "largest k; cosine, dot product and L2 are entry points in one binary"
+  },
+  {
+   "value": "1e-4",
+   "label": "relative tolerance between each GPU executor and its CPU reference"
+  }
+ ],
+ "lede": "I write first-party GPU search when the available libraries cannot meet the platform, and I hold it to exact references and CI recall floors from the first kernel. Inference Fabric produced bulk embedding and hidden-state vectors that I wanted searched and analysed on the GPU where they were stored. The established GPU vector libraries gave me search and whole-dataset clustering, and could not reach the platform. I wrote the search myself: a CUDA engine driven from Rust through the raw CUDA Driver API, compiled for the NVIDIA Blackwell GPU generation. The exact kernel scores every vector against the query and never materialises a score matrix. All search families share one top-k engine.",
+ "quote": "Exact search is the reference that every approximate family is measured against in CI.",
+ "evidence": [
+  "Vector search and ANN indexes: exact, IVF-flat and lattice nearest-neighbour search as CUDA kernels driven from Rust through the Driver API, sharing one top-k engine whose ties break on position.",
+  "CUDA kernel development: an exact search kernel with one block of 256 threads per query streaming 16-row tiles through shared memory and writing only the top k, for k up to 128.",
+  "Numerical equivalence testing for GPU code: every executor checked against a CPU reference at a relative tolerance of 1e-4 and a CI test holding IVF recall at 10 at 0.85 against exact search.",
+  "Reproducible ML pipelines: IVF index builds that are bit-reproducible, seeded on the host outside floating-point reduction and rebuildable from their hashed inputs."
+ ],
+ "technology_kind": "discipline",
+ "canonical": "https://coreyjames.ai/technologies/approximate-nearest-neighbour-search/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/approximate-nearest-neighbour-search"
+}

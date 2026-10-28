@@ -1,0 +1,38 @@
+{
+ "url": "https://coreyjames.ai/ideas/tools-are-the-platform/",
+ "kind": "idea",
+ "title": "Tools are the platform",
+ "subtitle": "Build the safety machinery once, make it the only path, and let everything else be a declaration",
+ "systems": [
+  "agent-swarm",
+  "fafo-core",
+  "fafohive",
+  "capabilities-model"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "474",
+   "label": "tools behind one authenticated FAFOHive endpoint, under one trust model"
+  },
+  {
+   "value": "12",
+   "label": "steps in the frozen pipeline every Agent Swarm call passes"
+  },
+  {
+   "value": "~180",
+   "label": "gateway actions compiled from YAML schemas into dispatch"
+  }
+ ],
+ "lede": "An agent is only as capable as the tools it can reach and only as safe as the path those tools take. I decided that the path would be built once, that it would be the only path, and that adding capability would be a matter of declaring a tool rather than writing a service. Validation, authorisation, limits, sanitisation, audit and observation happen in one pipeline for every call. A tool contributes its core behaviour and nothing else. An agent class is a composition of a tool subset, a policy, a workspace and a profile. One frozen pipeline in a fixed order. Tools declared as data.",
+ "quote": "Exceptions are where the holes are.",
+ "evidence": [
+  "Tool synthesis and governed API integration: one frozen pipeline of 12 steps for every call, with tools declared as data and compiled into dispatch so a tool is fully wired or the build fails.",
+  "MCP server design: 474 tools behind one authenticated endpoint under one trust model, and ~180 gateway actions compiled from YAML schemas.",
+  "Declarative agent definition: tools and personas defined as declarations, with hash-pinned catalogs so every host runs the same approved set."
+ ],
+ "canonical": "https://coreyjames.ai/ideas/tools-are-the-platform/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/research/ideas/tools-are-the-platform"
+}

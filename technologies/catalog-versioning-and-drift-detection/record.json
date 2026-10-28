@@ -1,0 +1,24 @@
+{
+ "url": "https://coreyjames.ai/technologies/catalog-versioning-and-drift-detection/",
+ "kind": "technology",
+ "title": "Catalog versioning and drift detection",
+ "subtitle": "Every host in my agent fleet runs the same approved tool catalog, verified by content hash, with drift detection that falls back from notifications to polling under measured thresholds and never flaps.",
+ "systems": [
+  "agent-swarm",
+  "capabilities-model"
+ ],
+ "technologies": [],
+ "stats": [],
+ "lede": "I treat agent configuration with the same consistency engineering as replicated data. Agent Swarm changes personas and tools while agents run on several hosts, and I saw two ways that goes wrong: hosts silently diverge, and an old agent binds to a retired tool. I started with a catalog version that means the same thing everywhere. Hot-reload actions on the persona launcher apply a new catalog without a restart, and no tool enters the catalog without its golden and attack fixtures. The approach is told in Tools are the platform.",
+ "quote": "Evaluation inputs are frozen by fingerprint, which ties every measurement to the exact catalog it ran against.",
+ "evidence": [
+  "Configuration drift detection: every host's tool catalog checked every 30 s against a SHA-256 content hash held in PostgreSQL and swapped atomically in process on a sustained mismatch.",
+  "Event-driven change propagation: PostgreSQL LISTEN/NOTIFY with a fallback to polling past backlog and lag thresholds, and lower return thresholds with a hold so hosts never flap.",
+  "ML evaluation methodology: an evaluation catalog frozen under a checksum after it drifted under a baseline, with the affected measurements re-run against the frozen version."
+ ],
+ "technology_kind": "discipline",
+ "canonical": "https://coreyjames.ai/technologies/catalog-versioning-and-drift-detection/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/catalog-versioning-and-drift-detection"
+}

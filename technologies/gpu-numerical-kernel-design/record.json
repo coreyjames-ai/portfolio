@@ -1,0 +1,41 @@
+{
+ "url": "https://coreyjames.ai/technologies/gpu-numerical-kernel-design/",
+ "kind": "technology",
+ "title": "GPU numerical kernel design",
+ "subtitle": "Kernels with fixed-order reductions, one block per output row, no K-split tiling: determinism by construction.",
+ "systems": [
+  "inference-fabric",
+  "capabilities-model"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "38",
+   "label": "per-cluster metrics, every family with a CPU reference"
+  },
+  {
+   "value": "12 of 12",
+   "label": "bit-identity gates across batch compositions in the decoder"
+  },
+  {
+   "value": "256",
+   "label": "bins in the histogram that yields each Gaussian width"
+  },
+  {
+   "value": "3",
+   "label": "Lloyd iterations, fixed into the silhouette's definition"
+  }
+ ],
+ "lede": "Inference Fabric stores clustered embeddings, and a clustered embedding space needs constant quality checks: is a cluster tight, drifting, bimodal, contaminated by outliers, redundant with a neighbour? The GPU libraries I had offered search and whole-dataset clustering, with no per-cluster diagnostics, and none targeted CUDA 13 on Blackwell from Rust. I decided to write the kernels, and I set their numerical rules before any were written. The engine is called through the raw CUDA driver API and compiled to native Blackwell binaries. It targets Blackwell only and computes in f32 with no tensor-core path. Its per-cluster metrics fall into a few families.",
+ "quote": "I left diagnostics unclamped, because a metric forced into range hides the failure it exists to catch.",
+ "evidence": [
+  "CUDA kernel development: 38 per-cluster metrics in five families for Blackwell, called from Rust through the raw CUDA driver API, with every member used and nothing sampled.",
+  "Numerical stability in f32: Welford updates per thread with Chan merges across warps, a 256-bin histogram median, and every family checked against a CPU twin within a relative 1e-4.",
+  "Deterministic GPU computation: one block per output row, fixed shuffle trees and no K-split tiling, passing 12 of 12 bit-identity gates across batch compositions."
+ ],
+ "technology_kind": "discipline",
+ "canonical": "https://coreyjames.ai/technologies/gpu-numerical-kernel-design/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/gpu-numerical-kernel-design"
+}

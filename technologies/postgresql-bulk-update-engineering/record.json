@@ -1,0 +1,38 @@
+{
+ "url": "https://coreyjames.ai/technologies/postgresql-bulk-update-engineering/",
+ "kind": "technology",
+ "title": "PostgreSQL bulk-update engineering",
+ "subtitle": "Statement shape, batch width and index cost, each judged by what the database actually does with a write.",
+ "systems": [
+  "postgresql-fabric",
+  "fafo-core",
+  "inference-fabric"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "3.4M",
+   "label": "items in one write-back run"
+  },
+  {
+   "value": "65,535",
+   "label": "bind parameters, the ceiling no batch reaches"
+  },
+  {
+   "value": "~400 GB",
+   "label": "of never-scanned vector indexes dropped"
+  }
+ ],
+ "lede": "My research pipeline writes millions of rows back to PostgreSQL through one service, and the shape of each statement decides whether that service keeps up. The work lives in the write path of FAFO Core and Function Forge and serves the Inference Fabric's completion side. Bulk updates bind each column as one array and unnest the arrays into a row set joined to the target on its key. The parameter count then equals the column count whatever the row count, which keeps every batch under PostgreSQL's bind-parameter limit, and the planner joins directly instead of materialising a derived table. The run that proved it is told in Twenty thousand rows a second.",
+ "quote": "Throughput is measured from the database's own tuple and commit counters, never from queue length, because one queue message can be thousands of rows or none.",
+ "evidence": [
+  "PostgreSQL performance tuning: array-bound unnest updates whose parameter count equals the column count, under the 65,535 bind-parameter limit, from more than 25 s a batch to about 0.3 s.",
+  "High-volume database write paths: a 3.4M-item write-back run moved from about 1,350 rows a batch to 3,276 rows, with batch width derived from the payload's own width.",
+  "Index cost engineering: about 400 GB of never-scanned vector indexes dropped from the write path, and a missing unique index added after sequential-scan counts pointed to it."
+ ],
+ "technology_kind": "discipline",
+ "canonical": "https://coreyjames.ai/technologies/postgresql-bulk-update-engineering/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/postgresql-bulk-update-engineering"
+}

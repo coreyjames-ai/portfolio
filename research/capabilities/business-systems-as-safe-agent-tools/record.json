@@ -1,0 +1,39 @@
+{
+ "url": "https://coreyjames.ai/capabilities/business-systems-as-safe-agent-tools/",
+ "kind": "capability",
+ "title": "Business systems as safe agent tools",
+ "subtitle": "Agents acting on payments, email, social platforms and private APIs without holding a key, with every action attributed",
+ "systems": [
+  "fafohive",
+  "fafo-core",
+  "auth-and-access-plane"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "0",
+   "label": "provider keys held by any agent; every credential stays server-side"
+  },
+  {
+   "value": "7 of 14",
+   "label": "function crates in the estate carry the tool generator's fingerprints"
+  },
+  {
+   "value": "1 person",
+   "label": "approves every grant an outside assistant receives, on the consent screen"
+  }
+ ],
+ "lede": "Agents that do real work against real services need credentials, and the moment one holds a credential there is a key in a transcript, actions nobody can attribute, and a crash window where a charge is doubled or lost. I built a governed gateway that exposes provider tools, each rebuilt from the provider's API, to managed agents, with credentials held server-side and identity derived from the authenticated caller, so no tool argument can claim to be someone else. Start with Agents with real tools and no keys.",
+ "quote": "Attribution that might be silently dropped is worse than none.",
+ "evidence": [
+  "Tool synthesis and governed API integration: payments, email and social-publishing provider APIs rebuilt as agent tools behind one gateway, with 0 provider keys held by any agent.",
+  "Exactly-once delivery and crash recovery: durable accounting around every provider call so a restart never repeats it, and vendor events returned signed to the team that caused them.",
+  "Attribution design for agent actions: a per-provider capability table that writes attribution into a vendor payload only where that operation was shown to round-trip it.",
+  "Sandboxed code generation for agents: a generator emitting 8 framework and 6 sandboxed files per tool, callable only after a human restart, with 7 of 14 function crates carrying its fingerprints.",
+  "OAuth 2.0 and identity architecture: an access plane where 1 person approves every grant an outside assistant receives, on the consent screen."
+ ],
+ "canonical": "https://coreyjames.ai/capabilities/business-systems-as-safe-agent-tools/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/research/capabilities/business-systems-as-safe-agent-tools"
+}

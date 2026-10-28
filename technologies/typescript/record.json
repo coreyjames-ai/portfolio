@@ -1,0 +1,42 @@
+{
+ "url": "https://coreyjames.ai/technologies/typescript/",
+ "kind": "technology",
+ "title": "TypeScript",
+ "subtitle": "TypeScript builds the meeting-stage app, the relay between Teams and my agent, the public site runtime, and the in-house social integrations.",
+ "systems": [
+  "auth-and-access-plane",
+  "helix",
+  "fafohive"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "16,200",
+   "label": "lines in the weather-intelligence MCP server"
+  },
+  {
+   "value": "9",
+   "label": "public data-service clients behind both surfaces"
+  },
+  {
+   "value": "12,400",
+   "label": "lines of TypeScript plugins on an unmodified chat server"
+  },
+  {
+   "value": "6,500",
+   "label": "lines in the vendor event intake, tests and migrations included"
+  }
+ ],
+ "lede": "Auth and access plane includes a product I built to learn what an enterprise agent platform needs from an MCP server: a weather-intelligence server on Express 5 and the official MCP TypeScript SDK. I gave it two surfaces. Desktop assistants get the full set over the local stdio transport; Microsoft Copilot Studio gets a trimmed set over Streamable HTTP, with the session header its connector expects, because that platform copes poorly with large catalogs. I later ported it to C# on the official .NET MCP SDK. Helix needed to live inside the tools people already use. I wrote a Teams admin tab in React and Fluent UI so an administrator manages the digital employee from inside Teams.",
+ "quote": "Building the same server on two official SDKs showed me which decisions were mine and which were the SDK's.",
+ "evidence": [
+  "MCP server design: a 16,200-line TypeScript weather-intelligence MCP server, the full tool set over stdio and a trimmed set over Streamable HTTP for Copilot Studio.",
+  "Event ingestion and idempotency: a 6,500-line vendor event intake that checks signatures over raw bytes, stores before acknowledging and delivers each keyed batch once.",
+  "Platform extension without forking: 12,400 lines of TypeScript plugins on an unmodified open-source team chat server."
+ ],
+ "technology_kind": "language",
+ "canonical": "https://coreyjames.ai/technologies/typescript/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/typescript"
+}

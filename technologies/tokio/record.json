@@ -1,0 +1,28 @@
+{
+ "url": "https://coreyjames.ai/technologies/tokio/",
+ "kind": "technology",
+ "title": "Tokio",
+ "subtitle": "Tokio is under every Rust service I run. Where the hot path is small, as in the broker's dispatch loop, I keep it synchronous on purpose and say why.",
+ "systems": [
+  "fafo-core",
+  "agent-swarm",
+  "helix",
+  "fafohive",
+  "agentos",
+  "inference-fabric"
+ ],
+ "technologies": [],
+ "stats": [],
+ "lede": "FAFO Core and Function Forge accepts commands such as pause, scale and drain while jobs run on GPUs, and I knew that combination breeds stuck workers and lock-order deadlocks. I built the conductor on Tokio with two rules. Each worker handle aborts its task when dropped, so a worker cancelled mid-flight releases its GPU memory without every code path having to clean up. The conductor's locks follow an acquisition order written in the code beside them. Agent Swarm needed agent actions to become searchable observations without a polling loop. I wrote a future that pumps PostgreSQL LISTEN/NOTIFY notifications from a dedicated TLS connection and feeds them to the promotion worker. Every service crate runs a multi-threaded Tokio runtime.",
+ "quote": "I use an async runtime as an architectural tool: I design cancellation, backpressure and lock order up front, and I know where to leave it out.",
+ "evidence": [
+  "Rust systems engineering: async services on Tokio with worker handles that abort on drop, so a cancelled GPU worker releases its memory.",
+  "Concurrency design: lock acquisition order written beside the locks, backpressure drainers, and push-to-poll fallback when queues saturate.",
+  "Low-latency system design: the broker's dispatch path kept off the async runtime as a single-owner actor on blocking threads."
+ ],
+ "technology_kind": "framework",
+ "canonical": "https://coreyjames.ai/technologies/tokio/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/tokio"
+}

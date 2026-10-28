@@ -1,0 +1,29 @@
+{
+ "url": "https://coreyjames.ai/technologies/redis/",
+ "kind": "technology",
+ "title": "Redis",
+ "subtitle": "Redis Streams carry my execution substrate's command bus with Lua-atomic job promotion, the agent runtime's messaging, and the write-behind queue. Topology is explicit and documented.",
+ "systems": [
+  "fafo-core",
+  "agent-swarm",
+  "agentos",
+  "fafohive",
+  "auth-and-access-plane",
+  "inference-fabric",
+  "postgresql-fabric"
+ ],
+ "technologies": [],
+ "stats": [],
+ "lede": "FAFO Core and Function Forge needed a backbone for job state and real-time control that could take bursts, and I put it on Redis. Each function has pending, processing and dead-letter queues and per-job state keys, and multi-step state changes run as server-side Lua, so each is atomic in one round trip. Control commands travel on a Redis stream read by a consumer group, with a separate high-priority stream so a pause or drain never waits behind bulk traffic. Container port ranges are leased with set-if-absent keys, and cloud GPU spend is counted per second in Redis and persisted to PostgreSQL. The API integration platform runs on a stock Redis 8 with append-only and snapshot persistence.",
+ "quote": "I treat Redis as a component with chosen semantics.",
+ "evidence": [
+  "Redis Streams and queue design: a command bus on consumer groups with a separate high-priority stream so pause and drain never wait behind bulk traffic, and job promotion as atomic Lua.",
+  "Reliable message delivery and crash recovery: agent inboxes on consumer groups that reclaim unacknowledged messages after a fence and set poison messages aside.",
+  "Data store failure-mode design: Redis instances split by role, caches that evict and a write-behind queue with eviction off that refuses work rather than drop a write."
+ ],
+ "technology_kind": "datastore",
+ "canonical": "https://coreyjames.ai/technologies/redis/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/redis"
+}

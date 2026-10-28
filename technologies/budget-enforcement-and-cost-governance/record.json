@@ -1,0 +1,46 @@
+{
+ "url": "https://coreyjames.ai/technologies/budget-enforcement-and-cost-governance/",
+ "kind": "technology",
+ "title": "Budget enforcement and cost governance",
+ "subtitle": "Spend is a first-class control in my substrate: a fail-closed daily budget on GPU provisioning that agents cannot raise from inside the provisioning path, per-second accounting, and cost attributed to the work order that spent it.",
+ "systems": [
+  "fafo-core",
+  "inference-fabric",
+  "agent-swarm",
+  "helix",
+  "fafohive",
+  "agentos"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "$0",
+   "label": "the cap on any day with no budget set"
+  },
+  {
+   "value": "1/100 ¢",
+   "label": "the precision of per-second spend accounting"
+  },
+  {
+   "value": "10 s",
+   "label": "between updates of per-container, per-schema and global spend"
+  },
+  {
+   "value": "30 s",
+   "label": "between health passes that stop paid containers at the cap"
+  }
+ ],
+ "lede": "I build spend control into the path that spends, and I keep its key in human hands. Rented capacity and metered APIs get hard gates; model usage inside governed work gets attribution. Agents on FAFO Core and Function Forge can stand up GPU capacity, and a rented GPU bills from power-on whether anyone remembers it or not. I decided the spending limit would live inside the provisioning path, and that its only key would be a person at a terminal. The limit is a daily dollar cap on the operator's calendar. A day runs from local midnight to local midnight in a timezone stored once, so every host computes the same day.",
+ "quote": "I kept projections out of the check because an exact rule is easier to trust.",
+ "evidence": [
+  "Cost governance for cloud GPUs: a fail-closed daily cap checked before any port, container or cloud call, set only by a person at a terminal, and a cap of $0 on any day without a budget.",
+  "Real-time spend accounting: per-second cost to a hundredth of a cent from the provider's confirmation, updated every 10 s in Redis, recomputed under a lock in Lua, paid containers stopped by a 30 s pass.",
+  "API budget enforcement: units reserved before each call against a monthly budget and reconciled with the vendor's usage figures, warning at 80 percent and refusing at 100.",
+  "Cost attribution for AI work: model usage split into token classes, priced against a public model-price catalog and attributed to the work order, role, persona, runtime and model that spent it."
+ ],
+ "technology_kind": "discipline",
+ "canonical": "https://coreyjames.ai/technologies/budget-enforcement-and-cost-governance/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/budget-enforcement-and-cost-governance"
+}

@@ -1,0 +1,24 @@
+{
+ "url": "https://coreyjames.ai/technologies/nginx/",
+ "kind": "technology",
+ "title": "NGINX",
+ "subtitle": "NGINX fronts the OAuth server and the estate's other web services with TLS and rate limits, ahead of any application code.",
+ "systems": [
+  "auth-and-access-plane",
+  "fafohive"
+ ],
+ "technologies": [],
+ "stats": [],
+ "lede": "Auth and access plane needed the OAuth server and the estate's other web services protected in a way that does not depend on each application getting security right. I put NGINX in front of them and the service sandbox behind them. Requests arrive through outbound Cloudflare Tunnel connections, which leaves no open inbound port anywhere in the estate. Behind NGINX, the OAuth server runs under a locked-down systemd unit, so a flaw in the application still runs without new privileges on a read-only system. The OAuth server's proxy configuration lives in version control beside its source, so a proxy change travels with the code it protects.",
+ "quote": "I use NGINX as a deliberate security and traffic-shaping layer and put each control where it is cheapest and hardest to bypass.",
+ "evidence": [
+  "Reverse proxy security hardening: NGINX in front of an OAuth server with TLS, HSTS preload, security headers and per-zone rate limits, chosen over an application limiter so abuse is turned away before parsing.",
+  "Zero-trust and zero-inbound networking: requests arriving only through outbound tunnels with no open inbound port, and operator control surfaces denied to every outside request at the proxy.",
+  "Service sandboxing with systemd: a locked-down unit behind the proxy with no new privileges and a read-only system, and credentials delivered through systemd's credential mechanism."
+ ],
+ "technology_kind": "platform",
+ "canonical": "https://coreyjames.ai/technologies/nginx/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/nginx"
+}

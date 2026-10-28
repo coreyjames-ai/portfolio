@@ -1,0 +1,36 @@
+{
+ "url": "https://coreyjames.ai/technologies/microsoft-agent-365/",
+ "kind": "technology",
+ "title": "Microsoft Agent 365",
+ "subtitle": "I provisioned a governed digital employee under Microsoft's Agent 365, and built the MCP server through which any model acts in a meeting as that specific employee.",
+ "systems": [
+  "helix"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "24",
+   "label": "tools across identity, meetings, documents and grounding"
+  },
+  {
+   "value": "≈11,000",
+   "label": "lines of Rust in the meeting action server"
+  },
+  {
+   "value": "3",
+   "label": "Microsoft principals composed into one employee"
+  }
+ ],
+ "lede": "Microsoft's Agent 365 lets an organisation give an AI a real identity in its tenant: an Entra Agent ID blueprint and an agent user with its own mailbox, Teams presence and licence. For Helix, making that identity do things turned out to involve three Microsoft principals, combinations the platform rejects, and preview behaviour the documentation did not cover. I decided to probe the real tenant, keep the wire traffic, and build only on the paths that worked. I provisioned the employee with Microsoft's tooling and configured it on their platform; what I built is everything that lets it act. The tenant installer is a set of portable shell scripts over Microsoft Graph. A half-configured identity never gets provisioned.",
+ "quote": "An identity layer that spoofs is no identity layer.",
+ "evidence": [
+  "Identity for AI agents in Microsoft 365 and Entra: a digital employee under Agent 365 composed from 3 Microsoft principals.",
+  "MCP server design: about 11,000 lines of Rust with 24 tools through which any model acts in a meeting as one named employee without holding a token.",
+  "Tenant provisioning automation: an installer that stops with a named reason rather than provision a half-configured identity."
+ ],
+ "technology_kind": "platform",
+ "canonical": "https://coreyjames.ai/technologies/microsoft-agent-365/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/microsoft-agent-365"
+}

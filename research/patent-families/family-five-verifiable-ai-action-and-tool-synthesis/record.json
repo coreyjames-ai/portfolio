@@ -1,0 +1,43 @@
+{
+ "url": "https://coreyjames.ai/research/family-five-verifiable-ai-action-and-tool-synthesis/",
+ "kind": "patent-family",
+ "title": "Family Five: Verifiable AI action, tool synthesis and governance",
+ "subtitle": "Every action is authorised, every output is observed, every result is verifiable; AI cannot self-authorise a tool.",
+ "systems": [
+  "fafo-core"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "5",
+   "label": "conditions a tool must meet before it can be synthesised"
+  },
+  {
+   "value": "8",
+   "label": "fields in every evidence-ledger entry, lineage among them"
+  },
+  {
+   "value": "4",
+   "label": "result classes, assigned from observed evidence"
+  },
+  {
+   "value": "6",
+   "label": "layers of governance around each action"
+  }
+ ],
+ "lede": "Methods and Systems for Evidence-Gated Synthesis and Governance of Agent-Callable Application Programming Interface Tools, and for Reconciled Execution of Mutations Against Ephemeral Third-Party Application Programming Interfaces. U.S. Provisional Patent Application No. 64/148,105 (patent pending). Embodied in the API integration platform of FAFO Core and Function Forge. Unconstrained AI invents tools or actions, acts outside intent, returns unverified results, and is hard to audit. This invention puts every action through one governed pipeline, from the intent that asks for it to an observation that must prove its result. A tool may be synthesised only when five conditions hold.",
+ "quote": "No action can run outside the contract, and the AI cannot change the rules.",
+ "evidence": [
+  "Tool synthesis and governed API integration: an agent-callable tool synthesised only when 5 conditions hold, including a positive observation method for every output field.",
+  "Evidence-gated acceptance: results placed in 4 classes from observed evidence, never from the model's own account, and complete only when every required field is observed.",
+  "Audit trails for AI actions: an evidence entry with 8 fields for every action, including intent, observation and lineage to the entry it came from.",
+  "Sandboxing and execution contracts: each action confined to a contract fixing inputs, allowed tools, outputs, observation methods and limits, inside 6 nested layers of governance.",
+  "Patent filing for AI systems: U.S. Provisional Patent Application No. 64/148,105 (patent pending) on evidence-gated synthesis and governance of agent-callable API tools."
+ ],
+ "application_number": "64/148,105",
+ "status": "provisional patent application, patent pending",
+ "canonical": "https://coreyjames.ai/research/family-five-verifiable-ai-action-and-tool-synthesis/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/research/patent-families/family-five-verifiable-ai-action-and-tool-synthesis"
+}

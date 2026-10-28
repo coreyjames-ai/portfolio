@@ -1,0 +1,25 @@
+{
+ "url": "https://coreyjames.ai/ideas/reconcile-never-resubmit/",
+ "kind": "idea",
+ "title": "Reconcile, never resubmit",
+ "subtitle": "When a side effect may or may not have happened, write down the uncertainty and check reality before doing anything again",
+ "systems": [
+  "inference-fabric",
+  "fafohive",
+  "agentos",
+  "helix"
+ ],
+ "technologies": [],
+ "stats": [],
+ "lede": "A crash between making a call and logging it is the oldest problem in distributed systems, and the default answer, retry, is how you charge a customer twice, post the same message three times, or run the same inference on two GPUs. My systems do not retry blindly. They mark an effect as uncertain, reconcile against the real state, and resubmit only what is proven missing, under the same identity. Before an effect, a durable entry for the intent. After the effect, a durable entry for the outcome. If the process dies between the two, the entry is in an explicit uncertain state, and recovery reads reality, the provider, the GPU worker, the receiver, before deciding.",
+ "quote": "An external effect that cannot be confirmed is not something a retry loop should decide on its own.",
+ "evidence": [
+  "Exactly-once delivery and crash recovery: intent recorded before every external effect and its outcome after, with interrupted effects held uncertain and reconciled against reality.",
+  "Idempotent side effects and reconciliation: resubmission only of what is proven missing, under the same identity, and unverifiable sends held for an operator.",
+  "Distributed systems correctness: a reconnecting GPU worker reports the work it holds before anything new is dispatched, so surviving work is never sent twice."
+ ],
+ "canonical": "https://coreyjames.ai/ideas/reconcile-never-resubmit/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/research/ideas/reconcile-never-resubmit"
+}

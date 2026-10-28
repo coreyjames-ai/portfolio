@@ -1,0 +1,36 @@
+{
+ "url": "https://coreyjames.ai/technologies/lease-based-work-claiming/",
+ "kind": "technology",
+ "title": "Lease-based work claiming",
+ "subtitle": "Parallel workers claim work by lease, designed against the dead-tuple behaviour of PostgreSQL's concurrency model, so two workers never process the same item and nothing is lost on a crash.",
+ "systems": [
+  "fafo-core"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "0.7–1 M",
+   "label": "items in flight at once over a two-hour window"
+  },
+  {
+   "value": "3",
+   "label": "ways the conductor slices a job; leased claiming is one"
+  },
+  {
+   "value": "2",
+   "label": "NVIDIA Blackwell GPUs fed by the claimed work"
+  }
+ ],
+ "lede": "FAFO Core and Function Forge: my probe-generation workload had parallel workers pulling rows of work from PostgreSQL, and two of them collided on the same item. I needed claiming that holds up under tens of millions of items and survives a worker dying mid-batch. I did not want to pay for it with database churn. The obvious pattern, updating a row to claim it and updating it again to release it, leaves dead tuples behind on every cycle, and at that scale the vacuum load becomes its own problem. I added claiming when two workers collided on real work; nothing about it was speculative.",
+ "quote": "I design concurrency against the real costs of the database underneath, and I put the hard part in a framework so every function inherits it.",
+ "evidence": [
+  "Distributed job orchestration: time-bounded, renewable leases on work items, so a crash neither loses an item nor lets two workers process it, built into the framework once.",
+  "PostgreSQL performance tuning: work claiming designed against the dead-tuple cost of claiming and releasing a row by update under heavy concurrency.",
+  "High-throughput batch inference: leased claiming that carried tens of millions of work items across 2 NVIDIA Blackwell GPUs, with 0.7 to 1 M in flight at once."
+ ],
+ "technology_kind": "discipline",
+ "canonical": "https://coreyjames.ai/technologies/lease-based-work-claiming/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/lease-based-work-claiming"
+}

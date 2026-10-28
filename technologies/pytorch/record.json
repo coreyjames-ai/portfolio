@@ -1,0 +1,41 @@
+{
+ "url": "https://coreyjames.ai/technologies/pytorch/",
+ "kind": "technology",
+ "title": "PyTorch",
+ "subtitle": "ActiveKV extends PyTorch's XPU backend and ATen from native code; the capabilities model is a PyTorch fine-tune.",
+ "systems": [
+  "activekv",
+  "capabilities-model"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "22",
+   "label": "source files registering native operators in PyTorch's own registry"
+  },
+  {
+   "value": "~596 M",
+   "label": "parameters in the open-weight base model"
+  },
+  {
+   "value": "≤ 14 min",
+   "label": "per full fine-tune, the shortest about two"
+  },
+  {
+   "value": "17.6 GiB",
+   "label": "peak memory on one NVIDIA Blackwell GPU"
+  }
+ ],
+ "lede": "I work with PyTorch from both ends: as a native extension that must be indistinguishable from the code it replaced, and as a training tool where the recipe, the size and the rebuild cost are measured choices. I work below the framework when the framework is in the way. In ActiveKV a native engine manages a model's key-value cache inside vLLM, which is built on PyTorch, so the engine has to speak PyTorch's tensor model exactly. I built it in C++ against ATen, PyTorch's tensor library, and registered its operators with PyTorch's own operator registry, so vLLM's attention path calls them as first-class operators.",
+ "quote": "Profiles built on framework events are checked against an uninstrumented run before I believe them.",
+ "evidence": [
+  "PyTorch native extension development: C++ operators on ATen registered in PyTorch's own registry across 22 source files, indistinguishable from the Python version bit for bit.",
+  "LLM fine-tuning: a full fine-tune of every parameter of a ~596 M-parameter model in 2 to 14 minutes, peaking at 17.6 GiB on one NVIDIA Blackwell GPU.",
+  "GPU profiling methodology: a conclusion built on timing-enabled events retracted once the events were shown to serialise the copy engine they observed."
+ ],
+ "technology_kind": "framework",
+ "canonical": "https://coreyjames.ai/technologies/pytorch/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/pytorch"
+}

@@ -1,0 +1,36 @@
+{
+ "url": "https://coreyjames.ai/technologies/tiled-pairwise-kernels/",
+ "kind": "technology",
+ "title": "Tiled pairwise kernels",
+ "subtitle": "One tiling design makes every quadratic cluster metric exact at a hundred thousand members, with bounded memory and no sampling.",
+ "systems": [
+  "inference-fabric"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "6",
+   "label": "accumulator types the pairwise kernels declare"
+  },
+  {
+   "value": "≈8 KB",
+   "label": "of shared memory per block for a tile pair"
+  },
+  {
+   "value": "1",
+   "label": "atomic per tile into the cluster totals"
+  }
+ ],
+ "lede": "Half of my cluster metrics are quadratic: they need every pair of members. The tiled pairwise machinery in the Inference Fabric's CUDA engine makes those metrics exact at a hundred thousand members with bounded memory, and it is the step that let me take every sampling cap out of the metrics in Removing the sampling caps. The cluster is cut into tiles of sixteen rows by sixty-four, and the grid is flattened so one block owns one tile pair. Diagonal tiles visit each pair once over the upper triangle, rectangular tiles visit the full cross product, and a tile prefix sum maps a flat block index back to its cluster and tile pair without a search.",
+ "quote": "Five billion distances do not fit, and a second sweep is cheap.",
+ "evidence": [
+  "CUDA kernel development: one tiling design for every quadratic cluster metric, exact over 5 billion pairs in a cluster of a hundred thousand members.",
+  "GPU memory and contention design: tile pairs in ≈8 KB of shared memory per block, register accumulation and 1 atomic per tile, with every thread at every barrier.",
+  "Extensible kernel design: six declared accumulator types share one tile loop, and a second pass recomputes distances instead of storing them."
+ ],
+ "technology_kind": "discipline",
+ "canonical": "https://coreyjames.ai/technologies/tiled-pairwise-kernels/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/tiled-pairwise-kernels"
+}

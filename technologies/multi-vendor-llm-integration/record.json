@@ -1,0 +1,37 @@
+{
+ "url": "https://coreyjames.ai/technologies/multi-vendor-llm-integration/",
+ "kind": "technology",
+ "title": "Multi-vendor LLM integration",
+ "subtitle": "Three frontier model families and local open-weight models run side by side in my programs, through subscription sessions, API seats and my own GPUs, with a terms-of-service firewall deciding which traffic may go where.",
+ "systems": [
+  "fafohive",
+  "auth-and-access-plane"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "30 days",
+   "label": "a temporary client stays pending, because some assistants never register again"
+  },
+  {
+   "value": "5",
+   "label": "language-model providers behind one interface"
+  },
+  {
+   "value": "3",
+   "label": "frontier model families whose tools and apps come in through one flow"
+  }
+ ],
+ "lede": "Auth and access plane had to let several vendors' assistants into one private tool estate: the command-line tools and desktop apps of three frontier model families, an agentic IDE and Microsoft Copilot Studio. Each behaves differently within what the standards allow. I set the pending-client lifetime from how real assistants behave, after watching clients cache an ID and never return. See The hardening fix that locked everyone out. FAFOHive needs a language model for background work: turning session activity into observations, writing summaries and narrating proven code paths. I did not want that work tied to one vendor, so I wrote one provider interface, and the memory pipeline stays vendor-neutral behind it.",
+ "quote": "I decided to keep one authorization flow and move every vendor difference into a client profile held in configuration.",
+ "evidence": [
+  "OAuth and identity architecture: one authorization flow for assistants from 3 frontier model families, an agentic IDE and Copilot Studio, vendor differences held in client profiles.",
+  "Multi-vendor LLM integration: 5 language-model providers behind one interface, any of them replaceable by a local OpenAI-compatible server with no change to callers.",
+  "Resilient API clients: one retry policy that backs off on transport, rate-limit and server errors and returns authentication, bad-request and parse errors at once."
+ ],
+ "technology_kind": "discipline",
+ "canonical": "https://coreyjames.ai/technologies/multi-vendor-llm-integration/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/multi-vendor-llm-integration"
+}

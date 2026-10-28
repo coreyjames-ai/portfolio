@@ -1,0 +1,37 @@
+{
+ "url": "https://coreyjames.ai/technologies/agent-tool-qualification-testing/",
+ "kind": "technology",
+ "title": "Agent tool qualification testing",
+ "subtitle": "No tool in my agent runtime ships without golden fixtures and attack fixtures, and the build fails otherwise.",
+ "systems": [
+  "agent-swarm",
+  "fafohive"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "50",
+   "label": "golden fixtures for 40 declarative tools"
+  },
+  {
+   "value": "1,200",
+   "label": "lines in the Rust test runner"
+  },
+  {
+   "value": "3",
+   "label": "platform-semantics defects the Facebook proof found, each now a test"
+  }
+ ],
+ "lede": "The same standard governs the social integrations: every write read back, every create with a delete, every inbound item an event. I set acceptance rules that turn \"it works\" into counted cases and side-channel measurements, and I make the build enforce them. Agent Swarm adds tools as YAML declarations, and I knew a tool nobody tests is the hole an agent eventually finds. So a tool without fixtures fails the build, and attack fixtures are required even for one-line tools, because exceptions to a safety rule are where the holes appear.",
+ "quote": "A write whose outcome is uncertain is reconciled and cleaned up, and never resent, because on a social platform a duplicate does more harm than a gap.",
+ "evidence": [
+  "Test engineering for AI agent tools: a Rust runner that sends every fixture through the real invocation harness, 50 golden fixtures for 40 declarative tools, and a build that fails on a tool without fixtures.",
+  "API qualification by parameter class: an X module qualified across 35 tools and 203 parameters with 1,010 calls and 872 asserted cases, then 505 invocations against the metered API.",
+  "Side-channel measurement in integration testing: a Facebook proof harness that blocked and counted every HTTP request outside a tool body and found 3 platform-semantics defects, each now a test."
+ ],
+ "technology_kind": "discipline",
+ "canonical": "https://coreyjames.ai/technologies/agent-tool-qualification-testing/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/agent-tool-qualification-testing"
+}

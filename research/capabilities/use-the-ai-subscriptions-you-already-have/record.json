@@ -1,0 +1,38 @@
+{
+ "url": "https://coreyjames.ai/capabilities/use-the-ai-subscriptions-you-already-have/",
+ "kind": "capability",
+ "title": "AI subscriptions as governed workers",
+ "subtitle": "Running vendors' authenticated command-line tools as governed workers, alongside API-keyed and local models",
+ "systems": [
+  "agentos",
+  "helix",
+  "agent-swarm"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "31,811",
+   "label": "metered usage entries, each tied to the work that spent it"
+  },
+  {
+   "value": "94.5%",
+   "label": "overall cache hit rate across one priced engineering program"
+  },
+  {
+   "value": "30 s",
+   "label": "deadline for a vendor session to confirm a prompt arrived, by its own transcript event"
+  }
+ ],
+ "lede": "My governance platform runs real interactive sessions of vendors' authenticated command-line tools, under my own logins, as durable governed seats, alongside API-keyed seats and local open-source models served on my own GPUs. Every seat is metered against the work that used it, and cheap is the default: a role contract names its model and reasoning effort as data, so the lead, planning and architecture seats use a heavier model than the development seats on purpose. Start with Directing AI coding agents at program scale and What the work cost, to the penny.",
+ "quote": "Builders and reviewers come from different model families so their blind spots do not overlap.",
+ "evidence": [
+  "Agent orchestration across vendors: vendors' authenticated command-line tools run as durable governed seats beside API-keyed and local open-weight seats, under the same acceptance rules.",
+  "Cost attribution for AI work: 31,811 metered usage records tied to the work that spent them, and one program costed by phase with a 94.5% overall cache hit rate.",
+  "Separation of duties for AI work: builders and reviewers drawn from different model families so their blind spots do not overlap.",
+  "Prompt delivery assurance: a prompt counts as delivered only when the provider's own transcript shows it, within a 30 s acceptance deadline."
+ ],
+ "canonical": "https://coreyjames.ai/capabilities/use-the-ai-subscriptions-you-already-have/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/research/capabilities/use-the-ai-subscriptions-you-already-have"
+}

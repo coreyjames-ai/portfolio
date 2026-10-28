@@ -1,0 +1,23 @@
+{
+ "url": "https://coreyjames.ai/technologies/pyo3/",
+ "kind": "technology",
+ "title": "PyO3",
+ "subtitle": "An earlier in-process Python binding for embeddings, replaced by a separate inference server.",
+ "systems": [
+  "fafo-core",
+  "fafohive"
+ ],
+ "technologies": [],
+ "stats": [],
+ "lede": "I use a language bridge where it saves time and remove it when it costs more than it saves, without disturbing the code that depends on it. These are thin wrappers around a third-party Python model; the judgment is in where the boundary sat and when it moved. In FAFO Core and Function Forge the research and memory functions are Rust, and the embedding model they needed was easiest to reach through a Python library. I used PyO3 to bring the model into the Rust function and keep everything else native. The rest of the function stays ordinary Rust on the substrate, queue-driven and controllable like any other.",
+ "quote": "PyO3 bought speed of delivery; once its cost showed, I moved the model behind a network boundary.",
+ "evidence": [
+  "Rust and Python interop with PyO3: an embedding model called from async Rust on blocking worker threads, the interpreter lock held only there, returning embedding vectors.",
+  "Service boundary design: the GPU embedding model moved out of process to an embedding server over mutual TLS with the internal interface unchanged, so no caller changed."
+ ],
+ "technology_kind": "framework",
+ "canonical": "https://coreyjames.ai/technologies/pyo3/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/pyo3"
+}

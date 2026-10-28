@@ -1,0 +1,40 @@
+{
+ "url": "https://coreyjames.ai/technologies/nvidia-nsight-systems/",
+ "kind": "technology",
+ "title": "NVIDIA Nsight Systems",
+ "subtitle": "Nsight traces are where I found what the engine was actually doing, and where I learned to check that the trace was not itself the cause.",
+ "systems": [
+  "inference-fabric"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "44K",
+   "label": "tokens a second on one NVIDIA Blackwell GPU at the start, 7B dense model in FP8"
+  },
+  {
+   "value": "163K",
+   "label": "five-minute mean across two NVIDIA Blackwell GPUs at the end"
+  },
+  {
+   "value": "<1%",
+   "label": "gained by custom CUDA graphs over eager execution"
+  },
+  {
+   "value": "6.8%",
+   "label": "slower with the key-value cache offloaded to the host"
+  }
+ ],
+ "lede": "Inference Fabric depended on a GPU runtime that had to stay saturated, and some of its properties could only be settled with a timeline. The runtime is a C++ layer at the NVIDIA TensorRT boundary, driven from Rust, feeding NVIDIA TensorRT-LLM for generation and raw TensorRT for hidden-state extraction. I gave its code two rules: after warm-up the decode loop allocates no memory, and it never synchronises the compute stream. The rules live in code and stop regressions; a timeline trace shows the property holds. A stray allocation or a hidden synchronisation on the hot path costs throughput on every step and disappears inside an average.",
+ "quote": "\"Zero allocations after warm-up\" is easy to assert and easy to break in a later change, and a trace settles it.",
+ "evidence": [
+  "GPU profiling (Nsight): timeline traces and gap analysis of idle time between kernels on an NVIDIA Blackwell GPU, used as proof that the decode loop allocates nothing after warm-up and never synchronises the stream.",
+  "Performance benchmarking methodology: eager execution and custom CUDA graphs captured on the same card, graphs dropped for under 1% gain, host KV-cache offload dropped at 6.8% slower.",
+  "GPU inference optimisation: part of a programme that took a 7-billion-parameter FP8 model from about 44K tokens a second on one NVIDIA Blackwell GPU to a 163K five-minute mean on two."
+ ],
+ "technology_kind": "platform",
+ "canonical": "https://coreyjames.ai/technologies/nvidia-nsight-systems/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/nvidia-nsight-systems"
+}

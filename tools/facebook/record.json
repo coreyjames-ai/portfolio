@@ -1,0 +1,22 @@
+{
+ "url": "https://coreyjames.ai/tools/facebook/",
+ "kind": "tool-group",
+ "title": "Facebook Page provider",
+ "subtitle": "",
+ "systems": [
+  "fafohive"
+ ],
+ "technologies": [],
+ "stats": [],
+ "lede": "A business's Facebook Page is its storefront, and an agent that runs one has to cover the whole life of a post: publish it, answer the comments, handle the messages, measure it and clean up after it. I built this provider as my own MCP server over the Meta Graph API. It keeps its own register of everything it created, so delete tools only ever touch the Page's own posts, media and comments. Writes are read back before they are reported. Incoming comments, messages, mentions and reviews are collected into a local inbox, and Graph usage and permission health are visible to the agent before it hits a limit.",
+ "quote": "",
+ "evidence": [
+  "Social platform integration: 24 tools on my own MCP server over the Meta Graph API let an agent publish, schedule, edit and measure Page posts and answer comments and messages.",
+  "Safe automation design: a register of everything the provider created limits deletes to the Page's own content, writes are read back before they are reported, and Graph usage is visible before a limit is hit."
+ ],
+ "tool_count": 24,
+ "canonical": "https://coreyjames.ai/tools/facebook/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/tools/facebook"
+}

@@ -1,0 +1,25 @@
+{
+ "url": "https://coreyjames.ai/ideas/measure-the-instrument/",
+ "kind": "idea",
+ "title": "Measure the instrument",
+ "subtitle": "A result is only as good as the proof that the measurement measured the thing",
+ "systems": [
+  "activekv",
+  "capabilities-model",
+  "inference-fabric",
+  "agentos"
+ ],
+ "technologies": [],
+ "stats": [],
+ "lede": "Every performance programme I have run has produced at least one result that was really a property of the measurement. A profiler that serialised the copy engine it was observing. A test suite that passed a thousand trials against the wrong code. A benchmark whose baseline had a stall bug. A headline that beat a weak comparison. I treat the instrument as part of the experiment, and I do not act on a number until I know what the instrument did to it. Every instrumented run has an uninstrumented control. Every evaluation set is frozen before the model sees it and carries known-answer controls that can catch the team as readily as the model.",
+ "quote": "The instinct to protect is the instinct to believe a number that agrees with you.",
+ "evidence": [
+  "Performance benchmarking methodology: an uninstrumented control for every instrumented run, the strongest baseline I could build, and a profiler verdict retracted when the profiler caused the serialisation.",
+  "Numerical reproducibility and bitwise validation: parity gates bitwise only where the reference agrees with itself across two runs, judged within its own spread elsewhere.",
+  "Evaluation design for ML: evaluation sets frozen before the model sees them, with known-answer controls, and a classical retriever that tied the model published as the result."
+ ],
+ "canonical": "https://coreyjames.ai/ideas/measure-the-instrument/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/research/ideas/measure-the-instrument"
+}

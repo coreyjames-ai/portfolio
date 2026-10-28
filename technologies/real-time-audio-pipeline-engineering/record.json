@@ -1,0 +1,41 @@
+{
+ "url": "https://coreyjames.ai/technologies/real-time-audio-pipeline-engineering/",
+ "kind": "technology",
+ "title": "Real-time audio pipeline engineering",
+ "subtitle": "PCM framing, resampling, echo-cancellation reference, pacing and drop-on-reconnect: the audio path from a desk microphone or a Teams call to my own speech models.",
+ "systems": [
+  "helix"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "91,643",
+   "label": "call buffers moved in a 30-minute soak"
+  },
+  {
+   "value": "50.001/s",
+   "label": "buffer rate held across that soak"
+  },
+  {
+   "value": "0",
+   "label": "receive stalls in the same run"
+  },
+  {
+   "value": "30 ms",
+   "label": "denoiser latency gate at the 95th percentile"
+  }
+ ],
+ "lede": "In Helix I wanted one voice engine to work on a desk microphone and inside a Teams call without the conversation logic knowing which. I gave the Rust engine one sealed audio seam: an abstract source and sink with one frame contract, so a new audio endpoint is an implementation and the engine does not change. The same turn-taking and interruption behaviour runs in both. The front end is a chain of stages over that frame contract, each reading and writing the same frames.",
+ "quote": "An agent acting on words nobody said is worse than one that asks again.",
+ "evidence": [
+  "Real-time voice AI: one Rust voice engine behind a sealed audio seam of 20 ms frames, 16 kHz in and 24 kHz out, on a desk microphone and inside Teams calls.",
+  "Microsoft Teams real-time media: a .NET media bridge and Rust host on one WebSocket per call, a 30-minute soak moving 91,643 buffers at 50.001 per second with 0 receive stalls.",
+  "Audio signal processing: echo cancellation, a denoiser under a 30 ms 95th-percentile latency gate, an operator voiceprint filter and voice-activity detection ahead of recognition.",
+  "Latency engineering: question-to-first-sound cut from about 2.1 s to about 0.9 s with streaming synthesis and cached voice conditioning."
+ ],
+ "technology_kind": "discipline",
+ "canonical": "https://coreyjames.ai/technologies/real-time-audio-pipeline-engineering/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/real-time-audio-pipeline-engineering"
+}

@@ -1,0 +1,31 @@
+{
+ "url": "https://coreyjames.ai/technologies/pgvector/",
+ "kind": "technology",
+ "title": "pgvector",
+ "subtitle": "Vector search inside PostgreSQL backs the memory service's hybrid retrieval and the capabilities model's data factory.",
+ "systems": [
+  "fafohive",
+  "fafo-core",
+  "capabilities-model",
+  "postgresql-fabric"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "1,024",
+   "label": "dimensions declared on the memory vector column, checked at the boundary"
+  }
+ ],
+ "lede": "In the memory capability of FAFOHive I wanted one query to search by meaning, match exact identifiers and filter by project, so I kept vectors in PostgreSQL with pgvector, in the same row as the text and metadata they describe. Retrieval, filtering and audit are then one query. Each observation, a decision or fix captured from a coding session, carries an embedding beside a weighted full-text column, provenance fields and token-savings accounting. The weighted full text catches exact identifiers that embeddings blur. Embeddings come from a the multilingual embedding model model on a local embedding server. The code index stores chunk embeddings the same way, partitioned per index so I can add or drop one cleanly.",
+ "quote": "For me pgvector is a decision about where vectors belong.",
+ "evidence": [
+  "Vector search and ANN indexes: pgvector embeddings in the same PostgreSQL row as text, metadata and provenance, so meaning, exact identifiers and project filters are one query.",
+  "Hybrid retrieval: weighted full-text and dense rankings fused and reranked by a cross-encoder, with fusion alone as the fallback when the reranker is saturated.",
+  "Type-safe data access: a resolver that reads a vector column's declared dimension from its type modifier, binding 1,024-value embeddings and refusing any other length."
+ ],
+ "technology_kind": "datastore",
+ "canonical": "https://coreyjames.ai/technologies/pgvector/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/pgvector"
+}

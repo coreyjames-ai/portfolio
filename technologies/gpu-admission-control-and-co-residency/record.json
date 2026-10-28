@@ -1,0 +1,39 @@
+{
+ "url": "https://coreyjames.ai/technologies/gpu-admission-control-and-co-residency/",
+ "kind": "technology",
+ "title": "GPU admission control and co-residency",
+ "subtitle": "Two models on one GPU, with the second admitting work against measured memory and refusing with a number: a 0.6B router beside a 30B model, through a 2,048-client burst.",
+ "systems": [
+  "helix",
+  "inference-fabric",
+  "capabilities-model"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "2,740",
+   "label": "MiB, the router's whole footprint beside the resident model"
+  },
+  {
+   "value": "85.9/s",
+   "label": "requests served through the 2,048-client burst"
+  },
+  {
+   "value": "45.5/s",
+   "label": "short requests sustained"
+  }
+ ],
+ "lede": "Capabilities model had to run on a Blackwell GPU whose memory belonged to a 30-billion-parameter model that stayed resident and serving. Agents call the discovery model before most actions, so many would call it at once, and a wrong answer under load would be worse than a slow one. I gave it a fixed memory budget and made two thousand concurrent clients an acceptance criterion from the start. The engine admits work against the memory it has measured, so overload becomes a queue and then a refusal and never a corrupted answer.",
+ "quote": "I set the acceptance numbers before the engine exists so the result cannot be reframed afterwards.",
+ "evidence": [
+  "GPU co-residency and admission control: a 0.6B router in 2,740 MiB beside a 30B serving model, admitting work against measured memory and refusing with the shortfall and a retry hint.",
+  "Load testing at concurrency: a ladder to 2,048 clients with abort conditions at every rung, the burst served at 85.9 requests per second with none failed, rejected or corrupted.",
+  "Honest performance reporting: mixed traffic reported at 6.9 requests per second against a pre-registered target of 200 rather than a flattering count of about 14.",
+  "High-throughput batch inference: admission in front of TensorRT-LLM's in-flight batcher with a minimum-batch token gate and backpressure counted at the GPU."
+ ],
+ "technology_kind": "discipline",
+ "canonical": "https://coreyjames.ai/technologies/gpu-admission-control-and-co-residency/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/gpu-admission-control-and-co-residency"
+}

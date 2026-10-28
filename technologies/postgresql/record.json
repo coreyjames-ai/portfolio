@@ -1,0 +1,44 @@
+{
+ "url": "https://coreyjames.ai/technologies/postgresql/",
+ "kind": "technology",
+ "title": "PostgreSQL",
+ "subtitle": "PostgreSQL is the source of truth for everything I build: a governance work graph, lease-based claiming designed against its concurrency model, and diagnosis from its own tuple statistics.",
+ "systems": [
+  "agentos",
+  "agent-swarm",
+  "helix",
+  "fafohive",
+  "fafo-core",
+  "inference-fabric",
+  "capabilities-model",
+  "postgresql-fabric"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "546K",
+   "label": "lines in the control plane built on it"
+  },
+  {
+   "value": "88",
+   "label": "tables in the AgentOS work graph"
+  },
+  {
+   "value": "79",
+   "label": "forward-only schema migrations"
+  }
+ ],
+ "lede": "In AgentOS the root problem was state held in a model's context, so I put all of it in PostgreSQL, the one source of truth. Every work order, task, piece of evidence, verdict and cost lives in a relational work graph, and the readable views agents see are generated from it and never edited back. Cost attribution and the effort methodology are computed in PL/pgSQL from the same tables. Schema changes are generated and run against a throwaway database before they touch the real one. See Why long agent runs fail. In FAFO Core and Function Forge many AI and batch workers share one database, so I decided functions read freely and write only through one governed write path.",
+ "quote": "I build systems around PostgreSQL as the authority that makes autonomous agents' work recoverable and auditable, and the same habits recur across very different systems.",
+ "evidence": [
+  "PostgreSQL schema design: a 546K-line control plane over 88 tables and 79 forward-only migrations, with every agent-readable view generated from the database and never edited back.",
+  "Concurrent work claiming: lease-based claiming and FOR UPDATE SKIP LOCKED with natural-key writes, so parallel workers never take the same item and a replay adds nothing twice.",
+  "Event-driven database design: LISTEN/NOTIFY catalog drift detection with a polling fallback and a hysteresis period before switching back.",
+  "Vector data architecture: metadata and lineage in PostgreSQL with vectors kept out of SQL in GPU-addressable shards for high-throughput inference."
+ ],
+ "technology_kind": "datastore",
+ "canonical": "https://coreyjames.ai/technologies/postgresql/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/postgresql"
+}

@@ -1,0 +1,40 @@
+{
+ "url": "https://coreyjames.ai/technologies/vendor-integration-reverse-engineering/",
+ "kind": "technology",
+ "title": "Vendor-integration reverse engineering",
+ "subtitle": "When vendor documentation runs out I probe the platform itself, capture the wire, and compose what actually works.",
+ "systems": [
+  "auth-and-access-plane",
+  "agentos",
+  "agent-swarm",
+  "helix",
+  "capabilities-model"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "≈300",
+   "label": "lines in the edge Worker built around the connector's real behaviour"
+  },
+  {
+   "value": "20 ms",
+   "label": "audio pacing the real-time media SDK expects"
+  },
+  {
+   "value": "30 min",
+   "label": "soak with a forced mid-call reconnect"
+  }
+ ],
+ "lede": "Auth and access plane has to expose private tools to Microsoft Copilot Studio, whose MCP connector behaves differently from its documentation. I decided to learn the connector from my own edge logs and build to what it does, and each undocumented quirk gets explicit handling. I built an edge Worker around what I found, with two key slots because rotation has to work against a client configuration I do not control. A cache-busting procedure covers the API hub, which can keep returning stale answers from a fixed server. AgentOS and Agent Swarm depend on exact behaviours of the vendors' coding CLIs.",
+ "quote": "I modify none of the vendors' products; the work is understanding them precisely and building around them safely.",
+ "evidence": [
+  "Vendor integration reverse engineering: an MCP connector learned from my own edge logs, answered by an edge Worker of ≈300 lines built to its real behaviour.",
+  "Microsoft Teams real-time media: a bridge to the real-time media SDK's buffer lifetimes and 20 ms pacing, soak-tested for 30 min with a forced mid-call reconnect.",
+  "Dependency pinning by observed contract: coding-CLI behaviours pinned to the version they were observed on, so an upgrade is a decision."
+ ],
+ "technology_kind": "discipline",
+ "canonical": "https://coreyjames.ai/technologies/vendor-integration-reverse-engineering/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/vendor-integration-reverse-engineering"
+}

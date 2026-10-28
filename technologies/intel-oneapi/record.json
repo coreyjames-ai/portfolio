@@ -1,0 +1,36 @@
+{
+ "url": "https://coreyjames.ai/technologies/intel-oneapi/",
+ "kind": "technology",
+ "title": "Intel oneAPI",
+ "subtitle": "Intel's oneAPI stack is what ActiveKV's native engine and its kernel patches are built against, inside the vendor's own toolchain for ABI match.",
+ "systems": [
+  "activekv"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "192",
+   "label": "Unified-Runtime entry points covered by the generated preload shim"
+  },
+  {
+   "value": "~18",
+   "label": "engine files calling Level Zero directly"
+  },
+  {
+   "value": "3.12",
+   "label": "the oneDNN version the patch series targets"
+  }
+ ],
+ "lede": "ActiveKV's native engine and every kernel patch sit on Intel's oneAPI stack: SYCL and DPC++, Level Zero, the Unified Runtime, oneDNN, and the PTI and unitrace tracing tools. I saw a choice between treating that stack as a black box and working at whatever level a problem lived at. I chose the second, and the work ran at three levels. The first level is the kernel libraries. Patches are built against the vendor's own sources inside the vendor's image, with Intel's toolchain, so the ABI matches what the serving engine loads and a whole class of mismatch disappears. The oneDNN work is a series of patches. One is a kernel-catalogue entry for Xe2 large-N GEMM shapes.",
+ "quote": "I kept a rewrite that produced exact arithmetic with no whole-workload gain, because exactness is a property I want in the product.",
+ "evidence": [
+  "Intel GPU and SYCL/oneAPI engineering: oneDNN 3.12 patches built in the vendor's image, a Xe2 GEMM catalogue entry cutting cold 32K-token prefill from 21.54 s to 17.23 s with identical outputs.",
+  "Low-level GPU runtime programming: Level Zero and unified shared memory for pinned host pools, staging and fences, called from ~18 engine files.",
+  "GPU profiling and tracing: a generated preload shim over 192 Unified-Runtime entry points tying host calls to device intervals."
+ ],
+ "technology_kind": "runtime",
+ "canonical": "https://coreyjames.ai/technologies/intel-oneapi/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/intel-oneapi"
+}

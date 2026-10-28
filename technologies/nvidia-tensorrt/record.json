@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/technologies/nvidia-tensorrt/",
+ "kind": "technology",
+ "title": "NVIDIA TensorRT",
+ "subtitle": "Raw TensorRT backs the single-pass hidden-state extraction mode in the Inference Fabric's runtime.",
+ "systems": [
+  "inference-fabric"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "6",
+   "label": "lines added to the decoder definition to expose the hidden state"
+  },
+  {
+   "value": "128",
+   "label": "tokens per input across every extraction build"
+  }
+ ],
+ "lede": "Inference Fabric needed to read a language model's internal representations for millions of sequences, and serving stacks are built to produce tokens. NVIDIA TensorRT-LLM carries decoding machinery that a single read has no use for, so I went one level down to raw TensorRT and built the extraction path around the engine itself. The first step was in the model graph. I added lines to the decoder definition in my TensorRT-LLM source build that mark the hidden state after the final normalisation and before the output head as an extra engine output. Any decoder engine built from that tree exposes the representation the downstream work needs.",
+ "quote": "I drop to NVIDIA's lower-level engine when the standard serving path is the wrong tool, and change the vendor graph only where it buys a capability.",
+ "evidence": [
+  "TensorRT and TensorRT-LLM engineering: six lines added to the decoder definition expose the hidden state as an extra engine output, with the generation path unchanged.",
+  "High-throughput batch inference: extraction engines with no key-value cache and no generation, one forward pass over up to 8,192 sequences of 128 tokens, a million tokens per pass.",
+  "Fail-closed GPU runtimes: a C++ runtime that measures how a loaded engine reads last-token positions and refuses to start on an ambiguous answer, with no allocation after warm-up."
+ ],
+ "technology_kind": "runtime",
+ "canonical": "https://coreyjames.ai/technologies/nvidia-tensorrt/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/nvidia-tensorrt"
+}

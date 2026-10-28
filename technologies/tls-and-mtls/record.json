@@ -1,0 +1,42 @@
+{
+ "url": "https://coreyjames.ai/technologies/tls-and-mtls/",
+ "kind": "technology",
+ "title": "TLS and mTLS",
+ "subtitle": "TLS with hot certificate rotation on every public surface; mutual TLS between my hosts for LAN GPU provisioning.",
+ "systems": [
+  "inference-fabric",
+  "fafo-core",
+  "fafohive",
+  "agent-swarm",
+  "helix",
+  "auth-and-access-plane",
+  "capabilities-model"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "1.2/1.3",
+   "label": "the only TLS versions the public fronts accept"
+  },
+  {
+   "value": "0",
+   "label": "certificate files on disk for the embedding-service client"
+  },
+  {
+   "value": "once",
+   "label": "SSH login per host, then never again"
+  }
+ ],
+ "lede": "Inference Fabric and FAFO Core and Function Forge needed to drive Docker on spare LAN workstations, and I did not want a shell login to be the control channel for a GPU fleet. One call bootstraps the machine over SSH, issues it a certificate from my own certificate authority, reconfigures its Docker daemon to accept only mutually authenticated TLS, checks the handshake and rolls back if the check fails. From then on every container start, log read and teardown on that host goes over mutual TLS. A LAN machine becomes controllable capacity without Kubernetes and without a shared password.",
+ "quote": "I treat transport security as something the systems operate themselves: they issue, rotate and check certificates without a person in the loop.",
+ "evidence": [
+  "Zero-trust networking: LAN GPU hosts bootstrapped once over SSH, then controlled only over mutual TLS to the Docker daemon, with a handshake check and automatic rollback.",
+  "Certificate management: certificates rotated under traffic through an atomic swap, with no agent seat disconnected.",
+  "Transport security architecture: one trust anchor per transport, plaintext connection strings refused when configuration loads, public fronts on TLS 1.2 and 1.3 only."
+ ],
+ "technology_kind": "protocol",
+ "canonical": "https://coreyjames.ai/technologies/tls-and-mtls/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/tls-and-mtls"
+}

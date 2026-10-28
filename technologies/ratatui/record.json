@@ -1,0 +1,23 @@
+{
+ "url": "https://coreyjames.ai/technologies/ratatui/",
+ "kind": "technology",
+ "title": "ratatui",
+ "subtitle": "A terminal console over my execution substrate's Redis control plane, for watching function services and steering them.",
+ "systems": [
+  "fafo-core",
+  "auth-and-access-plane"
+ ],
+ "technologies": [],
+ "stats": [],
+ "lede": "FAFO Core and Function Forge runs functions as services whose state lives in Redis. I wanted to watch and steer them from a terminal without opening a browser, so I had a small Rust console built on ratatui and crossterm. A dashboard view rolls the estate up into totals, and a services view lists every active service with its resources; arrow keys and function keys move between them, and a detail view for one service adds its recent control-plane log lines. Reads go straight to Redis, but every change the console can make is an MCP tool call to the control plane through the authenticated gateway, and nothing is sent until the operator confirms it in a popup.",
+ "quote": "The console has no control path an agent lacks.",
+ "evidence": [
+  "Terminal UI development in Rust: a ratatui and crossterm console over a Redis control plane, refreshing every active service's state each second.",
+  "Operator tooling with least privilege: every console action sent as a confirmed MCP tool call through the same authenticated gate an agent uses."
+ ],
+ "technology_kind": "framework",
+ "canonical": "https://coreyjames.ai/technologies/ratatui/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/ratatui"
+}

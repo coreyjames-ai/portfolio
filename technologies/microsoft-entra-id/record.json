@@ -1,0 +1,29 @@
+{
+ "url": "https://coreyjames.ai/technologies/microsoft-entra-id/",
+ "kind": "technology",
+ "title": "Microsoft Entra ID",
+ "subtitle": "Entra Agent ID gives my digital employee its identity; I compose the Microsoft principals it involves into paths the platform actually accepts.",
+ "systems": [
+  "helix",
+  "auth-and-access-plane"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "3",
+   "label": "Microsoft principals composed for one employee"
+  }
+ ],
+ "lede": "Helix needed an AI that acts in Microsoft 365 as one named employee, with its own identity and no shared super-account. I decided Microsoft would stay the permission authority and my code would compose and check identities. Each digital employee is an agent identity in the tenant under Microsoft Entra Agent ID. The meeting action server signs certificate client assertions against the employee's agent blueprint and receives that employee's own Microsoft Graph tokens. Calling and attributed actions use separate token kinds, matching what the platform expects for each, and the tokens never reach a model.",
+ "quote": "I keep credentials out of model context and identity checks at the boundary where requests enter.",
+ "evidence": [
+  "Microsoft Graph and Entra integration: each digital employee an Entra Agent ID identity receiving its own Graph tokens through certificate assertions.",
+  "Edge token validation: tenant-pinned RS256 checks with WebCrypto against cached signing keys, refusing tokens from other tenants or applications.",
+  "Credential isolation for AI agents: tokens checked in process and never passed to a model."
+ ],
+ "technology_kind": "platform",
+ "canonical": "https://coreyjames.ai/technologies/microsoft-entra-id/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/microsoft-entra-id"
+}

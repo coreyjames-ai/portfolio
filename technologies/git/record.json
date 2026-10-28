@@ -1,0 +1,29 @@
+{
+ "url": "https://coreyjames.ai/technologies/git/",
+ "kind": "technology",
+ "title": "Git",
+ "subtitle": "My governance platform reads git as evidence: witness, task and decision commits, authorship trailers, and the rule that every commit is pushed and nothing is rewritten.",
+ "systems": [
+  "agentos",
+  "agent-swarm"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "~1,360",
+   "label": "lines of Rust in the commit hook, tested against fake git clients"
+  }
+ ],
+ "lede": "AgentOS runs teams of coding agents that finish tasks constantly, often at the same moment, in the same repository. I wanted every finished task to leave a commit I could trace to its work order. I also wanted no agent touching git directly. So git became an output of the platform: agents never run raw git or push. When an agent finishes a task, a lifecycle hook commits the active work order's own project directory, and only that directory, as a tagged commit that names the work order and the task, so the history is searchable by the unit of work.",
+ "quote": "Commits mark the work, carry attribution and stay out of agents' direct reach.",
+ "evidence": [
+  "Version control as AI governance: tagged commits per finished task, decision and evidence, written by a lifecycle hook so agents never run git or push.",
+  "Concurrency control: commits scoped to one work order's directory under a shared file lock with a timeout, failing open with a report.",
+  "Rust systems engineering: a ~1,360-line commit hook tested against fake git clients, so every failure path is exercised without a real repository."
+ ],
+ "technology_kind": "platform",
+ "canonical": "https://coreyjames.ai/technologies/git/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/git"
+}

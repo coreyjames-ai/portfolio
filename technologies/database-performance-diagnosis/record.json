@@ -1,0 +1,37 @@
+{
+ "url": "https://coreyjames.ai/technologies/database-performance-diagnosis/",
+ "kind": "technology",
+ "title": "Database performance diagnosis",
+ "subtitle": "I diagnose database performance from the database's own statistics, one change at a time.",
+ "systems": [
+  "postgresql-fabric",
+  "fafo-core"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "196 → 0",
+   "label": "deadlocks in the same workload, after one index"
+  },
+  {
+   "value": "6,752",
+   "label": "rows per second on average, peaking at 16,370"
+  },
+  {
+   "value": "185 s",
+   "label": "to write 1,249,048 rows"
+  }
+ ],
+ "lede": "FAFO Core and Function Forge sends every database write in the estate through one governed write path, so when a bulk update slowed it, every producer slowed with it. Batches took up to two seconds, deadlocks came every few seconds, and the queue in front of the database reported healthy throughput. The queue counts rows taken in; only the database's tuple deltas count rows written. I had a benchmark harness built that samples the system through a controlled run and renders a before-and-after report. The comparison pointed at a missing unique index on the update key of the target table, which pushed concurrent batches into colliding lock patterns.",
+ "quote": "The queue was the wrong instrument.",
+ "evidence": [
+  "PostgreSQL performance tuning: one unique index on the update key took a write path from 196 deadlocks to 0.",
+  "Performance benchmarking methodology: tuple deltas as ground truth and one change between runs, 1,249,048 rows in 185 seconds at 6,752 rows per second on average.",
+  "Database performance diagnosis: batch latency on the same workload cut from 100-2,000 ms to 7-37 ms."
+ ],
+ "technology_kind": "discipline",
+ "canonical": "https://coreyjames.ai/technologies/database-performance-diagnosis/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/database-performance-diagnosis"
+}

@@ -1,0 +1,34 @@
+{
+ "url": "https://coreyjames.ai/technologies/json-rpc/",
+ "kind": "technology",
+ "title": "JSON-RPC",
+ "subtitle": "JSON-RPC is the transport under the Model Context Protocol surfaces I build and consume.",
+ "systems": [
+  "agent-swarm",
+  "fafohive",
+  "fafo-core"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "22",
+   "label": "custom error codes a client can branch on"
+  },
+  {
+   "value": "3",
+   "label": "MCP servers mapped by the read-only explorer"
+  }
+ ],
+ "lede": "In FAFO Core and Function Forge I expected the number of tools to grow faster than anyone could hand-wire gateway routes. So I made JSON-RPC 2.0, the envelope of the Model Context Protocol, something the gateway serves from generated code. The gateway is an Axum server that speaks MCP over HTTP with the .well-known MCP configuration, protected-resource metadata and session headers. At build time a generator turns a YAML trio per tool into handlers and routing, so a new function becomes callable without anyone editing gateway code, and the gateway and its catalog cannot drift apart. Function Forge is itself an MCP tool on this envelope.",
+ "quote": "I treat the wire envelope as plumbing that should be generated, typed and boring.",
+ "evidence": [
+  "MCP server design: JSON-RPC routing generated from YAML at build time, with 22 custom error codes a client can branch on.",
+  "Resilient transports: a streaming session that broke on container restarts replaced by stateless JSON-RPC over HTTPS.",
+  "Agent-to-agent messaging: JSON-RPC envelopes aligned with the Agent Client Protocol over Redis streams, including a call that starts an agent on another host."
+ ],
+ "technology_kind": "protocol",
+ "canonical": "https://coreyjames.ai/technologies/json-rpc/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/json-rpc"
+}

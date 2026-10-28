@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/technologies/gitlab/",
+ "kind": "technology",
+ "title": "GitLab",
+ "subtitle": "Self-hosted GitLab is where my agents open merge requests they are not allowed to merge, and where discovered defects are filed as issues.",
+ "systems": [
+  "agent-swarm",
+  "fafohive"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "2",
+   "label": "end-to-end runs from a worker's edit to an opened merge request"
+  },
+  {
+   "value": "0",
+   "label": "agent commits or merge requests against the main repository"
+  }
+ ],
+ "lede": "Agent Swarm needed to show that a coding agent on a local model could do real repository work without ever being able to merge it. I decided the merge request would be the boundary and GitLab, self-hosted, would be where a person sees the result. A worker agent edits, tests, commits and pushes to its own branch from a throwaway container. A separate, long-lived gatekeeper agent is the only holder of the repository credential, so a compromised or confused worker has nothing to leak; it checks the worker's request and opens the merge request through the GitLab API. The story A coding agent that never holds the keys tells it in full.",
+ "quote": "I made the merge request the line agents cannot cross: they propose, a person merges.",
+ "evidence": [
+  "Credential isolation for coding agents: a worker that edits, tests and pushes its own branch and a gatekeeper that alone holds the repository credential; 2 runs to merge request, 0 agent commits to main.",
+  "MCP tool design: one action-dispatched GitLab tool for issues, comments, labels, local git and merge requests, with a state that hands a problem back to a person."
+ ],
+ "technology_kind": "platform",
+ "canonical": "https://coreyjames.ai/technologies/gitlab/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/gitlab"
+}

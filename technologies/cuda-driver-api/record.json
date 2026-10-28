@@ -1,0 +1,36 @@
+{
+ "url": "https://coreyjames.ai/technologies/cuda-driver-api/",
+ "kind": "technology",
+ "title": "CUDA Driver API",
+ "subtitle": "My CUDA analytics engine talks to the driver API directly from Rust, built for a GPU architecture the Rust ecosystem had not caught up with.",
+ "systems": [
+  "inference-fabric"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "2",
+   "label": "Blackwell GPUs the engine loads its own cubins onto"
+  },
+  {
+   "value": "3",
+   "label": "memory classes a lease can hold"
+  },
+  {
+   "value": "13.1",
+   "label": "the CUDA version the build defaults to"
+  }
+ ],
+ "lede": "In the Inference Fabric I was targeting CUDA 13 and NVIDIA Blackwell when no Rust CUDA crate supported either, and I needed to ship compiled kernels to remote workers and control streams, events and devices directly. I chose raw CUDA Driver API FFI from Rust, because no wrapper supported the toolkit and the architecture, and because cubin loading had to stay under my control. The Driver API is the same across the Blackwell generation. The analytics service runs on Tokio, and CUDA calls happen on blocking-pool threads that change from one call to the next. The Vector Shard Manager's lease layer calls libcuda directly to pin host memory with cuMemHostRegister .",
+ "quote": "I work at the level of contexts, modules, streams and host memory registration when the higher-level tools do not yet reach the hardware I am using.",
+ "evidence": [
+  "CUDA Driver API from Rust: raw FFI over CUDA 13 for 2 Blackwell GPUs before any Rust crate supported them, loading native cubins with no PTX embedded and refusing any other device.",
+  "GPU memory management: a lease layer with 3 memory classes that pins host memory with cuMemHostRegister, staging page-cache data into an anonymous buffer the kernel will pin.",
+  "Async runtime and GPU integration: one primary CUDA context retained per process for Tokio's moving blocking-pool threads, and a GPU-side doorbell on cuStreamWaitValue64 with no host polling."
+ ],
+ "technology_kind": "runtime",
+ "canonical": "https://coreyjames.ai/technologies/cuda-driver-api/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/cuda-driver-api"
+}

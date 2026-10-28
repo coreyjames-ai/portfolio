@@ -1,0 +1,38 @@
+{
+ "url": "https://coreyjames.ai/technologies/lua/",
+ "kind": "technology",
+ "title": "Lua",
+ "subtitle": "Lua scripts make the Redis control plane's job promotion atomic and keep the broker's hot-path bookkeeping on the server.",
+ "systems": [
+  "fafo-core",
+  "inference-fabric",
+  "postgresql-fabric"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "16",
+   "label": "scripts in the server-side library"
+  },
+  {
+   "value": "≈4,000",
+   "label": "lines of Lua, loaded by hash"
+  },
+  {
+   "value": "3",
+   "label": "Redis instances, one per role"
+  }
+ ],
+ "lede": "The FAFO Core and Function Forge control plane keeps job state in Redis, and many workers change that state at once. A Redis pipeline batches commands without making them atomic, and a crash or a competing worker between two commands leaves a job half-updated. I moved every multi-step state change onto the server as a Lua script. Job promotion is one script: it moves a job from pending to processing and writes the job's worker count, batch size and batch mode in the same step, so no worker ever sees a half-promoted job.",
+ "quote": "I find the places where distributed state can tear and close them at the server.",
+ "evidence": [
+  "Redis Lua scripting: 16 server-side scripts of about 4,000 lines making multi-step job state changes atomic.",
+  "Distributed systems correctness: scripts that return the state they produced, removing read-after-write races from every caller.",
+  "Workload isolation: 3 Redis instances split by role so a write backlog cannot starve job control."
+ ],
+ "technology_kind": "language",
+ "canonical": "https://coreyjames.ai/technologies/lua/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/lua"
+}

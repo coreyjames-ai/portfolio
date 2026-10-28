@@ -1,0 +1,27 @@
+{
+ "url": "https://coreyjames.ai/technologies/idempotency-exactly-once-effects-and-crash-recovery/",
+ "kind": "technology",
+ "title": "Idempotency, exactly-once effects and crash recovery",
+ "subtitle": "A restart never repeats a provider call, a broker restart never re-runs work the GPUs hold, and an agent's claimed completion is a claim.",
+ "systems": [
+  "agentos",
+  "agent-swarm",
+  "helix",
+  "fafohive",
+  "inference-fabric"
+ ],
+ "technologies": [],
+ "stats": [],
+ "lede": "The rule I apply in every system below is simple to state. I design for the crash window explicitly and decide, per system, whether a duplicate or a gap is the worse failure. FAFOHive lets agents use a payments provider, an email/CRM provider and social-publishing providers through a governed gateway. A repeated payment or a second marketing email is a real-world harm, so I made the gateway account for every call durably, and a restart does not repeat a provider call. The gateway's design is in Agents with real tools and no keys. In my own social modules a duplicate public post is worse than a missing one.",
+ "quote": "An outcome I cannot confirm gets reconciled by reading, never retried by sending again, and work is done when its result has been acknowledged.",
+ "evidence": [
+  "Exactly-once delivery and crash recovery: intent and budget committed before any provider call, and uncertain outcomes resolved by a read and never by a resend.",
+  "Idempotency key design: keys bound to request inputs, so a replay returns the saved receipt and a replay with changed inputs is refused.",
+  "Distributed systems correctness: a broker that counts work done only when acknowledged, and agent launches bound to an authorised claim so a replay returns the existing job."
+ ],
+ "technology_kind": "discipline",
+ "canonical": "https://coreyjames.ai/technologies/idempotency-exactly-once-effects-and-crash-recovery/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/idempotency-exactly-once-effects-and-crash-recovery"
+}

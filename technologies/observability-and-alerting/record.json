@@ -1,0 +1,35 @@
+{
+ "url": "https://coreyjames.ai/technologies/observability-and-alerting/",
+ "kind": "technology",
+ "title": "Observability and alerting",
+ "subtitle": "SMS alerting is wired to the service fleet, with a metrics stack and dashboards beside it, and a status dashboard that says plainly what each service is doing.",
+ "systems": [
+  "auth-and-access-plane",
+  "inference-fabric",
+  "agentos"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "12",
+   "label": "scrape jobs across hosts, GPUs and inference nodes"
+  },
+  {
+   "value": "0",
+   "label": "tokens between received and routed after the accounting fix"
+  }
+ ],
+ "lede": "Auth and access plane holds the observability layer for an estate one person operates, and that shaped every choice: nothing may depend on someone watching a dashboard. My Rust services expose native metrics endpoints, and a containerised Prometheus scrapes them, covering hosts, GPUs and inference nodes. I wired discovery to provisioning. When the execution substrate stands up a GPU node, locally, on a LAN workstation or on rented cloud capacity, it writes the node into Prometheus's file-based service discovery and installs the host and GPU exporters on it, so a new node is monitored from its first minute with no one editing a scrape configuration.",
+ "quote": "I instrument systems as I build them and treat the instrumentation as part of the product.",
+ "evidence": [
+  "Observability and alerting: Prometheus, Alertmanager and Grafana for an estate one person operates, 12 scrape jobs across hosts, GPUs and inference nodes, alerts paged to a phone by severity.",
+  "Monitoring wired to provisioning: GPU nodes written into Prometheus file-based discovery with exporters installed as they are stood up, locally, on a LAN or in the cloud.",
+  "Dashboards for GPU economics: Inference Fabric panels for padding waste, cache hit rate and tokens received against routed, the panel that showed 12.3B received and 12.3B routed.",
+  "Cost attribution for AI work: AgentOS dashboards of cost and usage per role and per model, read from the governance database."
+ ],
+ "technology_kind": "discipline",
+ "canonical": "https://coreyjames.ai/technologies/observability-and-alerting/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/observability-and-alerting"
+}

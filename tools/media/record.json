@@ -1,0 +1,23 @@
+{
+ "url": "https://coreyjames.ai/tools/media/",
+ "kind": "tool-group",
+ "title": "Media and image generation",
+ "subtitle": "",
+ "systems": [
+  "fafohive",
+  "helix"
+ ],
+ "technologies": [],
+ "stats": [],
+ "lede": "I wanted any agent in my estate to be able to make images, video and narration on my own GPUs, without anyone hand-starting a ComfyUI server or copying files between machines. The hard parts are around the rendering: a GPU is shared with other work, model files are large, a render can finish while its delivery fails, and an agent that retries blindly burns GPU time on work it already did. So these 33 tools treat every step as a durable operation with its own identifier. Starting a service goes through the compute budget. Model downloads are planned before they run and checked after.",
+ "quote": "",
+ "evidence": [
+  "GPU media generation for AI agents: 33 tools let an agent start a managed ComfyUI service on a chosen GPU, plan model downloads, render images and video and produce narration.",
+  "Durable operations design: every step has its own identifier, starts go through the compute budget, and a render is tracked apart from its delivery so a failed copy never re-renders."
+ ],
+ "tool_count": 33,
+ "canonical": "https://coreyjames.ai/tools/media/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/tools/media"
+}

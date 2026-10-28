@@ -1,0 +1,36 @@
+{
+ "url": "https://coreyjames.ai/capabilities/memory-and-code-intelligence-for-agents/",
+ "kind": "capability",
+ "title": "Memory and code intelligence for agents",
+ "subtitle": "Agents that remember across sessions and explain code without inventing it",
+ "systems": [
+  "fafohive"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "294,033",
+   "label": "of 294,362 code chunks covered by the computed graph"
+  },
+  {
+   "value": "0",
+   "label": "models involved in a dependency trace; it is a bounded database traversal"
+  },
+  {
+   "value": "3",
+   "label": "indexes, code, past decisions and reference documents, behind one retrieval surface"
+  }
+ ],
+ "lede": "Coding agents forget everything between sessions, rediscover the same facts about a codebase daily, and explain call paths that do not exist with complete confidence. I built the memory and code-intelligence service every agent in my estate connects to. Dependency tracing is a graph query, and the code explainer narrates only edges the graph has proven and refuses when coverage is incomplete. Start with A code explainer that is not allowed to invent. Session memory captures every tool call, extracts what matters, and re-injects it later.",
+ "quote": "A refusal beats a plausible guess, because the caveat is the first thing a reader stops seeing.",
+ "evidence": [
+  "Code intelligence for AI agents: a tree-sitter code graph covering 294,033 of 294,362 code chunks, with dependency tracing as a bounded database traversal and 0 models involved.",
+  "Evidence-grounded LLM output: a code explainer that narrates only edges the graph has proven and returns coverage incomplete, with no free-form fallback.",
+  "Persistent agent memory: session memory that captures every tool call as an observation, extracts and embeds it, and re-injects it into later sessions.",
+  "Retrieval system design: code, past decisions and reference documents as 3 indexes behind one retrieval surface."
+ ],
+ "canonical": "https://coreyjames.ai/capabilities/memory-and-code-intelligence-for-agents/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/research/capabilities/memory-and-code-intelligence-for-agents"
+}

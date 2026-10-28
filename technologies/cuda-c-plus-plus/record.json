@@ -1,0 +1,43 @@
+{
+ "url": "https://coreyjames.ai/technologies/cuda-c-plus-plus/",
+ "kind": "technology",
+ "title": "CUDA C++",
+ "subtitle": "I write CUDA where it earns its place: a cluster-health and vector-search engine for the newest NVIDIA architecture, and a tool-discovery decoder whose reductions are ordered so output bits never depend on the batch.",
+ "systems": [
+  "inference-fabric",
+  "activekv",
+  "capabilities-model"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "29",
+   "label": "kernels in 13 families, with exact, inverted-file and lattice search"
+  },
+  {
+   "value": "59",
+   "label": "kernel and header files in the analytics engine, tests included"
+  },
+  {
+   "value": "~500,000",
+   "label": "vectors a second for two-means clustering, rewritten without atomics"
+  },
+  {
+   "value": "2,740",
+   "label": "MiB, the batched decoder's footprint beside the serving model"
+  }
+ ],
+ "lede": "In the Inference Fabric I needed health statistics for every embedding cluster computed on the GPU next to vector search, over millions of vectors on consumer cards, and no library offered them, so I had the kernels written. Every kernel takes all clusters in one launch. Linear-time statistics run one block per cluster with a grid-stride loop and block reductions. Pairwise statistics run one block per pair of tiles; the dimension loop sits outside the pair loop so every thread reaches every barrier. The centroid kernel shows the style. Its first version accumulated the centroid with atomics and re-read every vector for threshold counts. I had it rebuilt in three passes, and it now scales linearly from 1,000 vectors.",
+ "quote": "Every kernel has a CPU reference and an equivalence test, so a fast kernel is never the only definition of the answer.",
+ "evidence": [
+  "CUDA kernel development: a cluster-health and vector-search engine of 29 kernels in 13 families, with exact, inverted-file and lattice search, each kernel with a CPU reference and an equivalence test.",
+  "CUDA performance optimisation: a centroid kernel rebuilt in three passes without atomics, from 521 ms to 47 ms at 100,000 vectors per cluster, and two-means clustering rewritten to about 500,000 vectors a second.",
+  "Deterministic GPU computation: a CUDA decoder with one block per output row, a fixed reduction order and no K-split tiling, so output bits never depend on the batch, in 2,740 MiB beside the serving model.",
+  "NVIDIA Blackwell development: decode as a device graph with a device-side conditional, about 518 microseconds removed from every token, and NVFP4 weights 2.53 times smaller than FP8 at about 5 percent slower at batch 1."
+ ],
+ "technology_kind": "language",
+ "canonical": "https://coreyjames.ai/technologies/cuda-c-plus-plus/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/cuda-c-plus-plus"
+}

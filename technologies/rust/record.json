@@ -1,0 +1,47 @@
+{
+ "url": "https://coreyjames.ai/technologies/rust/",
+ "kind": "technology",
+ "title": "Rust",
+ "subtitle": "Rust is my systems language: about a million and a half lines across the governance platform, the agent runtime, the collaboration shell, the memory gateway, the execution substrate and the inference pipeline.",
+ "systems": [
+  "agentos",
+  "agent-swarm",
+  "helix",
+  "fafohive",
+  "fafo-core",
+  "inference-fabric",
+  "capabilities-model"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "~546,000",
+   "label": "lines of Rust in AgentOS, across nineteen crates"
+  },
+  {
+   "value": "121",
+   "label": "unsafe blocks in the capabilities model, all in one FFI module"
+  },
+  {
+   "value": "21",
+   "label": "domain modules split from two 40,000-line hook files"
+  },
+  {
+   "value": "12",
+   "label": "steps every Agent Swarm tool call passes, in a frozen order"
+  }
+ ],
+ "lede": "AgentOS had to make AI agents follow rules they could not talk their way around, so I put the rules in compiled code. The database layer and the hook binary are around 200,000 lines each. The hook binary runs under the coding agents' own command-line tools and turns policy into refusals. A refusal is a typed value that can only name a command the system sanctions, so the compiler stops an agent from ever being told to run a command that does not exist. When two hook source files grew too large, I had them split into domain modules under a symbol-parity check. See Why long agent runs fail.",
+ "quote": "I put invariants in types wherever the compiler can enforce them.",
+ "evidence": [
+  "Rust systems engineering: about 546,000 lines of Rust in a governance control plane, where a refusal is a typed value that can only name a command the system sanctions.",
+  "Unsafe code containment and FFI: 121 unsafe blocks confined to one FFI module over CUDA, with layout tests that fail the build if the Rust and C views disagree.",
+  "Concurrency design in Rust: a synchronous single-owner hot loop for a 24,000-line token-aware broker, and async Tokio for the voice engine and the transports that wait on I/O.",
+  "Build-enforced invariants: link-time registration that fails the build for an unwired function, and 12 frozen pipeline steps on every Agent Swarm tool call."
+ ],
+ "technology_kind": "language",
+ "canonical": "https://coreyjames.ai/technologies/rust/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/rust"
+}

@@ -1,0 +1,22 @@
+{
+ "url": "https://coreyjames.ai/technologies/reddit/",
+ "kind": "technology",
+ "title": "Reddit",
+ "subtitle": "An in-house Reddit integration through my own browser session, with duplicate-safe receipts and a read-back after every change.",
+ "systems": [
+  "fafohive"
+ ],
+ "technologies": [],
+ "stats": [],
+ "lede": "FAFOHive needed agents to take part in Reddit threads, and my estate has no API route to the site. I decided the module would act through the operator's own browser session and leave every credential in that browser, where the operator already trusts it. The provider service talks over a private local socket to a native-messaging host, and the host hands each request to a small browser extension that sends the same requests the site sends from the signed-in tab. The service never sees a cookie, opens no automation browser and clicks nothing, so a layout change cannot break it. The site is Reddit's; the module and its checks are mine.",
+ "quote": "When a platform offers no sanctioned API path, I narrow the surface until every action can be checked against the page itself.",
+ "evidence": [
+  "Browser-session integration without credentials: a module acting through the operator's signed-in browser over native messaging, never seeing a cookie or automating the page.",
+  "Exactly-once delivery and crash recovery: idempotency keys over the full input, an exact read-back after every change, and an unconfirmed send settled by reading, never posted twice."
+ ],
+ "technology_kind": "platform",
+ "canonical": "https://coreyjames.ai/technologies/reddit/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/reddit"
+}

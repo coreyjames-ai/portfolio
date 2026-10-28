@@ -1,0 +1,45 @@
+{
+ "url": "https://coreyjames.ai/technologies/sql/",
+ "kind": "technology",
+ "title": "SQL",
+ "subtitle": "SQL is how I query the stores everything else projects from: work graphs, tuple statistics, retrieval tables, cost ledgers.",
+ "systems": [
+  "agentos",
+  "agent-swarm",
+  "fafo-core",
+  "helix",
+  "postgresql-fabric"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "88",
+   "label": "tables in the AgentOS schema, from 79 forward-only migrations"
+  },
+  {
+   "value": "13,000",
+   "label": "lines of SQL in that schema"
+  },
+  {
+   "value": "178",
+   "label": "tables in Helix's collaboration control store"
+  },
+  {
+   "value": "29",
+   "label": "columns in one presence-aware upsert"
+  }
+ ],
+ "lede": "I use SQL to design state, contracts and correctness under concurrency, from a governance state machine to an agent runtime's event writer. The databases are PostgreSQL. Helix keeps the durable state of its collaboration shell in its own PostgreSQL control store, grown alongside the shell's features through numbered migrations. AgentOS runs a multi-agent state machine, and I chose to model it relationally, in forward-only migrations. A generic registry sits underneath and the domain sits on top. Logic that defines a reported number lives with the data. Validated human-equivalent hours, the labour measure AgentOS reports, is computed by PL/pgSQL functions in the database, with the old and new formulas side by side so a recalibration can be compared.",
+ "quote": "In a performance diagnosis, the database's tuple statistics are the ground truth.",
+ "evidence": [
+  "Relational state-machine design: a multi-agent workflow modelled as data in 88 tables from 79 forward-only migrations, a generic registry under the domain tables.",
+  "PostgreSQL concurrency design: single-statement writes under load, including a 29-column presence-aware upsert and conflict-aware launch reservations where one of two wins.",
+  "In-database metric logic: PL/pgSQL functions computing a reported labour measure, with the old and new formulas kept side by side for comparison.",
+  "PostgreSQL performance tuning: the database's tuple statistics taken as the ground truth about committed work, the habit behind 196 deadlocks to zero."
+ ],
+ "technology_kind": "language",
+ "canonical": "https://coreyjames.ai/technologies/sql/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/sql"
+}

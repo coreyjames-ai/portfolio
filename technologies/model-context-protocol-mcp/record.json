@@ -1,0 +1,44 @@
+{
+ "url": "https://coreyjames.ai/technologies/model-context-protocol-mcp/",
+ "kind": "technology",
+ "title": "Model Context Protocol (MCP)",
+ "subtitle": "Every agent in my estate reaches every tool through MCP: a gateway of 475 tools, generated servers, a product server ported to .NET, and a single discovery tool backed by a model.",
+ "systems": [
+  "agentos",
+  "agent-swarm",
+  "helix",
+  "fafohive",
+  "fafo-core",
+  "inference-fabric",
+  "capabilities-model",
+  "auth-and-access-plane"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "~45",
+   "label": "work-lifecycle actions across eleven AgentOS tools"
+  },
+  {
+   "value": "~180",
+   "label": "actions across 18 FAFO Core tools, dispatch compiled from YAML"
+  },
+  {
+   "value": "24",
+   "label": "tools on the digital-employee server, 13 of them meeting actions"
+  }
+ ],
+ "lede": "FAFOHive is the single endpoint every managed agent seat in my estate connects to, because I wanted one trust model for every tool an agent can reach. The provider tools sit under stable namespaces, and every provider call is durably accounted, so a restart does not repeat one. See Agents with real tools and no keys. I design tools around jobs: in one module I threw away 83 generated endpoint tools for about fifteen designed ones, a set that later grew to thirty-six. Tool descriptions state their cost and pass the provider's errors through verbatim, so the agent reasons over real failures.",
+ "quote": "I treat MCP as an engineering surface with identity, cost and failure designed in.",
+ "evidence": [
+  "MCP server design: one endpoint for every managed agent seat serving 475 tools, with provider calls durably accounted so a restart does not repeat one, over a stateless per-request transport.",
+  "Agent orchestration over MCP: the AgentOS work lifecycle exposed as about 45 actions across eleven tools, with caller identity derived on the server, idempotency keys and receipts.",
+  "Tool-schema context cost reduction: a 41,990-token catalog collapsed into one discovery tool of about 100 tokens, its description capped by a test at 520 characters.",
+  "Tool synthesis and governed API integration: about 180 actions across 18 tools compiled from YAML schemas at build time, and a tool that emits new MCP tools."
+ ],
+ "technology_kind": "protocol",
+ "canonical": "https://coreyjames.ai/technologies/model-context-protocol-mcp/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/model-context-protocol-mcp"
+}

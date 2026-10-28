@@ -1,0 +1,36 @@
+{
+ "url": "https://coreyjames.ai/technologies/streaming-statistics-in-cuda/",
+ "kind": "technology",
+ "title": "Streaming statistics in CUDA",
+ "subtitle": "Welford and Chan moments, histogram quantiles and compare-and-swap float atomics, written once in a device library and tested on their own, so every metric kernel is numerically stable in single precision.",
+ "systems": [
+  "inference-fabric"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "256",
+   "label": "bins in the shared-memory block histogram"
+  },
+  {
+   "value": "10 KB",
+   "label": "of shared memory for a median of millions of distances"
+  },
+  {
+   "value": "0.4%",
+   "label": "resolution of that median, about"
+  }
+ ],
+ "lede": "Statistics over a hundred thousand vectors in single precision across thousands of threads go wrong in familiar ways: a naive variance cancels catastrophically, a sum depends on the order of the adds, and the minimum of a float cannot be taken atomically because the hardware has no such instruction. The device library under my CUDA engine solves each of those once, and every metric kernel in the Inference Fabric reads from it. Every primitive has its own CUDA test, including the block Welford and its broadcast form, the reductions and the tile machinery.",
+ "quote": "The kernels that call tested primitives inherit tested ground.",
+ "evidence": [
+  "CUDA kernel development: a device library of Welford and Chan moments, block reductions with broadcast variants and compare-and-swap float atomics, each with its own CUDA test.",
+  "Numerically stable GPU statistics: single-precision moments that stay stable whatever the order of arrival, with the population convention fixed so GPU and CPU agree.",
+  "Streaming quantiles on GPU: a 256-bin shared-memory histogram finds the median of millions of distances at about 0.4% resolution in 10 KB."
+ ],
+ "technology_kind": "discipline",
+ "canonical": "https://coreyjames.ai/technologies/streaming-statistics-in-cuda/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/streaming-statistics-in-cuda"
+}

@@ -1,0 +1,39 @@
+{
+ "url": "https://coreyjames.ai/technologies/kv-cache-engineering/",
+ "kind": "technology",
+ "title": "KV-cache engineering",
+ "subtitle": "The key-value cache is the largest thing on the card after the weights. I moved it to the host in ActiveKV, kept it hot in the Inference Fabric's broker, and in both cases measured the bus.",
+ "systems": [
+  "activekv",
+  "inference-fabric",
+  "capabilities-model"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "3.3%",
+   "label": "worst error of the bus latency model against measurement, 32K to 262K tokens"
+  },
+  {
+   "value": "262K",
+   "label": "token context on one card, at a 22 GiB device peak"
+  },
+  {
+   "value": "−6.8%",
+   "label": "throughput from KV offload on the NVIDIA serving path"
+  }
+ ],
+ "lede": "ActiveKV: stock serving keeps a request's whole key-value cache on the GPU, so a 32 GB card caps how much context it can hold. I made pinned host memory the owner of the cache and gave the GPU a bounded working set. The exact path re-reads every byte of history for every generated token, so I wrote the cost down as a latency model before changing anything. From then on, every design choice answered to that arithmetic. I treat the cache as a memory-hierarchy problem with a measurable cost on the bus. Each staged layer holds a lease.",
+ "quote": "I count bytes before I optimise.",
+ "evidence": [
+  "KV-cache offload for LLM inference: pinned host memory as owner of the cache and a leased, bounded GPU working set, with whole-layer staging bit-identical to fully resident attention.",
+  "Performance modelling: a bus latency model that predicted measured inter-token latency within 3.3% from 32K to 262K tokens, with a 262K-token context at a 22 GiB device peak.",
+  "Attention kernel engineering: exact log-sum-exp merging of tiled attention over exact and 8-bit pages, with a log-sum-exp output patched into the vendor's paged-decode kernel.",
+  "Latency engineering under concurrency: a hybrid tier at 190 ms per token against 335 ms exact at 128K, and about 8 GB of freed memory spent to cut latency from 274 ms to 141 ms."
+ ],
+ "technology_kind": "discipline",
+ "canonical": "https://coreyjames.ai/technologies/kv-cache-engineering/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/kv-cache-engineering"
+}

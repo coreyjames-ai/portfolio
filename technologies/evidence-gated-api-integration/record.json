@@ -1,0 +1,36 @@
+{
+ "url": "https://coreyjames.ai/technologies/evidence-gated-api-integration/",
+ "kind": "technology",
+ "title": "Evidence-gated API integration",
+ "subtitle": "My API integration platform treats each third-party API as a declarative unit over a generic core, with evidence for every gate.",
+ "systems": [
+  "fafo-core"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "~20,000",
+   "label": "lines of Rust behind one generic MCP server"
+  },
+  {
+   "value": "35",
+   "label": "per-criterion check scripts with re-runnable transcripts"
+  },
+  {
+   "value": "B0–B9",
+   "label": "gated phases the build moved through"
+  }
+ ],
+ "lede": "The integration platform in FAFO Core and Function Forge puts an HTTP API behind a generic MCP (Model Context Protocol) server. The generic core is built once, and each API is a declarative connectivity profile, so a new integration is a matter of configuration and probes. Integrating a third-party API usually starts from its documentation, and documentation describes fields an API does not always return. I decided the platform would treat a field as real only after a successful real call returned it. Probing adds to the manifest only what successful calls returned, and the differences are kept. Validation is cheap, so it comes before any investment in tools.",
+ "quote": "A field in the documentation is a claim, and a field in a successful response is a fact.",
+ "evidence": [
+  "Tool synthesis and governed API integration: about 20,000 lines of Rust behind one generic MCP server, each API a declarative connectivity profile.",
+  "Evidence-gated acceptance: a field counts only once a successful call returns it, with 35 per-criterion acceptance scripts and 23 of 23 items closed.",
+  "API validation gates: connect, auth, list, get and write must pass before any tool is authored, and negative catalogs show the gate rejecting."
+ ],
+ "technology_kind": "discipline",
+ "canonical": "https://coreyjames.ai/technologies/evidence-gated-api-integration/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/evidence-gated-api-integration"
+}

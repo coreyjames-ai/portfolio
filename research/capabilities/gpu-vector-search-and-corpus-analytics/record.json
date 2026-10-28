@@ -1,0 +1,38 @@
+{
+ "url": "https://coreyjames.ai/capabilities/gpu-vector-search-and-corpus-analytics/",
+ "kind": "capability",
+ "title": "GPU vector search and corpus analytics",
+ "subtitle": "Vectors that stay out of the database yet verifiably tied to it, searched and scored on the GPU",
+ "systems": [
+  "inference-fabric"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "0.85",
+   "label": "recall at ten against exact search, the inverted-file floor asserted in continuous integration"
+  },
+  {
+   "value": "10⁻⁴",
+   "label": "relative tolerance between every kernel and its CPU reference"
+  },
+  {
+   "value": "~100 s",
+   "label": "to rebuild the GPU files from four million rows, the cost a delta build avoids"
+  }
+ ],
+ "lede": "Embeddings are often too large and too hot for the relational database, and the moment they leave it there is no way to say which row a vector belongs to, or whether the index being searched is any good. I built vector storage leased to the GPU that stays verifiably tied to its relational source, with index-quality reporting so retrieval health is visible. See An index you can rebuild from its receipt and The database decides when an index goes stale. Under it is a CUDA engine written from Rust against the driver API for the newest NVIDIA architecture, with a CPU reference and equivalence tests for every kernel, and exact, inverted-file and lattice search.",
+ "quote": "A GPU kernel that computes a statistic is a poor definition of that statistic.",
+ "evidence": [
+  "Vector search and ANN indexes: exact, inverted-file and lattice search on the GPU, with a recall-at-ten floor of 0.85 against exact search asserted in continuous integration.",
+  "Data provenance for retrieval: every index build carries configuration, training-set and artifact hashes, and a rebuild from shuffled input gives byte-identical artifacts.",
+  "Database-driven index invalidation: a trigger marks every index over a shard stale the moment its journal advances, and the loader refuses a mismatched file with a reason.",
+  "Incremental rebuild design: delta builds byte-identical to the full build, chosen by shape with a full rebuild past 10% of the table or 100,000 pending rows, sparing a ~100 s full rebuild.",
+  "CUDA kernel development: kernels written from Rust against the driver API, each held to a CPU reference at a relative tolerance of 10⁻⁴.",
+  "Embedding analytics and cluster metrics: search and cluster health from the same read, through a NaN-filled side-band reduced to cohesion and inertia per cluster."
+ ],
+ "canonical": "https://coreyjames.ai/capabilities/gpu-vector-search-and-corpus-analytics/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/research/capabilities/gpu-vector-search-and-corpus-analytics"
+}

@@ -1,0 +1,22 @@
+{
+ "url": "https://coreyjames.ai/tools/payments/",
+ "kind": "tool-group",
+ "title": "Payments provider",
+ "subtitle": "",
+ "systems": [
+  "fafohive"
+ ],
+ "technologies": [],
+ "stats": [],
+ "lede": "Agent teams that build businesses need to create products and prices, take payments and read what happened. I rebuilt the provider's API as nine tools of my own and put my gateway in front of them, so the agents get the provider's capability while its keys stay on my server. The gateway is mine too: it accepts calls only from authenticated agent seats, works out the work order from the caller's identity, records every call before it reaches the provider, tags newly created objects with the work order where the provider supports it, and routes the provider's webhooks back to the team that caused them. Agents with real tools and no keys tells how that came together.",
+ "quote": "",
+ "evidence": [
+  "Payments integration for AI agents: 9 tools rebuilt from a payments provider's API let agent teams create products and prices, take payments and read account activity.",
+  "Governed API integration: callers authenticated as agent seats, work orders derived from identity, every call recorded before it reaches the provider, and webhooks routed back to the team that caused them."
+ ],
+ "tool_count": 9,
+ "canonical": "https://coreyjames.ai/tools/payments/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/tools/payments"
+}

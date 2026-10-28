@@ -1,0 +1,36 @@
+{
+ "url": "https://coreyjames.ai/technologies/speech-synthesis-model/",
+ "kind": "technology",
+ "title": "Speech synthesis model",
+ "subtitle": "The neural speech model that gives Helix its voice in Teams calls, a local room and produced narration.",
+ "systems": [
+  "helix"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "776 ms",
+   "label": "to first audio in the first Teams call, synthesis sharing a GPU host"
+  },
+  {
+   "value": "2",
+   "label": "speech backends behind one interface, settled by a bake-off"
+  },
+  {
+   "value": "~78%",
+   "label": "of the slow turn spent in synthesis while it shared the host"
+  }
+ ],
+ "lede": "Helix speaks in Teams calls and in a local room, and I wanted the voice to run on my own GPUs with no hosted speech service in the loop. Behind one interface the voice engine can use an 82-million-parameter open voice model in process through ONNX Runtime, and the speech synthesis model as a separate GPU service. I ran a bake-off between them, the speech synthesis model won, and I sealed it so later work could not drift the voice. the speech synthesis model is a third-party open model used as published. I wrapped it in a FastAPI streaming server in a GPU container, and the engine treats it as a remote audio component on the network.",
+ "quote": "When synthesis dominated a turn on a shared host, I fixed placement and kept the model.",
+ "evidence": [
+  "Speech synthesis pipelines: an open voice model wrapped in a streaming server behind a fixed seam, chosen over a second backend by a bake-off.",
+  "Latency engineering for voice AI: 776 ms to first audio in the first Teams call, and synthesis that took ~78% of a slow turn moved to a dedicated GPU host.",
+  "Performance diagnosis: a flat first-audio curve across clause lengths read as fixed server overhead and fixed by streaming rather than a faster model."
+ ],
+ "technology_kind": "model",
+ "canonical": "https://coreyjames.ai/technologies/speech-synthesis-model/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/speech-synthesis-model"
+}

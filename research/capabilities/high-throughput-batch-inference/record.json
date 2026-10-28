@@ -1,0 +1,38 @@
+{
+ "url": "https://coreyjames.ai/capabilities/high-throughput-batch-inference/",
+ "kind": "capability",
+ "title": "High-throughput batch inference and embeddings",
+ "subtitle": "Millions of items through GPUs I own, with the hardware kept busy and the accounting balanced",
+ "systems": [
+  "inference-fabric",
+  "fafo-core"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "0.42%",
+   "label": "padding waste across the two cards, with zero shape switches"
+  },
+  {
+   "value": "99.9%",
+   "label": "engine cache hit rate, from shape-pure batches"
+  },
+  {
+   "value": "4.95 M",
+   "label": "tasks on one GPU over a ten-hour run, zero retries"
+  }
+ ],
+ "lede": "Offline workloads, synthetic data, extraction, bulk embeddings, are throughput problems, and a serving stack built for chat treats them like chat: padding, idle gaps, producers tied to GPUs for hours, results persisted by whoever is still waiting. I took one model from about 44,000 tokens per second on one NVIDIA Blackwell GPU to a five-minute mean of 163,000 on two NVIDIA Blackwell GPUs without touching a kernel, by building the layers around the engine. Start with From 44K to 163K tokens per second. The first layer is a broker whose unit of scheduling is the token, feeding pull-based workers that stay saturated on mixed hardware. See A message broker that understands tokens.",
+ "quote": "I did not replace NVIDIA's inference; I fed it.",
+ "evidence": [
+  "High-throughput batch inference: one 7B dense model in FP8 taken from about 44,000 to a five-minute mean of 163,000 tokens per second on two NVIDIA Blackwell GPUs without touching a kernel.",
+  "Token-aware scheduling: shape-pure batches packed to each card's four-number contract, with 0.42% padding waste and a 99.9% engine cache hit rate across two mismatched cards.",
+  "Distributed systems correctness: done redefined as acknowledged after 6.67 M pending items proved to be 118 K in storage, leaving 12.3 B tokens received and 12.3 B routed.",
+  "Inference serving architecture: per-card engine tiers of 524K and 98K tokens per step from one checkpoint, so a slow card slows only itself.",
+  "GPU inference optimisation: 4.95 M tasks on one GPU over a ten-hour run with zero retries."
+ ],
+ "canonical": "https://coreyjames.ai/capabilities/high-throughput-batch-inference/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/research/capabilities/high-throughput-batch-inference"
+}

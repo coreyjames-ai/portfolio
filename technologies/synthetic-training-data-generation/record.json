@@ -1,0 +1,37 @@
+{
+ "url": "https://coreyjames.ai/technologies/synthetic-training-data-generation/",
+ "kind": "technology",
+ "title": "Synthetic training-data generation",
+ "subtitle": "The capabilities model's training corpus is generated from the tool registry by a data factory, so the model is rebuilt from the catalog whenever the catalog changes.",
+ "systems": [
+  "capabilities-model",
+  "fafo-core"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "336",
+   "label": "templated entries the statistical detector quarantined"
+  },
+  {
+   "value": "1,958",
+   "label": "synthetic distractor tools generated for the evaluation"
+  },
+  {
+   "value": "≈30B",
+   "label": "parameters in the local open model on the panel"
+  }
+ ],
+ "lede": "Capabilities model learns its tool catalog from data, and I decided every example would be generated from the tool registry it serves, so retraining after a catalog change is a pipeline run. Seeds come from the tool servers' own listings into a YAML registry. For each tool a panel writes intents of several kinds: paraphrases, hard negatives from pairs of tools that are easy to confuse, requests that need several tools, and long paragraphs with the real request buried inside. The panel mixes frontier models from several vendors with a local open model, and the work is split per tool and kind so no one model's habits dominate.",
+ "quote": "Templated output looks plentiful and teaches little.",
+ "evidence": [
+  "Synthetic training data generation: a corpus generated from the tool registry by a panel of model families, with a local open model of ≈30B parameters among them.",
+  "Data quality gates for ML: a statistical detector quarantined 336 templated entries, with deduplication and item-by-item leakage checks against the frozen evaluation.",
+  "Adversarial evaluation design: 1,958 synthetic distractor tools tested against classifiers trained to tell real from synthetic before use."
+ ],
+ "technology_kind": "discipline",
+ "canonical": "https://coreyjames.ai/technologies/synthetic-training-data-generation/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/synthetic-training-data-generation"
+}

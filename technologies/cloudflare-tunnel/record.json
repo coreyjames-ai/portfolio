@@ -1,0 +1,24 @@
+{
+ "url": "https://coreyjames.ai/technologies/cloudflare-tunnel/",
+ "kind": "technology",
+ "title": "Cloudflare Tunnel",
+ "subtitle": "Tunnelled ingress means my estate has no open inbound ports.",
+ "systems": [
+  "auth-and-access-plane",
+  "helix",
+  "fafohive"
+ ],
+ "technologies": [],
+ "stats": [],
+ "lede": "Every public surface, from the memory gateway to the Teams bridge, arrives through an authenticated tunnel. Auth and access plane lets outside services reach parts of my estate. I chose outbound-only Cloudflare tunnels and split them by purpose, so webhook intake and the social bridges can be shut without touching the main estate. Helix has to accept Teams media from Microsoft's side and stay closed to everyone else. I published its presence and media endpoint through a tunnel route behind Cloudflare Access, and when the voice services moved to another host, I re-pointed the route and tested it from both sides.",
+ "quote": "I check access control by trying to get in.",
+ "evidence": [
+  "Zero-trust and zero-inbound networking: every public surface carried by outbound-only tunnels split by purpose, with no inbound port open and services bound to loopback behind NGINX.",
+  "Access control testing: a re-pointed route behind Cloudflare Access proved from both sides, an authorised check returning 200 while an anonymous request got 403 and a direct connection was dropped at the firewall."
+ ],
+ "technology_kind": "platform",
+ "canonical": "https://coreyjames.ai/technologies/cloudflare-tunnel/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/cloudflare-tunnel"
+}

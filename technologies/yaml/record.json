@@ -1,0 +1,42 @@
+{
+ "url": "https://coreyjames.ai/technologies/yaml/",
+ "kind": "technology",
+ "title": "YAML",
+ "subtitle": "Tools, personas, execution profiles and tool schemas are YAML in my estate, compiled and hash-pinned rather than parsed at runtime.",
+ "systems": [
+  "agent-swarm",
+  "agentos",
+  "fafo-core"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "40",
+   "label": "tools declared in YAML"
+  },
+  {
+   "value": "545",
+   "label": "lines of schema validating every persona"
+  },
+  {
+   "value": "12,000",
+   "label": "lines of catalog, personas, groundings and profiles"
+  },
+  {
+   "value": "18",
+   "label": "multi-action MCP tools on the control surface"
+  }
+ ],
+ "lede": "Agent Swarm rests on one idea of mine, that tools are the platform, and I wanted adding a tool or an agent class to be a declaration with no new code. The tools are YAML documents of four kinds, each with a Rust dispatcher. Every tool must ship with golden fixtures that pin its behaviour and attack fixtures that try to break it, such as an injection attempt against a shell template, and the build fails for a tool without them. See Tools are the platform. Personas are YAML too: each names a tool subset, a policy, a workspace and a container or execution profile, and a schema validates every one at load time.",
+ "quote": "I use declarative configuration to make platforms extensible and keep them strict: every declaration is validated, tested or compiled before it takes effect.",
+ "evidence": [
+  "Declarative tool and agent definition: 40 tools declared as YAML documents of four kinds, each with golden and attack fixtures the build enforces.",
+  "Schema validation: a 545-line schema validating every persona at load time, over about 12,000 lines of catalog, personas, groundings and profiles.",
+  "Code generation from schemas: 18 multi-action MCP tools whose dispatch code is generated from YAML schemas at build time."
+ ],
+ "technology_kind": "language",
+ "canonical": "https://coreyjames.ai/technologies/yaml/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/yaml"
+}

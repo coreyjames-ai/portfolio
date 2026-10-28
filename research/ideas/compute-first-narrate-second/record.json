@@ -1,0 +1,25 @@
+{
+ "url": "https://coreyjames.ai/ideas/compute-first-narrate-second/",
+ "kind": "idea",
+ "title": "Compute first, narrate second",
+ "subtitle": "Put deterministic evidence in front of the model instead of asking the model for evidence",
+ "systems": [
+  "fafohive",
+  "agentos",
+  "capabilities-model",
+  "helix"
+ ],
+ "technologies": [],
+ "stats": [],
+ "lede": "A model asked \"how does this code work\" will answer fluently and will invent call paths. A model asked \"is this task done\" will say yes. A model asked \"which tool should I use\" will name one that does not exist. In each case the failure is the same: the model was asked to produce evidence. I build the other way round. Whatever can be computed is computed first, by code that cannot hallucinate, and the model's job is reduced to narrating or acting on what it was handed. A deterministic layer produces the facts: a code graph, a work-order state, a tool registry, a room-state projection from a meeting.",
+ "quote": "The caveat is the first thing a reader stops seeing, so I do not build that path.",
+ "evidence": [
+  "Evidence-grounded LLM output: a code explainer that narrates only edges a bounded graph query has proven and reports incomplete coverage instead of guessing.",
+  "Grammar-constrained decoding: a grammar compiled from the tool registry, so a model cannot name a tool that does not exist.",
+  "Agent orchestration: jobs rendered from the work graph at dispatch, and completion decided by a function over evidence in the database."
+ ],
+ "canonical": "https://coreyjames.ai/ideas/compute-first-narrate-second/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/research/ideas/compute-first-narrate-second"
+}

@@ -1,0 +1,43 @@
+{
+ "url": "https://coreyjames.ai/technologies/governed-ai-assisted-software-engineering/",
+ "kind": "technology",
+ "title": "Governed AI-assisted software engineering",
+ "subtitle": "Written definitions of done, builders and reviewers from different model families, intake and promotion procedures, and evidence that decides.",
+ "systems": [
+  "agentos",
+  "agent-swarm",
+  "fafohive",
+  "fafo-core",
+  "inference-fabric",
+  "activekv",
+  "capabilities-model"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "3 weeks",
+   "label": "or less for the native C++ port of ActiveKV under a seven-criterion definition of done"
+  },
+  {
+   "value": "24",
+   "label": "performance promotions through the procedure in four days"
+  },
+  {
+   "value": "60+",
+   "label": "locked decisions in the Agent Swarm master plan before parallel work"
+  }
+ ],
+ "lede": "Most of the code behind the systems on this site was written by AI coding agents. I lead that work as an architect: I keep the agents that build apart from the agents that judge, and make the calls when the evidence is disputed. I write the definition of done, the intake standard and the promotion procedure before work starts, and each new ruling becomes standing doctrine. The method is the story Directing AI coding agents at program scale. AgentOS started from a diagnosis. Long agent runs drift because the lead agent has to hold the procedure, the plan, every teammate's state and every piece of evidence in its context, and past some horizon it drops one.",
+ "quote": "An agent's report that it is done is a claim; the system closes work on evidence a separate seat has checked.",
+ "evidence": [
+  "AI-assisted engineering methodology: definitions of done, intake screens and promotion procedures written before work starts, with builders and judges from different model families.",
+  "C++ and native ports with parity proof: a Python-to-C++ engine port in under 3 weeks against a seven-criterion definition of done, then 24 performance promotions in four days.",
+  "Evidence-gated acceptance: an integration platform held open after agents reported it finished, until 23 of 23 close items closed under independent review.",
+  "Technical leadership of agent teams: a master plan of 60+ locked decisions, gatekeepers that never built what they judged, and a decision ledger of 160 entries with 24 of my rulings."
+ ],
+ "technology_kind": "discipline",
+ "canonical": "https://coreyjames.ai/technologies/governed-ai-assisted-software-engineering/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/governed-ai-assisted-software-engineering"
+}

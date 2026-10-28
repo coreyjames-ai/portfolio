@@ -1,0 +1,38 @@
+{
+ "url": "https://coreyjames.ai/ideas/the-copy-of-record-lives-off-the-accelerator/",
+ "kind": "idea",
+ "title": "The copy of record lives off the accelerator",
+ "subtitle": "Host memory or the database holds the truth; the GPU or the model holds a bounded working set",
+ "systems": [
+  "activekv",
+  "inference-fabric",
+  "agentos",
+  "fafohive"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "27B",
+   "label": "parameter model whose attention history lives in host RAM"
+  },
+  {
+   "value": "32 GB",
+   "label": "one card holding only the working set"
+  },
+  {
+   "value": "128K",
+   "label": "token histories served from that card"
+  }
+ ],
+ "lede": "The expensive resource in every system I build, GPU memory or a model's context window, is also the least durable and the hardest to reason about. So I never let it hold the truth. The copy of record lives somewhere cheap, durable and inspectable: pinned host memory, a PostgreSQL work graph, an append-only log, a parsed code graph. The accelerator holds a bounded working set that is staged in, used, and written back under an explicit budget. The authoritative state is written where it can be large and survive restarts. The working set is sized by a stated budget, filled from the copy of record on demand, and released on a fence or a step boundary.",
+ "quote": "An automatic size hides the operator's choice, and a silent degradation hides the failure.",
+ "evidence": [
+  "KV-cache offload for LLM inference: attention history for a 27B model held in pinned host RAM and staged per layer, serving 128K-token histories on one 32 GB card.",
+  "GPU memory management: staging buffers reused only after every copy and kernel reading them has finished, refusing or shrinking rather than degrading when the working set cannot fit.",
+  "Agent state management: the work graph as the copy of record and the model's context as a working set rendered at dispatch and rebuilt after a crash."
+ ],
+ "canonical": "https://coreyjames.ai/ideas/the-copy-of-record-lives-off-the-accelerator/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/research/ideas/the-copy-of-record-lives-off-the-accelerator"
+}

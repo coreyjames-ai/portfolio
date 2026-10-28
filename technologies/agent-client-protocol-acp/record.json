@@ -1,0 +1,41 @@
+{
+ "url": "https://coreyjames.ai/technologies/agent-client-protocol-acp/",
+ "kind": "technology",
+ "title": "Agent Client Protocol (ACP)",
+ "subtitle": "I built agents that speak the Agent Client Protocol so coding assistants can be driven as governed workers rather than chat windows.",
+ "systems": [
+  "agentos",
+  "agent-swarm"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "25",
+   "label": "hard ceiling on delegation depth; a persona configured deeper is refused"
+  },
+  {
+   "value": "4",
+   "label": "checks on every receipt: audience, issuer, hash and call chain"
+  },
+  {
+   "value": "2",
+   "label": "transports for the same envelopes: stdio and Redis streams"
+  },
+  {
+   "value": "7",
+   "label": "typed endings in the delivery adapter besides acceptance"
+  }
+ ],
+ "lede": "ACP is the seam between my governance platform and the vendors' own tools. Agent Swarm lets agents delegate to one another, and a receiving agent has to know who really sent a request, on whose behalf, and that the chain of delegation is not looping or growing without end. I did not want a home-grown protocol for that. I adopted the Agent Client Protocol, which is JSON-RPC 2.0, as the cross-vendor agent protocol and locked the choice into the runtime's master plan; I did not author ACP, I use it and extend it.",
+ "quote": "I put identity and delegation limits into the wire itself.",
+ "evidence": [
+  "Agent-to-agent protocol design: the Agent Client Protocol adopted as the cross-vendor wire and extended with canonical hashing and RS256-signed envelopes, keeping the base protocol standard.",
+  "Multi-agent governance: bounded delegation enforced on every receipt with 4 checks (audience, issuer, hash and call chain) and a hard depth ceiling of 25 that no persona can raise.",
+  "Agent orchestration: a delivery adapter that drives a vendor's own coding tool through its supported ACP bridge and counts a prompt accepted only on the vendor's own acknowledgement, with 7 typed endings."
+ ],
+ "technology_kind": "protocol",
+ "canonical": "https://coreyjames.ai/technologies/agent-client-protocol-acp/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/agent-client-protocol-acp"
+}

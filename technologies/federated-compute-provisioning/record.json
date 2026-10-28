@@ -1,0 +1,39 @@
+{
+ "url": "https://coreyjames.ai/technologies/federated-compute-provisioning/",
+ "kind": "technology",
+ "title": "Federated compute provisioning",
+ "subtitle": "One call stands up GPU capacity on a local card, a LAN workstation over mutual TLS, or rented cloud spot capacity, behind a fail-closed daily budget.",
+ "systems": [
+  "fafo-core",
+  "inference-fabric",
+  "agent-swarm"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "15",
+   "label": "MCP actions on the node-management tool"
+  },
+  {
+   "value": "17,303",
+   "label": "lines of Rust in the provisioning substrate, across 26 files"
+  },
+  {
+   "value": "3",
+   "label": "providers behind one trait: local, LAN and cloud"
+  }
+ ],
+ "lede": "FAFO Core and Function Forge needed compute from wherever I had it: the workstation, a spare machine on the LAN, or a rented cloud GPU up to datacentre Blackwell. I made location a parameter of one MCP call. Underneath is one Rust provider trait, implemented for local Docker, LAN Docker daemons reached over mutual TLS, and RunPod for cloud pods. I kept one implementation of ports, health, events and spend, and every family of workloads composes it. I chose plain Docker with a provider trait and my own CA over Kubernetes. The dollar budget sits inside the provisioning call and only a person can set it.",
+ "quote": "The estate is a handful of machines, and the scheduler I needed was a budget.",
+ "evidence": [
+  "Cloud GPU provisioning with cost controls: one MCP call places capacity on a local card, a LAN host over mutual TLS or a cloud pod, behind a daily budget only a person sets, checked before anything exists.",
+  "Rust systems engineering: one provider trait with three implementations over shared port leases, health, events and spend, 17,303 lines across 26 files.",
+  "Zero-trust and zero-inbound networking: cloud pods dial back to the private network so no GPU host opens an inbound port, and LAN hosts join through an 11-step onboarding with rollback.",
+  "MCP server design: a node-management tool of 15 actions that reads each engine's declared token capacity, so cards of different sizes drain one backlog."
+ ],
+ "technology_kind": "discipline",
+ "canonical": "https://coreyjames.ai/technologies/federated-compute-provisioning/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/federated-compute-provisioning"
+}

@@ -1,0 +1,34 @@
+{
+ "url": "https://coreyjames.ai/ideas/separate-planes-by-role/",
+ "kind": "idea",
+ "title": "Separate planes by role",
+ "subtitle": "Traffic with different reliability, latency and durability needs gets its own infrastructure, so pressure in one role cannot starve or corrupt another",
+ "systems": [
+  "agent-swarm",
+  "fafo-core",
+  "auth-and-access-plane",
+  "inference-fabric"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "6",
+   "label": "leakage rules between the delivery, coordination and durability planes"
+  },
+  {
+   "value": "100 ms",
+   "label": "budget on the live-control stream, kept apart from the command stream"
+  }
+ ],
+ "lede": "One Redis would do. One queue would do. One tunnel would do. I run several of each, because the roles that share them have different needs, and the first time a bulk job starves a control message or a cache eviction silently drops a write you learn why. Delivery, coordination and durability are separate planes with explicit rules about what may cross between them, and infrastructure is sized and configured per role. Name the roles: a job queue, a write-behind queue, a control stream, a coordination bus, a durability store. Give each the configuration its role needs, eviction or no eviction, append-only persistence or not, a tight latency budget or a throughput budget.",
+ "quote": "A failure in one plane is a failure in one plane.",
+ "evidence": [
+  "Distributed systems isolation: delivery, coordination and durability planes with 6 leakage rules between them, so pressure in one role cannot starve another.",
+  "Redis architecture per role: separate instances for a job queue, a write-behind queue with no eviction, GPU job control and a coordination bus.",
+  "Control-plane design: a live-control stream with a 100 ms budget kept apart from the command stream, and main and bulk write lanes."
+ ],
+ "canonical": "https://coreyjames.ai/ideas/separate-planes-by-role/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/research/ideas/separate-planes-by-role"
+}

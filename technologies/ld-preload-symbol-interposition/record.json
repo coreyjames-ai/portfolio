@@ -1,0 +1,36 @@
+{
+ "url": "https://coreyjames.ai/technologies/ld-preload-symbol-interposition/",
+ "kind": "technology",
+ "title": "LD_PRELOAD symbol interposition",
+ "subtitle": "Symbol interposition let me intercept runtime calls directly when the vendor's tracing path was itself distorting measurements.",
+ "systems": [
+  "activekv"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "192",
+   "label": "Unified-Runtime entry points wrapped, generated from the runtime's own interface"
+  },
+  {
+   "value": "1",
+   "label": "instrumented capture at a time through the vendor path; concurrent through the shim"
+  },
+  {
+   "value": "0",
+   "label": "per-call state kept by the shim: forward, write one flat entry, return"
+  }
+ ],
+ "lede": "ActiveKV: the step-profiling suite follows each generated token from the scheduler through every device kernel and copy to the client. Its most detailed level associates Intel Unified-Runtime calls with device intervals and host waits. That capture first went through the vendor's tracing layer, and every capture grew the server process for its whole lifetime. I wanted to know where the memory went before replacing anything. I ran controlled micro-loop experiments that set my collector against a subscriber with no callback attached. The subscriber with no callback still kept memory on every driver call. That put the leak in the vendor's tracing path and cleared my collector, so the shim that followed fixed a measured fault rather than a suspicion.",
+ "quote": "The instrument must not become the result.",
+ "evidence": [
+  "Dynamic linker interposition (LD_PRELOAD): an observer shim generated for all 192 Intel Unified Runtime entry points from the runtime's own interface, forwarding each call and writing one flat entry.",
+  "GPU profiling and tracing: a leak located in the vendor's tracing path by a no-callback control before anything was replaced, so instrumented captures could run concurrently.",
+  "Trace processing at scale: a Rust parser with parallel chunks and trace caches turning tens of gigabytes of capture into host-call to device-work associations with stated clock uncertainty."
+ ],
+ "technology_kind": "discipline",
+ "canonical": "https://coreyjames.ai/technologies/ld-preload-symbol-interposition/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/ld-preload-symbol-interposition"
+}

@@ -1,0 +1,23 @@
+{
+ "url": "https://coreyjames.ai/technologies/network-egress-confinement/",
+ "kind": "technology",
+ "title": "Network egress confinement",
+ "subtitle": "The most privileged agent seat in my estate is fenced: its only way out is a proxy that allows a handful of exact destinations.",
+ "systems": [
+  "agentos"
+ ],
+ "technologies": [],
+ "stats": [],
+ "lede": "AgentOS runs coding agents in containers, and the team-lead seat is the most privileged of them. It directs other agents and uses the estate's governance tools. My view was that a seat like that should reach its model vendor and nothing else, so I built deny-by-default network confinement for it. The seat's container sits on an internal network with no route out. Its one exit is an allow-listing proxy, and the proxy carries one thing: an encrypted connection to the seat's vendor endpoints. An allow-list has well-known ways around it, and each is closed explicitly. The seat cannot reconfigure the proxy, and when the proxy is full it refuses new tunnels.",
+ "quote": "I treat the agent's network as an attack surface and start from deny-all with one named exit.",
+ "evidence": [
+  "Zero-trust and egress control: deny-by-default network confinement for the most privileged agent seat, whose one exit is an allow-listing proxy to its vendor endpoints.",
+  "Allow-list bypass prevention: names resolving into private address space, mismatched TLS host names, wildcards and address literals all refused.",
+  "Proof-driven rollout: every rollout probes that the vendor path succeeds and every blocked category fails, and a preflight checks the proxy image identity before a seat starts."
+ ],
+ "technology_kind": "discipline",
+ "canonical": "https://coreyjames.ai/technologies/network-egress-confinement/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/network-egress-confinement"
+}

@@ -1,0 +1,40 @@
+{
+ "url": "https://coreyjames.ai/technologies/performance-engineering-and-benchmarking/",
+ "kind": "technology",
+ "title": "Performance engineering and benchmarking",
+ "subtitle": "Fixed model, one variable at a time, negatives beside positives, and an intake screen that rejects gains tuned to the test fixture.",
+ "systems": [
+  "activekv",
+  "inference-fabric",
+  "fafo-core",
+  "capabilities-model"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "16",
+   "label": "cells in the frozen workload matrix"
+  },
+  {
+   "value": "196 → 0",
+   "label": "deadlocks in one bulk update after a unique index"
+  },
+  {
+   "value": "7B",
+   "label": "dense model in FP8, held fixed across every step"
+  }
+ ],
+ "lede": "In ActiveKV one metric, inter-token latency, kept declaring success or failure on its own and misled everyone, me included. I wrote a measurement doctrine to fix that, and comparison tables are generated from run data. The workloads are a frozen matrix. Every performance change after the native port went through an intake screen that rejects behaviour keyed to benchmark fixture sizes, even when the gain is real at the fixture, then an A/B against the last kept change, and a cumulative ledger of engine hashes and runs. When a trace said host-to-device copies serialised with compute, a controlled re-measurement showed the timing events were causing it, and I retracted the conclusion: The observer that changed the answer.",
+ "quote": "I design the instrument, the baseline and the reading rules as carefully as the system under test, and I retract my own conclusions when the instrument turns out to be the cause.",
+ "evidence": [
+  "Performance benchmarking methodology: a frozen 16-cell workload matrix, four metrics on every report and an intake screen that rejects gains keyed to benchmark fixture sizes.",
+  "GPU inference optimisation: one layer changed at a time on a fixed 7B dense model in FP8, from 44K to 163K tokens per second, with three losing ideas kept beside the wins.",
+  "PostgreSQL performance tuning: a bulk update diagnosed from PostgreSQL's own tuple counts rather than queue counters, taken from 196 deadlocks to 0 by one unique index.",
+  "Load testing under concurrency: a load ladder from 1 to 2,048 concurrent clients set as an acceptance requirement, with the full burst served beside the main model."
+ ],
+ "technology_kind": "discipline",
+ "canonical": "https://coreyjames.ai/technologies/performance-engineering-and-benchmarking/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/performance-engineering-and-benchmarking"
+}

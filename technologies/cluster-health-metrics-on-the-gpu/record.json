@@ -1,0 +1,40 @@
+{
+ "url": "https://coreyjames.ai/technologies/cluster-health-metrics-on-the-gpu/",
+ "kind": "technology",
+ "title": "Cluster-health metrics on the GPU",
+ "subtitle": "Per-cluster metrics, each answering a question a corpus manager asks, computed across thousands of clusters in fused GPU launches and defined by CPU reference code.",
+ "systems": [
+  "inference-fabric"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "6",
+   "label": "families of metrics, each answering one kind of question about a cluster"
+  },
+  {
+   "value": "~12",
+   "label": "fused GPU launches for a batch of thousands of clusters"
+  },
+  {
+   "value": "8",
+   "label": "operational metrics about a cluster's life in the database, beside the geometry"
+  },
+  {
+   "value": "5",
+   "label": "composite scores, weighted from a table in the database"
+  }
+ ],
+ "lede": "My distillation research keeps millions of embeddings in clusters, and the corpus is managed by what the clusters measure: a cluster is split, merged or left alone on the strength of its scores. I built a CUDA engine that computes every metric across every cluster at once, under the Inference Fabric on the same leased GPU memory as the search kernels. Clusters of any size are processed together through compressed-row offsets. Streaming metrics get one block per cluster; quadratic metrics get one block per tile pair. The centroid family is the streaming foundation.",
+ "quote": "A number means the same thing wherever it is read.",
+ "evidence": [
+  "Embedding analytics and cluster metrics: thirty-eight per-cluster metrics in 6 families, each answering a question a corpus manager asks, folded into 5 composite scores.",
+  "CUDA kernel development: clusters of any size computed together through compressed-row offsets, a batch of thousands of clusters in ~12 fused GPU launches.",
+  "Numerical validation against CPU references: every metric defined by CPU reference code, with each kernel checked against it at a single-precision tolerance."
+ ],
+ "technology_kind": "discipline",
+ "canonical": "https://coreyjames.ai/technologies/cluster-health-metrics-on-the-gpu/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/cluster-health-metrics-on-the-gpu"
+}

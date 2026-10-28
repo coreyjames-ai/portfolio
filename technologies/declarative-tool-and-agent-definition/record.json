@@ -1,0 +1,37 @@
+{
+ "url": "https://coreyjames.ai/technologies/declarative-tool-and-agent-definition/",
+ "kind": "technology",
+ "title": "Declarative tool and agent definition",
+ "subtitle": "In my agent runtime a tool is a YAML declaration and an agent class is a composition.",
+ "systems": [
+  "agent-swarm",
+  "agentos"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "40",
+   "label": "declarative tools in the catalog, beside about twenty Rust built-ins"
+  },
+  {
+   "value": "50",
+   "label": "golden fixtures run through the runtime's own pipeline"
+  },
+  {
+   "value": "29",
+   "label": "personas declared, not coded"
+  }
+ ],
+ "lede": "Every new agent tends to arrive with its own tooling and permissions, and every one of those is a new place for something to go wrong, so in Agent Swarm I decided tools and agent roles would be data. Tools are declared in YAML in four kinds. Composed tools template from inputs and earlier results, with recursion detection and depth caps; HTTP templates use RFC 3986 encoding; and a peer service turns any agent into a tool provider. A WebAssembly tool kind is declared and the harness rejects it, because a half-finished kind would have meant a partial bypass of the pipeline.",
+ "quote": "Exceptions are where the holes are.",
+ "evidence": [
+  "Agent tool design: 40 declarative tools in YAML across four kinds, validated in strict mode and pushed through 50 golden fixtures.",
+  "Agent orchestration: 29 personas declared, not coded, with model, provider and container kept in separate execution profiles.",
+  "Security testing for agent tools: injection fixtures that attack every shell template, and a tool without tests fails the build."
+ ],
+ "technology_kind": "discipline",
+ "canonical": "https://coreyjames.ai/technologies/declarative-tool-and-agent-definition/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/declarative-tool-and-agent-definition"
+}

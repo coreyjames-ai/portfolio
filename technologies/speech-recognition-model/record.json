@@ -1,0 +1,23 @@
+{
+ "url": "https://coreyjames.ai/technologies/speech-recognition-model/",
+ "kind": "technology",
+ "title": "Speech recognition model",
+ "subtitle": "An open speech-recognition model is the recogniser in my voice engine, integrated rather than modified.",
+ "systems": [
+  "helix"
+ ],
+ "technologies": [],
+ "stats": [],
+ "lede": "Helix holds spoken conversations in a room or on a Microsoft Teams call, and I wanted the speech it hears recognised on my own hardware. the speech recognition model is the recognition model; the engineering is how the voice engine uses it, and above all what it does with an uncertain result. the speech recognition model is an open model served through the open-source its C++ runtime; the integration, the confidence policy and the deployment are mine. The engine's transcriber is an interface with two implementations: the speech recognition model in process through its C++ runtime, and a client for a the speech recognition model server on a GPU host that takes WAV audio and returns segments.",
+ "quote": "A digital employee that answers words nobody said is worse than one that stays quiet.",
+ "evidence": [
+  "Speech recognition pipelines: an open recogniser behind a transcriber interface, in process or on a GPU server, with the two deployments swapping without touching conversation logic.",
+  "Hallucination control in speech recognition: every segment carries a confidence measure, segments under the threshold are dropped, and an empty turn replaces invented text.",
+  "Real-time voice AI on local GPUs: recognition on a Blackwell GPU beside neural speech synthesis in the Teams configuration, so a call's audio stays on my hardware."
+ ],
+ "technology_kind": "model",
+ "canonical": "https://coreyjames.ai/technologies/speech-recognition-model/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/speech-recognition-model"
+}

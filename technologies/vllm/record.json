@@ -1,0 +1,43 @@
+{
+ "url": "https://coreyjames.ai/technologies/vllm/",
+ "kind": "technology",
+ "title": "vLLM",
+ "subtitle": "vLLM is the engine ActiveKV lives inside, patched at the scheduler, worker and attention backend, and the server under my local open-source models.",
+ "systems": [
+  "activekv",
+  "capabilities-model",
+  "agent-swarm"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "128,000",
+   "label": "token histories for a 27B hybrid model on one card"
+  },
+  {
+   "value": "32 GB",
+   "label": "the single card it runs on"
+  },
+  {
+   "value": "36%",
+   "label": "more sustained throughput than a mixed 4-bit/8-bit control"
+  },
+  {
+   "value": "3%",
+   "label": "higher perplexity than full precision"
+  }
+ ],
+ "lede": "ActiveKV began with a limit I kept hitting in vLLM: it keeps a model's whole key-value cache for a request in GPU memory, and its offload is a prefix cache that reuses prompts it has seen. Once a request's history outgrew the card, the request could not continue. I treated prefix reuse and active-context tiering as separate problems from the start. I decided to move the history to host memory and keep it inside vLLM, at its own extension points, delivered as compiled binaries plus a patch to the user's own vLLM, so users keep their own engine. Attention history lives in pinned host memory and the card keeps a bounded working set.",
+ "quote": "A flat throughput curve under concurrency now sends me to the client first.",
+ "evidence": [
+  "vLLM internals: ActiveKV built into vLLM at its scheduler, key-value connector, worker, attention backend and plugin system, delivered as binaries plus a patch.",
+  "KV-cache offload for LLM inference: attention history in pinned host memory with a bounded working set on the card, 128,000-token histories for a 27B model on one 32 GB card.",
+  "LLM quantization (4-bit): a 27B model quantized to a format the stock XPU build serves, 36% more sustained throughput for 3% higher perplexity.",
+  "C++ and native ports with parity proof: the runtime moved from Python inside vLLM to native C++ with bit-identical output in every parity cell."
+ ],
+ "technology_kind": "runtime",
+ "canonical": "https://coreyjames.ai/technologies/vllm/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/vllm"
+}

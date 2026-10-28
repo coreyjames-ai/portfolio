@@ -1,0 +1,39 @@
+{
+ "url": "https://coreyjames.ai/technologies/mcp-tool-design/",
+ "kind": "technology",
+ "title": "MCP tool design",
+ "subtitle": "Tools shaped as jobs, cost stated on every call, every write read back, every create with a delete: the written standard every MCP tool in my estate must meet.",
+ "systems": [
+  "fafohive",
+  "helix",
+  "capabilities-model"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "~42,000",
+   "label": "tokens of tool schema an agent had carried every turn"
+  },
+  {
+   "value": "24",
+   "label": "meeting tools, each with a minimal exact schema"
+  },
+  {
+   "value": "520",
+   "label": "characters in the discovery tool's description, held there by a test"
+  }
+ ],
+ "lede": "FAFOHive: when I added in-house social integrations to the tool hub, the fast path was to generate one tool per vendor endpoint. I took it once. The X module's first build compiled its tools straight from the vendor's OpenAPI specification. They were cheap to make, expensive to call and easy for an agent to misuse. I withdrew that surface and replaced it with tools shaped like the jobs agents actually do, trading generated breadth for designed workflow tools with costs and guards. I wrote the standard every tool in the estate has to meet, and its rulings. Its first rule is that a tool is a job.",
+ "quote": "An agent cannot budget what it cannot see, so every call states its cost.",
+ "evidence": [
+  "MCP server design: a written standard for every tool, shaped as a job, with a stated cost formula, verbatim errors, read-back writes and a delete for every create.",
+  "Tool surface design for agents: ~42,000 tokens of per-turn tool schema replaced by one discovery tool whose 520-character description is held by a test.",
+  "Lifecycle testing of agent tools: every kind of post and media created, checked and deleted through agent tools alone, finding 3 platform-semantics defects.",
+  "Agent-safe API integration: 24 meeting tools with minimal exact schemas and typed refusals where Microsoft offers no supported action."
+ ],
+ "technology_kind": "discipline",
+ "canonical": "https://coreyjames.ai/technologies/mcp-tool-design/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/mcp-tool-design"
+}

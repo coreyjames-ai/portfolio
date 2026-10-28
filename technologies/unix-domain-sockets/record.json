@@ -1,0 +1,39 @@
+{
+ "url": "https://coreyjames.ai/technologies/unix-domain-sockets/",
+ "kind": "technology",
+ "title": "Unix domain sockets",
+ "subtitle": "Unix sockets are the transport between my governance hooks and their runtime, between the voice engine and its clients, and between the capabilities model's decoder and its callers.",
+ "systems": [
+  "helix",
+  "agentos",
+  "fafohive",
+  "capabilities-model"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "1 MiB",
+   "label": "cap on every frame a privileged server will read"
+  },
+  {
+   "value": "3",
+   "label": "JSON-lines protocols over local sockets"
+  },
+  {
+   "value": "1",
+   "label": "account each server will answer"
+  }
+ ],
+ "lede": "Helix has to create and control vendor CLI sessions, which takes privileges I did not want in the processes that talk to models. I split the privileged part into a small manager and put Unix sockets between it and everything else. The control center speaks JSON-lines protocols over local sockets: service to session manager, service to the per-vendor adapters, and browser terminal attach. Every server checks the connecting process's user ID against the one account allowed to call it, because a socket path says nothing about who connected, and a hard frame cap keeps a misbehaving client from making a privileged process allocate without bound.",
+ "quote": "I design local process boundaries with the care most people reserve for network APIs: typed, size-limited, authenticated by peer identity and safe to restart.",
+ "evidence": [
+  "Least-privilege process design: a privileged session manager behind local sockets that answers 1 account, checked by the caller's user ID.",
+  "Protocol design: 3 JSON-lines protocols over local sockets with a 1 MiB frame cap, fence tokens and an on-disk outbox that survives restarts.",
+  "Zero-inbound networking: a provider with no TCP port, reached through a private socket and a native-messaging host."
+ ],
+ "technology_kind": "protocol",
+ "canonical": "https://coreyjames.ai/technologies/unix-domain-sockets/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/unix-domain-sockets"
+}

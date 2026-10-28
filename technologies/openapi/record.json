@@ -1,0 +1,36 @@
+{
+ "url": "https://coreyjames.ai/technologies/openapi/",
+ "kind": "technology",
+ "title": "OpenAPI",
+ "subtitle": "OpenAPI descriptions are the declarative input to my API integration platform and to the generated tool surfaces behind the memory gateway.",
+ "systems": [
+  "fafo-core",
+  "fafohive"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "83",
+   "label": "generated operations, kept internal"
+  },
+  {
+   "value": "36",
+   "label": "designed tools agents see"
+  },
+  {
+   "value": "A dozen",
+   "label": "semantic rules every manifest is checked against"
+  }
+ ],
+ "lede": "In FAFO Core and Function Forge I built a platform that puts third-party APIs behind agent tools, and the first thing I decided was that an API's specification is a claim about the API. An OpenAPI 3.x document, or a hand-written seed for an API without one, is converted deterministically into a schema-checked manifest: operations, parameters, authentication and response shapes in one canonical format, checked against semantic rules. The platform's test catalogs include negative cases, so the gate itself is tested. The delivery is told in Closed by evidence. In FAFOHive the same document pulled me the other way.",
+ "quote": "An OpenAPI document is a poor design for an agent's tools and no proof of what an API does.",
+ "evidence": [
+  "Tool synthesis and governed API integration: OpenAPI 3.x documents converted deterministically into schema-checked manifests, with agent tools only after an API's real behaviour is shown.",
+  "MCP tool design for agents: 83 generated operations kept as a typed internal layer, and 36 designed tools shaped like an agent's jobs, each stating its cost formula and returning its actual cost."
+ ],
+ "technology_kind": "protocol",
+ "canonical": "https://coreyjames.ai/technologies/openapi/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/openapi"
+}

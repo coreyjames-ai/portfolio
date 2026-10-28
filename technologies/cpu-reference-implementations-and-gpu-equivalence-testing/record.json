@@ -1,0 +1,36 @@
+{
+ "url": "https://coreyjames.ai/technologies/cpu-reference-implementations-and-gpu-equivalence-testing/",
+ "kind": "technology",
+ "title": "CPU reference implementations and GPU equivalence testing",
+ "subtitle": "Every GPU metric has a plain-Rust CPU twin that defines it.",
+ "systems": [
+  "inference-fabric"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "~9,000",
+   "label": "lines of plain-Rust reference across thirteen modules"
+  },
+  {
+   "value": "32",
+   "label": "Rust integration tests, beside fifteen CUDA test files"
+  },
+  {
+   "value": "20",
+   "label": "older kernels kept with tests as regression baselines"
+  }
+ ],
+ "lede": "In the Inference Fabric's CUDA engine every metric and every search family has a CPU reference in plain Rust. The reference states the formula the obvious way and decides every edge case; the kernel is an implementation that must match it. A consistency check keeps the kernels, the references and the per-kernel lineage documentation in agreement for every kernel group. A metric that has no kernel yet stays on the CPU with its limit stated. The method is told in Every metric gets a CPU twin. The tolerances are part of the method.",
+ "quote": "I do not trust a GPU kernel to define the number it computes.",
+ "evidence": [
+  "Numerical testing of GPU kernels: a plain-Rust CPU reference of about 9,000 lines behind every metric, with a three-way check between kernel, reference and documentation.",
+  "Floating-point tolerance design: tolerances derived from single-precision reductions on 1,024-dimensional vectors, exact and byte-identical where search promises determinism.",
+  "Regression testing for GPU code: 32 Rust integration tests and 20 older kernels kept as baselines a rewrite is measured against."
+ ],
+ "technology_kind": "discipline",
+ "canonical": "https://coreyjames.ai/technologies/cpu-reference-implementations-and-gpu-equivalence-testing/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/cpu-reference-implementations-and-gpu-equivalence-testing"
+}

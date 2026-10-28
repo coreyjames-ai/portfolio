@@ -1,0 +1,42 @@
+{
+ "url": "https://coreyjames.ai/technologies/large-scale-gpu-data-pipelines/",
+ "kind": "technology",
+ "title": "Large-scale GPU data pipelines",
+ "subtitle": "A generation pipeline that populated tens of millions of dataset items on two consumer GPUs, with persistent item identities, lease-based claiming and prompts baked at build time for cache reuse.",
+ "systems": [
+  "fafo-core",
+  "inference-fabric",
+  "capabilities-model"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "876K",
+   "label": "probes submitted in one captured window"
+  },
+  {
+   "value": "131 M",
+   "label": "tokens pending in that window"
+  },
+  {
+   "value": "156/s",
+   "label": "probes per second, with zero retries"
+  },
+  {
+   "value": "~203K",
+   "label": "hidden-state extractions over 10.8 M tokens, 7B dense model in FP8"
+  }
+ ],
+ "lede": "FAFO Core and Function Forge: my distillation research needed tens of millions of model-generated dataset items. Each one had to trace back to the knowledge it came from, and they had to be produced fast enough to keep two consumer GPUs saturated. I treated that as an industrial data pipeline, and I let the workload itself decide what the substrate needed. The probe generator is a Rust function on the FAFO Core substrate. It reads a unified work view over three source types, assembles class-specific prompts, submits them to the GPU broker, and stores each result as a token-ID array with provenance. It runs in service mode with queue-depth triggers.",
+ "quote": "A research result that cannot be reproduced is worth little.",
+ "evidence": [
+  "High-throughput batch inference: tens of millions of traceable dataset items on two NVIDIA Blackwell GPUs, 876K probes and 131 M tokens in one window at 156/s with zero retries.",
+  "Prefix-cache engineering: prompts tokenized at build time and baked into the binary so every class shares a byte-identical prefix the inference engine reuses from cache.",
+  "Reproducible ML data capture: hidden-state mining runs content-addressed and safe to resubmit, about 203K extractions over 10.8 M tokens from a 7B dense model in FP8."
+ ],
+ "technology_kind": "discipline",
+ "canonical": "https://coreyjames.ai/technologies/large-scale-gpu-data-pipelines/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/large-scale-gpu-data-pipelines"
+}

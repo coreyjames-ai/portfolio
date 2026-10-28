@@ -1,0 +1,36 @@
+{
+ "url": "https://coreyjames.ai/technologies/websocket/",
+ "kind": "technology",
+ "title": "WebSocket",
+ "subtitle": "One authenticated WebSocket per call carries the binary audio link between Teams and my voice engine, and survives a mid-call reconnect.",
+ "systems": [
+  "helix"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "2",
+   "label": "implementations held to byte-identical output"
+  },
+  {
+   "value": "20 ms",
+   "label": "audio pacing the media SDK expects"
+  },
+  {
+   "value": "30 min",
+   "label": "soak with a forced mid-call reconnect"
+  }
+ ],
+ "lede": "Helix answers Microsoft Teams calls with a voice engine on my own GPUs under Linux, and Teams hands raw call audio only to a Windows application built on Microsoft's real-time media SDK. I kept all intelligence on my side and made the Windows piece a media driver, joined to the engine by a WebSocket link carrying a binary media protocol I designed. Each call gets one authenticated, full-duplex secure WebSocket between the bridge and the engine, so a call's lifetime equals its socket's. On the Linux side an Axum endpoint admits a session only when its tenant, persona and identity fingerprint match what the engine expects.",
+ "quote": "I can design a real-time protocol across two languages, two clouds and a vendor SDK with strict rules, and prove it under soak and fault before I call it finished.",
+ "evidence": [
+  "Microsoft Teams real-time media: one authenticated full-duplex WebSocket per call between a .NET media bridge and a Rust voice engine, admitted by tenant, persona and fingerprint.",
+  "Binary protocol design: 2 implementations, C# and Rust, held to byte-identical output with shared golden vectors, audio paced at 20 ms.",
+  "Fault tolerance in real-time systems: a 30 min soak and a forced reconnect inside the same call, with audio from the gap dropped."
+ ],
+ "technology_kind": "protocol",
+ "canonical": "https://coreyjames.ai/technologies/websocket/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/websocket"
+}

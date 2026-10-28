@@ -1,0 +1,27 @@
+{
+ "url": "https://coreyjames.ai/technologies/graphql/",
+ "kind": "technology",
+ "title": "GraphQL",
+ "subtitle": "A typed Rust client for a cloud GPU provider's GraphQL API.",
+ "systems": [
+  "fafo-core"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "~2,400",
+   "label": "lines across the client, query and type modules"
+  }
+ ],
+ "lede": "appears in one place: the cloud GPU provider integration inside the provisioning layer of my execution substrate, FAFO Core and Function Forge. I have a typed Rust client for that provider's GraphQL API. Pod lifecycle goes over the same provider's REST API; the GraphQL client remains in the crate. This is a well-typed client against a vendor's schema, not GraphQL server or schema design. GraphQL errors are parsed with their field paths and mapped to typed errors rather than matched as strings, so the provisioning layer can tell \"no capacity\" from \"bad credentials\" and react differently. Retry is bounded, with capped exponential backoff, rather than unbounded against a paid API.",
+ "quote": "I chose REST for the pod path where the provider's REST interface was simpler, instead of keeping GraphQL for its own sake.",
+ "evidence": [
+  "Typed API clients in Rust: a ~2,400-line typed client for a cloud GPU provider's GraphQL API, with errors mapped through their field paths to typed failures.",
+  "Resilient integration with paid APIs: bounded retry with capped exponential backoff, and REST chosen for the pod path where it was the simpler interface."
+ ],
+ "technology_kind": "protocol",
+ "canonical": "https://coreyjames.ai/technologies/graphql/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/graphql"
+}

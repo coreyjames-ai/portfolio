@@ -1,0 +1,43 @@
+{
+ "url": "https://coreyjames.ai/research/family-two-durable-work-and-lossless-recovery/",
+ "kind": "patent-family",
+ "title": "Family Two: Durable work, tombstones and lossless recovery",
+ "subtitle": "No accepted work is lost, and no completed result is delivered twice, across a durable broker and GPU runtimes.",
+ "systems": [
+  "inference-fabric"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "5",
+   "label": "states; every piece of work is in exactly one"
+  },
+  {
+   "value": "1",
+   "label": "durable tombstone marks a completion"
+  },
+  {
+   "value": "4",
+   "label": "outcomes for every item at reconciliation"
+  },
+  {
+   "value": "6 M",
+   "label": "queued items in the loss this design closed"
+  }
+ ],
+ "lede": "Methods and Systems for No-Loss Work Reconciliation Between a Durable-Log Broker and Accelerator Inference Runtimes Using Consumer-Reported Hardware Residency. U.S. Provisional Patent Application No. 64/147,527 (patent pending). Embodied in the broker of the Inference Fabric. Every piece of work is in exactly one of five states at any time: durable storage, consumer memory, queued for GPU, running on GPU, or durably complete. At any instant all accepted work is the disjoint union of those five sets, so nothing is ever unaccounted for. Completion is marked by a durable tombstone, and the durability order is fixed: the output is persisted, then the tombstone, and only then is the input retired. Recovery is a classification.",
+ "quote": "A piece of work may execute more than once on GPUs, and the outside world observes its completion at most once.",
+ "evidence": [
+  "Exactly-once delivery and crash recovery: a model of 5 states in which every accepted piece of work is in exactly one, so all accepted work is always accounted for.",
+  "Write-ordering and durability design: a tombstone persisted after the output and before the input is retired, so a retired input always means the result is stored.",
+  "Distributed systems correctness: recovery as a classification into 4 outcomes, redispatching only unresolved work owned by a failed consumer and not resident on a survivor.",
+  "Message broker and queue design: at-least-once execution on GPUs with at-most-once observable completion, the design that closed a 6 M-item queue loss and balanced the token count to zero.",
+  "Patent filing for AI infrastructure: U.S. Provisional Patent Application No. 64/147,527 (patent pending) on no-loss work reconciliation between a durable-log broker and GPU runtimes."
+ ],
+ "application_number": "64/147,527",
+ "status": "provisional patent application, patent pending",
+ "canonical": "https://coreyjames.ai/research/family-two-durable-work-and-lossless-recovery/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/research/patent-families/family-two-durable-work-and-lossless-recovery"
+}

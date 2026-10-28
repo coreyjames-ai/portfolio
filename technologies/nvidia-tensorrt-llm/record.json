@@ -1,0 +1,39 @@
+{
+ "url": "https://coreyjames.ai/technologies/nvidia-tensorrt-llm/",
+ "kind": "technology",
+ "title": "NVIDIA TensorRT-LLM",
+ "subtitle": "TensorRT-LLM is the engine under the Inference Fabric. I never touched its kernels; everything I gained came from how work was fed to it, and I tried it first for the capabilities model before closing that path on evidence.",
+ "systems": [
+  "inference-fabric",
+  "capabilities-model",
+  "fafo-core"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "163K",
+   "label": "tokens a second, five-minute mean across two NVIDIA Blackwell GPUs, from about 44K on one"
+  },
+  {
+   "value": "3,840",
+   "label": "input tokens in the long-prompt tiers"
+  },
+  {
+   "value": "1,000×",
+   "label": "the worst weight corruption the vendor conversion caused on affected tensors"
+  }
+ ],
+ "lede": "Inference Fabric started from stock TensorRT-LLM set up the obvious way, which left most of a consumer GPU idle on bulk generation. My view was that the ceiling sat around the engine, so I kept NVIDIA's kernels and engineered everything else. My C++ layer drives the engine through its Executor API from a Rust service and refuses any engine configuration that leans on defaults, so a mis-sized engine is refused up front. I changed one layer at a time on a 7-billion-parameter dense model in FP8. An engine tier sweep found the per-step token budget to be the largest lever on the engine side, and it is the first lever I measure since.",
+ "quote": "I get the most from NVIDIA's serving stack by engineering what surrounds it, and I judge it fairly when it does not fit.",
+ "evidence": [
+  "TensorRT and TensorRT-LLM engineering: NVIDIA's kernels kept and everything around them engineered, from about 44K to a 163K tokens-a-second five-minute mean across two NVIDIA Blackwell GPUs.",
+  "Inference serving architecture: per-card engine tiers from one calibrated FP8 checkpoint, up to 4,096 sequences and 524,000 tokens per step on the 32 GB card, each engine carrying a contract of its limits.",
+  "Prefix reuse in LLM serving: shared prompt prefixes measured at 40 to 56 percent more throughput on the larger card with 128-token prompts, which is why the broker groups work by prefix.",
+  "Vendor technology evaluation: TensorRT-LLM tried first for the capabilities model and closed on three findings, including weights corrupted up to 1,000x by conversion and 56 against 492 requests a second."
+ ],
+ "technology_kind": "runtime",
+ "canonical": "https://coreyjames.ai/technologies/nvidia-tensorrt-llm/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/nvidia-tensorrt-llm"
+}

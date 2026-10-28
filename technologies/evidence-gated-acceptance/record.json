@@ -1,0 +1,38 @@
+{
+ "url": "https://coreyjames.ai/technologies/evidence-gated-acceptance/",
+ "kind": "technology",
+ "title": "Evidence-gated acceptance",
+ "subtitle": "A capability counts only when evidence shows it wired and exercised at runtime, and the gates say what is still unproven.",
+ "systems": [
+  "helix",
+  "fafo-core",
+  "auth-and-access-plane"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "55 of 55",
+   "label": "Rust tests passed by the meeting tools, kept open until their runtime gates passed"
+  },
+  {
+   "value": "47",
+   "label": "integration tests that list what they leave unproven"
+  },
+  {
+   "value": "~9,000",
+   "label": "lines of hardening modules built, and kept apart from what guards requests"
+  }
+ ],
+ "lede": "AI engineering teams produce plausible claims that something works, and live tests in a real Microsoft tenant are scarce, so I set Helix a strict vocabulary. Unit tests prove a thing is implemented, a runtime trace proves it is wired, and a live session proves it works in the meeting. Every meeting action moved through those states, and nothing counted as complete until its live gate passed; the second-generation meeting tools passed every Rust test and every stage test, and I kept them open until the live gates passed. Where Microsoft's platform has no supported path, the action fails closed and says why.",
+ "quote": "A mocked backend never counts as proven live.",
+ "evidence": [
+  "Evidence-gated acceptance: meeting tools that passed 55 of 55 Rust tests kept open until their runtime gates passed in the meeting.",
+  "Quality engineering for AI-produced work: 47 integration tests that list what they leave unproven, with failed gates kept in the history.",
+  "Documentation audited against code: system dossiers re-documented from the code with drift tables, where the code wins any disagreement."
+ ],
+ "technology_kind": "discipline",
+ "canonical": "https://coreyjames.ai/technologies/evidence-gated-acceptance/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/evidence-gated-acceptance"
+}

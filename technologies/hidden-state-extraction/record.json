@@ -1,0 +1,36 @@
+{
+ "url": "https://coreyjames.ai/technologies/hidden-state-extraction/",
+ "kind": "technology",
+ "title": "Hidden-state extraction",
+ "subtitle": "The Inference Fabric's runtime has a single-pass hidden-state extraction mode with an empirical, fail-closed tensor-semantics detector.",
+ "systems": [
+  "inference-fabric"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "~203,000",
+   "label": "hidden-state extractions in one run through the broker"
+  },
+  {
+   "value": "10.8M",
+   "label": "tokens in that run"
+  },
+  {
+   "value": "4,096",
+   "label": "values per probe vector, up to 524,288 tokens per pass"
+  }
+ ],
+ "lede": "Inference Fabric was built for a distillation workload that needs a model's internal representation of every example, at dataset scale. Serving stacks return tokens, and running full generation to read one vector wastes the GPU. I added an extraction mode to the runtime itself, so the GPU spends nothing on tokens nobody needs. An engine built without a key-value cache routes to a raw TensorRT path that runs one forward pass per batch and returns the final hidden state of each sequence. A consumer has to pass a contract check before it may join the broker. At load the runtime enumerates every tensor the engine exposes.",
+ "quote": "Validating vectors later cannot catch a well-formed vector for the wrong token.",
+ "evidence": [
+  "Hidden-state extraction at scale: a single-pass TensorRT mode returning 4,096-value vectors, about 203,000 extractions over 10.8M tokens of a 7-billion-parameter FP8 model.",
+  "Fail-closed engineering: a warm-up probe that measures the engine's gather convention under both candidates and refuses to start on an ambiguous answer.",
+  "High-throughput batch inference: buffers bound once at maximum shape and a fixed shape, address and copy order, averaging 25,800 tokens per second with a peak of 45,500."
+ ],
+ "technology_kind": "discipline",
+ "canonical": "https://coreyjames.ai/technologies/hidden-state-extraction/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/hidden-state-extraction"
+}

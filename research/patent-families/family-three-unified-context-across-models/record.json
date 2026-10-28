@@ -1,0 +1,43 @@
+{
+ "url": "https://coreyjames.ai/research/family-three-unified-context-across-models/",
+ "kind": "patent-family",
+ "title": "Family Three: Unified context across AI models and knowledge systems",
+ "subtitle": "One authoritative context. Many models. Many sources. No AI provider owns the truth.",
+ "systems": [
+  "helix"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "1",
+   "label": "authoritative context fabric"
+  },
+  {
+   "value": "6",
+   "label": "kinds of source in that context"
+  },
+  {
+   "value": "4",
+   "label": "scope levels a participant is filtered by"
+  },
+  {
+   "value": "0",
+   "label": "AI providers that own the truth"
+  }
+ ],
+ "lede": "Methods and Systems for Maintaining Unified Conversation Context Across Heterogeneous Reasoning Backends Using a Provider-Neutral Substrate and a Transcript Authority Decoupled From a Scoped Semantic Store. U.S. Provisional Patent Application No. 64/147,766 (patent pending). Embodied in the collaboration shell of Helix. Traditional AI systems inherit fragmented context from whichever tool or provider they happen to be using: conversations in one place, files in another, email, meetings and enterprise artifacts elsewhere, with no single complete view. This invention holds context in one authoritative context fabric that no provider owns, which any of many heterogeneous models can be grounded from.",
+ "quote": "Model memory is not system memory.",
+ "evidence": [
+  "Context engineering for LLMs: 1 authoritative, provider-neutral context fabric from which many heterogeneous models are grounded, so 0 AI providers own the truth.",
+  "Retrieval and knowledge integration: context drawn from 6 kinds of source, conversations, files, email, meetings, enterprise artifacts and semantic knowledge.",
+  "Access control for AI context: each participant filtered to its scope at one of 4 levels, system, project, work order or conversation, seeing only what it is authorised to see.",
+  "Multi-model orchestration: grounding packets rebuilt from the shared fabric at the current scope and revision beside each provider's own continuity, degrading additively when a source is missing.",
+  "Patent filing for AI systems: U.S. Provisional Patent Application No. 64/147,766 (patent pending) on unified conversation context across heterogeneous reasoning backends."
+ ],
+ "application_number": "64/147,766",
+ "status": "provisional patent application, patent pending",
+ "canonical": "https://coreyjames.ai/research/family-three-unified-context-across-models/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/research/patent-families/family-three-unified-context-across-models"
+}

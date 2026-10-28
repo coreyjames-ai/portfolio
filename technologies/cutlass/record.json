@@ -1,0 +1,35 @@
+{
+ "url": "https://coreyjames.ai/technologies/cutlass/",
+ "kind": "technology",
+ "title": "CUTLASS",
+ "subtitle": "CUTLASS-for-SYCL is part of the kernel stack I patched on Intel's Xe2 architecture for ActiveKV's attention.",
+ "systems": [
+  "activekv"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "3",
+   "label": "kernel libraries in the release built on it"
+  },
+  {
+   "value": "2",
+   "label": "attention needs the stock kernels did not meet"
+  },
+  {
+   "value": "2",
+   "label": "candidate changes rejected and kept as negative results"
+  }
+ ],
+ "lede": "ActiveKV needed two things from attention on the Intel Arc Pro GPU that stock kernels do not provide, and I decided to extend Intel's CUTLASS and CuTe port for SYCL to get them. The library comes from the CUTLASS 4.2.1 lineage. The vendor's templates already encode the tile, copy and MMA structure for Xe2, so I added only what ActiveKV needed. The first need was the log-sum-exp statistic from paged decode. It is the one statistic that makes exact merging across memory tiers possible, so I had it added to the paged-attention path and nothing more. The second need was attention operators that read history from the staging working set and from the compressed representation.",
+ "quote": "No kernel patch ships unless its outputs match the unpatched path bit for bit.",
+ "evidence": [
+  "Intel GPU and SYCL/oneAPI engineering: Intel's CUTLASS-for-SYCL templates extended on Xe2 for 2 attention needs, compiled into 3 kernel libraries inside the vendor's own toolchain for ABI match.",
+  "Bit-exact numerical verification: log-sum-exp added to paged decode so attention over card and host memory merges exactly, every patch gated on output bit-identical to the unpatched path, with 2 candidates rejected."
+ ],
+ "technology_kind": "framework",
+ "canonical": "https://coreyjames.ai/technologies/cutlass/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/cutlass"
+}

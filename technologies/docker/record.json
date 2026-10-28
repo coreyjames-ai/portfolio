@@ -1,0 +1,43 @@
+{
+ "url": "https://coreyjames.ai/technologies/docker/",
+ "kind": "technology",
+ "title": "Docker",
+ "subtitle": "Containers are how my agents are sandboxed, how GPU consumers are provisioned on local, LAN and cloud hosts, and how release images are proven.",
+ "systems": [
+  "agent-swarm",
+  "agentos",
+  "fafo-core",
+  "inference-fabric",
+  "activekv",
+  "helix",
+  "fafohive",
+  "auth-and-access-plane"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "10",
+   "label": "image definitions for native workers, coding-CLI seats and infrastructure services"
+  },
+  {
+   "value": "4",
+   "label": "loader modes on one generic image: job, capability, agent, infrastructure"
+  },
+  {
+   "value": "2",
+   "label": "per-GPU images, one for each NVIDIA Blackwell GPU"
+  }
+ ],
+ "lede": "In Agent Swarm, agents that run code need a sandbox they cannot loosen. The launcher drives the Docker Engine API from Rust to create, inspect, pause and kill agent containers. AgentOS needed seats isolated from each other, so every managed seat is its own container started through that launcher, with provider state copied into a private per-seat directory. See A coding agent that never holds the keys. In FAFO Core and Function Forge I wanted a function's location to be configuration, so Core injects its runtime into generic containers. One image, a bind-mounted runtime binary and a loader script let any function run anywhere the image runs, with no image rebuild, and agent mode applies the same hardening.",
+ "quote": "Hardening is the default profile, and an agent has no switch to turn it off.",
+ "evidence": [
+  "Sandboxing and container hardening: agent containers driven through the Docker Engine API from Rust with all capabilities dropped, a read-only root, no root user, resource caps and egress allowlists by default.",
+  "Container-based compute provisioning: one generic image with 4 loader modes that runs a function on a local, LAN or cloud GPU host with no rebuild, cloud capacity only past a fail-closed budget gate.",
+  "Reproducible native builds: kernel patches rebuilt inside the exact vendor image from a clean clone and promoted only after engine and kernel hashes are read back from inside the image."
+ ],
+ "technology_kind": "platform",
+ "canonical": "https://coreyjames.ai/technologies/docker/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/docker"
+}

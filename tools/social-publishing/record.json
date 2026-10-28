@@ -1,0 +1,22 @@
+{
+ "url": "https://coreyjames.ai/tools/social-publishing/",
+ "kind": "tool-group",
+ "title": "Social-publishing provider",
+ "subtitle": "",
+ "systems": [
+  "fafohive"
+ ],
+ "technologies": [],
+ "stats": [],
+ "lede": "For the networks where I have not built my own provider, agent teams publish through a social-publishing provider that reaches many platforms from one account. As with the payments and email/CRM groups, the 54 tools are rebuilt from the provider's API and the gateway around them is mine: callers are authenticated agent seats, each call is attributed to the work order behind it and recorded before it goes out, created posts carry that attribution where the provider supports it, and the provider's events come back to the right team. For X, Facebook and Reddit I built my own providers, described on the X, Facebook and Reddit pages. Posts and publishing, 13 tools.",
+ "quote": "",
+ "evidence": [
+  "Social media automation for AI agents: 54 tools rebuilt from a social-publishing provider's API let agent teams publish, schedule, cross-post and measure posts across many networks.",
+  "Governed API integration: every call attributed to the work order behind it and recorded before it goes out, with the provider's events returned to the right team."
+ ],
+ "tool_count": 54,
+ "canonical": "https://coreyjames.ai/tools/social-publishing/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/tools/social-publishing"
+}

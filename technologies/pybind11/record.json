@@ -1,0 +1,36 @@
+{
+ "url": "https://coreyjames.ai/technologies/pybind11/",
+ "kind": "technology",
+ "title": "pybind11",
+ "subtitle": "pybind11 binds ActiveKV's C++ engine into vLLM and PyTorch; a line-by-line audit proves every remaining Python line is a framework contract.",
+ "systems": [
+  "activekv"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "67",
+   "label": "pybind11 modules expose the C++ engine to the parts of vLLM that call it"
+  },
+  {
+   "value": "866",
+   "label": "of 867 places where Python dispatched work became direct native calls"
+  },
+  {
+   "value": "0",
+   "label": "lines of my own Python in the release payload"
+  }
+ ],
+ "lede": "In ActiveKV the Python version proved the design and was too slow on the per-token path, and it left the product logic as readable source. I moved the whole runtime to C++ inside vLLM, with pybind11 as the boundary, built against PyTorch's ATen. The port is told in Rewriting an engine extension without changing a token, and how I proved the native code was the code that ran is in Proving a rewrite is the same system. The hard part of a binding layer is deciding what may stay in Python.",
+ "quote": "The language boundary is a contract I minimise and justify line by line.",
+ "evidence": [
+  "C++ and native ports with parity proof: a Python runtime moved to C++ inside vLLM, 866 of 867 Python dispatch sites made direct native calls, parity cells matched bit for bit.",
+  "Python and C++ interoperability with pybind11: 67 binding modules into vLLM and PyTorch, and a line-by-line audit leaving only cited framework contracts in Python.",
+  "Release engineering for native extensions: a native launcher that embeds the Python interpreter, and a release of compiled binaries plus a patch with 0 lines of my own Python."
+ ],
+ "technology_kind": "framework",
+ "canonical": "https://coreyjames.ai/technologies/pybind11/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/pybind11"
+}

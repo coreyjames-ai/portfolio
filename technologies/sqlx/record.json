@@ -1,0 +1,25 @@
+{
+ "url": "https://coreyjames.ai/technologies/sqlx/",
+ "kind": "technology",
+ "title": "sqlx",
+ "subtitle": "sqlx carries my Rust services' PostgreSQL access; where no table is known at compile time, I check against the schema itself instead.",
+ "systems": [
+  "fafo-core",
+  "helix",
+  "agent-swarm"
+ ],
+ "technologies": [],
+ "stats": [],
+ "lede": "FAFO Core and Function Forge has a database layer where no table is known at compile time, so I built it on sqlx's runtime query API. Every operation takes a view or table name as a string and reads its shape from PostgreSQL's system catalogs, cached with vector dimensions and array element types. See Tools that build tools, under governance. Helix needed one owner for the SQL of its collaboration store. A dedicated sqlx crate holds all PostgreSQL access for the collaboration shell, the other services call its typed store functions, and its schema evolves through numbered migrations.",
+ "quote": "I know the trade-offs inside a Rust database toolkit well enough to take the runtime path on purpose and rebuild the safety it gives up.",
+ "evidence": [
+  "Rust database engineering with sqlx: a runtime query layer that reads each table's shape from PostgreSQL's catalogs and binds every value by its column's type, pgvector included.",
+  "SQL injection prevention by design: identifiers through a checking resolver and quoting, values only as bound parameters, and raw pools kept from generated code.",
+  "Data access architecture: one store crate owning all PostgreSQL access for a collaboration shell, with its schema evolved through numbered migrations."
+ ],
+ "technology_kind": "framework",
+ "canonical": "https://coreyjames.ai/technologies/sqlx/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/sqlx"
+}

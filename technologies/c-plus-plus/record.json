@@ -1,0 +1,41 @@
+{
+ "url": "https://coreyjames.ai/technologies/c-plus-plus/",
+ "kind": "technology",
+ "title": "C++",
+ "subtitle": "ActiveKV's runtime is C++ throughout, ported from Python under bitwise-parity gates, and the Inference Fabric's TensorRT boundary is C++.",
+ "systems": [
+  "inference-fabric",
+  "activekv"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "77,600",
+   "label": "lines of non-test C++ in ActiveKV's engine, across 361 source files"
+  },
+  {
+   "value": "568",
+   "label": "test files beside them"
+  },
+  {
+   "value": "17,900",
+   "label": "lines in the per-step layer that prepares, binds, transfers and completes each step"
+  },
+  {
+   "value": "9,500",
+   "label": "lines of C++ at the Inference Fabric's TensorRT boundary"
+  }
+ ],
+ "lede": "ActiveKV began as Python inside vLLM. That was the right way to find out whether keeping attention history in host RAM worked, and the wrong way to ship it: the per-token path was slow, and the product logic sat in readable source. I decided to move the whole runtime to C++ with bit-identical output as the gate. The result is a C++ execution engine that loads as the vLLM plugin entry point and binds to Python through pybind11 and PyTorch's ATen. The hard problems are lifecycle problems under asynchronous DMA: staging regions are fence-protected leases with generation counters, and a fence whose outcome is unknown is quarantined and never reused. The release payload holds no Python of mine.",
+ "quote": "Every optimisation waited until parity held, because a port that changes behaviour and speed at once cannot be trusted for either.",
+ "evidence": [
+  "C++ and native ports with parity proof: an inference engine extension moved from Python to 77,600 lines of non-test C++ across 361 source files, with 568 test files and bit-identical output as the gate.",
+  "Native memory and lifecycle engineering: fence-protected staging leases with generation counters under asynchronous DMA, a fence of unknown outcome quarantined and never reused.",
+  "TensorRT and TensorRT-LLM engineering: a 9,500-line C++ layer at the TensorRT boundary that allows no device allocation after warm-up and rejects compute-stream synchronisation at run time."
+ ],
+ "technology_kind": "language",
+ "canonical": "https://coreyjames.ai/technologies/c-plus-plus/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/c-plus-plus"
+}

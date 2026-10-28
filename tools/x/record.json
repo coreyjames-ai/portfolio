@@ -1,0 +1,23 @@
+{
+ "url": "https://coreyjames.ai/tools/x/",
+ "kind": "tool-group",
+ "title": "X provider",
+ "subtitle": "",
+ "systems": [
+  "fafohive"
+ ],
+ "technologies": [],
+ "stats": [],
+ "lede": "I needed agents that could research conversations on X and take part in them, and the existing options did not fit. X's official API covers only some of what a campaign needs, research reads are metered, and a social account is easy to damage with careless automation. So I built my own X provider as two MCP servers behind the FAFOHive hub. One holds 21 tools that research, read and report. The other holds 15 tools that act on the account, and it is authorised separately, so an agent can be given research without being given the account.",
+ "quote": "",
+ "evidence": [
+  "Social research and engagement for AI agents: 36 tools on two MCP servers, 21 that research, read and report on X conversations and 15 that act on the account.",
+  "Least privilege for AI agents: the acting server is authorised separately, so an agent can be given research without being given the account.",
+  "Hybrid API integration: a data API for research, the official API for account operations and webhooks, and a browser bridge for the rest, with every write read back before it is reported."
+ ],
+ "tool_count": 36,
+ "canonical": "https://coreyjames.ai/tools/x/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/tools/x"
+}

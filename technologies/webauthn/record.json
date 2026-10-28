@@ -1,0 +1,31 @@
+{
+ "url": "https://coreyjames.ai/technologies/webauthn/",
+ "kind": "technology",
+ "title": "WebAuthn",
+ "subtitle": "Hardware-key sign-in for the person who approves an OAuth grant, on an alternate entrypoint of the server, with the assistants' path left unchanged.",
+ "systems": [
+  "auth-and-access-plane"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "300 s",
+   "label": "life of a login challenge"
+  },
+  {
+   "value": "1 day",
+   "label": "before the locking change was reverted"
+  }
+ ],
+ "lede": "Auth and access plane is the OAuth server through which commercial AI assistants and my own agents get access to my tool estate. The control point there is a person approving each grant on a consent screen. I added WebAuthn hardware-key sign-in to an alternate entrypoint of that server, so the person approving a grant can be asked to prove presence with a security key or platform authenticator instead of a password. The open-source python-fido2 library handles the FIDO2 protocol. My work is the flow around it. A visitor who reaches the authorize endpoint unauthenticated is sent to a login page. Registration binds a credential to the user.",
+ "quote": "A person's consent is the control, and a stricter gate nobody can pass weakens the system.",
+ "evidence": [
+  "OAuth and identity architecture: WebAuthn hardware-key sign-in for the person who approves an OAuth grant, returning them to the exact grant they were approving.",
+  "Security design: login challenges that expire after 300 s, and a registration lock reverted because it locked out every legitimate assistant."
+ ],
+ "technology_kind": "protocol",
+ "canonical": "https://coreyjames.ai/technologies/webauthn/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/webauthn"
+}

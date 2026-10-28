@@ -1,0 +1,30 @@
+{
+ "url": "https://coreyjames.ai/technologies/openai-compatible-api/",
+ "kind": "technology",
+ "title": "OpenAI-compatible API",
+ "subtitle": "An OpenAI-compatible endpoint is the common shape my local models, the voice engine and ActiveKV present to callers.",
+ "systems": [
+  "agent-swarm",
+  "helix",
+  "activekv"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "32,768",
+   "label": "tokens of model context the voice requests outgrew before the fix"
+  }
+ ],
+ "lede": "In Agent Swarm agents use models from my own GPUs and from hosted providers, and I did not want provider-specific code anywhere in the agent loop. I standardised every model on the OpenAI-compatible chat and tool-calling interface, so routing, budgets and tool checks are written once. Local open-weight models served by vLLM already speak it. For hosted providers that do not, I built small bridge services that translate their APIs into the same shape, rate-limit in Redis, and register and deregister themselves, so the agent loop never learns a vendor's API. With one interface, the router picks an endpoint by policy and load. Tools go out as function definitions in the standard request.",
+ "quote": "I use a common interface as an architectural boundary.",
+ "evidence": [
+  "Multi-provider LLM integration: local and hosted models standardised on the OpenAI-compatible chat and tool-calling interface, with bridge services translating providers and a router choosing by policy and load.",
+  "Tool-calling validation: every returned tool call checked against its JSON Schema in strict mode before it runs, so a malformed call from a local model fails as an error.",
+  "Real-time voice AI latency: a voice engine streaming clause by clause from an OpenAI-compatible endpoint, with a tool-selection step removed after a catalog overflowed a 32,768-token context."
+ ],
+ "technology_kind": "protocol",
+ "canonical": "https://coreyjames.ai/technologies/openai-compatible-api/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/openai-compatible-api"
+}

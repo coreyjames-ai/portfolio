@@ -1,0 +1,39 @@
+{
+ "url": "https://coreyjames.ai/capabilities/governed-autonomous-engineering/",
+ "kind": "capability",
+ "title": "Governed autonomous engineering",
+ "subtitle": "Programs of AI coding agents that finish, prove it, and can be trusted",
+ "systems": [
+  "agentos",
+  "agent-swarm"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "246",
+   "label": "work orders governed, including every program on this page"
+  },
+  {
+   "value": "45,097",
+   "label": "state transitions, each one leaving a receipt"
+  },
+  {
+   "value": "1,000+",
+   "label": "passing trials voided when I found they were testing the wrong thing"
+  }
+ ],
+ "lede": "AI coding agents can carry substantial engineering only if the output can be trusted. Agents over-claim, drift as their context fills, and optimise for whatever metric is in front of them. The method is written down and enforced by machinery I built, and work closes only on evidence. The programs hold up. How I run them is in Directing AI coding agents at program scale.",
+ "quote": "Longer prompts and more human review do not scale.",
+ "evidence": [
+  "AI-assisted engineering methodology: programs of AI coding agents under a written method enforced by machinery I built, 246 work orders governed and 45,097 state transitions each leaving a receipt.",
+  "Agent orchestration: each job rendered at dispatch from the slice of the work graph it needs, with a schema for what must come back, so nothing is carried from job to job in a model's head.",
+  "Separation of duties for AI work: builders from one model family judged by a different vendor's models, and a 27-gate swarm phase closed as a conditional pass with two failures rather than narrowed criteria.",
+  "Evidence-gated acceptance: 1,000+ passing trials voided when I found they were testing the wrong thing, and a genuine gain rejected because its cutoff matched the test fixture.",
+  "C++ and native ports with parity proof: the ActiveKV native port, bit-identical in every parity cell in under three weeks, with zero Python files in the release.",
+  "Technical leadership of agent teams: data, training, a custom decoder, serving and a frozen evaluation for a model program under a single work order with an independent quality seat."
+ ],
+ "canonical": "https://coreyjames.ai/capabilities/governed-autonomous-engineering/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/research/capabilities/governed-autonomous-engineering"
+}

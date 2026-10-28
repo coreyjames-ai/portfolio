@@ -1,0 +1,25 @@
+{
+ "url": "https://coreyjames.ai/ideas/budgets-and-refusals/",
+ "kind": "idea",
+ "title": "Budgets and refusals",
+ "subtitle": "Spend, memory and admission are first-class controls, and the system says no with a number instead of degrading",
+ "systems": [
+  "fafo-core",
+  "activekv",
+  "capabilities-model",
+  "agentos"
+ ],
+ "technologies": [],
+ "stats": [],
+ "lede": "Every resource an agent or a kernel can consume has a stated limit in my systems, and crossing it produces a typed refusal with a reason attached. Dollars per day, device pages per context, key-value memory per request, concurrent sequences per engine, tokens per step. The alternative, letting the system find its own limit by thrashing, stalling or running out of memory mid-step, hides the failure where it is most expensive to find. The limit is explicit and set by a human: a whole number of gibibytes, a dollar figure, a count. Admission checks the limit before load is taken on.",
+ "quote": "Fail closed where the silent alternative is money, loss or a false result; degrade gracefully where the alternative is merely lower quality.",
+ "evidence": [
+  "Admission control and rate limiting: typed refusals at the door carrying how much was needed, how much was available and whether a retry can help, instead of failing mid-step.",
+  "Cloud GPU provisioning with cost controls: a fail-closed daily dollar budget, set by a person on a path agents cannot reach, gating GPU provisioning on local, LAN and cloud hardware.",
+  "GPU memory management: an explicit device page pool with per-context floors, targets and bursts, and cache pages reserved for a whole answer at admission."
+ ],
+ "canonical": "https://coreyjames.ai/ideas/budgets-and-refusals/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/research/ideas/budgets-and-refusals"
+}

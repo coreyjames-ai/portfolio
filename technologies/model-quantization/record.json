@@ -1,0 +1,43 @@
+{
+ "url": "https://coreyjames.ai/technologies/model-quantization/",
+ "kind": "technology",
+ "title": "Model quantization",
+ "subtitle": "A published 4-bit-weight quantization that fits a 27B model on one 32 GB card for 36 percent more throughput at 3 percent perplexity cost, an INT8 compressed history tier for ActiveKV, and FP8 serving on NVIDIA.",
+ "systems": [
+  "inference-fabric",
+  "activekv",
+  "capabilities-model"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "8.4 GB",
+   "label": "moved across PCIe per generated token at 128K on the exact path"
+  },
+  {
+   "value": "0.0027",
+   "label": "worst merged error, against a bound of 0.005"
+  },
+  {
+   "value": "48",
+   "label": "real samples the loss bound is checked on"
+  },
+  {
+   "value": "512",
+   "label": "own-task calibration samples for the router's FP8 and NVFP4 builds"
+  }
+ ],
+ "lede": "ActiveKV keeps attention history in host memory, so every decode step pays to move that history across PCIe. A smaller history buys time on every token, but only if the GPU can attend to the small form directly. I tried lossless compression first and let the bus arithmetic decide when a lossy format was worth its loss bound. It matched BF16 serving speed, and the bus arithmetic said 19 percent was too small to matter at long context. The current tier is an 8-bit page format I designed around the attention kernel that reads it. Keys get a separable scale.",
+ "quote": "On a transfer-bound path a slower kernel that moves fewer bytes wins.",
+ "evidence": [
+  "LLM quantization: an 8-bit KV-cache page format designed around its attention kernel, at a worst merged error of 0.0027 against a bound of 0.005.",
+  "Attention kernel optimisation: matched experiments took an 8-bit prefill over a 32K-token tile from 18.69 ms to 8.74 ms, below the ~9.6 ms BF16 reference.",
+  "Reproducible model artefacts: a published 4-bit build of a 27B model from 55.6 GB to 20.6 GB, round-to-nearest with no calibration so anyone can reproduce it.",
+  "Precision chosen by measurement: FP8 weights and key-value cache over INT4 on the Blackwell cards, with every artefact reproducing byte for byte."
+ ],
+ "technology_kind": "discipline",
+ "canonical": "https://coreyjames.ai/technologies/model-quantization/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/model-quantization"
+}

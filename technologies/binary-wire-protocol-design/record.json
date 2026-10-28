@@ -1,0 +1,39 @@
+{
+ "url": "https://coreyjames.ai/technologies/binary-wire-protocol-design/",
+ "kind": "technology",
+ "title": "Binary wire protocol design",
+ "subtitle": "I design binary wire protocols when the problem needs them: the Teams audio link with byte-identical C# and Rust implementations, the broker's token-level transport, the vector store's RPC wire.",
+ "systems": [
+  "helix",
+  "fafo-core",
+  "inference-fabric",
+  "capabilities-model"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "4",
+   "label": "integers describe any GPU consumer to the broker"
+  },
+  {
+   "value": "33",
+   "label": "RPC variants on the vector store's CBOR wire"
+  },
+  {
+   "value": "16 MiB",
+   "label": "frame limit on that wire, with a streaming fetch for larger windows"
+  }
+ ],
+ "lede": "I choose the wire per link from what the traffic costs and who has to debug it, and I prove cross-language implementations equal with golden vectors. Helix had to connect Microsoft's real-time media stack, which runs only on Windows, to my voice engine on Linux, without putting call audio in a third party's hands. I decided on a purpose-built binary link over one authenticated full-duplex WebSocket per call, implemented twice, in C# in the .NET media service and in Rust in the voice engine's endpoint. When the link drops, the bridge reconnects inside the same Teams call. The bridge is told in A self-hosted colleague in a Teams call.",
+ "quote": "Binary goes where the traffic is real-time audio, billions of tokens or bulk tensors; where payloads are small, a readable wire wins on diagnosability.",
+ "evidence": [
+  "Binary protocol design: one audio and video link for Teams calls implemented in C# and Rust and proved byte-identical against golden vectors before either carries a call.",
+  "Message broker and queue design: a token-level transport where any GPU consumer is described by 4 integers and one connection carries its batches, completions and heartbeats.",
+  "RPC and serialisation design: a vector store wire of 33 length-prefixed CBOR RPC variants with a 16 MiB frame limit and a streaming fetch, and a readable JSON socket where payloads are small."
+ ],
+ "technology_kind": "discipline",
+ "canonical": "https://coreyjames.ai/technologies/binary-wire-protocol-design/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/binary-wire-protocol-design"
+}

@@ -1,0 +1,40 @@
+{
+ "url": "https://coreyjames.ai/technologies/llm-fine-tuning/",
+ "kind": "technology",
+ "title": "LLM fine-tuning",
+ "subtitle": "A full-parameter fine-tune of a 0.6B model on registry-generated data, finished in minutes, measured on a frozen set against a baseline that tied it.",
+ "systems": [
+  "capabilities-model"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "17.6 GiB",
+   "label": "peak memory for the recipe on one GPU"
+  },
+  {
+   "value": "12",
+   "label": "cells in the ladder across 0.36B, 0.6B and 1.7B models"
+  },
+  {
+   "value": "4",
+   "label": "model families on the authoring panel"
+  },
+  {
+   "value": "2–14 min",
+   "label": "for one training run"
+  }
+ ],
+ "lede": "Capabilities model: my agents were carrying the whole tool schema on every turn. I wanted a small model that holds the tool catalog in its weights and answers one discovery call. Tools change weekly, so retraining had to take minutes. I chose a full-parameter fine-tune of a 0.6-billion-parameter open-weight base model over adapters, because at 0.6B a full fine-tune is fast enough that the usual case for adapters disappears. Because training takes minutes, I rebuild the model the way I rebuild an index. The stop token had silently been setting the length of the returned tool list.",
+ "quote": "The strongest classical baseline tied the model, and I report the tie.",
+ "evidence": [
+  "LLM fine-tuning: full-parameter fine-tunes of a 0.6B model on one GPU in 2 to 14 minutes at a 17.6 GiB peak, so the tool-catalog model is rebuilt like an index.",
+  "Synthetic training data generation: an authoring panel of 4 model families with a gate that polices its own authors and quarantined 336 templated entries.",
+  "ML evaluation methodology: a frozen corpus of 2,909 examples with no overlap with a 469-query evaluation set, where recall at 5 of 0.955 tied a classical baseline at 0.949."
+ ],
+ "technology_kind": "discipline",
+ "canonical": "https://coreyjames.ai/technologies/llm-fine-tuning/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/llm-fine-tuning"
+}

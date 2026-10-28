@@ -1,0 +1,42 @@
+{
+ "url": "https://coreyjames.ai/technologies/large-scale-refactoring-with-parity-proof/",
+ "kind": "technology",
+ "title": "Large-scale refactoring with parity proof",
+ "subtitle": "Rewrite a system, prove it is the same system. My governance platform's own refactors carry parity proofs, and the largest example is a GPU runtime ported to C++ without changing a token.",
+ "systems": [
+  "agentos",
+  "activekv"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "21",
+   "label": "domain modules the two oversized files became"
+  },
+  {
+   "value": "430+",
+   "label": "tests moved alongside the code they cover"
+  },
+  {
+   "value": "63 → 1",
+   "label": "shell hooks ported to one Rust binary"
+  },
+  {
+   "value": "13 of 13",
+   "label": "exact cells bit for bit at the C++ port, 12 of 12 compressed"
+  }
+ ],
+ "lede": "AgentOS: the AgentOS store and admin CLI had grown into two very large Rust files, and I had them split into domain modules. The parity proof came from a separate witness seat. Test counts are taken before a refactor, so \"all green\" is measured against the original code, and comparing exported symbols in the witness's own release builds catches an accidental API removal while confirming the intended demotions to private. A failed proof is not amended; it is replaced by a new proof that names the problems it resolved. The hook layer, through which AgentOS turns policy into refusals inside coding-agent sessions, went through the same discipline.",
+ "quote": "I decided the split was finished only when someone who had not done it could show it was the same system.",
+ "evidence": [
+  "C++ and native ports with parity proof: a GPU serving runtime ported from Python to native C++ without changing a token, 13 of 13 exact cells and 12 of 12 compressed cells bit for bit.",
+  "Large-scale refactoring: two Rust files of about 40,300 and 42,500 lines split into 21 domain modules, with 430+ tests moved alongside the code they cover.",
+  "Parity proof by an independent witness: a seat that did not do the work took test baselines, built its own release binaries and compared exported symbols before and after.",
+  "Rust systems engineering: 63 shell hooks ported to one Rust binary, tested against fake hook contexts and published byte for byte."
+ ],
+ "technology_kind": "discipline",
+ "canonical": "https://coreyjames.ai/technologies/large-scale-refactoring-with-parity-proof/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/large-scale-refactoring-with-parity-proof"
+}

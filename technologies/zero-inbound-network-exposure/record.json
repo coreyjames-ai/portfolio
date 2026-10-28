@@ -1,0 +1,39 @@
+{
+ "url": "https://coreyjames.ai/technologies/zero-inbound-network-exposure/",
+ "kind": "technology",
+ "title": "Zero-inbound network exposure",
+ "subtitle": "No host in my estate accepts an inbound connection. Everything arrives through authenticated tunnels or a private mesh, and every public surface is fronted by TLS and rate limits.",
+ "systems": [
+  "auth-and-access-plane",
+  "helix",
+  "fafohive",
+  "inference-fabric"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "0",
+   "label": "inbound connections from the internet"
+  },
+  {
+   "value": "3",
+   "label": "outbound tunnels, one per purpose"
+  },
+  {
+   "value": "1",
+   "label": "public component in front of a vendor platform: a small edge Worker"
+  }
+ ],
+ "lede": "Auth and access plane holds my estate to one rule I set early: no service accepts an inbound connection from the internet. Everything public arrives through outbound-only tunnels, one per purpose, separating the main estate, business event intake and the social-platform integrations, so trouble on one surface stays there and I can cut any one surface without touching the others. Where a hosted service needs a public name, NGINX terminates TLS behind the tunnel, and TLS termination, rate limits and security headers sit in that one front layer. Where a vendor platform such as Microsoft Copilot Studio needs a public endpoint, it reaches the tools through an edge Worker.",
+ "quote": "A service that needs no listener gets none.",
+ "evidence": [
+  "Zero-trust and zero-inbound networking: 0 inbound connections from the internet; everything public arrives through 3 outbound tunnels, one per purpose.",
+  "Edge security design: 1 small edge Worker as the only public component in front of a vendor platform, and NGINX with TLS, security headers and per-endpoint rate limits elsewhere.",
+  "Mutual TLS for fleet control: LAN GPU workstations bootstrapped by SSH once, then controlled only over mutual TLS with a private certificate authority."
+ ],
+ "technology_kind": "discipline",
+ "canonical": "https://coreyjames.ai/technologies/zero-inbound-network-exposure/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/zero-inbound-network-exposure"
+}

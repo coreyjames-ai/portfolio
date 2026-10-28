@@ -1,0 +1,37 @@
+{
+ "url": "https://coreyjames.ai/technologies/schema-and-migration-discipline/",
+ "kind": "technology",
+ "title": "Schema and migration discipline",
+ "subtitle": "Forward-only migrations, schema contracts and a baseline frozen as immutable. Schema is a contract, and I treat it that way.",
+ "systems": [
+  "agentos",
+  "postgresql-fabric"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "79",
+   "label": "forward-only migrations"
+  },
+  {
+   "value": "88",
+   "label": "tables in the work graph"
+  },
+  {
+   "value": "33",
+   "label": "schema contracts"
+  }
+ ],
+ "lede": "AgentOS keeps the state of every work order in its database, so the schema is the law of the system, and I put it under strict discipline. The PostgreSQL work graph is built by forward-only migrations, immutable once applied, so the schema history is also the history of the system's rules. The Markdown and YAML files agents read are generated from the database and edits to them are discarded, so the schema is the one place the truth can change and drift has no second source of truth to hide in. I gave workflow law the same treatment.",
+ "quote": "I run schema change on a governance system the way I would on a regulated database: immutable history, compiled changes, isolated qualification and a backup before every step.",
+ "evidence": [
+  "Database schema migration discipline: 79 forward-only migrations over 88 tables and 33 schema contracts, a frozen baseline and corrections only as new migrations.",
+  "Workflow change management: declarative specifications compiled into deterministic bundles and qualified on an isolated PostgreSQL instance before the real database.",
+  "Operational safety for databases: a backup before every migration or invasive operation, and probes against a canonical schema snapshot after each change."
+ ],
+ "technology_kind": "discipline",
+ "canonical": "https://coreyjames.ai/technologies/schema-and-migration-discipline/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/schema-and-migration-discipline"
+}

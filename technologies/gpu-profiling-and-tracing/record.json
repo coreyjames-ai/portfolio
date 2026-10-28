@@ -1,0 +1,36 @@
+{
+ "url": "https://coreyjames.ai/technologies/gpu-profiling-and-tracing/",
+ "kind": "technology",
+ "title": "GPU profiling and tracing",
+ "subtitle": "I instrument ActiveKV down to the runtime call level and I measure the instrument: a profiler that serialised the copy engine it was observing got its verdict retracted in the plan.",
+ "systems": [
+  "activekv"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "4",
+   "label": "capture levels, from runner phases to every runtime call"
+  },
+  {
+   "value": "0.21",
+   "label": "copy overlap at best with timing events on, down to 0.02"
+  },
+  {
+   "value": "1.09",
+   "label": "the same overlap at best with them off, down to 0.79"
+  }
+ ],
+ "lede": "ActiveKV is only faster if I can see where each decode step spends its time, on the host and on the device, and the act of looking changes the answer. I decided to build the instrument and then measure the instrument. I directed the build of a step-profiling suite with capture levels chosen per run. Readers sit on top of the captures. The token-life view follows every generated token from the scheduler through each device milestone to the client. I keep association and causation apart, and I treat an idle-looking queue as a question about the hardware. Each chart prints its own uncertainty, including the unproven device-to-host clock conversion. Two problems shaped the suite.",
+ "quote": "I removed automatic verdicts from the comparison output, because a profiler should collect and the engineer should judge.",
+ "evidence": [
+  "GPU profiling and tracing: a step profiler for ActiveKV on Intel Arc with 4 capture levels, from runner phases to every Unified Runtime call, and token-life views from scheduler to client.",
+  "Measurement integrity: a profiler shown to serialise the copy engine, with copy overlap 0.02 to 0.21 with timing events on against 0.79 to 1.09 off, and the verdict retracted.",
+  "LD_PRELOAD symbol interposition: runtime calls intercepted by a flat-memory shim when the vendor tracing path leaked, so several captures could run at once."
+ ],
+ "technology_kind": "discipline",
+ "canonical": "https://coreyjames.ai/technologies/gpu-profiling-and-tracing/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/gpu-profiling-and-tracing"
+}

@@ -1,0 +1,23 @@
+{
+ "url": "https://coreyjames.ai/technologies/schema-agnostic-data-access-and-sql-injection-defence/",
+ "kind": "technology",
+ "title": "Schema-agnostic data access and SQL-injection defence",
+ "subtitle": "Database access in generated code goes through a schema resolver that validates every identifier; raw pools are excluded from the sandbox; SQL is never assembled from strings an agent wrote.",
+ "systems": [
+  "fafo-core"
+ ],
+ "technologies": [],
+ "stats": [],
+ "lede": "FAFO Core and Function Forge lets functions, including ones written by AI agents, run against any registered data source, and I wanted that with no table name in code and no route to SQL injection. The substrate reads the shape of a view or table from PostgreSQL's system catalogs at runtime and caches it, including vector dimensions from each column's type modifier and array element types, so a function is written against a contract. JSON values are checked against the discovered column types, and binding follows the column type. Dynamic SQL needs dynamic identifiers, which is where injection usually gets in. In this substrate an identifier has one entry point.",
+ "quote": "I treat SQL injection and schema coupling as API-design problems and solve them by limiting what code can reach.",
+ "evidence": [
+  "SQL injection defence: one entry point that pattern-checks and quotes every identifier, every value a bound parameter, and raw connection pools kept out of function code.",
+  "Schema-agnostic data access: view and table shapes read from PostgreSQL's system catalogs at runtime, with binding by actual column type including vector dimensions.",
+  "Sandboxing AI-written code: a capability-bounded context where reads go through the schema resolver and writes only through the governed write path."
+ ],
+ "technology_kind": "discipline",
+ "canonical": "https://coreyjames.ai/technologies/schema-agnostic-data-access-and-sql-injection-defence/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/schema-agnostic-data-access-and-sql-injection-defence"
+}

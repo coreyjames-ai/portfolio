@@ -1,0 +1,22 @@
+{
+ "url": "https://coreyjames.ai/tools/email-and-crm/",
+ "kind": "tool-group",
+ "title": "Email and CRM provider",
+ "subtitle": "",
+ "systems": [
+  "fafohive"
+ ],
+ "technologies": [],
+ "stats": [],
+ "lede": "A business run by agents needs email, a contact database and a sales pipeline from day one, and the email/CRM provider's API covers nearly three hundred operations. I rebuilt every one of them as a tool of my own behind my gateway. Around them I built the path: identity checks on every caller, the work order worked out from that identity, a durable record of every call, and inbound events routed back to the right team. The provider's credentials never leave my server. This provider does not support stamping work-order tags onto what it creates, so the gateway attributes its calls in its own accounting and leaves the provider's objects untouched. Loyalty programs, 50 tools.",
+ "quote": "",
+ "evidence": [
+  "Governed API integration for AI agents: 291 tools rebuilt from an email and CRM provider's API, letting agent teams run campaigns, transactional messages, contacts, deals and loyalty programs.",
+  "Credential isolation and attribution: provider credentials never leave my server, every call is recorded and attributed in my own accounting, and inbound events reach the team that caused them."
+ ],
+ "tool_count": 291,
+ "canonical": "https://coreyjames.ai/tools/email-and-crm/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/tools/email-and-crm"
+}

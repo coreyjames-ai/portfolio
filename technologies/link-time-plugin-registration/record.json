@@ -1,0 +1,40 @@
+{
+ "url": "https://coreyjames.ai/technologies/link-time-plugin-registration/",
+ "kind": "technology",
+ "title": "Link-time plugin registration",
+ "subtitle": "A generated function is registered at link time so that it is fully wired or the build fails. There is no half-registered state.",
+ "systems": [
+  "fafo-core"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "14",
+   "label": "function crates on the substrate"
+  },
+  {
+   "value": "7",
+   "label": "of them produced by the generator"
+  },
+  {
+   "value": "2",
+   "label": "registrations in every slice entry"
+  },
+  {
+   "value": "3",
+   "label": "actions per tool in the gateway"
+  }
+ ],
+ "lede": "FAFO Core and Function Forge: a tool can be half-registered. I had seen hand-written registration routines drift that way. When agents started generating functions, I decided registration would be a property of the build, so discovery happens at link time and nothing can drift between what is built and what is registered. Each function crate contributes an entry to a link-time distributed slice through the Rust linkme crate, a third-party crate I use. At startup the control plane walks that slice. Execution and control register in the same entry, which keeps every function operable by agents as well as executable. The control plane's composition root is generated too.",
+ "quote": "It puts a human gate at the moment a tool becomes callable, and I wanted the gate there.",
+ "evidence": [
+  "Rust systems engineering: link-time plugin registration through distributed slices, so each of 14 function crates is fully wired or the build fails.",
+  "Code generation and metaprogramming: 7 of the 14 function crates produced by a generator, with a generated composition root and tool list that nobody edits by hand.",
+  "Human-in-the-loop governance for AI-generated code: a rebuild and restart I authorise as the gate before any generated tool reaches agents."
+ ],
+ "technology_kind": "discipline",
+ "canonical": "https://coreyjames.ai/technologies/link-time-plugin-registration/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/link-time-plugin-registration"
+}

@@ -1,0 +1,42 @@
+{
+ "url": "https://coreyjames.ai/technologies/gpu-memory-management/",
+ "kind": "technology",
+ "title": "GPU memory management",
+ "subtitle": "ActiveKV inverts who owns memory: history in pinned host RAM, the GPU a budgeted working set.",
+ "systems": [
+  "inference-fabric",
+  "activekv"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "147 MiB",
+   "label": "recurrent-layer state per context, fixed whatever the length"
+  },
+  {
+   "value": "2 GiB",
+   "label": "of pinned host memory per 32K-token history"
+  },
+  {
+   "value": "16",
+   "label": "dense layers sharing one device arena"
+  },
+  {
+   "value": "0",
+   "label": "CUDA allocations after the first second of a trace, down from about 4,200"
+  }
+ ],
+ "lede": "ActiveKV began with a constraint I did not accept. Stock vLLM keeps a request's whole key-value cache on the GPU, so on a 32 GB Intel Arc Pro GPU the card decides how much context a model can hold. I inverted who owns memory and gave the device a stated budget, so the operator chooses the trade-off. I give GPU memory owners, budgets and lifetimes, on two vendors' hardware. The device side is one arena shared by every dense layer: staging pages for 32K-token tiles plus a pool of pages. Each context has a target it holds by right, a burst it may borrow while pages are free, and a floor it needs to run.",
+ "quote": "Memory is a design decision, not a default.",
+ "evidence": [
+  "KV-cache offload for LLM inference: pinned host memory as the copy of record and the GPU as a budgeted page arena, with 2 GiB of host memory per 32K-token history.",
+  "Latency engineering under concurrency: reclaimed device memory spent to cut inter-token latency from 273.58 to 141.48 ms on long prompts with four concurrent requests.",
+  "GPU memory management: staging leases released only on completed fences, quarantine on an unknown fence outcome, and a host-pool fit that prints its own formula.",
+  "TensorRT and TensorRT-LLM engineering: a throughput runtime with 0 CUDA allocations after the first second of a trace, down from about 4,200."
+ ],
+ "technology_kind": "discipline",
+ "canonical": "https://coreyjames.ai/technologies/gpu-memory-management/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/gpu-memory-management"
+}

@@ -1,0 +1,28 @@
+{
+ "url": "https://coreyjames.ai/technologies/conversational-turn-taking-and-barge-in/",
+ "kind": "technology",
+ "title": "Conversational turn-taking and barge-in",
+ "subtitle": "I built a voice engine in which several AI voices share one conversation without talking over each other, and a person speaking stops the agent.",
+ "systems": [
+  "helix"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "0",
+   "label": "stale audio after an interruption in the local voice room"
+  }
+ ],
+ "lede": "In Helix, a voice colleague that keeps talking when someone starts to speak is unusable, so I made interruption the first requirement of Helix's voice engine. When a person starts speaking while an agent talks, the agent stops. If several agents are speaking or about to speak, all of them stop, and nothing from before the interruption plays afterwards. The conversation history keeps what the room heard, so a reply cut off halfway is stored cut off and later reasoning builds on the words people actually heard. In the local room, Helix acts as facilitator alongside specialist personas, each with its own voice and prompt over shared model back ends, which makes a new specialist a configuration change.",
+ "quote": "I judge an interruption by what plays afterwards.",
+ "evidence": [
+  "Real-time voice AI: barge-in where a person speaking stops every agent, with 0 stale audio after an interruption in the local voice room.",
+  "Conversational AI design: several AI voices in one conversation, a persona addressed by its name at the start of a sentence, and background results spoken at the next pause.",
+  "Microsoft Teams voice integration: one conversation engine behind a desk microphone and a Teams call, so behaviour proven in the room carries into calls."
+ ],
+ "technology_kind": "discipline",
+ "canonical": "https://coreyjames.ai/technologies/conversational-turn-taking-and-barge-in/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/conversational-turn-taking-and-barge-in"
+}

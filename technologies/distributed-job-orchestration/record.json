@@ -1,0 +1,36 @@
+{
+ "url": "https://coreyjames.ai/technologies/distributed-job-orchestration/",
+ "kind": "technology",
+ "title": "Distributed job orchestration",
+ "subtitle": "One function definition runs as a job or a service, batched by rows or by GPU token budget, anywhere from in-process to rented cloud GPUs, by configuration.",
+ "systems": [
+  "fafo-core"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "13",
+   "label": "function crates built on the framework, beside eight service crates"
+  },
+  {
+   "value": "19",
+   "label": "control actions reaching running conductors, among them pause, scale, drain and inspect"
+  },
+  {
+   "value": "970K",
+   "label": "probes in flight at the peak, never below 670K, from one decoupled producer over a two-hour capture"
+  }
+ ],
+ "lede": "I was going to build many systems and did not want to solve orchestration more than once, so I made FAFO Core and Function Forge one execution model that every function runs under. A function implements one Rust trait, and a generic conductor runs it along three independent axes over Redis and PostgreSQL. Services trigger continuously, on queue depth or on an interval. In submit-and-exit, a producer hands generation to the GPU broker and moves on while a completion service closes the loop; I split completion out after an embedded design made producers wait on results.",
+ "quote": "Orthogonal axes over named modes: a new combination is a configuration change.",
+ "evidence": [
+  "Distributed job orchestration: one Rust trait run as a job or a service, batched by rows or GPU token budget, in-process to rented cloud GPUs, under 13 function crates.",
+  "Control-plane design: 19 control actions, among them pause, scale, drain and inspect, reaching active conductors through a separate high-priority stream.",
+  "High-throughput batch inference: a decoupled producer holding 670K-970K probes in flight over a two-hour capture across Blackwell GPU hosts."
+ ],
+ "technology_kind": "discipline",
+ "canonical": "https://coreyjames.ai/technologies/distributed-job-orchestration/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/distributed-job-orchestration"
+}

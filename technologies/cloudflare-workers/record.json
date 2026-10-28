@@ -1,0 +1,40 @@
+{
+ "url": "https://coreyjames.ai/technologies/cloudflare-workers/",
+ "kind": "technology",
+ "title": "Cloudflare Workers",
+ "subtitle": "An edge worker exposes a trimmed, authenticated tool surface to a vendor's agent platform without opening the estate behind it.",
+ "systems": [
+  "auth-and-access-plane",
+  "fafohive"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "~300",
+   "label": "lines of JavaScript in the Copilot Studio Worker"
+  },
+  {
+   "value": "2",
+   "label": "key slots, so credentials rotate without an outage"
+  },
+  {
+   "value": "300 s",
+   "label": "replay window on signed events"
+  },
+  {
+   "value": "5 min",
+   "label": "between edge sweeps for events past their service window"
+  }
+ ],
+ "lede": "Auth and access plane lets Microsoft Copilot Studio call tools in my private estate, and its connector behaves in ways its documentation does not describe. I put a Cloudflare Worker in front of the estate as the connector's only public surface. The edge runtime has none of the usual crypto libraries, so tokens are verified with WebCrypto against signing keys cached in KV. The edge logs showed what Copilot Studio actually sends: unauthenticated discovery probes, renamed parameters, and response caching on Microsoft's API hub. FAFOHive sends signed social-platform events to agents, and delivery over the internet repeats and reorders.",
+ "quote": "I shape integrations from how a vendor's client behaves in practice.",
+ "evidence": [
+  "Edge authentication: a ~300-line Cloudflare Worker as the only public surface for Copilot Studio, verifying tokens with WebCrypto against keys cached in KV, with 2 key slots for rotation without an outage.",
+  "Webhook ingestion and verification: signed events checked at the edge with an exact-body HMAC and a 300 s replay window, deduplicated by event ID, and swept every 5 min for anything past its service window."
+ ],
+ "technology_kind": "platform",
+ "canonical": "https://coreyjames.ai/technologies/cloudflare-workers/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/cloudflare-workers"
+}

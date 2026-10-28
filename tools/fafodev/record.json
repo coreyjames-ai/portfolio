@@ -1,0 +1,25 @@
+{
+ "url": "https://coreyjames.ai/tools/fafodev/",
+ "kind": "tool-group",
+ "title": "FAFODev",
+ "subtitle": "",
+ "systems": [
+  "fafo-core",
+  "inference-fabric",
+  "agent-swarm",
+  "fafohive"
+ ],
+ "technologies": [],
+ "stats": [],
+ "lede": "is the server I use to build and operate FAFO Core and the Inference Fabric through an AI assistant. I made a deliberate choice about its shape: one tool per subsystem, with an action argument that selects the operation. Eighteen tools carry 171 actions. An assistant only has to learn eighteen names, each tool returns its own documentation on request, and every subsystem's operations live in one place with one schema. Many of these tools are Core functions themselves, built with the function generator below, so the platform is operated through its own machinery. Tools that build tools under governance tells the generator's story.",
+ "quote": "",
+ "evidence": [
+  "Platform operations through an AI assistant: 18 tools with 171 actions let an assistant run jobs, containers and GPUs, control functions in flight and operate the inference fabric.",
+  "MCP server design: one tool per subsystem with an action argument and self-documentation, many of them functions built by the platform's own generator."
+ ],
+ "tool_count": 18,
+ "canonical": "https://coreyjames.ai/tools/fafodev/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/tools/fafodev"
+}

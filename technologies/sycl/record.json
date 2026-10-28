@@ -1,0 +1,41 @@
+{
+ "url": "https://coreyjames.ai/technologies/sycl/",
+ "kind": "technology",
+ "title": "SYCL",
+ "subtitle": "ActiveKV's attention operators and its kernel patches on Intel Xe2 are SYCL, each gated on bit-identical outputs.",
+ "systems": [
+  "activekv"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "26%",
+   "label": "faster one-row decode than BF16, reading 8-bit history directly"
+  },
+  {
+   "value": "31%",
+   "label": "less device time for the two-owner decoder than two one-row calls"
+  },
+  {
+   "value": "256",
+   "label": "registers per work-item; every candidate fits with no spills"
+  },
+  {
+   "value": "2 KB",
+   "label": "integer query cache held in registers"
+  }
+ ],
+ "lede": "I can work at the kernel level on hardware the ecosystem has not caught up with: design the operator, fit it into the register file, prove it exact or bounded, and patch the vendor stack where it falls short. ActiveKV runs on an Intel Arc Pro GPU, a new architecture whose open kernel stacks had gaps. I wrote two kinds of SYCL: my own attention operators for the compressed history tier and the merge that joins the tiers, built on Intel's open SYCL attention sources, and patches to the vendor's kernels, credited as such. Every figure below is on one Intel Arc Pro GPU serving a 4-bit-weight build of a 27-billion-parameter hybrid recurrent-attention open-weight model.",
+ "quote": "A bitwise mismatch is a finding.",
+ "evidence": [
+  "Intel GPU and SYCL/oneAPI engineering: attention operators reading 8-bit history without expanding it, prefill of 1,024 rows over a 32K tile cut from 18.69 ms to 8.74 ms, 9.2 percent faster than BF16.",
+  "GPU kernel register-level optimisation: every candidate fitted in 256 registers with no spills, one-row decode 26% faster than BF16 and a two-owner decoder using 31% less device time.",
+  "Vendor kernel patching with bit-exact gates: oneDNN and recurrent-layer patches with identical outputs, per-chunk prefill from 53.8 to 27.4 ms, and a visibility race found by bitwise comparison.",
+  "Numerical reproducibility: deterministic 4-bit GEMM reductions under a validation switch, and exact arithmetic kept across 48 special-value combinations."
+ ],
+ "technology_kind": "runtime",
+ "canonical": "https://coreyjames.ai/technologies/sycl/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/sycl"
+}

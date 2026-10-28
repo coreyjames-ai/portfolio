@@ -1,0 +1,29 @@
+{
+ "url": "https://coreyjames.ai/technologies/onnx-runtime/",
+ "kind": "technology",
+ "title": "ONNX Runtime",
+ "subtitle": "ONNX Runtime serves embeddings in the evaluation harness and in the voice engine's lighter models.",
+ "systems": [
+  "helix",
+  "capabilities-model"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "5",
+   "label": "embedding models from four families in the baseline bake-off"
+  }
+ ],
+ "lede": "Capabilities model needed a classical retrieval baseline strong enough to beat the model it was compared with. I ran the baseline's dense embedding models through ONNX Runtime from Rust, using the ort crate with the CUDA execution provider, in the same harness and the same runtime as the model under test, so the comparison differs only in method. The prebuilt runtime package lacked GPU kernels for my card and would have pushed the baseline to the CPU, so I built ONNX Runtime myself. The embedding model came from a bake-off that replaced an incumbent chosen by habit, and it was fused with BM25 using weights found by sweep.",
+ "quote": "A baseline's numerical settings are part of the experiment.",
+ "evidence": [
+  "Retrieval evaluation methodology: a dense-embedding baseline chosen in a five-model bake-off and fused with BM25 by sweep, run in the same harness as the model under test, tying it at recall 5 and 10.",
+  "Numerical reproducibility: TF32 on the GPU path traced as the cause of a failed known-answer control, pinned off, and the whole experiment matrix rerun.",
+  "Speech recognition and synthesis pipelines: small speech models run in process in a Rust voice engine through ONNX Runtime, with larger recognition and synthesis models as GPU services."
+ ],
+ "technology_kind": "runtime",
+ "canonical": "https://coreyjames.ai/technologies/onnx-runtime/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/onnx-runtime"
+}

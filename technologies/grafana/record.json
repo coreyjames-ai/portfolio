@@ -1,0 +1,40 @@
+{
+ "url": "https://coreyjames.ai/technologies/grafana/",
+ "kind": "technology",
+ "title": "Grafana",
+ "subtitle": "Dashboards are how I captured the numbers on this site.",
+ "systems": [
+  "inference-fabric",
+  "auth-and-access-plane",
+  "agentos",
+  "fafo-core",
+  "capabilities-model"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "~137",
+   "label": "metrics exported by the broker"
+  },
+  {
+   "value": "31",
+   "label": "panels on the broker's dashboard"
+  },
+  {
+   "value": "~203,000",
+   "label": "hidden-state extractions in a single test run"
+  }
+ ],
+ "lede": "Inference Fabric made claims about GPU efficiency that I wanted to prove from a screen, so I built its dashboards around the measures that justify the design. The panels show tokens per second split into prefill and decode, padding waste, shape switches, key-value cache hit rate, the broker's lanes and cold tier, probes and extractions per second, and a token-accounting difference that should always read zero. I chart domain measures first, because padding waste and token-accounting drift say more about a GPU pipeline than host load does, and I built each fabric dashboard alongside the feature it measured, so a change was visible the day it landed. Every fabric figure on this site comes from these panels.",
+ "quote": "I decide what to measure as part of the design, and I build the instruments that let me defend each number.",
+ "evidence": [
+  "Observability and alerting: dashboards built around domain measures, ~137 broker metrics on 31 panels, file-based target discovery and Alertmanager routing to SMS.",
+  "GPU pipeline metrics: tokens per second, padding waste, cache hit rate and a token-accounting difference that reads zero, with 163,000 tokens per second read from the panels.",
+  "Cost attribution for AI work: per-seat cost and cache reuse for a work order read from PostgreSQL rollups, cache reuse spanning 43% to 97% across seats."
+ ],
+ "technology_kind": "platform",
+ "canonical": "https://coreyjames.ai/technologies/grafana/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/grafana"
+}

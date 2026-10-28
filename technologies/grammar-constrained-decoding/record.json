@@ -1,0 +1,36 @@
+{
+ "url": "https://coreyjames.ai/technologies/grammar-constrained-decoding/",
+ "kind": "technology",
+ "title": "Grammar-constrained decoding",
+ "subtitle": "A grammar compiled from the tool registry constrains the decoder so that names outside the catalog cannot be produced.",
+ "systems": [
+  "capabilities-model"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "172 µs",
+   "label": "per token cheaper than unconstrained decoding"
+  },
+  {
+   "value": "5.58",
+   "label": "extra round trips per query in the old no-repeat loop"
+  },
+  {
+   "value": "33–47%",
+   "label": "what the industrial stack's workaround cost"
+  }
+ ],
+ "lede": "Capabilities model answers an agent's discovery call with a ranked list of tool pointers. A small model can produce a plausible tool name that does not exist, and an agent that calls a fictional tool fails slowly and confusingly. I decided validity belonged in decoding. I also decided the constraint should make decoding cheaper. The grammar compiles from the tool registry, through the same frozen contract the evaluation scores against, into a trie over the model's own token ids. One compiled source feeds both the evaluation constraint and the serving constraint, so what was measured is what is served, and a registry change regenerates the grammar along with the training data.",
+ "quote": "I treat a constraint as information the hardware can use, and I put guarantees where they can be enforced, with their exact scope stated.",
+ "evidence": [
+  "Constrained decoding for LLMs: a grammar compiled from the tool registry into a trie over token ids, so a tool name outside the catalog has no edge to take and cannot be produced.",
+  "CUDA kernel development: masking in the sampling kernel with no-repeat counts on trie edges and the trie in constant memory, making decoding 172 microseconds per token cheaper than unconstrained.",
+  "Inference serving architecture: no-repeat moved from a server-side loop costing 5.58 extra round trips per query to one on-device decrement per completed tool."
+ ],
+ "technology_kind": "discipline",
+ "canonical": "https://coreyjames.ai/technologies/grammar-constrained-decoding/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/grammar-constrained-decoding"
+}

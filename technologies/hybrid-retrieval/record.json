@@ -1,0 +1,37 @@
+{
+ "url": "https://coreyjames.ai/technologies/hybrid-retrieval/",
+ "kind": "technology",
+ "title": "Hybrid retrieval",
+ "subtitle": "Dense embeddings fused with BM25 and reranked, with every constant found by sweep.",
+ "systems": [
+  "fafohive",
+  "capabilities-model"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "~294,000",
+   "label": "structure-aware chunks from about 19,000 files in one code index"
+  },
+  {
+   "value": "129",
+   "label": "configuration cells swept for the baseline's constants"
+  },
+  {
+   "value": "5",
+   "label": "embedding models in the bake-off before the sweep"
+  }
+ ],
+ "lede": "The memory service in FAFOHive serves agents that ask two kinds of question: an exact identifier such as a function name, and a description of behaviour in plain language. A dense vector search alone misses the first and lexical search alone misses the second, so I made code search and decision search hybrid. A query runs up to three streams at once (dense similarity on embeddings from a multilingual embedding model, weighted full-text search, and a metadata stream) and the ranked lists are fused with reciprocal-rank fusion. A classifier looks at each query first and sets how much each stream counts, because identifier queries and descriptive queries need different blends.",
+ "quote": "I swept the baseline's constants, because a baseline tuned less carefully than the model it judges proves nothing.",
+ "evidence": [
+  "Hybrid search and retrieval: dense, weighted full-text and metadata streams fused by reciprocal rank with cross-encoder rerank, over a code index of about 294,000 chunks.",
+  "Information retrieval evaluation: a hybrid baseline swept across 129 configuration cells that tied the model at recall at 10 (0.977) and beat it on long, buried requests, 0.90 to 0.67.",
+  "Search under load: bounded embedding and rerank endpoints, the reranker the first stage dropped under load with a flag, and a keyword-only mode with no embedding call."
+ ],
+ "technology_kind": "discipline",
+ "canonical": "https://coreyjames.ai/technologies/hybrid-retrieval/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/hybrid-retrieval"
+}

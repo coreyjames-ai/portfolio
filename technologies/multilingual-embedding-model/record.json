@@ -1,0 +1,36 @@
+{
+ "url": "https://coreyjames.ai/technologies/multilingual-embedding-model/",
+ "kind": "technology",
+ "title": "Multilingual embedding model",
+ "subtitle": "the multilingual embedding model is the embedding model behind my code and reference search, served from a local text-embedding server.",
+ "systems": [
+  "fafohive",
+  "fafo-core"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "19,204",
+   "label": "documents in the code index for my monorepo"
+  },
+  {
+   "value": "294,362",
+   "label": "chunks in that index, embedded with the multilingual embedding model"
+  },
+  {
+   "value": "294,033",
+   "label": "of those chunks also covered by the code graph"
+  }
+ ],
+ "lede": "I treat an embedding model as a service with a contract and a failure mode, and I engineered how the model is served, cached and degraded around that. I did not train or fine-tune the multilingual embedding model. FAFOHive searches code, reference documents and stored observations for every agent seat in my estate, and every one of those searches starts with a dense embedding from the multilingual embedding model. The first versions tied GPU work to the life of the memory service, so I moved the model out of process, which keeps the service's lifecycle independent of the model's. The service's own API did not change in the move.",
+ "quote": "The embedding dimension is a contract every consumer relies on, which let the serving backend change underneath without touching stored vectors or callers.",
+ "evidence": [
+  "Embedding model serving: a multilingual embedding model moved out of process behind a local text-embedding server, with a cache so only misses reach the GPU.",
+  "Semantic code search: a code index of 19,204 documents and 294,362 chunks embedded for search across my monorepo."
+ ],
+ "technology_kind": "model",
+ "canonical": "https://coreyjames.ai/technologies/multilingual-embedding-model/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/multilingual-embedding-model"
+}

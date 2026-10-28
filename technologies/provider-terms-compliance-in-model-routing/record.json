@@ -1,0 +1,23 @@
+{
+ "url": "https://coreyjames.ai/technologies/provider-terms-compliance-in-model-routing/",
+ "kind": "technology",
+ "title": "Provider-terms compliance in model routing",
+ "subtitle": "A terms-of-service firewall in the agent runtime decides which traffic may reach which provider, so a subscription session is used as its vendor permits.",
+ "systems": [
+  "agent-swarm"
+ ],
+ "technologies": [],
+ "stats": [],
+ "lede": "In Agent Swarm a router picks a model endpoint for every agent request, from my own GPUs or from hosted providers, and some providers' terms forbid automated, unattended back-end use of their models. In an automatic router that rule is easy to break by accident. I made provider terms a routing constraint in code, so compliance does not depend on whoever configures the next endpoint. The rule separates foreground use for a person from automated back-end use, because the terms draw that line.",
+ "quote": "I put compliance inside the mechanism that could violate it, and I check twice where a mistake would be invisible.",
+ "evidence": [
+  "Model routing with compliance constraints: provider terms enforced in the agent router, separating foreground use for a person from unattended back-end use.",
+  "Defence in depth: the terms rule checked at endpoint registration and again on every routing decision, with an explicit no-eligible-endpoint result instead of a guess.",
+  "Multi-provider LLM integration: hosted providers presented in the same OpenAI-compatible shape as local GPU models, rate-limited in Redis and self-registering."
+ ],
+ "technology_kind": "discipline",
+ "canonical": "https://coreyjames.ai/technologies/provider-terms-compliance-in-model-routing/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/provider-terms-compliance-in-model-routing"
+}

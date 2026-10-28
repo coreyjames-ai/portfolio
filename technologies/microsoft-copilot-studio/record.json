@@ -1,0 +1,36 @@
+{
+ "url": "https://coreyjames.ai/technologies/microsoft-copilot-studio/",
+ "kind": "technology",
+ "title": "Microsoft Copilot Studio",
+ "subtitle": "I expose a trimmed, authenticated tool surface to Microsoft Copilot Studio through an edge proxy, and worked out from the wire why its connector stalled after initialisation.",
+ "systems": [
+  "auth-and-access-plane"
+ ],
+ "technologies": [],
+ "stats": [
+  {
+   "value": "≈300",
+   "label": "lines in the edge proxy"
+  },
+  {
+   "value": "21",
+   "label": "tools for desktop assistants, over a local transport"
+  },
+  {
+   "value": "8",
+   "label": "tools offered to Copilot Studio"
+  }
+ ],
+ "lede": "I wanted Microsoft Copilot Studio agents to call tools on my private MCP server in the Auth and access plane, and I wanted that server to accept no public connection. The standard MCP OAuth path stalled right after initialize , and Copilot Studio's MCP connector was thinly documented. I decided to work out its behaviour from the wire and build around what it actually does. I read the connector's traffic end to end in edge logs and wrote it down as observed fact, which made each proxy decision traceable to something the connector does. From that I built a small edge proxy.",
+ "quote": "When a vendor platform is under-documented, I learn it from the wire.",
+ "evidence": [
+  "Reverse-engineering vendor integrations: Copilot Studio's MCP connector behaviour worked out from edge logs and answered by an edge proxy of about 300 lines.",
+  "Zero-trust and zero-inbound networking: a private tool server reachable only through a tunnel, with tenant-pinned Entra token checks at the edge.",
+  "MCP tool surface design: 21 tools for desktop assistants and a trimmed 8-tool surface shaped for Copilot Studio."
+ ],
+ "technology_kind": "platform",
+ "canonical": "https://coreyjames.ai/technologies/microsoft-copilot-studio/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/technologies/microsoft-copilot-studio"
+}

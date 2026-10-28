@@ -1,0 +1,24 @@
+{
+ "url": "https://coreyjames.ai/tools/agentos/",
+ "kind": "tool-group",
+ "title": "AgentOS work tools",
+ "subtitle": "",
+ "systems": [
+  "agentos",
+  "agent-swarm",
+  "fafohive"
+ ],
+ "technologies": [],
+ "stats": [],
+ "lede": "AgentOS runs teams of AI agents against governed work orders, and the agents in those teams need a way to act inside that governance without being able to bend it. I gave them a deliberately narrow set of tools. The caller's identity fixes which work order, team and role it is acting for, so an agent cannot name a different work order or claim a different seat. Most actions take the path of a file the agent has written, so large plans and reviews stay on disk and the tool call stays small.",
+ "quote": "",
+ "evidence": [
+  "Agent orchestration tools: 11 tools that let governed agents author, validate and start work orders and act inside their team without being able to name another work order or seat.",
+  "Identity-scoped agent actions: the caller's identity fixes its work order, team and role; actions take file paths and return receipts, with outcomes delivered to the team lead's mailbox."
+ ],
+ "tool_count": 11,
+ "canonical": "https://coreyjames.ai/tools/agentos/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/tools/agentos"
+}
