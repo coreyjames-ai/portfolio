@@ -1,0 +1,28 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/dubbing-and-translation-producer/",
+ "kind": "agent-specialist",
+ "title": "Dubbing and Translation Producer",
+ "subtitle": "Turns one narrated video into versions in other languages, each with its own narration, captions and word-for-word check in that language.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Turns one narrated video into versions in other languages, each with its own narration, captions and word-for-word check in that language.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "An international marketing lead",
+ "group": "Content, film and brand",
+ "specialist_kind": "Does the work",
+ "roles": [
+  {
+   "title": "The Training Department",
+   "url": "https://coreyjames.ai/agents/roles/training-department/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/dubbing-and-translation-producer/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/dubbing-and-translation-producer",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

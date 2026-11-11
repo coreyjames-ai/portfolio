@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/quality-fix-coordinator/",
+ "kind": "agent-specialist",
+ "title": "Quality Fix Coordinator",
+ "subtitle": "It records what must be fixed against each failed criterion, assigns the fix, and sends the work back for review.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "It records what must be fixed against each failed criterion, assigns the fix, and sends the work back for review.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "An engineering manager or a QA lead",
+ "group": "Building software",
+ "specialist_kind": "Supervises other agents",
+ "roles": [
+  {
+   "title": "The Programme Office",
+   "url": "https://coreyjames.ai/agents/roles/programme-office/"
+  },
+  {
+   "title": "The Review Panel",
+   "url": "https://coreyjames.ai/agents/roles/review-panel/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/quality-fix-coordinator/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/quality-fix-coordinator",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

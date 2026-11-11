@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/explainer-video-maker/",
+ "kind": "agent-specialist",
+ "title": "Explainer Video Maker",
+ "subtitle": "Turns a written page or article into a short narrated explainer with designed cards, captions and moving backgrounds, ready to post with the link in the text.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Turns a written page or article into a short narrated explainer with designed cards, captions and moving backgrounds, ready to post with the link in the text.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A founder or product marketer",
+ "group": "Content, film and brand",
+ "specialist_kind": "Does the work",
+ "roles": [
+  {
+   "title": "The Training Department",
+   "url": "https://coreyjames.ai/agents/roles/training-department/"
+  },
+  {
+   "title": "The Developer Advocate",
+   "url": "https://coreyjames.ai/agents/roles/developer-advocate/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/explainer-video-maker/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/explainer-video-maker",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

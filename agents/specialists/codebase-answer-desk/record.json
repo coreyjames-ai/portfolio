@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/codebase-answer-desk/",
+ "kind": "agent-specialist",
+ "title": "Codebase Answer Desk",
+ "subtitle": "Answers plain-language questions about the team's own code, such as \"where do we handle refunds\" or \"what calls this function\", and returns the exact files and lines.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Answers plain-language questions about the team's own code, such as \"where do we handle refunds\" or \"what calls this function\", and returns the exact files and lines. It can be narrowed to one folder or a handful of files when the question is about how those pieces work together.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "An engineering manager, a new engineer, or anyone who needs answers about the team's code without interrupting a senior developer",
+ "group": "Code intelligence and team memory",
+ "specialist_kind": "Keeps knowledge",
+ "roles": [
+  {
+   "title": "The Sales Engineer",
+   "url": "https://coreyjames.ai/agents/roles/sales-engineer/"
+  },
+  {
+   "title": "The Code Guide",
+   "url": "https://coreyjames.ai/agents/roles/code-guide/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/codebase-answer-desk/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/codebase-answer-desk",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

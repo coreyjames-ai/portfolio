@@ -1,0 +1,28 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/safe-update-clerk/",
+ "kind": "agent-specialist",
+ "title": "Safe Update Clerk",
+ "subtitle": "This agent makes changes in another app carefully: it checks each change against the rules, confirms nobody else changed the record first, paces the updates, reads the result back and reports whether the change went through, was refused or was out of date.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "This agent makes changes in another app carefully: it checks each change against the rules, confirms nobody else changed the record first, paces the updates, reads the result back and reports whether the change went through, was refused or was out of date.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "An operations lead who needs changes made in another app without mistakes",
+ "group": "Connecting tools and signals",
+ "specialist_kind": "Runs infrastructure",
+ "roles": [
+  {
+   "title": "The Systems Bridge",
+   "url": "https://coreyjames.ai/agents/roles/systems-bridge/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/safe-update-clerk/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/safe-update-clerk",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

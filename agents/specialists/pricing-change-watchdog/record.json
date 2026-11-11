@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/pricing-change-watchdog/",
+ "kind": "agent-specialist",
+ "title": "Pricing Change Watchdog",
+ "subtitle": "It compares the change with the approved offer and alerts the owner when a price or link has drifted.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "It compares the change with the approved offer and alerts the owner when a price or link has drifted.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A finance lead or a product marketing manager",
+ "group": "Store, loyalty and payments",
+ "specialist_kind": "Audits and guards",
+ "roles": [
+  {
+   "title": "The Shop Manager",
+   "url": "https://coreyjames.ai/agents/roles/shop-manager/"
+  },
+  {
+   "title": "The Accounts Office",
+   "url": "https://coreyjames.ai/agents/roles/accounts-office/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/pricing-change-watchdog/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/pricing-change-watchdog",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

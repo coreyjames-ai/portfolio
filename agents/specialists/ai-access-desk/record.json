@@ -1,0 +1,36 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/ai-access-desk/",
+ "kind": "agent-specialist",
+ "title": "AI Access Desk",
+ "subtitle": "Registers each AI assistant as an app, holds every grant until a person approves it, accepts sign-in tokens from your own server and from your workplace platform, shows each assistant only the tools it is allowed, and ties every action to the assignment rather than to what the assistant claims.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Registers each AI assistant as an app, holds every grant until a person approves it, accepts sign-in tokens from your own server and from your workplace platform, shows each assistant only the tools it is allowed, and ties every action to the assignment rather than to what the assistant claims.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "An IT or security lead connecting commercial AI assistants to company tools",
+ "group": "Security and access",
+ "specialist_kind": "Audits and guards",
+ "roles": [
+  {
+   "title": "The Model Broker",
+   "url": "https://coreyjames.ai/agents/roles/model-broker/"
+  },
+  {
+   "title": "The Security Officer",
+   "url": "https://coreyjames.ai/agents/roles/security-officer/"
+  },
+  {
+   "title": "The Assistant-Ready Website",
+   "url": "https://coreyjames.ai/agents/roles/assistant-ready-website/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/ai-access-desk/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/ai-access-desk",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

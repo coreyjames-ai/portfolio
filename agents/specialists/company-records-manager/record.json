@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/company-records-manager/",
+ "kind": "agent-specialist",
+ "title": "Company Records Manager",
+ "subtitle": "It keeps one record per customer company, links the people and deals to it, and imports company lists.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "It keeps one record per customer company, links the people and deals to it, and imports company lists.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "a sales or account management team",
+ "group": "Sales, customers and service",
+ "specialist_kind": "Keeps knowledge",
+ "roles": [
+  {
+   "title": "The Lead Catcher",
+   "url": "https://coreyjames.ai/agents/roles/lead-catcher/"
+  },
+  {
+   "title": "The Accounts Office",
+   "url": "https://coreyjames.ai/agents/roles/accounts-office/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/company-records-manager/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/company-records-manager",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

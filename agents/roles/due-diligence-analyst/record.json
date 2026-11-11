@@ -1,0 +1,70 @@
+{
+ "url": "https://coreyjames.ai/agents/roles/due-diligence-analyst/",
+ "kind": "agent-role",
+ "title": "The Due-Diligence Analyst",
+ "subtitle": "For a CTO inheriting or acquiring a codebase.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "The agent takes the repository in, maps how it fits together and compares the documentation with what the code does. It lists what the system can do, what is dead and what would be expensive to change. The findings come as a written report and a briefing the agent presents in a meeting.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "function": "Engineering",
+ "function_url": "https://coreyjames.ai/agents/functions/engineering/",
+ "specialists": [
+  {
+   "title": "Codebase Intake Engineer",
+   "url": "https://coreyjames.ai/agents/specialists/codebase-intake-engineer/"
+  },
+  {
+   "title": "Code Map Builder",
+   "url": "https://coreyjames.ai/agents/specialists/code-map-builder/"
+  },
+  {
+   "title": "Documentation Drift Auditor",
+   "url": "https://coreyjames.ai/agents/specialists/documentation-drift-auditor/"
+  },
+  {
+   "title": "Dead Code Finder",
+   "url": "https://coreyjames.ai/agents/specialists/dead-code-finder/"
+  },
+  {
+   "title": "Platform Capability Reviewer",
+   "url": "https://coreyjames.ai/agents/specialists/platform-capability-reviewer/"
+  },
+  {
+   "title": "Technical Due-diligence Researcher",
+   "url": "https://coreyjames.ai/agents/specialists/technical-due-diligence-researcher/"
+  },
+  {
+   "title": "Board Briefing Presenter",
+   "url": "https://coreyjames.ai/agents/specialists/board-briefing-presenter/"
+  },
+  {
+   "title": "Independent Code Auditor",
+   "url": "https://coreyjames.ai/agents/specialists/independent-code-auditor/"
+  },
+  {
+   "title": "Architecture Reviewer",
+   "url": "https://coreyjames.ai/agents/specialists/architecture-reviewer/"
+  }
+ ],
+ "featured": false,
+ "routes": [
+  "An acquisition becomes a working team"
+ ],
+ "related": [
+  {
+   "title": "Memory and code intelligence for agents",
+   "url": "https://coreyjames.ai/capabilities/memory-and-code-intelligence-for-agents/",
+   "kind": "Capability"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/roles/due-diligence-analyst/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/roles/due-diligence-analyst",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

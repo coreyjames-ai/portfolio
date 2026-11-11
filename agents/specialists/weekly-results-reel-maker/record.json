@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/weekly-results-reel-maker/",
+ "kind": "agent-specialist",
+ "title": "Weekly Results Reel Maker",
+ "subtitle": "Pulls the week's post results from each network, turns the numbers into designed cards over the week's best clips and schedules the reel.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Pulls the week's post results from each network, turns the numbers into designed cards over the week's best clips and schedules the reel.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A marketing lead or founder",
+ "group": "Content, film and brand",
+ "specialist_kind": "Does the work",
+ "roles": [
+  {
+   "title": "The Week in Review",
+   "url": "https://coreyjames.ai/agents/roles/week-in-review/"
+  },
+  {
+   "title": "The Presenter",
+   "url": "https://coreyjames.ai/agents/roles/presenter/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/weekly-results-reel-maker/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/weekly-results-reel-maker",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

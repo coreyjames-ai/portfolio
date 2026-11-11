@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/vector-library-curator/",
+ "kind": "agent-specialist",
+ "title": "Vector Library Curator",
+ "subtitle": "Keeps a large searchable collection healthy: it embeds new material, rebuilds and checks the search indexes, scores how well each topic cluster hangs together on the GPU, accepts or rejects new clusters, rebalances crowded ones, and retires stale index files.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Keeps a large searchable collection healthy: it embeds new material, rebuilds and checks the search indexes, scores how well each topic cluster hangs together on the GPU, accepts or rejects new clusters, rebalances crowded ones, and retires stale index files.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A search or knowledge-management lead with a large vector collection",
+ "group": "AI models and performance",
+ "specialist_kind": "Keeps knowledge",
+ "roles": [
+  {
+   "title": "The Model Interviewer",
+   "url": "https://coreyjames.ai/agents/roles/model-interviewer/"
+  },
+  {
+   "title": "The Knowledge Gardener",
+   "url": "https://coreyjames.ai/agents/roles/knowledge-gardener/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/vector-library-curator/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/vector-library-curator",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

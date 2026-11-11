@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/commit-triggered-re-indexer/",
+ "kind": "agent-specialist",
+ "title": "Commit-Triggered Re-Indexer",
+ "subtitle": "Starts a re-index of the affected codebase as soon as new code lands and reports progress to the team lead's inbox.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Starts a re-index of the affected codebase as soon as new code lands and reports progress to the team lead's inbox.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "An engineering manager whose repository sends change notifications",
+ "group": "Code intelligence and team memory",
+ "specialist_kind": "Runs infrastructure",
+ "roles": [
+  {
+   "title": "The Code Guide",
+   "url": "https://coreyjames.ai/agents/roles/code-guide/"
+  },
+  {
+   "title": "The Search Keeper",
+   "url": "https://coreyjames.ai/agents/roles/search-keeper/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/commit-triggered-re-indexer/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/commit-triggered-re-indexer",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

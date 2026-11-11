@@ -1,0 +1,28 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/incident-fix-planner/",
+ "kind": "agent-specialist",
+ "title": "Incident Fix Planner",
+ "subtitle": "This agent gathers the evidence for an incident, asks a panel of several AI models to debate the fix, and turns the agreed plan into tickets and a merge request for approval.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "This agent gathers the evidence for an incident, asks a panel of several AI models to debate the fix, and turns the agreed plan into tickets and a merge request for approval.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "An engineering manager facing a messy incident",
+ "group": "AI models and performance",
+ "specialist_kind": "Does the work",
+ "roles": [
+  {
+   "title": "The Incident Commander",
+   "url": "https://coreyjames.ai/agents/roles/incident-commander/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/incident-fix-planner/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/incident-fix-planner",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

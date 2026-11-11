@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/code-map-builder/",
+ "kind": "agent-specialist",
+ "title": "Code Map Builder",
+ "subtitle": "Builds and maintains the dependency map: calls, imports, implementations, references, definitions and re-exports.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Builds and maintains the dependency map: calls, imports, implementations, references, definitions and re-exports. Each call is linked to its definition only when the match is unambiguous, so the map leaves a link open rather than guessing it.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "An architect who needs an accurate map of how a large codebase fits together",
+ "group": "Code intelligence and team memory",
+ "specialist_kind": "Keeps knowledge",
+ "roles": [
+  {
+   "title": "The Due-Diligence Analyst",
+   "url": "https://coreyjames.ai/agents/roles/due-diligence-analyst/"
+  },
+  {
+   "title": "The Search Keeper",
+   "url": "https://coreyjames.ai/agents/roles/search-keeper/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/code-map-builder/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/code-map-builder",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

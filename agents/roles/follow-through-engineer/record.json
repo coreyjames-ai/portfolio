@@ -1,0 +1,65 @@
+{
+ "url": "https://coreyjames.ai/agents/roles/follow-through-engineer/",
+ "kind": "agent-role",
+ "title": "The Follow-Through Engineer",
+ "subtitle": "For an engineering manager walking out of a design meeting.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "The agent takes the meeting transcript and pulls out the engineering action items. For each one it finds where in the code the work would land and how far it reaches. It drafts the task plan and will not let a task start without a file and line reference behind it.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "function": "Engineering",
+ "function_url": "https://coreyjames.ai/agents/functions/engineering/",
+ "specialists": [
+  {
+   "title": "Meeting Follow-up Engineer",
+   "url": "https://coreyjames.ai/agents/specialists/meeting-follow-up-engineer/"
+  },
+  {
+   "title": "Meeting Minute-Taker",
+   "url": "https://coreyjames.ai/agents/specialists/meeting-minute-taker/"
+  },
+  {
+   "title": "Code Impact Analyst",
+   "url": "https://coreyjames.ai/agents/specialists/code-impact-analyst/"
+  },
+  {
+   "title": "Grounding Coach",
+   "url": "https://coreyjames.ai/agents/specialists/grounding-coach/"
+  },
+  {
+   "title": "Project Planning Clerk",
+   "url": "https://coreyjames.ai/agents/specialists/project-planning-clerk/"
+  },
+  {
+   "title": "Teams Work Request Runner",
+   "url": "https://coreyjames.ai/agents/specialists/teams-work-request-runner/"
+  },
+  {
+   "title": "Meeting Follow-through Agent",
+   "url": "https://coreyjames.ai/agents/specialists/meeting-follow-through-agent/"
+  }
+ ],
+ "featured": false,
+ "routes": [],
+ "related": [
+  {
+   "title": "Memory and code intelligence for agents",
+   "url": "https://coreyjames.ai/capabilities/memory-and-code-intelligence-for-agents/",
+   "kind": "Capability"
+  },
+  {
+   "title": "Compute first, narrate second",
+   "url": "https://coreyjames.ai/ideas/compute-first-narrate-second/",
+   "kind": "Idea"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/roles/follow-through-engineer/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/roles/follow-through-engineer",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/conversation-archivist/",
+ "kind": "agent-specialist",
+ "title": "Conversation Archivist",
+ "subtitle": "It saves every message, file and link into the right project's memory as it is posted, records decisions and open questions so they can be found later, and briefs anyone who joins late.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "It saves every message, file and link into the right project's memory as it is posted, records decisions and open questions so they can be found later, and briefs anyone who joins late.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A team that loses decisions in chat",
+ "group": "Meetings, voice and the AI colleague",
+ "specialist_kind": "Keeps knowledge",
+ "roles": [
+  {
+   "title": "The Digital Employee",
+   "url": "https://coreyjames.ai/agents/roles/digital-employee/"
+  },
+  {
+   "title": "The Project Room",
+   "url": "https://coreyjames.ai/agents/roles/project-room/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/conversation-archivist/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/conversation-archivist",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

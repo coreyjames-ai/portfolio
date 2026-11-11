@@ -1,0 +1,28 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/credential-rotation-clerk/",
+ "kind": "agent-specialist",
+ "title": "Credential Rotation Clerk",
+ "subtitle": "Replaces a stored credential in one step, sends the new one to each machine that needs it and removes the retired one.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Replaces a stored credential in one step, sends the new one to each machine that needs it and removes the retired one.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A security lead with credentials due for renewal",
+ "group": "Security and access",
+ "specialist_kind": "Audits and guards",
+ "roles": [
+  {
+   "title": "The Security Officer",
+   "url": "https://coreyjames.ai/agents/roles/security-officer/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/credential-rotation-clerk/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/credential-rotation-clerk",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

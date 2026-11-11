@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/content-calendar-producer/",
+ "kind": "agent-specialist",
+ "title": "Content Calendar Producer",
+ "subtitle": "Works from the posting calendar so every upcoming slot has an approved, checked image or video, starts production when one is missing and schedules the post on each network.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Works from the posting calendar so every upcoming slot has an approved, checked image or video, starts production when one is missing and schedules the post on each network.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A marketing lead",
+ "group": "Content, film and brand",
+ "specialist_kind": "Does the work",
+ "roles": [
+  {
+   "title": "The Newsroom",
+   "url": "https://coreyjames.ai/agents/roles/newsroom/"
+  },
+  {
+   "title": "The Social Desk",
+   "url": "https://coreyjames.ai/agents/roles/social-desk/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/content-calendar-producer/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/content-calendar-producer",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

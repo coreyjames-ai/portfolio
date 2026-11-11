@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/third-party-integration-researcher/",
+ "kind": "agent-specialist",
+ "title": "Third-Party Integration Researcher",
+ "subtitle": "Reads the outside platform's documentation and development-kit source, compares it with the current code and writes down the facts the developers will build on.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Reads the outside platform's documentation and development-kit source, compares it with the current code and writes down the facts the developers will build on.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "An engineering manager about to integrate an outside platform",
+ "group": "Connecting tools and signals",
+ "specialist_kind": "Keeps knowledge",
+ "roles": [
+  {
+   "title": "The Integration Engineer",
+   "url": "https://coreyjames.ai/agents/roles/integration-engineer/"
+  },
+  {
+   "title": "The Research Desk",
+   "url": "https://coreyjames.ai/agents/roles/research-desk/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/third-party-integration-researcher/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/third-party-integration-researcher",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

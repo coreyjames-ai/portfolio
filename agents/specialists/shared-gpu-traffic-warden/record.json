@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/shared-gpu-traffic-warden/",
+ "kind": "agent-specialist",
+ "title": "Shared GPU Traffic Warden",
+ "subtitle": "Lets requests into the small model only when the card has measured free memory, and otherwise answers \"busy, try again in this many seconds\" instead of crashing the large model.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Lets requests into the small model only when the card has measured free memory, and otherwise answers \"busy, try again in this many seconds\" instead of crashing the large model.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A platform engineer running a small helper model beside a large one on the same card",
+ "group": "Machines, data and operations",
+ "specialist_kind": "Runs infrastructure",
+ "roles": [
+  {
+   "title": "The Engine Builder",
+   "url": "https://coreyjames.ai/agents/roles/engine-builder/"
+  },
+  {
+   "title": "The Studio Engineer",
+   "url": "https://coreyjames.ai/agents/roles/studio-engineer/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/shared-gpu-traffic-warden/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/shared-gpu-traffic-warden",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

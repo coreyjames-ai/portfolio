@@ -1,0 +1,72 @@
+{
+ "url": "https://coreyjames.ai/agents/roles/conversation-finder/",
+ "kind": "agent-role",
+ "title": "The Conversation Finder",
+ "subtitle": "For a founder building an audience.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Every day there are conversations where the brand has something to add. The agent finds them while they are live, reads who is talking and drafts a reply for each. It paces its replies so the account stays in good standing, follows the people it talks to and welcomes new followers. At the end of the week it shows which conversations brought people back.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "function": "Marketing and audience",
+ "function_url": "https://coreyjames.ai/agents/functions/marketing-and-audience/",
+ "specialists": [
+  {
+   "title": "X Conversation Scout",
+   "url": "https://coreyjames.ai/agents/specialists/x-conversation-scout/"
+  },
+  {
+   "title": "X Reply Campaign Manager",
+   "url": "https://coreyjames.ai/agents/specialists/x-reply-campaign-manager/"
+  },
+  {
+   "title": "X Community Manager",
+   "url": "https://coreyjames.ai/agents/specialists/x-community-manager/"
+  },
+  {
+   "title": "X Follower Welcome Agent",
+   "url": "https://coreyjames.ai/agents/specialists/x-follower-welcome-agent/"
+  },
+  {
+   "title": "X Direct Message Desk",
+   "url": "https://coreyjames.ai/agents/specialists/x-direct-message-desk/"
+  },
+  {
+   "title": "X Performance Analyst",
+   "url": "https://coreyjames.ai/agents/specialists/x-performance-analyst/"
+  },
+  {
+   "title": "X Publisher and Reply Watcher",
+   "url": "https://coreyjames.ai/agents/specialists/x-publisher-and-reply-watcher/"
+  },
+  {
+   "title": "X Engagement Agent",
+   "url": "https://coreyjames.ai/agents/specialists/x-engagement-agent/"
+  },
+  {
+   "title": "Reddit Community Participant",
+   "url": "https://coreyjames.ai/agents/specialists/reddit-community-participant/"
+  },
+  {
+   "title": "Content-to-Conversation Producer",
+   "url": "https://coreyjames.ai/agents/specialists/content-to-conversation-producer/"
+  }
+ ],
+ "featured": false,
+ "routes": [],
+ "related": [
+  {
+   "title": "Business systems as safe agent tools",
+   "url": "https://coreyjames.ai/capabilities/business-systems-as-safe-agent-tools/",
+   "kind": "Capability"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/roles/conversation-finder/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/roles/conversation-finder",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

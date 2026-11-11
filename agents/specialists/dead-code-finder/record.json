@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/dead-code-finder/",
+ "kind": "agent-specialist",
+ "title": "Dead Code Finder",
+ "subtitle": "Lists functions and types that nothing appears to call, as candidates for a person to review.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Lists functions and types that nothing appears to call, as candidates for a person to review. It notes that calls across package boundaries can be hidden from the map.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "An engineering manager planning a clean-up",
+ "group": "Code intelligence and team memory",
+ "specialist_kind": "Audits and guards",
+ "roles": [
+  {
+   "title": "The Second Opinion",
+   "url": "https://coreyjames.ai/agents/roles/second-opinion/"
+  },
+  {
+   "title": "The Due-Diligence Analyst",
+   "url": "https://coreyjames.ai/agents/roles/due-diligence-analyst/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/dead-code-finder/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/dead-code-finder",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

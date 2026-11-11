@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/motion-graphics-artist/",
+ "kind": "agent-specialist",
+ "title": "Motion Graphics Artist",
+ "subtitle": "Turns a still into a short moving background and sets kinetic type over it, so the post moves from the first frame.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Turns a still into a short moving background and sets kinetic type over it, so the post moves from the first frame.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A social media manager",
+ "group": "Content, film and brand",
+ "specialist_kind": "Does the work",
+ "roles": [
+  {
+   "title": "The Week in Review",
+   "url": "https://coreyjames.ai/agents/roles/week-in-review/"
+  },
+  {
+   "title": "The Film Studio",
+   "url": "https://coreyjames.ai/agents/roles/film-studio/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/motion-graphics-artist/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/motion-graphics-artist",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

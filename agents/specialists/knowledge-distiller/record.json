@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/knowledge-distiller/",
+ "kind": "agent-specialist",
+ "title": "Knowledge Distiller",
+ "subtitle": "Groups similar notes and condenses each group into a single learning.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Groups similar notes and condenses each group into a single learning. It slims long memory files by compressing low-value sections after backing up the original, writes a recent-activity summary into project folders, and publishes a \"what we learned\" feed.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A knowledge manager who wants fewer, better notes",
+ "group": "Code intelligence and team memory",
+ "specialist_kind": "Keeps knowledge",
+ "roles": [
+  {
+   "title": "The Handbook Keeper",
+   "url": "https://coreyjames.ai/agents/roles/handbook-keeper/"
+  },
+  {
+   "title": "The Institutional Memory",
+   "url": "https://coreyjames.ai/agents/roles/institutional-memory/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/knowledge-distiller/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/knowledge-distiller",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/decision-announcer/",
+ "kind": "agent-specialist",
+ "title": "Decision Announcer",
+ "subtitle": "It takes a decision the panel agreed, drafts a short public post from the decision document, and puts it into the social posting queue for approval.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "It takes a decision the panel agreed, drafts a short public post from the decision document, and puts it into the social posting queue for approval.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A founder who shares company decisions in public",
+ "group": "Meetings, voice and the AI colleague",
+ "specialist_kind": "Speaks to people",
+ "roles": [
+  {
+   "title": "The Advisory Board",
+   "url": "https://coreyjames.ai/agents/roles/advisory-board/"
+  },
+  {
+   "title": "The Delegate",
+   "url": "https://coreyjames.ai/agents/roles/delegate/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/decision-announcer/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/decision-announcer",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

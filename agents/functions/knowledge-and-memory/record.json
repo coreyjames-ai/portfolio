@@ -1,0 +1,63 @@
+{
+ "url": "https://coreyjames.ai/agents/functions/knowledge-and-memory/",
+ "kind": "agent-function",
+ "title": "Knowledge and memory",
+ "subtitle": "What the team learned, kept searchable and handed to every new worker.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "What the team learned, kept searchable and handed to every new worker. Roles: The Institutional Memory; The Code Guide; The Search Keeper; The Search Auditor; The Knowledge Gardener.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "roles": [
+  {
+   "title": "The Institutional Memory",
+   "url": "https://coreyjames.ai/agents/roles/institutional-memory/"
+  },
+  {
+   "title": "The Code Guide",
+   "url": "https://coreyjames.ai/agents/roles/code-guide/"
+  },
+  {
+   "title": "The Search Keeper",
+   "url": "https://coreyjames.ai/agents/roles/search-keeper/"
+  },
+  {
+   "title": "The Search Auditor",
+   "url": "https://coreyjames.ai/agents/roles/search-auditor/"
+  },
+  {
+   "title": "The Knowledge Gardener",
+   "url": "https://coreyjames.ai/agents/roles/knowledge-gardener/"
+  }
+ ],
+ "related": [
+  {
+   "title": "Memory and code intelligence for agents",
+   "url": "https://coreyjames.ai/capabilities/memory-and-code-intelligence-for-agents/",
+   "kind": "Capability"
+  },
+  {
+   "title": "GPU vector search and corpus analytics",
+   "url": "https://coreyjames.ai/capabilities/gpu-vector-search-and-corpus-analytics/",
+   "kind": "Capability"
+  },
+  {
+   "title": "A code explainer that is not allowed to invent",
+   "url": "https://coreyjames.ai/stories/a-code-explainer-that-is-not-allowed-to-invent/",
+   "kind": "Engineering story"
+  },
+  {
+   "title": "Redistribution inside the database",
+   "url": "https://coreyjames.ai/stories/redistribution-inside-the-database/",
+   "kind": "Engineering story"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/functions/knowledge-and-memory/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/functions/knowledge-and-memory",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

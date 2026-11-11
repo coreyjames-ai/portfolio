@@ -1,0 +1,68 @@
+{
+ "url": "https://coreyjames.ai/agents/roles/safe-change-desk/",
+ "kind": "agent-role",
+ "title": "The Safe Change Desk",
+ "subtitle": "For an operations lead who has to change a live system on a weekday.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "The agent rehearses the change first. A new limit runs in a mode where every decision is logged and nothing is held back, so the lead sees which jobs would have waited. Before a job starts on a paid machine, the agent checks the image, the settings and the budget. After the change it sends a small harmless batch through, saves the settings that worked and keeps the record of who changed what.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "function": "Infrastructure and operations",
+ "function_url": "https://coreyjames.ai/agents/functions/infrastructure-and-operations/",
+ "specialists": [
+  {
+   "title": "Throttle Rehearsal Analyst",
+   "url": "https://coreyjames.ai/agents/specialists/throttle-rehearsal-analyst/"
+  },
+  {
+   "title": "Launch Pre-flight Checker",
+   "url": "https://coreyjames.ai/agents/specialists/launch-pre-flight-checker/"
+  },
+  {
+   "title": "Smoke Test Runner",
+   "url": "https://coreyjames.ai/agents/specialists/smoke-test-runner/"
+  },
+  {
+   "title": "Settings Change Keeper",
+   "url": "https://coreyjames.ai/agents/specialists/settings-change-keeper/"
+  },
+  {
+   "title": "Throughput Tuner",
+   "url": "https://coreyjames.ai/agents/specialists/throughput-tuner/"
+  },
+  {
+   "title": "Operations Audit Clerk",
+   "url": "https://coreyjames.ai/agents/specialists/operations-audit-clerk/"
+  },
+  {
+   "title": "Change Risk Reviewer",
+   "url": "https://coreyjames.ai/agents/specialists/change-risk-reviewer/"
+  },
+  {
+   "title": "Data Version Promoter",
+   "url": "https://coreyjames.ai/agents/specialists/data-version-promoter/"
+  },
+  {
+   "title": "Planned Maintenance Coordinator",
+   "url": "https://coreyjames.ai/agents/specialists/planned-maintenance-coordinator/"
+  }
+ ],
+ "featured": false,
+ "routes": [],
+ "related": [
+  {
+   "title": "Pricing writes by what they cost the database",
+   "url": "https://coreyjames.ai/stories/pricing-writes-by-what-they-cost/",
+   "kind": "Engineering story"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/roles/safe-change-desk/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/roles/safe-change-desk",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

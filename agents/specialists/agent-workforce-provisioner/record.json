@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/agent-workforce-provisioner/",
+ "kind": "agent-specialist",
+ "title": "Agent Workforce Provisioner",
+ "subtitle": "Starts agents from role definitions in locked-down containers, pauses, resumes or stops them, and reloads the role and tool catalogs when they change.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Starts agents from role definitions in locked-down containers, pauses, resumes or stops them, and reloads the role and tool catalogs when they change.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "An IT operations lead who starts and stops agents on demand",
+ "group": "Managing an AI workforce",
+ "specialist_kind": "Supervises other agents",
+ "roles": [
+  {
+   "title": "The Operations Desk",
+   "url": "https://coreyjames.ai/agents/roles/operations-desk/"
+  },
+  {
+   "title": "The Team Architect",
+   "url": "https://coreyjames.ai/agents/roles/team-architect/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/agent-workforce-provisioner/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/agent-workforce-provisioner",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/points-and-redemption-clerk/",
+ "kind": "agent-specialist",
+ "title": "Points and Redemption Clerk",
+ "subtitle": "It credits points for purchases, takes them back on cancellations, and completes reward redemptions so balances are always right.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "It credits points for purchases, takes them back on cancellations, and completes reward redemptions so balances are always right.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "an online shop or store team",
+ "group": "Store, loyalty and payments",
+ "specialist_kind": "Does the work",
+ "roles": [
+  {
+   "title": "The Shop Manager",
+   "url": "https://coreyjames.ai/agents/roles/shop-manager/"
+  },
+  {
+   "title": "The Loyalty Director",
+   "url": "https://coreyjames.ai/agents/roles/loyalty-director/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/points-and-redemption-clerk/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/points-and-redemption-clerk",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

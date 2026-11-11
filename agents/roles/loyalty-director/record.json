@@ -1,0 +1,62 @@
+{
+ "url": "https://coreyjames.ai/agents/roles/loyalty-director/",
+ "kind": "agent-role",
+ "title": "The Loyalty Director",
+ "subtitle": "For a retail marketing lead.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "The agent designs the program: the tiers, the rules for earning, the rewards and the limits. Then it runs it, moving members between tiers, answering balance questions and settling redemptions. Members who drift get an offer chosen from what they bought before.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "function": "Sales and customers",
+ "function_url": "https://coreyjames.ai/agents/functions/sales-and-customers/",
+ "specialists": [
+  {
+   "title": "Loyalty Program Architect",
+   "url": "https://coreyjames.ai/agents/specialists/loyalty-program-architect/"
+  },
+  {
+   "title": "Loyalty Tier Concierge",
+   "url": "https://coreyjames.ai/agents/specialists/loyalty-tier-concierge/"
+  },
+  {
+   "title": "Loyalty Member Concierge",
+   "url": "https://coreyjames.ai/agents/specialists/loyalty-member-concierge/"
+  },
+  {
+   "title": "Points and Redemption Clerk",
+   "url": "https://coreyjames.ai/agents/specialists/points-and-redemption-clerk/"
+  },
+  {
+   "title": "Voucher and Reward Desk",
+   "url": "https://coreyjames.ai/agents/specialists/voucher-and-reward-desk/"
+  },
+  {
+   "title": "Win-back Agent",
+   "url": "https://coreyjames.ai/agents/specialists/win-back-agent/"
+  },
+  {
+   "title": "SMS Campaign Manager",
+   "url": "https://coreyjames.ai/agents/specialists/sms-campaign-manager/"
+  }
+ ],
+ "featured": false,
+ "routes": [
+  "A failed payment becomes a kept account"
+ ],
+ "related": [
+  {
+   "title": "Business systems as safe agent tools",
+   "url": "https://coreyjames.ai/capabilities/business-systems-as-safe-agent-tools/",
+   "kind": "Capability"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/roles/loyalty-director/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/roles/loyalty-director",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

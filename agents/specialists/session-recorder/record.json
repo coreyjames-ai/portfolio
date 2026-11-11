@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/session-recorder/",
+ "kind": "agent-specialist",
+ "title": "Session Recorder",
+ "subtitle": "Opens a record when a session starts, captures the questions asked and the answers given, tracks which model was used, and writes a summary when the session ends.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Opens a record when a session starts, captures the questions asked and the answers given, tracks which model was used, and writes a summary when the session ends. Each session's history can then be browsed.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A team lead who wants a record of each AI-assisted working session",
+ "group": "Code intelligence and team memory",
+ "specialist_kind": "Keeps knowledge",
+ "roles": [
+  {
+   "title": "The Record Keeper",
+   "url": "https://coreyjames.ai/agents/roles/record-keeper/"
+  },
+  {
+   "title": "The Institutional Memory",
+   "url": "https://coreyjames.ai/agents/roles/institutional-memory/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/session-recorder/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/session-recorder",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

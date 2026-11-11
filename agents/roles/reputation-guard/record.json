@@ -1,0 +1,80 @@
+{
+ "url": "https://coreyjames.ai/agents/roles/reputation-guard/",
+ "kind": "agent-role",
+ "title": "The Reputation Guard",
+ "subtitle": "For a brand manager or a small business owner.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "The agent hears every mention, tag, comment and inbox message as it arrives. Routine questions get an answer. Abuse is hidden. A complaint with weight behind it goes to the owner's phone with the history attached. If something breaks for customers, the same agent sends the notice by email and text and keeps the public replies consistent with it.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "function": "Marketing and audience",
+ "function_url": "https://coreyjames.ai/agents/functions/marketing-and-audience/",
+ "specialists": [
+  {
+   "title": "Reputation Watch Officer",
+   "url": "https://coreyjames.ai/agents/specialists/reputation-watch-officer/"
+  },
+  {
+   "title": "Social Inbox Manager",
+   "url": "https://coreyjames.ai/agents/specialists/social-inbox-manager/"
+  },
+  {
+   "title": "Facebook Community Responder",
+   "url": "https://coreyjames.ai/agents/specialists/facebook-community-responder/"
+  },
+  {
+   "title": "Response Time Guardian",
+   "url": "https://coreyjames.ai/agents/specialists/response-time-guardian/"
+  },
+  {
+   "title": "Owner Phone Assistant",
+   "url": "https://coreyjames.ai/agents/specialists/owner-phone-assistant/"
+  },
+  {
+   "title": "Incident Communications Officer",
+   "url": "https://coreyjames.ai/agents/specialists/incident-communications-officer/"
+  },
+  {
+   "title": "Page Inbox Collector",
+   "url": "https://coreyjames.ai/agents/specialists/page-inbox-collector/"
+  },
+  {
+   "title": "X Community Manager",
+   "url": "https://coreyjames.ai/agents/specialists/x-community-manager/"
+  },
+  {
+   "title": "Facebook Page Analyst",
+   "url": "https://coreyjames.ai/agents/specialists/facebook-page-analyst/"
+  },
+  {
+   "title": "Lead Capture Desk",
+   "url": "https://coreyjames.ai/agents/specialists/lead-capture-desk/"
+  }
+ ],
+ "featured": false,
+ "routes": [
+  "A comment becomes a customer",
+  "An alert becomes a customer notice"
+ ],
+ "related": [
+  {
+   "title": "Business systems as safe agent tools",
+   "url": "https://coreyjames.ai/capabilities/business-systems-as-safe-agent-tools/",
+   "kind": "Capability"
+  },
+  {
+   "title": "Agents that react to the world",
+   "url": "https://coreyjames.ai/ideas/agents-that-react-to-the-world/",
+   "kind": "Idea"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/roles/reputation-guard/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/roles/reputation-guard",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

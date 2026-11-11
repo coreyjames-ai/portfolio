@@ -1,0 +1,28 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/scheduled-index-refresher/",
+ "kind": "agent-specialist",
+ "title": "Scheduled Index Refresher",
+ "subtitle": "Re-scans each codebase for changes and updates its search index and dependency map, skipping a tick when another indexing job is already running.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Re-scans each codebase for changes and updates its search index and dependency map, skipping a tick when another indexing job is already running.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "An engineering manager",
+ "group": "Code intelligence and team memory",
+ "specialist_kind": "Runs infrastructure",
+ "roles": [
+  {
+   "title": "The Search Keeper",
+   "url": "https://coreyjames.ai/agents/roles/search-keeper/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/scheduled-index-refresher/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/scheduled-index-refresher",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

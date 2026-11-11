@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/project-reference-librarian/",
+ "kind": "agent-specialist",
+ "title": "Project Reference Librarian",
+ "subtitle": "It answers questions from the reference documents that belong to one project, with page numbers, and ignores documents from other projects.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "It answers questions from the reference documents that belong to one project, with page numbers, and ignores documents from other projects.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A team sitting on a pile of specifications and manuals",
+ "group": "Meetings, voice and the AI colleague",
+ "specialist_kind": "Keeps knowledge",
+ "roles": [
+  {
+   "title": "The Project Room",
+   "url": "https://coreyjames.ai/agents/roles/project-room/"
+  },
+  {
+   "title": "The Onboarding Buddy",
+   "url": "https://coreyjames.ai/agents/roles/onboarding-buddy/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/project-reference-librarian/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/project-reference-librarian",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

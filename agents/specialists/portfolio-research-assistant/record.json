@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/portfolio-research-assistant/",
+ "kind": "agent-specialist",
+ "title": "Portfolio Research Assistant",
+ "subtitle": "It answers questions about a person's body of work with the pages, results and evidence lines that cover each question.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "It answers questions about a person's body of work with the pages, results and evidence lines that cover each question. It can hand back the full text of any page.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A technical interviewer or a due-diligence analyst",
+ "group": "The public front door",
+ "specialist_kind": "Speaks to people",
+ "roles": [
+  {
+   "title": "The Recruiter's Counterpart",
+   "url": "https://coreyjames.ai/agents/roles/recruiters-counterpart/"
+  },
+  {
+   "title": "The Publisher of Record",
+   "url": "https://coreyjames.ai/agents/roles/publisher-of-record/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/portfolio-research-assistant/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/portfolio-research-assistant",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

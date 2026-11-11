@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/repository-steward/",
+ "kind": "agent-specialist",
+ "title": "Repository Steward",
+ "subtitle": "Holds the repository keys, checks who is asking and what branch they offer, opens merge requests for human review and keeps issues, comments and labels in order.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Holds the repository keys, checks who is asking and what branch they offer, opens merge requests for human review and keeps issues, comments and labels in order.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "An engineering manager guarding the main branch",
+ "group": "Building software",
+ "specialist_kind": "Does the work",
+ "roles": [
+  {
+   "title": "The Ticket Clearer",
+   "url": "https://coreyjames.ai/agents/roles/ticket-clearer/"
+  },
+  {
+   "title": "The Contractor Pass",
+   "url": "https://coreyjames.ai/agents/roles/contractor-pass/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/repository-steward/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/repository-steward",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

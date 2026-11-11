@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/throughput-tuner/",
+ "kind": "agent-specialist",
+ "title": "Throughput Tuner",
+ "subtitle": "Adjusts how work is batched and flushed, from a careful standard setting to a very high-volume one, and measures the result.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Adjusts how work is batched and flushed, from a careful standard setting to a very high-volume one, and measures the result.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A data team lead whose loads run slower than the hardware allows",
+ "group": "Machines, data and operations",
+ "specialist_kind": "Runs infrastructure",
+ "roles": [
+  {
+   "title": "The Database Guard",
+   "url": "https://coreyjames.ai/agents/roles/database-guard/"
+  },
+  {
+   "title": "The Safe Change Desk",
+   "url": "https://coreyjames.ai/agents/roles/safe-change-desk/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/throughput-tuner/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/throughput-tuner",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

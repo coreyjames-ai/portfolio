@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/meeting-moderator/",
+ "kind": "agent-specialist",
+ "title": "Meeting Moderator",
+ "subtitle": "Keeps a large call orderly: it notices raised hands, calls on people by name in the order they asked, and keeps track of who is speaking and who has dropped off.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Keeps a large call orderly: it notices raised hands, calls on people by name in the order they asked, and keeps track of who is speaking and who has dropped off.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A facilitator of large calls",
+ "group": "Meetings, voice and the AI colleague",
+ "specialist_kind": "Speaks to people",
+ "roles": [
+  {
+   "title": "The Presenter",
+   "url": "https://coreyjames.ai/agents/roles/presenter/"
+  },
+  {
+   "title": "The Stand-up Host",
+   "url": "https://coreyjames.ai/agents/roles/stand-up-host/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/meeting-moderator/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/meeting-moderator",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

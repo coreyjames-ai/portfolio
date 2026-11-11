@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/existing-capability-checker/",
+ "kind": "agent-specialist",
+ "title": "Existing-Capability Checker",
+ "subtitle": "Searches the codebase for something people believe is missing and reports whether any candidate code exists, then checks whether a past decision already settled the question.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Searches the codebase for something people believe is missing and reports whether any candidate code exists, then checks whether a past decision already settled the question.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A product manager or founder asking \"do we already have this\" before funding new work",
+ "group": "Code intelligence and team memory",
+ "specialist_kind": "Audits and guards",
+ "roles": [
+  {
+   "title": "The Automation Builder",
+   "url": "https://coreyjames.ai/agents/roles/automation-builder/"
+  },
+  {
+   "title": "The Code Guide",
+   "url": "https://coreyjames.ai/agents/roles/code-guide/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/existing-capability-checker/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/existing-capability-checker",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

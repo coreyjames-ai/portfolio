@@ -1,0 +1,19 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/",
+ "kind": "agent-gallery",
+ "title": "The specialists",
+ "subtitle": "The specialist agents behind every role in Corey James's agent gallery, with who each one is for, what it does and the roles it serves.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Each specialist does one job. Filter by the kind of work it does, or open any role it serves.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "canonical": "https://coreyjames.ai/agents/specialists/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

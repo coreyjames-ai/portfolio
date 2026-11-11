@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/database-traffic-controller/",
+ "kind": "agent-specialist",
+ "title": "Database Traffic Controller",
+ "subtitle": "Keeps heavy bulk writes from flattening the database: it prices each write by its expected load, lets cheap work through, holds heavy work until there is room, and tunes the write workers.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Keeps heavy bulk writes from flattening the database: it prices each write by its expected load, lets cheap work through, holds heavy work until there is room, and tunes the write workers. You can run it in watch-only mode first and switch to enforcing when you trust the numbers.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A database administrator",
+ "group": "Machines, data and operations",
+ "specialist_kind": "Runs infrastructure",
+ "roles": [
+  {
+   "title": "The Database Guard",
+   "url": "https://coreyjames.ai/agents/roles/database-guard/"
+  },
+  {
+   "title": "The Pipeline Foreman",
+   "url": "https://coreyjames.ai/agents/roles/pipeline-foreman/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/database-traffic-controller/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/database-traffic-controller",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

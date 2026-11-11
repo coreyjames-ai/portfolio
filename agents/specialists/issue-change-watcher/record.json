@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/issue-change-watcher/",
+ "kind": "agent-specialist",
+ "title": "Issue Change Watcher",
+ "subtitle": "It reports what changed since the last check.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "It reports what changed since the last check.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A project lead tracking a dozen open tickets",
+ "group": "Building software",
+ "specialist_kind": "Does the work",
+ "roles": [
+  {
+   "title": "The Ticket Clearer",
+   "url": "https://coreyjames.ai/agents/roles/ticket-clearer/"
+  },
+  {
+   "title": "The Review Panel",
+   "url": "https://coreyjames.ai/agents/roles/review-panel/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/issue-change-watcher/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/issue-change-watcher",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

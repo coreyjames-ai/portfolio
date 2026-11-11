@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/chat-front-desk/",
+ "kind": "agent-specialist",
+ "title": "Chat Front Desk",
+ "subtitle": "Answers questions people send it in chat, one to one or during a meeting, and replies in the same conversation.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Answers questions people send it in chat, one to one or during a meeting, and replies in the same conversation.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A support desk or a team inbox owner",
+ "group": "Meetings, voice and the AI colleague",
+ "specialist_kind": "Speaks to people",
+ "roles": [
+  {
+   "title": "The Digital Employee",
+   "url": "https://coreyjames.ai/agents/roles/digital-employee/"
+  },
+  {
+   "title": "The Front Desk",
+   "url": "https://coreyjames.ai/agents/roles/front-desk/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/chat-front-desk/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/chat-front-desk",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

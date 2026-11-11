@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/release-readiness-reviewer/",
+ "kind": "agent-specialist",
+ "title": "Release Readiness Reviewer",
+ "subtitle": "This agent pulls together the regression results, accuracy checks, load tests and package review for a new version and writes one go or no-go summary.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "This agent pulls together the regression results, accuracy checks, load tests and package review for a new version and writes one go or no-go summary.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "An AI platform lead deciding whether a new version can ship",
+ "group": "AI models and performance",
+ "specialist_kind": "Challenges decisions",
+ "roles": [
+  {
+   "title": "The Model Launch Manager",
+   "url": "https://coreyjames.ai/agents/roles/model-launch-manager/"
+  },
+  {
+   "title": "The Model Shrinker",
+   "url": "https://coreyjames.ai/agents/roles/model-shrinker/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/release-readiness-reviewer/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/release-readiness-reviewer",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

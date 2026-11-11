@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/email-list-hygiene-agent/",
+ "kind": "agent-specialist",
+ "title": "Email List Hygiene Agent",
+ "subtitle": "It removes the address from active lists, records why, and keeps a running view of sender health for the team.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "It removes the address from active lists, records why, and keeps a running view of sender health for the team.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A marketing lead protecting sender reputation",
+ "group": "Email, text and messaging",
+ "specialist_kind": "Audits and guards",
+ "roles": [
+  {
+   "title": "The Email Marketer",
+   "url": "https://coreyjames.ai/agents/roles/email-marketer/"
+  },
+  {
+   "title": "The Newsletter Editor",
+   "url": "https://coreyjames.ai/agents/roles/newsletter-editor/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/email-list-hygiene-agent/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/email-list-hygiene-agent",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

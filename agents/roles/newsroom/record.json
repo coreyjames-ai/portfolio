@@ -1,0 +1,82 @@
+{
+ "url": "https://coreyjames.ai/agents/roles/newsroom/",
+ "kind": "agent-role",
+ "title": "The Newsroom",
+ "subtitle": "For a brand with something to say every day and nobody to say it.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "The agent reads what the market is arguing about, picks the angle and writes it for each channel. It produces the images, the short film and the voice-over, schedules the posts and answers the comments as they arrive. The week's numbers choose next week's topics.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "function": "Marketing and audience",
+ "function_url": "https://coreyjames.ai/agents/functions/marketing-and-audience/",
+ "specialists": [
+  {
+   "title": "Trend Response Writer",
+   "url": "https://coreyjames.ai/agents/specialists/trend-response-writer/"
+  },
+  {
+   "title": "Weekly Content Producer",
+   "url": "https://coreyjames.ai/agents/specialists/weekly-content-producer/"
+  },
+  {
+   "title": "Brand Image Maker",
+   "url": "https://coreyjames.ai/agents/specialists/brand-image-maker/"
+  },
+  {
+   "title": "Short Film Producer",
+   "url": "https://coreyjames.ai/agents/specialists/short-film-producer/"
+  },
+  {
+   "title": "Voice-Over Artist",
+   "url": "https://coreyjames.ai/agents/specialists/voice-over-artist/"
+  },
+  {
+   "title": "Social Calendar Manager",
+   "url": "https://coreyjames.ai/agents/specialists/social-calendar-manager/"
+  },
+  {
+   "title": "Cross-Platform Publisher",
+   "url": "https://coreyjames.ai/agents/specialists/cross-platform-publisher/"
+  },
+  {
+   "title": "Social Community Manager",
+   "url": "https://coreyjames.ai/agents/specialists/social-community-manager/"
+  },
+  {
+   "title": "Social Analytics Reporter",
+   "url": "https://coreyjames.ai/agents/specialists/social-analytics-reporter/"
+  },
+  {
+   "title": "Content Calendar Producer",
+   "url": "https://coreyjames.ai/agents/specialists/content-calendar-producer/"
+  },
+  {
+   "title": "Brand Compliance Checker",
+   "url": "https://coreyjames.ai/agents/specialists/brand-compliance-checker/"
+  },
+  {
+   "title": "Engineering Story Writer",
+   "url": "https://coreyjames.ai/agents/specialists/engineering-story-writer/"
+  }
+ ],
+ "featured": false,
+ "routes": [
+  "A new model becomes a story"
+ ],
+ "related": [
+  {
+   "title": "Business systems as safe agent tools",
+   "url": "https://coreyjames.ai/capabilities/business-systems-as-safe-agent-tools/",
+   "kind": "Capability"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/roles/newsroom/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/roles/newsroom",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

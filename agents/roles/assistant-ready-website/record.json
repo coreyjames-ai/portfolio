@@ -1,0 +1,62 @@
+{
+ "url": "https://coreyjames.ai/agents/roles/assistant-ready-website/",
+ "kind": "agent-role",
+ "title": "The Assistant-Ready Website",
+ "subtitle": "For a business whose visitors arrive with an AI assistant of their own.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "On every page the site offers the visitor's assistant ready-made actions: search, summarise this page, check a fit, send a message to the owner. Companies that want to connect their own assistant get each question type as a plain web address with a published description. The agent checks the quality of the answers it gives and keeps the site listed where other agents look.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "function": "The public front door",
+ "function_url": "https://coreyjames.ai/agents/functions/the-public-front-door/",
+ "specialists": [
+  {
+   "title": "Website Visitor Assistant",
+   "url": "https://coreyjames.ai/agents/specialists/website-visitor-assistant/"
+  },
+  {
+   "title": "Integration Desk",
+   "url": "https://coreyjames.ai/agents/specialists/integration-desk/"
+  },
+  {
+   "title": "Answer Quality Steward",
+   "url": "https://coreyjames.ai/agents/specialists/answer-quality-steward/"
+  },
+  {
+   "title": "Agent Directory Listing Agent",
+   "url": "https://coreyjames.ai/agents/specialists/agent-directory-listing-agent/"
+  },
+  {
+   "title": "Contact Desk",
+   "url": "https://coreyjames.ai/agents/specialists/contact-desk/"
+  },
+  {
+   "title": "Integration Wiring Engineer",
+   "url": "https://coreyjames.ai/agents/specialists/integration-wiring-engineer/"
+  },
+  {
+   "title": "AI Access Desk",
+   "url": "https://coreyjames.ai/agents/specialists/ai-access-desk/"
+  },
+  {
+   "title": "Sign-in and Token Manager",
+   "url": "https://coreyjames.ai/agents/specialists/sign-in-and-token-manager/"
+  },
+  {
+   "title": "Recruiter Front Desk",
+   "url": "https://coreyjames.ai/agents/specialists/recruiter-front-desk/"
+  }
+ ],
+ "featured": false,
+ "routes": [],
+ "related": [],
+ "canonical": "https://coreyjames.ai/agents/roles/assistant-ready-website/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/roles/assistant-ready-website",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

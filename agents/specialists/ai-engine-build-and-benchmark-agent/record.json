@@ -1,0 +1,28 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/ai-engine-build-and-benchmark-agent/",
+ "kind": "agent-specialist",
+ "title": "AI Engine Build and Benchmark Agent",
+ "subtitle": "This agent builds the engine for each GPU type, runs its tests and measures throughput with saved results.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "This agent builds the engine for each GPU type, runs its tests and measures throughput with saved results.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "An engineering lead shipping an AI engine to several GPU types",
+ "group": "AI models and performance",
+ "specialist_kind": "Runs infrastructure",
+ "roles": [
+  {
+   "title": "The Engine Builder",
+   "url": "https://coreyjames.ai/agents/roles/engine-builder/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/ai-engine-build-and-benchmark-agent/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/ai-engine-build-and-benchmark-agent",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

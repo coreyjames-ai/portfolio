@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/search-index-manager/",
+ "kind": "agent-specialist",
+ "title": "Search Index Manager",
+ "subtitle": "This agent counts, builds, checks and reports on the search indexes behind semantic search.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "This agent counts, builds, checks and reports on the search indexes behind semantic search.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A product or data lead running semantic search over millions of items",
+ "group": "AI models and performance",
+ "specialist_kind": "Runs infrastructure",
+ "roles": [
+  {
+   "title": "The Model Interviewer",
+   "url": "https://coreyjames.ai/agents/roles/model-interviewer/"
+  },
+  {
+   "title": "The Search Keeper",
+   "url": "https://coreyjames.ai/agents/roles/search-keeper/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/search-index-manager/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/search-index-manager",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

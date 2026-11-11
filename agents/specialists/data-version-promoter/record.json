@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/data-version-promoter/",
+ "kind": "agent-specialist",
+ "title": "Data Version Promoter",
+ "subtitle": "Switches readers to a newly built version of stored data, finishes a build that stalled and cancels one that went wrong.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Switches readers to a newly built version of stored data, finishes a build that stalled and cancels one that went wrong.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A research lead with a newly built version of the data ready",
+ "group": "AI models and performance",
+ "specialist_kind": "Runs infrastructure",
+ "roles": [
+  {
+   "title": "The Archive Keeper",
+   "url": "https://coreyjames.ai/agents/roles/archive-keeper/"
+  },
+  {
+   "title": "The Safe Change Desk",
+   "url": "https://coreyjames.ai/agents/roles/safe-change-desk/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/data-version-promoter/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/data-version-promoter",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

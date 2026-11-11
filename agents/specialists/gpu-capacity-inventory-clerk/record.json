@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/gpu-capacity-inventory-clerk/",
+ "kind": "agent-specialist",
+ "title": "GPU Capacity Inventory Clerk",
+ "subtitle": "This agent takes stock of memory, model weights and idle capacity on each machine and rolls it up into one picture for planning.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "This agent takes stock of memory, model weights and idle capacity on each machine and rolls it up into one picture for planning.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "An engineering lead planning which jobs fit on which machines",
+ "group": "AI models and performance",
+ "specialist_kind": "Runs infrastructure",
+ "roles": [
+  {
+   "title": "The Engine Builder",
+   "url": "https://coreyjames.ai/agents/roles/engine-builder/"
+  },
+  {
+   "title": "The Watch Office",
+   "url": "https://coreyjames.ai/agents/roles/watch-office/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/gpu-capacity-inventory-clerk/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/gpu-capacity-inventory-clerk",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

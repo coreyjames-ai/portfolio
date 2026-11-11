@@ -1,0 +1,72 @@
+{
+ "url": "https://coreyjames.ai/agents/roles/agency-back-office/",
+ "kind": "agent-role",
+ "title": "The Agency Back Office",
+ "subtitle": "For an agency or a company with several brands.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "A new client signs. The agent opens their account, sets up the sending domain, connects the social profiles and the payment account, and gives the client's team their access. From then on each brand runs with its own calendar, inboxes and reports, and one person can oversee all of them.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "function": "Marketing and audience",
+ "function_url": "https://coreyjames.ai/agents/functions/marketing-and-audience/",
+ "specialists": [
+  {
+   "title": "Client Account Administrator",
+   "url": "https://coreyjames.ai/agents/specialists/client-account-administrator/"
+  },
+  {
+   "title": "Marketing Team Access Manager",
+   "url": "https://coreyjames.ai/agents/specialists/marketing-team-access-manager/"
+  },
+  {
+   "title": "Sending Domain and Sender Steward",
+   "url": "https://coreyjames.ai/agents/specialists/sending-domain-and-sender-steward/"
+  },
+  {
+   "title": "Social Account Health Officer",
+   "url": "https://coreyjames.ai/agents/specialists/social-account-health-officer/"
+  },
+  {
+   "title": "Payment Setup Specialist",
+   "url": "https://coreyjames.ai/agents/specialists/payment-setup-specialist/"
+  },
+  {
+   "title": "Event Feed Manager",
+   "url": "https://coreyjames.ai/agents/specialists/event-feed-manager/"
+  },
+  {
+   "title": "Brand Kit Keeper",
+   "url": "https://coreyjames.ai/agents/specialists/brand-kit-keeper/"
+  },
+  {
+   "title": "Social Calendar Manager",
+   "url": "https://coreyjames.ai/agents/specialists/social-calendar-manager/"
+  },
+  {
+   "title": "Weekly Cross-Channel Brief",
+   "url": "https://coreyjames.ai/agents/specialists/weekly-cross-channel-brief/"
+  },
+  {
+   "title": "Import and Export Tracker",
+   "url": "https://coreyjames.ai/agents/specialists/import-and-export-tracker/"
+  }
+ ],
+ "featured": false,
+ "routes": [],
+ "related": [
+  {
+   "title": "Business systems as safe agent tools",
+   "url": "https://coreyjames.ai/capabilities/business-systems-as-safe-agent-tools/",
+   "kind": "Capability"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/roles/agency-back-office/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/roles/agency-back-office",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/memory-compression-researcher/",
+ "kind": "agent-specialist",
+ "title": "Memory Compression Researcher",
+ "subtitle": "This agent tests ways to compress what the model keeps in memory, measures how much accuracy each costs and picks the best candidates.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "This agent tests ways to compress what the model keeps in memory, measures how much accuracy each costs and picks the best candidates.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "An AI research lead trying to fit longer conversations on the same hardware",
+ "group": "AI models and performance",
+ "specialist_kind": "Does the work",
+ "roles": [
+  {
+   "title": "The Model Shrinker",
+   "url": "https://coreyjames.ai/agents/roles/model-shrinker/"
+  },
+  {
+   "title": "The Research Lab",
+   "url": "https://coreyjames.ai/agents/roles/research-lab/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/memory-compression-researcher/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/memory-compression-researcher",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

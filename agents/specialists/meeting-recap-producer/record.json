@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/meeting-recap-producer/",
+ "kind": "agent-specialist",
+ "title": "Meeting Recap Producer",
+ "subtitle": "Joins a meeting as its own participant, keeps the transcript, and after the call returns a short narrated recap video with captions, posting the link in the meeting chat.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Joins a meeting as its own participant, keeps the transcript, and after the call returns a short narrated recap video with captions, posting the link in the meeting chat.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A team lead or engineering manager",
+ "group": "Meetings, voice and the AI colleague",
+ "specialist_kind": "Speaks to people",
+ "roles": [
+  {
+   "title": "The Meeting Concierge",
+   "url": "https://coreyjames.ai/agents/roles/meeting-concierge/"
+  },
+  {
+   "title": "The Presenter",
+   "url": "https://coreyjames.ai/agents/roles/presenter/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/meeting-recap-producer/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/meeting-recap-producer",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

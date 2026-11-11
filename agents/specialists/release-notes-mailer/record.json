@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/release-notes-mailer/",
+ "kind": "agent-specialist",
+ "title": "Release Notes Mailer",
+ "subtitle": "Summarises what changed over a period from the record of completed work and the code it touched, and sends the notes to a subscriber list as an email campaign.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Summarises what changed over a period from the record of completed work and the code it touched, and sends the notes to a subscriber list as an email campaign.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A product or marketing lead who owes customers release notes",
+ "group": "Code intelligence and team memory",
+ "specialist_kind": "Speaks to people",
+ "roles": [
+  {
+   "title": "The Developer Advocate",
+   "url": "https://coreyjames.ai/agents/roles/developer-advocate/"
+  },
+  {
+   "title": "The Newsletter Editor",
+   "url": "https://coreyjames.ai/agents/roles/newsletter-editor/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/release-notes-mailer/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/release-notes-mailer",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

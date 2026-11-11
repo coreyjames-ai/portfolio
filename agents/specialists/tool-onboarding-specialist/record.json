@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/tool-onboarding-specialist/",
+ "kind": "agent-specialist",
+ "title": "Tool Onboarding Specialist",
+ "subtitle": "Qualifies each new tool with normal and hostile test cases, rebuilds the tool index the agents search, and confirms agents can find the new tool.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Qualifies each new tool with normal and hostile test cases, rebuilds the tool index the agents search, and confirms agents can find the new tool.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A platform owner adding new tools for agents",
+ "group": "Connecting tools and signals",
+ "specialist_kind": "Runs infrastructure",
+ "roles": [
+  {
+   "title": "The Integration Engineer",
+   "url": "https://coreyjames.ai/agents/roles/integration-engineer/"
+  },
+  {
+   "title": "The Team Architect",
+   "url": "https://coreyjames.ai/agents/roles/team-architect/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/tool-onboarding-specialist/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/tool-onboarding-specialist",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

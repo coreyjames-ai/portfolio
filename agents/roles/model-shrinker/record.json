@@ -1,0 +1,71 @@
+{
+ "url": "https://coreyjames.ai/agents/roles/model-shrinker/",
+ "kind": "agent-role",
+ "title": "The Model Shrinker",
+ "subtitle": "For an AI team that needs a large model on a smaller card.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "A team of specialist agents compresses the model, measures what the compression cost in accuracy and tunes until the trade is acceptable. The result ships with a benchmark against the original.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "function": "AI and model teams",
+ "function_url": "https://coreyjames.ai/agents/functions/ai-and-model-teams/",
+ "specialists": [
+  {
+   "title": "Model Compression Team",
+   "url": "https://coreyjames.ai/agents/specialists/model-compression-team/"
+  },
+  {
+   "title": "Model Optimization Team",
+   "url": "https://coreyjames.ai/agents/specialists/model-optimization-team/"
+  },
+  {
+   "title": "AI Answer Accuracy Checker",
+   "url": "https://coreyjames.ai/agents/specialists/ai-answer-accuracy-checker/"
+  },
+  {
+   "title": "Performance Benchmark Analyst",
+   "url": "https://coreyjames.ai/agents/specialists/performance-benchmark-analyst/"
+  },
+  {
+   "title": "Release Readiness Reviewer",
+   "url": "https://coreyjames.ai/agents/specialists/release-readiness-reviewer/"
+  },
+  {
+   "title": "Model Rollout Manager",
+   "url": "https://coreyjames.ai/agents/specialists/model-rollout-manager/"
+  },
+  {
+   "title": "Model Evaluation Analyst",
+   "url": "https://coreyjames.ai/agents/specialists/model-evaluation-analyst/"
+  },
+  {
+   "title": "Memory Compression Researcher",
+   "url": "https://coreyjames.ai/agents/specialists/memory-compression-researcher/"
+  }
+ ],
+ "featured": false,
+ "routes": [
+  "A new model becomes a story"
+ ],
+ "related": [
+  {
+   "title": "Bigger models and longer context on fixed GPU memory",
+   "url": "https://coreyjames.ai/capabilities/longer-context-on-the-gpus-you-own/",
+   "kind": "Capability"
+  },
+  {
+   "title": "Measure the instrument",
+   "url": "https://coreyjames.ai/ideas/measure-the-instrument/",
+   "kind": "Idea"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/roles/model-shrinker/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/roles/model-shrinker",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

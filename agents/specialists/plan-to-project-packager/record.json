@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/plan-to-project-packager/",
+ "kind": "agent-specialist",
+ "title": "Plan-to-project Packager",
+ "subtitle": "It takes an agreed decision back to the same panel and turns it into a complete implementation plan, a structured project definition and a briefing deck in web and slide form, checks them for consistency, and leaves the go-ahead to the owner.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "It takes an agreed decision back to the same panel and turns it into a complete implementation plan, a structured project definition and a briefing deck in web and slide form, checks them for consistency, and leaves the go-ahead to the owner.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A delivery manager who needs a plan the team can start on",
+ "group": "Decisions and deliberation",
+ "specialist_kind": "Does the work",
+ "roles": [
+  {
+   "title": "The Pocket Operator",
+   "url": "https://coreyjames.ai/agents/roles/pocket-operator/"
+  },
+  {
+   "title": "The Planning Room",
+   "url": "https://coreyjames.ai/agents/roles/planning-room/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/plan-to-project-packager/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/plan-to-project-packager",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

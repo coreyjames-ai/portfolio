@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/platform-help-desk/",
+ "kind": "agent-specialist",
+ "title": "Platform Help Desk",
+ "subtitle": "Registers itself before any restart, watches progress every fifteen minutes, answers the team lead's questions on a private support channel, logs real defects and ships the smallest fix when something blocks the team.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Registers itself before any restart, watches progress every fifteen minutes, answers the team lead's questions on a private support channel, logs real defects and ships the smallest fix when something blocks the team.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "An engineering manager running agent teams who needs someone on call",
+ "group": "Building software",
+ "specialist_kind": "Speaks to people",
+ "roles": [
+  {
+   "title": "The Operations Desk",
+   "url": "https://coreyjames.ai/agents/roles/operations-desk/"
+  },
+  {
+   "title": "The Control Room",
+   "url": "https://coreyjames.ai/agents/roles/control-room/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/platform-help-desk/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/platform-help-desk",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

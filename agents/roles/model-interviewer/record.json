@@ -1,0 +1,91 @@
+{
+ "url": "https://coreyjames.ai/agents/roles/model-interviewer/",
+ "kind": "agent-role",
+ "title": "The Model Interviewer",
+ "subtitle": "For a research lead who wants what a model knows in a form people can search.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "The agent questions a model at scale, organises what comes back into a structured knowledge base and audits it for gaps and errors. The same pipeline produces training data for a smaller model.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "function": "AI and model teams",
+ "function_url": "https://coreyjames.ai/agents/functions/ai-and-model-teams/",
+ "specialists": [
+  {
+   "title": "Knowledge Base Builder",
+   "url": "https://coreyjames.ai/agents/specialists/knowledge-base-builder/"
+  },
+  {
+   "title": "Knowledge Base Maintainer",
+   "url": "https://coreyjames.ai/agents/specialists/knowledge-base-maintainer/"
+  },
+  {
+   "title": "Vector Library Curator",
+   "url": "https://coreyjames.ai/agents/specialists/vector-library-curator/"
+  },
+  {
+   "title": "AI Model Study Runner",
+   "url": "https://coreyjames.ai/agents/specialists/ai-model-study-runner/"
+  },
+  {
+   "title": "Knowledge Base Curator",
+   "url": "https://coreyjames.ai/agents/specialists/knowledge-base-curator/"
+  },
+  {
+   "title": "Knowledge Base Auditor",
+   "url": "https://coreyjames.ai/agents/specialists/knowledge-base-auditor/"
+  },
+  {
+   "title": "Knowledge Base Health Analyst",
+   "url": "https://coreyjames.ai/agents/specialists/knowledge-base-health-analyst/"
+  },
+  {
+   "title": "Search Index Manager",
+   "url": "https://coreyjames.ai/agents/specialists/search-index-manager/"
+  },
+  {
+   "title": "Training Data Producer",
+   "url": "https://coreyjames.ai/agents/specialists/training-data-producer/"
+  },
+  {
+   "title": "Model Insight Extractor",
+   "url": "https://coreyjames.ai/agents/specialists/model-insight-extractor/"
+  },
+  {
+   "title": "Knowledge Entry Screener",
+   "url": "https://coreyjames.ai/agents/specialists/knowledge-entry-screener/"
+  }
+ ],
+ "featured": false,
+ "routes": [],
+ "related": [
+  {
+   "title": "High-throughput batch inference and embeddings",
+   "url": "https://coreyjames.ai/capabilities/high-throughput-batch-inference/",
+   "kind": "Capability"
+  },
+  {
+   "title": "GPU vector search and corpus analytics",
+   "url": "https://coreyjames.ai/capabilities/gpu-vector-search-and-corpus-analytics/",
+   "kind": "Capability"
+  },
+  {
+   "title": "The workload that shaped the platform",
+   "url": "https://coreyjames.ai/stories/the-workload-that-shaped-the-platform/",
+   "kind": "Engineering story"
+  },
+  {
+   "title": "A detector for a silent corruption",
+   "url": "https://coreyjames.ai/stories/a-detector-for-a-silent-corruption/",
+   "kind": "Engineering story"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/roles/model-interviewer/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/roles/model-interviewer",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

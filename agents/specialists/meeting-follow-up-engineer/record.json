@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/meeting-follow-up-engineer/",
+ "kind": "agent-specialist",
+ "title": "Meeting Follow-up Engineer",
+ "subtitle": "Takes the meeting transcript and pulls out the engineering action items.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Takes the meeting transcript and pulls out the engineering action items. For each item it finds where in the code the work would land and how far it reaches, then drafts the task plan.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "An engineering manager coming out of a design or planning meeting",
+ "group": "Code intelligence and team memory",
+ "specialist_kind": "Does the work",
+ "roles": [
+  {
+   "title": "The Meeting Concierge",
+   "url": "https://coreyjames.ai/agents/roles/meeting-concierge/"
+  },
+  {
+   "title": "The Follow-Through Engineer",
+   "url": "https://coreyjames.ai/agents/roles/follow-through-engineer/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/meeting-follow-up-engineer/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/meeting-follow-up-engineer",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

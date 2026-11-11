@@ -1,0 +1,44 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/code-impact-analyst/",
+ "kind": "agent-specialist",
+ "title": "Code Impact Analyst",
+ "subtitle": "For every function or type a change touches, it lists what calls it and what it calls up to three steps out.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "For every function or type a change touches, it lists what calls it and what it calls up to three steps out. It counts how many files and packages are affected and sorts the change into security, concurrency, data-schema or routine risk from the paths involved, so the reviewer knows how hard to look.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "An engineering manager or reviewer who wants to know what a change will touch before it is made",
+ "group": "Code intelligence and team memory",
+ "specialist_kind": "Keeps knowledge",
+ "roles": [
+  {
+   "title": "The Software Department",
+   "url": "https://coreyjames.ai/agents/roles/software-department/"
+  },
+  {
+   "title": "The Change Board",
+   "url": "https://coreyjames.ai/agents/roles/change-board/"
+  },
+  {
+   "title": "The Migration Planner",
+   "url": "https://coreyjames.ai/agents/roles/migration-planner/"
+  },
+  {
+   "title": "The Follow-Through Engineer",
+   "url": "https://coreyjames.ai/agents/roles/follow-through-engineer/"
+  },
+  {
+   "title": "The Code Guide",
+   "url": "https://coreyjames.ai/agents/roles/code-guide/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/code-impact-analyst/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/code-impact-analyst",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

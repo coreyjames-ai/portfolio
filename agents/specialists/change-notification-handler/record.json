@@ -1,0 +1,28 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/change-notification-handler/",
+ "kind": "agent-specialist",
+ "title": "Change Notification Handler",
+ "subtitle": "It checks the signature, ignores stale or irrelevant notices and updates the local copy.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "It checks the signature, ignores stale or irrelevant notices and updates the local copy.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "An IT lead whose apps send change notifications",
+ "group": "Connecting tools and signals",
+ "specialist_kind": "Runs infrastructure",
+ "roles": [
+  {
+   "title": "The Systems Bridge",
+   "url": "https://coreyjames.ai/agents/roles/systems-bridge/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/change-notification-handler/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/change-notification-handler",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

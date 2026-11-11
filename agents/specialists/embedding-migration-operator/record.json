@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/embedding-migration-operator/",
+ "kind": "agent-specialist",
+ "title": "Embedding Migration Operator",
+ "subtitle": "Rebuilds the search vectors for a whole index or for all engineering notes, in bulk on a GPU or one item at a time on CPU.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Rebuilds the search vectors for a whole index or for all engineering notes, in bulk on a GPU or one item at a time on CPU. It warns when the new model's size does not match the stored vectors and reports progress and exact counts throughout.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A platform lead changing the model that powers search, or rebuilding search after a failure",
+ "group": "Code intelligence and team memory",
+ "specialist_kind": "Runs infrastructure",
+ "roles": [
+  {
+   "title": "The Search Keeper",
+   "url": "https://coreyjames.ai/agents/roles/search-keeper/"
+  },
+  {
+   "title": "The Knowledge Gardener",
+   "url": "https://coreyjames.ai/agents/roles/knowledge-gardener/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/embedding-migration-operator/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/embedding-migration-operator",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

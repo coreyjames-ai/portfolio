@@ -1,0 +1,66 @@
+{
+ "url": "https://coreyjames.ai/agents/roles/recruiters-counterpart/",
+ "kind": "agent-role",
+ "title": "The Recruiter's Counterpart",
+ "subtitle": "For a recruiter whose own AI does the sourcing.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "A recruiter's agent arrives with a job description. The portfolio's agent reads the requirements and answers each one as covered, partly covered or missing, with the page that supports it. It writes the candidate introduction and passes a contact request through. It is listed where other agents look for agents, so it gets found.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "function": "The public front door",
+ "function_url": "https://coreyjames.ai/agents/functions/the-public-front-door/",
+ "specialists": [
+  {
+   "title": "Candidate Fit Analyst",
+   "url": "https://coreyjames.ai/agents/specialists/candidate-fit-analyst/"
+  },
+  {
+   "title": "Portfolio Research Assistant",
+   "url": "https://coreyjames.ai/agents/specialists/portfolio-research-assistant/"
+  },
+  {
+   "title": "Candidate Introduction Writer",
+   "url": "https://coreyjames.ai/agents/specialists/candidate-introduction-writer/"
+  },
+  {
+   "title": "Recruiter Front Desk",
+   "url": "https://coreyjames.ai/agents/specialists/recruiter-front-desk/"
+  },
+  {
+   "title": "Contact Desk",
+   "url": "https://coreyjames.ai/agents/specialists/contact-desk/"
+  },
+  {
+   "title": "Agent Directory Listing Agent",
+   "url": "https://coreyjames.ai/agents/specialists/agent-directory-listing-agent/"
+  },
+  {
+   "title": "Recruiter Concierge",
+   "url": "https://coreyjames.ai/agents/specialists/recruiter-concierge/"
+  },
+  {
+   "title": "Integration Desk",
+   "url": "https://coreyjames.ai/agents/specialists/integration-desk/"
+  }
+ ],
+ "featured": true,
+ "routes": [
+  "An outside agent becomes a conversation"
+ ],
+ "related": [
+  {
+   "title": "Compute first, narrate second",
+   "url": "https://coreyjames.ai/ideas/compute-first-narrate-second/",
+   "kind": "Idea"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/roles/recruiters-counterpart/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/roles/recruiters-counterpart",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

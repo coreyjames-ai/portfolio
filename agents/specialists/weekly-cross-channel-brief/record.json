@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/weekly-cross-channel-brief/",
+ "kind": "agent-specialist",
+ "title": "Weekly Cross-Channel Brief",
+ "subtitle": "Every week it pulls social, email, sales and payment results into one short brief and sends it to the team's chat, so it reads well on a phone.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Every week it pulls social, email, sales and payment results into one short brief and sends it to the team's chat, so it reads well on a phone.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "a founder or marketing lead",
+ "group": "Social media",
+ "specialist_kind": "Does the work",
+ "roles": [
+  {
+   "title": "The Week in Review",
+   "url": "https://coreyjames.ai/agents/roles/week-in-review/"
+  },
+  {
+   "title": "The Agency Back Office",
+   "url": "https://coreyjames.ai/agents/roles/agency-back-office/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/weekly-cross-channel-brief/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/weekly-cross-channel-brief",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

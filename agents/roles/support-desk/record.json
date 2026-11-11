@@ -1,0 +1,79 @@
+{
+ "url": "https://coreyjames.ai/agents/roles/support-desk/",
+ "kind": "agent-role",
+ "title": "The Support Desk",
+ "subtitle": "For a support lead, or a founder who answers customers alone.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "A request arrives by email, chat or a social inbox. The agent opens a case and looks for the answer in the help content, past cases and the product's own code. It replies in the channel the customer used. If the problem is a defect, it files the issue for engineering with the evidence attached and tells the customer when the fix ships. Response times are tracked against the target.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "function": "Sales and customers",
+ "function_url": "https://coreyjames.ai/agents/functions/sales-and-customers/",
+ "specialists": [
+  {
+   "title": "Customer Support Desk Agent",
+   "url": "https://coreyjames.ai/agents/specialists/customer-support-desk-agent/"
+  },
+  {
+   "title": "Support Inbox Triage Agent",
+   "url": "https://coreyjames.ai/agents/specialists/support-inbox-triage-agent/"
+  },
+  {
+   "title": "Team Knowledge Desk",
+   "url": "https://coreyjames.ai/agents/specialists/team-knowledge-desk/"
+  },
+  {
+   "title": "Incident Code Locator",
+   "url": "https://coreyjames.ai/agents/specialists/incident-code-locator/"
+  },
+  {
+   "title": "Issue Triage Engineer",
+   "url": "https://coreyjames.ai/agents/specialists/issue-triage-engineer/"
+  },
+  {
+   "title": "Response Time Guardian",
+   "url": "https://coreyjames.ai/agents/specialists/response-time-guardian/"
+  },
+  {
+   "title": "Phone and Call Receptionist",
+   "url": "https://coreyjames.ai/agents/specialists/phone-and-call-receptionist/"
+  },
+  {
+   "title": "Help Article Video Maker",
+   "url": "https://coreyjames.ai/agents/specialists/help-article-video-maker/"
+  },
+  {
+   "title": "Facebook Community Responder",
+   "url": "https://coreyjames.ai/agents/specialists/facebook-community-responder/"
+  },
+  {
+   "title": "Billing Desk",
+   "url": "https://coreyjames.ai/agents/specialists/billing-desk/"
+  }
+ ],
+ "featured": false,
+ "routes": [
+  "A complaint becomes a release"
+ ],
+ "related": [
+  {
+   "title": "Memory and code intelligence for agents",
+   "url": "https://coreyjames.ai/capabilities/memory-and-code-intelligence-for-agents/",
+   "kind": "Capability"
+  },
+  {
+   "title": "Business systems as safe agent tools",
+   "url": "https://coreyjames.ai/capabilities/business-systems-as-safe-agent-tools/",
+   "kind": "Capability"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/roles/support-desk/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/roles/support-desk",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

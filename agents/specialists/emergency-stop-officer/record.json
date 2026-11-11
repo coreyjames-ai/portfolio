@@ -1,0 +1,36 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/emergency-stop-officer/",
+ "kind": "agent-specialist",
+ "title": "Emergency Stop Officer",
+ "subtitle": "Stops one agent or every agent in a given role at once, records what was running and confirms nothing is left.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Stops one agent or every agent in a given role at once, records what was running and confirms nothing is left.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "An AI operations lead who needs everything of one kind stopped now",
+ "group": "Managing an AI workforce",
+ "specialist_kind": "Supervises other agents",
+ "roles": [
+  {
+   "title": "The Incident Commander",
+   "url": "https://coreyjames.ai/agents/roles/incident-commander/"
+  },
+  {
+   "title": "The Circuit Breaker",
+   "url": "https://coreyjames.ai/agents/roles/circuit-breaker/"
+  },
+  {
+   "title": "The Security Officer",
+   "url": "https://coreyjames.ai/agents/roles/security-officer/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/emergency-stop-officer/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/emergency-stop-officer",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

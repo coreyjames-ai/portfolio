@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/architecture-reviewer/",
+ "kind": "agent-specialist",
+ "title": "Architecture Reviewer",
+ "subtitle": "Reads a proposed change for how it fits the existing design and writes its findings on the ticket.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Reads a proposed change for how it fits the existing design and writes its findings on the ticket.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A tech lead who wants a design checked before it is built",
+ "group": "Building software",
+ "specialist_kind": "Challenges decisions",
+ "roles": [
+  {
+   "title": "The Due-Diligence Analyst",
+   "url": "https://coreyjames.ai/agents/roles/due-diligence-analyst/"
+  },
+  {
+   "title": "The Review Panel",
+   "url": "https://coreyjames.ai/agents/roles/review-panel/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/architecture-reviewer/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/architecture-reviewer",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

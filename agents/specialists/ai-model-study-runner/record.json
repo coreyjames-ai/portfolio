@@ -1,0 +1,28 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/ai-model-study-runner/",
+ "kind": "agent-specialist",
+ "title": "AI Model Study Runner",
+ "subtitle": "This agent prepares large sets of test questions, runs them through a model in one repeatable batch, follows progress, retries failures and stores the results for study.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "This agent prepares large sets of test questions, runs them through a model in one repeatable batch, follows progress, retries failures and stores the results for study.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "An AI research lead studying how a model responds inside",
+ "group": "AI models and performance",
+ "specialist_kind": "Does the work",
+ "roles": [
+  {
+   "title": "The Model Interviewer",
+   "url": "https://coreyjames.ai/agents/roles/model-interviewer/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/ai-model-study-runner/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/ai-model-study-runner",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

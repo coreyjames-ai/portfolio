@@ -1,0 +1,57 @@
+{
+ "url": "https://coreyjames.ai/agents/roles/search-auditor/",
+ "kind": "agent-role",
+ "title": "The Search Auditor",
+ "subtitle": "For a manager asking whether the company's memory is earning its keep.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "The agent runs fixed question sets through the search and compares the answers with a baseline. It reviews how people searched recently and proposes setting changes. It checks that every note taken reached storage. Then it prices the result: what was spent creating each note against what was saved each time one was reused.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "function": "Knowledge and memory",
+ "function_url": "https://coreyjames.ai/agents/functions/knowledge-and-memory/",
+ "specialists": [
+  {
+   "title": "Search Quality Analyst",
+   "url": "https://coreyjames.ai/agents/specialists/search-quality-analyst/"
+  },
+  {
+   "title": "Search Tuning Analyst",
+   "url": "https://coreyjames.ai/agents/specialists/search-tuning-analyst/"
+  },
+  {
+   "title": "Search Health Reporter",
+   "url": "https://coreyjames.ai/agents/specialists/search-health-reporter/"
+  },
+  {
+   "title": "Note Queue Reconciler",
+   "url": "https://coreyjames.ai/agents/specialists/note-queue-reconciler/"
+  },
+  {
+   "title": "Memory Return-on-Investment Reporter",
+   "url": "https://coreyjames.ai/agents/specialists/memory-return-on-investment-reporter/"
+  }
+ ],
+ "featured": false,
+ "routes": [],
+ "related": [
+  {
+   "title": "Memory and code intelligence for agents",
+   "url": "https://coreyjames.ai/capabilities/memory-and-code-intelligence-for-agents/",
+   "kind": "Capability"
+  },
+  {
+   "title": "Measure the instrument",
+   "url": "https://coreyjames.ai/ideas/measure-the-instrument/",
+   "kind": "Idea"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/roles/search-auditor/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/roles/search-auditor",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

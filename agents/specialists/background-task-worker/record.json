@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/background-task-worker/",
+ "kind": "agent-specialist",
+ "title": "Background Task Worker",
+ "subtitle": "Takes a task from chat or voice, does the file or code work in its own isolated workspace, reports back, picks the same thread up later, and shuts itself down when idle so it costs nothing.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Takes a task from chat or voice, does the file or code work in its own isolated workspace, reports back, picks the same thread up later, and shuts itself down when idle so it costs nothing.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "An engineering manager or analyst with routine jobs",
+ "group": "Meetings, voice and the AI colleague",
+ "specialist_kind": "Does the work",
+ "roles": [
+  {
+   "title": "The Digital Employee",
+   "url": "https://coreyjames.ai/agents/roles/digital-employee/"
+  },
+  {
+   "title": "The Meeting Concierge",
+   "url": "https://coreyjames.ai/agents/roles/meeting-concierge/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/background-task-worker/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/background-task-worker",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

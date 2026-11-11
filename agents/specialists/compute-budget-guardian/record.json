@@ -1,0 +1,36 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/compute-budget-guardian/",
+ "kind": "agent-specialist",
+ "title": "Compute Budget Guardian",
+ "subtitle": "Holds the line on the daily spend that only you set: it refuses any start the budget cannot cover and says why, warns you as spend climbs, and stops paid machines at the cap.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Holds the line on the daily spend that only you set: it refuses any start the budget cannot cover and says why, warns you as spend climbs, and stops paid machines at the cap. No agent can raise the number; only you can, at your own terminal.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A founder or finance lead who signs off on compute spend",
+ "group": "Machines, data and operations",
+ "specialist_kind": "Audits and guards",
+ "roles": [
+  {
+   "title": "The Software Department",
+   "url": "https://coreyjames.ai/agents/roles/software-department/"
+  },
+  {
+   "title": "The Bulk Run Manager",
+   "url": "https://coreyjames.ai/agents/roles/bulk-run-manager/"
+  },
+  {
+   "title": "The Spend Controller",
+   "url": "https://coreyjames.ai/agents/roles/spend-controller/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/compute-budget-guardian/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/compute-budget-guardian",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

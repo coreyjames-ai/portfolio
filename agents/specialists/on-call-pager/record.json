@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/on-call-pager/",
+ "kind": "agent-specialist",
+ "title": "On-call Pager",
+ "subtitle": "It turns each alert into a short text message on the on-call phone.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "It turns each alert into a short text message on the on-call phone.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "An IT operations lead",
+ "group": "Machines, data and operations",
+ "specialist_kind": "Speaks to people",
+ "roles": [
+  {
+   "title": "The Night Shift",
+   "url": "https://coreyjames.ai/agents/roles/night-shift/"
+  },
+  {
+   "title": "The Watch Office",
+   "url": "https://coreyjames.ai/agents/roles/watch-office/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/on-call-pager/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/on-call-pager",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

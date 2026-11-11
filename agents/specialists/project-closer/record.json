@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/project-closer/",
+ "kind": "agent-specialist",
+ "title": "Project Closer",
+ "subtitle": "Closes a project, phase or program only when every required item carries a current sign-off, writes the closing summary with cost, archives the team and retires everything it opened.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Closes a project, phase or program only when every required item carries a current sign-off, writes the closing summary with cost, archives the team and retires everything it opened.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "An executive who wants a project closed only when it is truly done",
+ "group": "Building software",
+ "specialist_kind": "Does the work",
+ "roles": [
+  {
+   "title": "The Software Department",
+   "url": "https://coreyjames.ai/agents/roles/software-department/"
+  },
+  {
+   "title": "The Programme Office",
+   "url": "https://coreyjames.ai/agents/roles/programme-office/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/project-closer/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/project-closer",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

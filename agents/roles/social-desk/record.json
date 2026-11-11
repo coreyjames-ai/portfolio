@@ -1,0 +1,76 @@
+{
+ "url": "https://coreyjames.ai/agents/roles/social-desk/",
+ "kind": "agent-role",
+ "title": "The Social Desk",
+ "subtitle": "For a social media manager with a full calendar and no spare hands.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "The agent works from the posting calendar. A slot with no approved image or video starts production, and carousels and covers come from the brand templates. Posts go out at the hours the audience is active. When a post fails on one network, the agent reads why, retries it and hands back the live links. Comments and messages are collected every couple of minutes so none sit unseen.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "function": "Marketing and audience",
+ "function_url": "https://coreyjames.ai/agents/functions/marketing-and-audience/",
+ "specialists": [
+  {
+   "title": "Content Calendar Producer",
+   "url": "https://coreyjames.ai/agents/specialists/content-calendar-producer/"
+  },
+  {
+   "title": "Carousel and Cover Designer",
+   "url": "https://coreyjames.ai/agents/specialists/carousel-and-cover-designer/"
+  },
+  {
+   "title": "Best-Time Scheduler",
+   "url": "https://coreyjames.ai/agents/specialists/best-time-scheduler/"
+  },
+  {
+   "title": "Scheduled Post Publisher",
+   "url": "https://coreyjames.ai/agents/specialists/scheduled-post-publisher/"
+  },
+  {
+   "title": "X Publishing Desk",
+   "url": "https://coreyjames.ai/agents/specialists/x-publishing-desk/"
+  },
+  {
+   "title": "Facebook Page Manager",
+   "url": "https://coreyjames.ai/agents/specialists/facebook-page-manager/"
+  },
+  {
+   "title": "Post Launch Monitor",
+   "url": "https://coreyjames.ai/agents/specialists/post-launch-monitor/"
+  },
+  {
+   "title": "Failed Post Retry Officer",
+   "url": "https://coreyjames.ai/agents/specialists/failed-post-retry-officer/"
+  },
+  {
+   "title": "Page Inbox Collector",
+   "url": "https://coreyjames.ai/agents/specialists/page-inbox-collector/"
+  },
+  {
+   "title": "Media Drop-off Desk",
+   "url": "https://coreyjames.ai/agents/specialists/media-drop-off-desk/"
+  },
+  {
+   "title": "Social Account Health Officer",
+   "url": "https://coreyjames.ai/agents/specialists/social-account-health-officer/"
+  }
+ ],
+ "featured": false,
+ "routes": [],
+ "related": [
+  {
+   "title": "Business systems as safe agent tools",
+   "url": "https://coreyjames.ai/capabilities/business-systems-as-safe-agent-tools/",
+   "kind": "Capability"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/roles/social-desk/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/roles/social-desk",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

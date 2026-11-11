@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/repository-assistant/",
+ "kind": "agent-specialist",
+ "title": "Repository Assistant",
+ "subtitle": "This agent keeps tickets, comments, branches and merge requests in order so developers spend their time on the code.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "This agent keeps tickets, comments, branches and merge requests in order so developers spend their time on the code.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A development team that loses time on housekeeping",
+ "group": "Building software",
+ "specialist_kind": "Does the work",
+ "roles": [
+  {
+   "title": "The Ticket Clearer",
+   "url": "https://coreyjames.ai/agents/roles/ticket-clearer/"
+  },
+  {
+   "title": "The Contractor Pass",
+   "url": "https://coreyjames.ai/agents/roles/contractor-pass/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/repository-assistant/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/repository-assistant",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

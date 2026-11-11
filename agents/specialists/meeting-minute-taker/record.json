@@ -1,0 +1,36 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/meeting-minute-taker/",
+ "kind": "agent-specialist",
+ "title": "Meeting Minute-Taker",
+ "subtitle": "Takes the minutes after every meeting from the recording and transcript, and sends everyone the same version, updating it when someone points out a correction.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Takes the minutes after every meeting from the recording and transcript, and sends everyone the same version, updating it when someone points out a correction.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A team lead who runs weekly meetings",
+ "group": "Meetings, voice and the AI colleague",
+ "specialist_kind": "Keeps knowledge",
+ "roles": [
+  {
+   "title": "The Chief of Staff",
+   "url": "https://coreyjames.ai/agents/roles/chief-of-staff/"
+  },
+  {
+   "title": "The Meeting Concierge",
+   "url": "https://coreyjames.ai/agents/roles/meeting-concierge/"
+  },
+  {
+   "title": "The Follow-Through Engineer",
+   "url": "https://coreyjames.ai/agents/roles/follow-through-engineer/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/meeting-minute-taker/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/meeting-minute-taker",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

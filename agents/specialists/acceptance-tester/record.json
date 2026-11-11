@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/acceptance-tester/",
+ "kind": "agent-specialist",
+ "title": "Acceptance Tester",
+ "subtitle": "Before new code joins the product, this agent runs the acceptance checks and refuses anything that contains placeholder code or skipped steps.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Before new code joins the product, this agent runs the acceptance checks and refuses anything that contains placeholder code or skipped steps.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "An engineering manager who wants nothing half-finished shipped",
+ "group": "Building software",
+ "specialist_kind": "Audits and guards",
+ "roles": [
+  {
+   "title": "The Automation Builder",
+   "url": "https://coreyjames.ai/agents/roles/automation-builder/"
+  },
+  {
+   "title": "The Contractor Pass",
+   "url": "https://coreyjames.ai/agents/roles/contractor-pass/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/acceptance-tester/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/acceptance-tester",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

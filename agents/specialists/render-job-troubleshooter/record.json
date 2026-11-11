@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/render-job-troubleshooter/",
+ "kind": "agent-specialist",
+ "title": "Render Job Troubleshooter",
+ "subtitle": "Steps in when an image or video job fails: reads the error and the service log, re-sends the finished file if only the hand-off failed, otherwise fixes the cause and runs the job again.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Steps in when an image or video job fails: reads the error and the service log, re-sends the finished file if only the hand-off failed, otherwise fixes the cause and runs the job again.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "An IT operations lead",
+ "group": "Machines, data and operations",
+ "specialist_kind": "Runs infrastructure",
+ "roles": [
+  {
+   "title": "The Film Studio",
+   "url": "https://coreyjames.ai/agents/roles/film-studio/"
+  },
+  {
+   "title": "The Studio Engineer",
+   "url": "https://coreyjames.ai/agents/roles/studio-engineer/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/render-job-troubleshooter/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/render-job-troubleshooter",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

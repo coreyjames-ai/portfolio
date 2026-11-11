@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/ai-session-supervisor/",
+ "kind": "agent-specialist",
+ "title": "AI Session Supervisor",
+ "subtitle": "Keeps interactive assistant sessions running on the right machine, delivers team messages to them, and accounts for every transcript and every unit of usage, without giving a session access to the database.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Keeps interactive assistant sessions running on the right machine, delivers team messages to them, and accounts for every transcript and every unit of usage, without giving a session access to the database.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A team lead running AI coding assistants on shared machines",
+ "group": "Managing an AI workforce",
+ "specialist_kind": "Supervises other agents",
+ "roles": [
+  {
+   "title": "The AI Workforce Manager",
+   "url": "https://coreyjames.ai/agents/roles/ai-workforce-manager/"
+  },
+  {
+   "title": "The Control Room",
+   "url": "https://coreyjames.ai/agents/roles/control-room/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/ai-session-supervisor/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/ai-session-supervisor",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/cloud-price-watcher/",
+ "kind": "agent-specialist",
+ "title": "Cloud Price Watcher",
+ "subtitle": "It compares the new price with the ceiling the owner set, then moves the work or holds it.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "It compares the new price with the ceiling the owner set, then moves the work or holds it.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "An owner renting GPUs by the hour",
+ "group": "Machines, data and operations",
+ "specialist_kind": "Runs infrastructure",
+ "roles": [
+  {
+   "title": "The Bulk Run Manager",
+   "url": "https://coreyjames.ai/agents/roles/bulk-run-manager/"
+  },
+  {
+   "title": "The Spend Controller",
+   "url": "https://coreyjames.ai/agents/roles/spend-controller/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/cloud-price-watcher/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/cloud-price-watcher",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

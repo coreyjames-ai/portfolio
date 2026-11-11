@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/technical-document-librarian/",
+ "kind": "agent-specialist",
+ "title": "Technical Document Librarian",
+ "subtitle": "Takes in PDFs, Markdown and HTML documents, rebuilds their chapter and heading structure with page ranges, and writes a summary, keywords and a quality check for every section.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Takes in PDFs, Markdown and HTML documents, rebuilds their chapter and heading structure with page ranges, and writes a summary, keywords and a quality check for every section. Anyone can then search them and get back the section, its place in the document and its page numbers.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "An engineering lead or knowledge manager with a pile of PDFs, API specifications and technical guides nobody can find anything in",
+ "group": "Code intelligence and team memory",
+ "specialist_kind": "Keeps knowledge",
+ "roles": [
+  {
+   "title": "The Company Librarian",
+   "url": "https://coreyjames.ai/agents/roles/company-librarian/"
+  },
+  {
+   "title": "The Research Desk",
+   "url": "https://coreyjames.ai/agents/roles/research-desk/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/technical-document-librarian/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/technical-document-librarian",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

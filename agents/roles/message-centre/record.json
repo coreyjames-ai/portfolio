@@ -1,0 +1,72 @@
+{
+ "url": "https://coreyjames.ai/agents/roles/message-centre/",
+ "kind": "agent-role",
+ "title": "The Message Centre",
+ "subtitle": "For a customer team whose customers live on their phones.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Receipts, confirmations and security notices go out from approved templates. Text and chat-app campaigns are written, tested on a real phone and sent to a list with consent on file. When a customer says a message never arrived, the agent looks up that one message and its delivery history. What customers do is recorded against their records, so the next message fits.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "function": "Marketing and audience",
+ "function_url": "https://coreyjames.ai/agents/functions/marketing-and-audience/",
+ "specialists": [
+  {
+   "title": "Transactional Mail Officer",
+   "url": "https://coreyjames.ai/agents/specialists/transactional-mail-officer/"
+  },
+  {
+   "title": "SMS Campaign Manager",
+   "url": "https://coreyjames.ai/agents/specialists/sms-campaign-manager/"
+  },
+  {
+   "title": "WhatsApp Business Messenger",
+   "url": "https://coreyjames.ai/agents/specialists/whatsapp-business-messenger/"
+  },
+  {
+   "title": "Text Message Dispatcher",
+   "url": "https://coreyjames.ai/agents/specialists/text-message-dispatcher/"
+  },
+  {
+   "title": "Consent and Opt-in Officer",
+   "url": "https://coreyjames.ai/agents/specialists/consent-and-opt-in-officer/"
+  },
+  {
+   "title": "Contact Activity Recorder",
+   "url": "https://coreyjames.ai/agents/specialists/contact-activity-recorder/"
+  },
+  {
+   "title": "Launch Campaign Runner",
+   "url": "https://coreyjames.ai/agents/specialists/launch-campaign-runner/"
+  },
+  {
+   "title": "List and Segment Keeper",
+   "url": "https://coreyjames.ai/agents/specialists/list-and-segment-keeper/"
+  },
+  {
+   "title": "Back-in-Stock Notifier",
+   "url": "https://coreyjames.ai/agents/specialists/back-in-stock-notifier/"
+  },
+  {
+   "title": "Order Status Notifier",
+   "url": "https://coreyjames.ai/agents/specialists/order-status-notifier/"
+  }
+ ],
+ "featured": false,
+ "routes": [],
+ "related": [
+  {
+   "title": "Business systems as safe agent tools",
+   "url": "https://coreyjames.ai/capabilities/business-systems-as-safe-agent-tools/",
+   "kind": "Capability"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/roles/message-centre/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/roles/message-centre",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

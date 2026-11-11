@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/order-status-notifier/",
+ "kind": "agent-specialist",
+ "title": "Order Status Notifier",
+ "subtitle": "It sends order updates to customers in the website chat, by text or by email, so fewer customers write in to ask.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "It sends order updates to customers in the website chat, by text or by email, so fewer customers write in to ask.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "an online shop's support team",
+ "group": "Store, loyalty and payments",
+ "specialist_kind": "Speaks to people",
+ "roles": [
+  {
+   "title": "The Message Centre",
+   "url": "https://coreyjames.ai/agents/roles/message-centre/"
+  },
+  {
+   "title": "The Shop Manager",
+   "url": "https://coreyjames.ai/agents/roles/shop-manager/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/order-status-notifier/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/order-status-notifier",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/index-upkeep-operator/",
+ "kind": "agent-specialist",
+ "title": "Index Upkeep Operator",
+ "subtitle": "Keeps every index matching its source.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Keeps every index matching its source. It removes code for deleted files off the main path, closes any gap between the database and the fast search cache, reloads the cache after a restart, and lets an operator pause, resume or check scheduled indexing. It also blocks the removal of an index that is still in use.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A platform or IT operations lead responsible for keeping search accurate",
+ "group": "Code intelligence and team memory",
+ "specialist_kind": "Runs infrastructure",
+ "roles": [
+  {
+   "title": "The Housekeeper",
+   "url": "https://coreyjames.ai/agents/roles/housekeeper/"
+  },
+  {
+   "title": "The Search Keeper",
+   "url": "https://coreyjames.ai/agents/roles/search-keeper/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/index-upkeep-operator/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/index-upkeep-operator",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

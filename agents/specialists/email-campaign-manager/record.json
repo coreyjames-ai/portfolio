@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/email-campaign-manager/",
+ "kind": "agent-specialist",
+ "title": "Email Campaign Manager",
+ "subtitle": "It builds each campaign from a template for a chosen list or segment, sends a test, schedules or sends it, and files it in the right folder.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "It builds each campaign from a template for a chosen list or segment, sends a test, schedules or sends it, and files it in the right folder. Afterwards it sends the report and exports who opened, clicked or bounced.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "a marketing lead",
+ "group": "Email, text and messaging",
+ "specialist_kind": "Speaks to people",
+ "roles": [
+  {
+   "title": "The Launch Manager",
+   "url": "https://coreyjames.ai/agents/roles/launch-manager/"
+  },
+  {
+   "title": "The Email Marketer",
+   "url": "https://coreyjames.ai/agents/roles/email-marketer/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/email-campaign-manager/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/email-campaign-manager",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

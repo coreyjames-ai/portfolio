@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/reference-library-keeper/",
+ "kind": "agent-specialist",
+ "title": "Reference Library Keeper",
+ "subtitle": "Keeps each document collection fresh on its own schedule by re-reading only files that changed, re-summarising and re-indexing them, and retrying any sections whose summary failed.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Keeps each document collection fresh on its own schedule by re-reading only files that changed, re-summarising and re-indexing them, and retrying any sections whose summary failed. It also gives a per-document quality summary and reprocesses failed documents on request.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A knowledge manager who looks after a folder of manuals, specifications and internal guides",
+ "group": "Code intelligence and team memory",
+ "specialist_kind": "Keeps knowledge",
+ "roles": [
+  {
+   "title": "The Company Librarian",
+   "url": "https://coreyjames.ai/agents/roles/company-librarian/"
+  },
+  {
+   "title": "The Search Keeper",
+   "url": "https://coreyjames.ai/agents/roles/search-keeper/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/reference-library-keeper/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/reference-library-keeper",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

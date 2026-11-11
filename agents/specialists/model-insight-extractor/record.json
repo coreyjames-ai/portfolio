@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/model-insight-extractor/",
+ "kind": "agent-specialist",
+ "title": "Model Insight Extractor",
+ "subtitle": "Generates a large set of test prompts, runs them through the model, captures the model's internal state for each prompt, and re-runs any that failed.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Generates a large set of test prompts, runs them through the model, captures the model's internal state for each prompt, and re-runs any that failed. You get a clean dataset of model internals ready for analysis.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A research lead studying what a model does inside",
+ "group": "AI models and performance",
+ "specialist_kind": "Does the work",
+ "roles": [
+  {
+   "title": "The Model Interviewer",
+   "url": "https://coreyjames.ai/agents/roles/model-interviewer/"
+  },
+  {
+   "title": "The Research Lab",
+   "url": "https://coreyjames.ai/agents/roles/research-lab/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/model-insight-extractor/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/model-insight-extractor",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

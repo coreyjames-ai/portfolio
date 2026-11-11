@@ -1,0 +1,77 @@
+{
+ "url": "https://coreyjames.ai/agents/roles/presenter/",
+ "kind": "agent-role",
+ "title": "The Presenter",
+ "subtitle": "For a founder with a recurring update to give.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "The agent builds the deck from the documents the team already trusts. It joins the meeting, raises its hand, presents slide by slide and takes questions by voice. Afterwards it cuts the recording into a narrated highlight video for the people who missed it.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "function": "Meetings and teamwork",
+ "function_url": "https://coreyjames.ai/agents/functions/meetings-and-teamwork/",
+ "specialists": [
+  {
+   "title": "Document Writer and Editor",
+   "url": "https://coreyjames.ai/agents/specialists/document-writer-and-editor/"
+  },
+  {
+   "title": "Slide Presenter",
+   "url": "https://coreyjames.ai/agents/specialists/slide-presenter/"
+  },
+  {
+   "title": "Meeting Moderator",
+   "url": "https://coreyjames.ai/agents/specialists/meeting-moderator/"
+  },
+  {
+   "title": "Board Briefing Presenter",
+   "url": "https://coreyjames.ai/agents/specialists/board-briefing-presenter/"
+  },
+  {
+   "title": "Meeting Highlight Editor",
+   "url": "https://coreyjames.ai/agents/specialists/meeting-highlight-editor/"
+  },
+  {
+   "title": "Meeting Recap Producer",
+   "url": "https://coreyjames.ai/agents/specialists/meeting-recap-producer/"
+  },
+  {
+   "title": "Live Demo Presenter",
+   "url": "https://coreyjames.ai/agents/specialists/live-demo-presenter/"
+  },
+  {
+   "title": "Weekly Results Reel Maker",
+   "url": "https://coreyjames.ai/agents/specialists/weekly-results-reel-maker/"
+  }
+ ],
+ "featured": false,
+ "routes": [
+  "A meeting becomes shipped software",
+  "An outside agent becomes a conversation"
+ ],
+ "related": [
+  {
+   "title": "AI teammates inside Microsoft Teams and team chat",
+   "url": "https://coreyjames.ai/capabilities/ai-teammates-in-teams-and-chat/",
+   "kind": "Capability"
+  },
+  {
+   "title": "Voice agents in calls and meetings",
+   "url": "https://coreyjames.ai/capabilities/voice-agents-in-meetings/",
+   "kind": "Capability"
+  },
+  {
+   "title": "A meeting attendee that will not fake it",
+   "url": "https://coreyjames.ai/stories/a-meeting-attendee-that-will-not-fake-it/",
+   "kind": "Engineering story"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/roles/presenter/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/roles/presenter",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

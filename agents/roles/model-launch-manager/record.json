@@ -1,0 +1,88 @@
+{
+ "url": "https://coreyjames.ai/agents/roles/model-launch-manager/",
+ "kind": "agent-role",
+ "title": "The Model Launch Manager",
+ "subtitle": "For a platform lead shipping a new model version.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "The agent serves the candidate next to the current model and puts both through the same hidden test set. It load-tests the candidate, checks that answers have stayed the same where they should and reports where each version fails. A candidate that clears the bar rolls out in stages.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "function": "AI and model teams",
+ "function_url": "https://coreyjames.ai/agents/functions/ai-and-model-teams/",
+ "specialists": [
+  {
+   "title": "Model Serving Engineer",
+   "url": "https://coreyjames.ai/agents/specialists/model-serving-engineer/"
+  },
+  {
+   "title": "Model Comparison Evaluator",
+   "url": "https://coreyjames.ai/agents/specialists/model-comparison-evaluator/"
+  },
+  {
+   "title": "AI Service Load Tester",
+   "url": "https://coreyjames.ai/agents/specialists/ai-service-load-tester/"
+  },
+  {
+   "title": "AI Answer Accuracy Checker",
+   "url": "https://coreyjames.ai/agents/specialists/ai-answer-accuracy-checker/"
+  },
+  {
+   "title": "Release Readiness Reviewer",
+   "url": "https://coreyjames.ai/agents/specialists/release-readiness-reviewer/"
+  },
+  {
+   "title": "Model Rollout Manager",
+   "url": "https://coreyjames.ai/agents/specialists/model-rollout-manager/"
+  },
+  {
+   "title": "Serving Capacity Tuner",
+   "url": "https://coreyjames.ai/agents/specialists/serving-capacity-tuner/"
+  },
+  {
+   "title": "Answer Consistency Setter",
+   "url": "https://coreyjames.ai/agents/specialists/answer-consistency-setter/"
+  },
+  {
+   "title": "AI Speed Investigator",
+   "url": "https://coreyjames.ai/agents/specialists/ai-speed-investigator/"
+  },
+  {
+   "title": "AI Model Librarian",
+   "url": "https://coreyjames.ai/agents/specialists/ai-model-librarian/"
+  },
+  {
+   "title": "Capacity Planner",
+   "url": "https://coreyjames.ai/agents/specialists/capacity-planner/"
+  }
+ ],
+ "featured": false,
+ "routes": [
+  "A new model becomes a story"
+ ],
+ "related": [
+  {
+   "title": "Bigger models and longer context on fixed GPU memory",
+   "url": "https://coreyjames.ai/capabilities/longer-context-on-the-gpus-you-own/",
+   "kind": "Capability"
+  },
+  {
+   "title": "Measure the instrument",
+   "url": "https://coreyjames.ai/ideas/measure-the-instrument/",
+   "kind": "Idea"
+  },
+  {
+   "title": "Proving a rewrite is the same system",
+   "url": "https://coreyjames.ai/stories/proving-a-rewrite-is-the-same-system/",
+   "kind": "Engineering story"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/roles/model-launch-manager/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/roles/model-launch-manager",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/knowledge-base-maintainer/",
+ "kind": "agent-specialist",
+ "title": "Knowledge Base Maintainer",
+ "subtitle": "This agent runs the regular upkeep jobs: screening new entries, rebalancing between related topics, refreshing embeddings and rebuilding the search index.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "This agent runs the regular upkeep jobs: screening new entries, rebalancing between related topics, refreshing embeddings and rebuilding the search index.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A knowledge manager with a large, growing knowledge base",
+ "group": "AI models and performance",
+ "specialist_kind": "Keeps knowledge",
+ "roles": [
+  {
+   "title": "The Model Interviewer",
+   "url": "https://coreyjames.ai/agents/roles/model-interviewer/"
+  },
+  {
+   "title": "The Knowledge Gardener",
+   "url": "https://coreyjames.ai/agents/roles/knowledge-gardener/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/knowledge-base-maintainer/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/knowledge-base-maintainer",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

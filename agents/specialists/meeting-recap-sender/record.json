@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/meeting-recap-sender/",
+ "kind": "agent-specialist",
+ "title": "Meeting Recap Sender",
+ "subtitle": "Sends each attendee a personal recap after the meeting, covering what was decided, what they own, and where to find the recording.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Sends each attendee a personal recap after the meeting, covering what was decided, what they own, and where to find the recording.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "Anyone who sends follow-up notes after meetings",
+ "group": "Meetings, voice and the AI colleague",
+ "specialist_kind": "Speaks to people",
+ "roles": [
+  {
+   "title": "The Chief of Staff",
+   "url": "https://coreyjames.ai/agents/roles/chief-of-staff/"
+  },
+  {
+   "title": "The Sales Engineer",
+   "url": "https://coreyjames.ai/agents/roles/sales-engineer/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/meeting-recap-sender/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/meeting-recap-sender",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/batch-job-controller/",
+ "kind": "agent-specialist",
+ "title": "Batch Job Controller",
+ "subtitle": "Runs a large job on a local card or a rented one, pauses, scales or stops it mid-flight, turns a one-off job into an always-on service, and isolates a job that misbehaves.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Runs a large job on a local card or a rented one, pauses, scales or stops it mid-flight, turns a one-off job into an always-on service, and isolates a job that misbehaves. Every control action is kept on record for review.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A data engineering lead running long jobs",
+ "group": "Machines, data and operations",
+ "specialist_kind": "Runs infrastructure",
+ "roles": [
+  {
+   "title": "The Database Guard",
+   "url": "https://coreyjames.ai/agents/roles/database-guard/"
+  },
+  {
+   "title": "The Pipeline Foreman",
+   "url": "https://coreyjames.ai/agents/roles/pipeline-foreman/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/batch-job-controller/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/batch-job-controller",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

@@ -1,0 +1,36 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/regression-historian/",
+ "kind": "agent-specialist",
+ "title": "Regression Historian",
+ "subtitle": "Given a broken function or an error, works out which pieces of work touched that area and in what order, who calls it now, and how the failure travels through the code.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Given a broken function or an error, works out which pieces of work touched that area and in what order, who calls it now, and how the failure travels through the code.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "An engineering lead chasing something that used to work",
+ "group": "Code intelligence and team memory",
+ "specialist_kind": "Keeps knowledge",
+ "roles": [
+  {
+   "title": "The Change Board",
+   "url": "https://coreyjames.ai/agents/roles/change-board/"
+  },
+  {
+   "title": "The Record Keeper",
+   "url": "https://coreyjames.ai/agents/roles/record-keeper/"
+  },
+  {
+   "title": "The Incident Commander",
+   "url": "https://coreyjames.ai/agents/roles/incident-commander/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/regression-historian/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/regression-historian",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

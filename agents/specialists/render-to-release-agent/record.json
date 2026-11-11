@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/render-to-release-agent/",
+ "kind": "agent-specialist",
+ "title": "Render-to-Release Agent",
+ "subtitle": "It confirms the finished clip, delivers the file, publishes it with its post copy across platforms, and watches the first reactions.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "It confirms the finished clip, delivers the file, publishes it with its post copy across platforms, and watches the first reactions.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A film or content producer",
+ "group": "Signal to done",
+ "specialist_kind": "Does the work",
+ "roles": [
+  {
+   "title": "The Rapid Responder",
+   "url": "https://coreyjames.ai/agents/roles/rapid-responder/"
+  },
+  {
+   "title": "The Ad Buyer",
+   "url": "https://coreyjames.ai/agents/roles/ad-buyer/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/render-to-release-agent/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/render-to-release-agent",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/planned-maintenance-coordinator/",
+ "kind": "agent-specialist",
+ "title": "Planned Maintenance Coordinator",
+ "subtitle": "Drains work, takes the database backup, shuts the services down in the documented order, brings them back in order, and checks each stage before moving on.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Drains work, takes the database backup, shuts the services down in the documented order, brings them back in order, and checks each stage before moving on.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "An IT operations lead planning downtime",
+ "group": "Machines, data and operations",
+ "specialist_kind": "Runs infrastructure",
+ "roles": [
+  {
+   "title": "The Branch Office Engineer",
+   "url": "https://coreyjames.ai/agents/roles/branch-office-engineer/"
+  },
+  {
+   "title": "The Safe Change Desk",
+   "url": "https://coreyjames.ai/agents/roles/safe-change-desk/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/planned-maintenance-coordinator/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/planned-maintenance-coordinator",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

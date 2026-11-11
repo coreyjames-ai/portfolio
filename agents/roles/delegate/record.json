@@ -1,0 +1,82 @@
+{
+ "url": "https://coreyjames.ai/agents/roles/delegate/",
+ "kind": "agent-role",
+ "title": "The Delegate",
+ "subtitle": "For a founder who cannot be in every decision.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "The founder writes down what the agent may decide alone. Questions inside that authority get a ruling and a written reason. Harder ones go to a panel of several AI models first, and the agent rules on what they return. Anything outside the authority reaches the founder by email or text, and the action waits until the answer comes back.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "function": "Running the company",
+ "function_url": "https://coreyjames.ai/agents/functions/running-the-company/",
+ "specialists": [
+  {
+   "title": "Decision Desk",
+   "url": "https://coreyjames.ai/agents/specialists/decision-desk/"
+  },
+  {
+   "title": "Expert Review Panel",
+   "url": "https://coreyjames.ai/agents/specialists/expert-review-panel/"
+  },
+  {
+   "title": "Decision Keeper",
+   "url": "https://coreyjames.ai/agents/specialists/decision-keeper/"
+  },
+  {
+   "title": "Ask the Owner by Email Agent",
+   "url": "https://coreyjames.ai/agents/specialists/ask-the-owner-by-email-agent/"
+  },
+  {
+   "title": "Owner Phone Assistant",
+   "url": "https://coreyjames.ai/agents/specialists/owner-phone-assistant/"
+  },
+  {
+   "title": "Meeting Stand-In",
+   "url": "https://coreyjames.ai/agents/specialists/meeting-stand-in/"
+  },
+  {
+   "title": "Decision Announcer",
+   "url": "https://coreyjames.ai/agents/specialists/decision-announcer/"
+  },
+  {
+   "title": "Human Escalation Flagger",
+   "url": "https://coreyjames.ai/agents/specialists/human-escalation-flagger/"
+  },
+  {
+   "title": "Pause and Resume Controller",
+   "url": "https://coreyjames.ai/agents/specialists/pause-and-resume-controller/"
+  },
+  {
+   "title": "Phone-to-Done Assistant",
+   "url": "https://coreyjames.ai/agents/specialists/phone-to-done-assistant/"
+  }
+ ],
+ "featured": false,
+ "routes": [],
+ "related": [
+  {
+   "title": "AI subscriptions as governed workers",
+   "url": "https://coreyjames.ai/capabilities/use-the-ai-subscriptions-you-already-have/",
+   "kind": "Capability"
+  },
+  {
+   "title": "Authority outside the model",
+   "url": "https://coreyjames.ai/ideas/authority-outside-the-model/",
+   "kind": "Idea"
+  },
+  {
+   "title": "A human at the privileged step",
+   "url": "https://coreyjames.ai/ideas/a-human-at-the-privileged-step/",
+   "kind": "Idea"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/roles/delegate/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/roles/delegate",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/write-queue-firefighter/",
+ "kind": "agent-specialist",
+ "title": "Write Queue Firefighter",
+ "subtitle": "Takes the page when the database write queue backs up, follows the recovery procedure, drains the queue if it has to, and confirms that writes are flowing again.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Takes the page when the database write queue backs up, follows the recovery procedure, drains the queue if it has to, and confirms that writes are flowing again. You get a short account of what happened instead of a midnight debugging session.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "An on-call operations engineer",
+ "group": "Machines, data and operations",
+ "specialist_kind": "Runs infrastructure",
+ "roles": [
+  {
+   "title": "The Night Shift",
+   "url": "https://coreyjames.ai/agents/roles/night-shift/"
+  },
+  {
+   "title": "The Database Guard",
+   "url": "https://coreyjames.ai/agents/roles/database-guard/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/write-queue-firefighter/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/write-queue-firefighter",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

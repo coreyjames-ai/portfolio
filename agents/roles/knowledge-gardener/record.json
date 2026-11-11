@@ -1,0 +1,82 @@
+{
+ "url": "https://coreyjames.ai/agents/roles/knowledge-gardener/",
+ "kind": "agent-role",
+ "title": "The Knowledge Gardener",
+ "subtitle": "For the owner of a large knowledge base that grows every day.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Each proposed entry is tested against the existing topics and accepted, held or rejected. The agent scores every topic's health and reports the ones that have drifted. Where some topics are overcrowded, it proposes which entries to move and shows the plan as a dry run. New material is embedded so it can be searched, and old stored versions are cleared.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "function": "Knowledge and memory",
+ "function_url": "https://coreyjames.ai/agents/functions/knowledge-and-memory/",
+ "specialists": [
+  {
+   "title": "Knowledge Entry Screener",
+   "url": "https://coreyjames.ai/agents/specialists/knowledge-entry-screener/"
+  },
+  {
+   "title": "Knowledge Base Health Analyst",
+   "url": "https://coreyjames.ai/agents/specialists/knowledge-base-health-analyst/"
+  },
+  {
+   "title": "Knowledge Drift Detector",
+   "url": "https://coreyjames.ai/agents/specialists/knowledge-drift-detector/"
+  },
+  {
+   "title": "Knowledge Rebalancer",
+   "url": "https://coreyjames.ai/agents/specialists/knowledge-rebalancer/"
+  },
+  {
+   "title": "Embedding Backlog Clerk",
+   "url": "https://coreyjames.ai/agents/specialists/embedding-backlog-clerk/"
+  },
+  {
+   "title": "Storage Space Reclaimer",
+   "url": "https://coreyjames.ai/agents/specialists/storage-space-reclaimer/"
+  },
+  {
+   "title": "Screening Rule Writer",
+   "url": "https://coreyjames.ai/agents/specialists/screening-rule-writer/"
+  },
+  {
+   "title": "Embedding Migration Operator",
+   "url": "https://coreyjames.ai/agents/specialists/embedding-migration-operator/"
+  },
+  {
+   "title": "Vector Library Curator",
+   "url": "https://coreyjames.ai/agents/specialists/vector-library-curator/"
+  },
+  {
+   "title": "Knowledge Base Maintainer",
+   "url": "https://coreyjames.ai/agents/specialists/knowledge-base-maintainer/"
+  }
+ ],
+ "featured": false,
+ "routes": [],
+ "related": [
+  {
+   "title": "GPU vector search and corpus analytics",
+   "url": "https://coreyjames.ai/capabilities/gpu-vector-search-and-corpus-analytics/",
+   "kind": "Capability"
+  },
+  {
+   "title": "Redistribution inside the database",
+   "url": "https://coreyjames.ai/stories/redistribution-inside-the-database/",
+   "kind": "Engineering story"
+  },
+  {
+   "title": "From health scores to decisions",
+   "url": "https://coreyjames.ai/stories/from-health-scores-to-decisions/",
+   "kind": "Engineering story"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/roles/knowledge-gardener/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/roles/knowledge-gardener",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

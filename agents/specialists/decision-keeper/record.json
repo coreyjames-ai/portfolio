@@ -1,0 +1,36 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/decision-keeper/",
+ "kind": "agent-specialist",
+ "title": "Decision Keeper",
+ "subtitle": "Writes down every decision, constraint and open question as it is made, so nobody relitigates last month's call and new people can find the reasoning.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Writes down every decision, constraint and open question as it is made, so nobody relitigates last month's call and new people can find the reasoning.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A leadership team",
+ "group": "Meetings, voice and the AI colleague",
+ "specialist_kind": "Keeps knowledge",
+ "roles": [
+  {
+   "title": "The Chief of Staff",
+   "url": "https://coreyjames.ai/agents/roles/chief-of-staff/"
+  },
+  {
+   "title": "The Advisory Board",
+   "url": "https://coreyjames.ai/agents/roles/advisory-board/"
+  },
+  {
+   "title": "The Delegate",
+   "url": "https://coreyjames.ai/agents/roles/delegate/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/decision-keeper/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/decision-keeper",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

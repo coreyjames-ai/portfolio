@@ -1,0 +1,82 @@
+{
+ "url": "https://coreyjames.ai/agents/roles/launch-manager/",
+ "kind": "agent-role",
+ "title": "The Launch Manager",
+ "subtitle": "For a founder with a product shipping on Friday.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "The agent researches what buyers are saying, writes the announcement for every channel and produces the launch film with narration and cutdowns. It emails the customer list, texts the customers who asked to be first and presents the deck at the team meeting. On the day it answers comments and mentions, issues the launch coupon and watches the payments come in. On Monday it reports the results.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "function": "Marketing and audience",
+ "function_url": "https://coreyjames.ai/agents/functions/marketing-and-audience/",
+ "specialists": [
+  {
+   "title": "Launch Campaign Runner",
+   "url": "https://coreyjames.ai/agents/specialists/launch-campaign-runner/"
+  },
+  {
+   "title": "Short Film Producer",
+   "url": "https://coreyjames.ai/agents/specialists/short-film-producer/"
+  },
+  {
+   "title": "Voice-Over Artist",
+   "url": "https://coreyjames.ai/agents/specialists/voice-over-artist/"
+  },
+  {
+   "title": "Social Video Cutdown Editor",
+   "url": "https://coreyjames.ai/agents/specialists/social-video-cutdown-editor/"
+  },
+  {
+   "title": "Cross-Platform Publisher",
+   "url": "https://coreyjames.ai/agents/specialists/cross-platform-publisher/"
+  },
+  {
+   "title": "Email Campaign Manager",
+   "url": "https://coreyjames.ai/agents/specialists/email-campaign-manager/"
+  },
+  {
+   "title": "Text Message Dispatcher",
+   "url": "https://coreyjames.ai/agents/specialists/text-message-dispatcher/"
+  },
+  {
+   "title": "Slide Presenter",
+   "url": "https://coreyjames.ai/agents/specialists/slide-presenter/"
+  },
+  {
+   "title": "Social Community Manager",
+   "url": "https://coreyjames.ai/agents/specialists/social-community-manager/"
+  },
+  {
+   "title": "Coupon Drop Manager",
+   "url": "https://coreyjames.ai/agents/specialists/coupon-drop-manager/"
+  },
+  {
+   "title": "Revenue Reporter",
+   "url": "https://coreyjames.ai/agents/specialists/revenue-reporter/"
+  },
+  {
+   "title": "Post Launch Monitor",
+   "url": "https://coreyjames.ai/agents/specialists/post-launch-monitor/"
+  }
+ ],
+ "featured": false,
+ "routes": [
+  "A decision becomes a launch"
+ ],
+ "related": [
+  {
+   "title": "Business systems as safe agent tools",
+   "url": "https://coreyjames.ai/capabilities/business-systems-as-safe-agent-tools/",
+   "kind": "Capability"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/roles/launch-manager/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/roles/launch-manager",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

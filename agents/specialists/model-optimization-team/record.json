@@ -1,0 +1,28 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/model-optimization-team/",
+ "kind": "agent-specialist",
+ "title": "Model Optimization Team",
+ "subtitle": "Splits model compression into coordinated specialist jobs: reading the model's source, building compressed variants, serving and timing them, measuring quality against the original and reviewing the evidence independently.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Splits model compression into coordinated specialist jobs: reading the model's source, building compressed variants, serving and timing them, measuring quality against the original and reviewing the evidence independently.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "An AI team shrinking a large model for cheaper hardware",
+ "group": "AI models and performance",
+ "specialist_kind": "Does the work",
+ "roles": [
+  {
+   "title": "The Model Shrinker",
+   "url": "https://coreyjames.ai/agents/roles/model-shrinker/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/model-optimization-team/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/model-optimization-team",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

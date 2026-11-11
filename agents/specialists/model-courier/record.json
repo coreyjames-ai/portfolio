@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/model-courier/",
+ "kind": "agent-specialist",
+ "title": "Model Courier",
+ "subtitle": "Copies each new model build to the remote machines that serve it and confirms every copy arrived complete.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Copies each new model build to the remote machines that serve it and confirms every copy arrived complete.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "An engineer with a new model build that the remote machines do not have yet",
+ "group": "Machines, data and operations",
+ "specialist_kind": "Runs infrastructure",
+ "roles": [
+  {
+   "title": "The Engine Builder",
+   "url": "https://coreyjames.ai/agents/roles/engine-builder/"
+  },
+  {
+   "title": "The Branch Office Engineer",
+   "url": "https://coreyjames.ai/agents/roles/branch-office-engineer/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/model-courier/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/model-courier",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

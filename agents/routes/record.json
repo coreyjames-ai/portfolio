@@ -1,0 +1,19 @@
+{
+ "url": "https://coreyjames.ai/agents/routes/",
+ "kind": "agent-gallery",
+ "title": "How work travels",
+ "subtitle": "Routes through Corey James's agent gallery: how one signal passes from role to role until the work is done.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "One signal can travel through several roles. Each route shows who picks the work up and who it is handed to.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "canonical": "https://coreyjames.ai/agents/routes/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/routes",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

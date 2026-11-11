@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/subscription-change-handler/",
+ "kind": "agent-specialist",
+ "title": "Subscription Change Handler",
+ "subtitle": "When a customer upgrades, downgrades or cancels it updates their record and loyalty status, and for a cancellation sends a retention message and records the reason.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "When a customer upgrades, downgrades or cancels it updates their record and loyalty status, and for a cancellation sends a retention message and records the reason.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "a subscription business",
+ "group": "Store, loyalty and payments",
+ "specialist_kind": "Does the work",
+ "roles": [
+  {
+   "title": "The Customer Success Manager",
+   "url": "https://coreyjames.ai/agents/roles/customer-success-manager/"
+  },
+  {
+   "title": "The Accounts Office",
+   "url": "https://coreyjames.ai/agents/roles/accounts-office/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/subscription-change-handler/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/subscription-change-handler",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

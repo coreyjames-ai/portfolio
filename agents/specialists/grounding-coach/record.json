@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/grounding-coach/",
+ "kind": "agent-specialist",
+ "title": "Grounding Coach",
+ "subtitle": "Checks whether the task troubleshoots or spans several files and, if so, asks for a file and line reference from code search before work starts.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Checks whether the task troubleshoots or spans several files and, if so, asks for a file and line reference from code search before work starts.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "An engineering manager who wants work grounded in the real code",
+ "group": "Code intelligence and team memory",
+ "specialist_kind": "Keeps knowledge",
+ "roles": [
+  {
+   "title": "The Follow-Through Engineer",
+   "url": "https://coreyjames.ai/agents/roles/follow-through-engineer/"
+  },
+  {
+   "title": "The Code Guide",
+   "url": "https://coreyjames.ai/agents/roles/code-guide/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/grounding-coach/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/grounding-coach",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

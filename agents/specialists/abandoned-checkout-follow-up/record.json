@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/abandoned-checkout-follow-up/",
+ "kind": "agent-specialist",
+ "title": "Abandoned Checkout Follow-up",
+ "subtitle": "It finds checkouts that were started but never paid, looks up the customer, and sends one reminder with a fresh payment link.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "It finds checkouts that were started but never paid, looks up the customer, and sends one reminder with a fresh payment link.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "an online shop owner",
+ "group": "Store, loyalty and payments",
+ "specialist_kind": "Speaks to people",
+ "roles": [
+  {
+   "title": "The Revenue Rescuer",
+   "url": "https://coreyjames.ai/agents/roles/revenue-rescuer/"
+  },
+  {
+   "title": "The Shop Manager",
+   "url": "https://coreyjames.ai/agents/roles/shop-manager/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/abandoned-checkout-follow-up/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/abandoned-checkout-follow-up",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

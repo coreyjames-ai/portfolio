@@ -1,0 +1,44 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/revenue-reporter/",
+ "kind": "agent-specialist",
+ "title": "Revenue Reporter",
+ "subtitle": "It answers revenue questions with figures: sales by period, subscriptions, charges and disputes.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "It answers revenue questions with figures: sales by period, subscriptions, charges and disputes. It sends a weekly summary to the team's chat.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "a founder or finance lead",
+ "group": "Store, loyalty and payments",
+ "specialist_kind": "Does the work",
+ "roles": [
+  {
+   "title": "The Morning Brief",
+   "url": "https://coreyjames.ai/agents/roles/morning-brief/"
+  },
+  {
+   "title": "The Week in Review",
+   "url": "https://coreyjames.ai/agents/roles/week-in-review/"
+  },
+  {
+   "title": "The Launch Manager",
+   "url": "https://coreyjames.ai/agents/roles/launch-manager/"
+  },
+  {
+   "title": "The Revenue Rescuer",
+   "url": "https://coreyjames.ai/agents/roles/revenue-rescuer/"
+  },
+  {
+   "title": "The Accounts Office",
+   "url": "https://coreyjames.ai/agents/roles/accounts-office/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/revenue-reporter/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/revenue-reporter",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

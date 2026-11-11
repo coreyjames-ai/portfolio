@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/automation-library-caretaker/",
+ "kind": "agent-specialist",
+ "title": "Automation Library Caretaker",
+ "subtitle": "This agent keeps the team's library of automated jobs up to date.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "This agent keeps the team's library of automated jobs up to date. It updates them when shared code changes, rechecks them, rewrites their documentation and retires the ones nobody uses.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "An engineering manager whose team owns dozens of automated jobs",
+ "group": "Building software",
+ "specialist_kind": "Does the work",
+ "roles": [
+  {
+   "title": "The Automation Builder",
+   "url": "https://coreyjames.ai/agents/roles/automation-builder/"
+  },
+  {
+   "title": "The Housekeeper",
+   "url": "https://coreyjames.ai/agents/roles/housekeeper/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/automation-library-caretaker/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/automation-library-caretaker",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

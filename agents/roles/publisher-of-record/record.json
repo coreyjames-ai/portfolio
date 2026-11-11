@@ -1,0 +1,50 @@
+{
+ "url": "https://coreyjames.ai/agents/roles/publisher-of-record/",
+ "kind": "agent-role",
+ "title": "The Publisher of Record",
+ "subtitle": "For a researcher or consultant with work to put on the record.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "The agent publishes the portfolio, deposits research where it receives a permanent identifier and keeps the author's public record current.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "function": "The public front door",
+ "function_url": "https://coreyjames.ai/agents/functions/the-public-front-door/",
+ "specialists": [
+  {
+   "title": "Portfolio Publisher",
+   "url": "https://coreyjames.ai/agents/specialists/portfolio-publisher/"
+  },
+  {
+   "title": "Research Archivist",
+   "url": "https://coreyjames.ai/agents/specialists/research-archivist/"
+  },
+  {
+   "title": "Agent Directory Listing Agent",
+   "url": "https://coreyjames.ai/agents/specialists/agent-directory-listing-agent/"
+  },
+  {
+   "title": "Answer Quality Steward",
+   "url": "https://coreyjames.ai/agents/specialists/answer-quality-steward/"
+  },
+  {
+   "title": "Asset Origin Auditor",
+   "url": "https://coreyjames.ai/agents/specialists/asset-origin-auditor/"
+  },
+  {
+   "title": "Portfolio Research Assistant",
+   "url": "https://coreyjames.ai/agents/specialists/portfolio-research-assistant/"
+  }
+ ],
+ "featured": false,
+ "routes": [],
+ "related": [],
+ "canonical": "https://coreyjames.ai/agents/roles/publisher-of-record/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/roles/publisher-of-record",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

@@ -1,0 +1,19 @@
+{
+ "url": "https://coreyjames.ai/agents/",
+ "kind": "agent-gallery",
+ "title": "Agents that staff a company",
+ "subtitle": "Corey James's agent gallery: specialist agents that each do one job, combined into whole roles that staff a company.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "I built a foundation of specialist agents that each do one job. Combined, the same specialists staff whole roles, such as a chief of staff or a night shift. A new role is assembled from specialists that already exist.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "canonical": "https://coreyjames.ai/agents/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

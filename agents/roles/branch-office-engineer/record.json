@@ -1,0 +1,85 @@
+{
+ "url": "https://coreyjames.ai/agents/roles/branch-office-engineer/",
+ "kind": "agent-role",
+ "title": "The Branch Office Engineer",
+ "subtitle": "For a lead with machines in other offices and rented data centres.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "The agent brings a remote machine into the fleet over a connection that only dials out, so nothing at the site has to be opened to the internet. It places work there, relays what happens back to the main site and can rebuild the machine from nothing. Rented processors in a data centre are bought and released through the same agent.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "function": "Infrastructure and operations",
+ "function_url": "https://coreyjames.ai/agents/functions/infrastructure-and-operations/",
+ "specialists": [
+  {
+   "title": "Remote Site Operator",
+   "url": "https://coreyjames.ai/agents/specialists/remote-site-operator/"
+  },
+  {
+   "title": "Remote Machine Rebuilder",
+   "url": "https://coreyjames.ai/agents/specialists/remote-machine-rebuilder/"
+  },
+  {
+   "title": "GPU Server Onboarder",
+   "url": "https://coreyjames.ai/agents/specialists/gpu-server-onboarder/"
+  },
+  {
+   "title": "Cloud GPU Buyer",
+   "url": "https://coreyjames.ai/agents/specialists/cloud-gpu-buyer/"
+  },
+  {
+   "title": "GPU Fleet Manager",
+   "url": "https://coreyjames.ai/agents/specialists/gpu-fleet-manager/"
+  },
+  {
+   "title": "Planned Maintenance Coordinator",
+   "url": "https://coreyjames.ai/agents/specialists/planned-maintenance-coordinator/"
+  },
+  {
+   "title": "Model Courier",
+   "url": "https://coreyjames.ai/agents/specialists/model-courier/"
+  },
+  {
+   "title": "Remote Agent Placer",
+   "url": "https://coreyjames.ai/agents/specialists/remote-agent-placer/"
+  },
+  {
+   "title": "New Render Machine Setup Technician",
+   "url": "https://coreyjames.ai/agents/specialists/new-render-machine-setup-technician/"
+  },
+  {
+   "title": "Cloud Compute Dispatcher",
+   "url": "https://coreyjames.ai/agents/specialists/cloud-compute-dispatcher/"
+  },
+  {
+   "title": "Idle Machine Drainer",
+   "url": "https://coreyjames.ai/agents/specialists/idle-machine-drainer/"
+  },
+  {
+   "title": "Secrets and Certificates Officer",
+   "url": "https://coreyjames.ai/agents/specialists/secrets-and-certificates-officer/"
+  }
+ ],
+ "featured": false,
+ "routes": [],
+ "related": [
+  {
+   "title": "One call to a GPU anywhere",
+   "url": "https://coreyjames.ai/stories/one-call-to-a-gpu-anywhere/",
+   "kind": "Engineering story"
+  },
+  {
+   "title": "Built for Blackwell",
+   "url": "https://coreyjames.ai/stories/built-for-blackwell/",
+   "kind": "Engineering story"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/roles/branch-office-engineer/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/roles/branch-office-engineer",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

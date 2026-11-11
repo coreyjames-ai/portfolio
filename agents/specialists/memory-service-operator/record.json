@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/memory-service-operator/",
+ "kind": "agent-specialist",
+ "title": "Memory Service Operator",
+ "subtitle": "Looks after the service day to day.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Looks after the service day to day. It checks status, readiness and logs for each component, restarts or stops a component on request, lists GPUs, checks for signed updates, validates the licence, and issues and checks the access tokens remote agents use. It can also run load and fault tests and report how the service holds up.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "An IT operations lead who runs the knowledge platform",
+ "group": "Code intelligence and team memory",
+ "specialist_kind": "Runs infrastructure",
+ "roles": [
+  {
+   "title": "The Watch Office",
+   "url": "https://coreyjames.ai/agents/roles/watch-office/"
+  },
+  {
+   "title": "The Search Keeper",
+   "url": "https://coreyjames.ai/agents/roles/search-keeper/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/memory-service-operator/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/memory-service-operator",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

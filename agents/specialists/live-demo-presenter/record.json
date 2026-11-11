@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/live-demo-presenter/",
+ "kind": "agent-specialist",
+ "title": "Live Demo Presenter",
+ "subtitle": "Runs a live walkthrough in a video meeting, sharing a browser and a terminal, typing as people watch, and explaining each step aloud.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Runs a live walkthrough in a video meeting, sharing a browser and a terminal, typing as people watch, and explaining each step aloud.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A product team or a developer advocate",
+ "group": "Meetings, voice and the AI colleague",
+ "specialist_kind": "Speaks to people",
+ "roles": [
+  {
+   "title": "The Sales Engineer",
+   "url": "https://coreyjames.ai/agents/roles/sales-engineer/"
+  },
+  {
+   "title": "The Presenter",
+   "url": "https://coreyjames.ai/agents/roles/presenter/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/live-demo-presenter/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/live-demo-presenter",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

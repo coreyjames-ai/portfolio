@@ -1,0 +1,81 @@
+{
+ "url": "https://coreyjames.ai/agents/roles/change-board/",
+ "kind": "agent-role",
+ "title": "The Change Board",
+ "subtitle": "For a manager about to approve a risky change.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Before the change goes in, the agent maps everything that calls the code being touched and everything it calls. It pulls the history of that area, including what broke the last time someone changed it. The manager reads one page: what the change reaches, what could fail and what to test.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "function": "Engineering",
+ "function_url": "https://coreyjames.ai/agents/functions/engineering/",
+ "specialists": [
+  {
+   "title": "Change Risk Reviewer",
+   "url": "https://coreyjames.ai/agents/specialists/change-risk-reviewer/"
+  },
+  {
+   "title": "Code Impact Analyst",
+   "url": "https://coreyjames.ai/agents/specialists/code-impact-analyst/"
+  },
+  {
+   "title": "Change Impact Reviewer",
+   "url": "https://coreyjames.ai/agents/specialists/change-impact-reviewer/"
+  },
+  {
+   "title": "Code Flow Explainer",
+   "url": "https://coreyjames.ai/agents/specialists/code-flow-explainer/"
+  },
+  {
+   "title": "Regression Historian",
+   "url": "https://coreyjames.ai/agents/specialists/regression-historian/"
+  },
+  {
+   "title": "System Historian",
+   "url": "https://coreyjames.ai/agents/specialists/system-historian/"
+  },
+  {
+   "title": "Scope Change Manager",
+   "url": "https://coreyjames.ai/agents/specialists/scope-change-manager/"
+  },
+  {
+   "title": "Independent Review Clerk",
+   "url": "https://coreyjames.ai/agents/specialists/independent-review-clerk/"
+  },
+  {
+   "title": "Performance Reviewer",
+   "url": "https://coreyjames.ai/agents/specialists/performance-reviewer/"
+  }
+ ],
+ "featured": false,
+ "routes": [
+  "A complaint becomes a release",
+  "A vendor notice becomes a finished upgrade"
+ ],
+ "related": [
+  {
+   "title": "Memory and code intelligence for agents",
+   "url": "https://coreyjames.ai/capabilities/memory-and-code-intelligence-for-agents/",
+   "kind": "Capability"
+  },
+  {
+   "title": "Compute first, narrate second",
+   "url": "https://coreyjames.ai/ideas/compute-first-narrate-second/",
+   "kind": "Idea"
+  },
+  {
+   "title": "A code explainer that is not allowed to invent",
+   "url": "https://coreyjames.ai/stories/a-code-explainer-that-is-not-allowed-to-invent/",
+   "kind": "Engineering story"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/roles/change-board/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/roles/change-board",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

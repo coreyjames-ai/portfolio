@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/ai-provider-switchboard/",
+ "kind": "agent-specialist",
+ "title": "AI Provider Switchboard",
+ "subtitle": "Sends every agent's model calls to an approved provider, keeps each provider inside its rate limit, steps down to a cheaper tier when a quota runs out, and blocks traffic that a provider's terms do not allow.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Sends every agent's model calls to an approved provider, keeps each provider inside its rate limit, steps down to a cheaper tier when a quota runs out, and blocks traffic that a provider's terms do not allow.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "An AI team lead paying for several model providers",
+ "group": "AI models and performance",
+ "specialist_kind": "Runs infrastructure",
+ "roles": [
+  {
+   "title": "The Model Broker",
+   "url": "https://coreyjames.ai/agents/roles/model-broker/"
+  },
+  {
+   "title": "The Spend Controller",
+   "url": "https://coreyjames.ai/agents/roles/spend-controller/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/ai-provider-switchboard/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/ai-provider-switchboard",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

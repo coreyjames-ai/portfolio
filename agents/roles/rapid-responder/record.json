@@ -1,0 +1,74 @@
+{
+ "url": "https://coreyjames.ai/agents/roles/rapid-responder/",
+ "kind": "agent-role",
+ "title": "The Rapid Responder",
+ "subtitle": "For a founder who has a take and ten minutes.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "The owner drops a topic in team chat. The agent finds the live conversation about it, drafts the post and generates the image. It publishes across the channels and then stays with the post, answering each reply and making a fresh image when a question calls for one. Later it reports how the post did.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "function": "Marketing and audience",
+ "function_url": "https://coreyjames.ai/agents/functions/marketing-and-audience/",
+ "specialists": [
+  {
+   "title": "Content-to-Conversation Producer",
+   "url": "https://coreyjames.ai/agents/specialists/content-to-conversation-producer/"
+  },
+  {
+   "title": "X Conversation Scout",
+   "url": "https://coreyjames.ai/agents/specialists/x-conversation-scout/"
+  },
+  {
+   "title": "Brand Image Maker",
+   "url": "https://coreyjames.ai/agents/specialists/brand-image-maker/"
+  },
+  {
+   "title": "Cross-Platform Publisher",
+   "url": "https://coreyjames.ai/agents/specialists/cross-platform-publisher/"
+  },
+  {
+   "title": "X Engagement Agent",
+   "url": "https://coreyjames.ai/agents/specialists/x-engagement-agent/"
+  },
+  {
+   "title": "X Publisher and Reply Watcher",
+   "url": "https://coreyjames.ai/agents/specialists/x-publisher-and-reply-watcher/"
+  },
+  {
+   "title": "Trend Response Writer",
+   "url": "https://coreyjames.ai/agents/specialists/trend-response-writer/"
+  },
+  {
+   "title": "X Reply Campaign Manager",
+   "url": "https://coreyjames.ai/agents/specialists/x-reply-campaign-manager/"
+  },
+  {
+   "title": "Media Drop-off Desk",
+   "url": "https://coreyjames.ai/agents/specialists/media-drop-off-desk/"
+  },
+  {
+   "title": "Render-to-Release Agent",
+   "url": "https://coreyjames.ai/agents/specialists/render-to-release-agent/"
+  }
+ ],
+ "featured": false,
+ "routes": [
+  "A topic becomes a week of content"
+ ],
+ "related": [
+  {
+   "title": "Business systems as safe agent tools",
+   "url": "https://coreyjames.ai/capabilities/business-systems-as-safe-agent-tools/",
+   "kind": "Capability"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/roles/rapid-responder/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/roles/rapid-responder",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

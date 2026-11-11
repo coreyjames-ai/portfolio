@@ -1,0 +1,80 @@
+{
+ "url": "https://coreyjames.ai/agents/roles/archive-keeper/",
+ "kind": "agent-role",
+ "title": "The Archive Keeper",
+ "subtitle": "For a research lead whose results must still be readable next year.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Every large run leaves data behind, and the agent looks after it. It checks a finished run against the original request and reports whether every item is present. Stored files are re-checked for damage. When a new version of the data is built, the agent switches readers to it and keeps the previous one until the new one has been confirmed. If storage fails, it reports what was affected and what was recovered.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "function": "AI and model teams",
+ "function_url": "https://coreyjames.ai/agents/functions/ai-and-model-teams/",
+ "specialists": [
+  {
+   "title": "Research Data Archivist",
+   "url": "https://coreyjames.ai/agents/specialists/research-data-archivist/"
+  },
+  {
+   "title": "Run Verification Clerk",
+   "url": "https://coreyjames.ai/agents/specialists/run-verification-clerk/"
+  },
+  {
+   "title": "Stored Data Integrity Checker",
+   "url": "https://coreyjames.ai/agents/specialists/stored-data-integrity-checker/"
+  },
+  {
+   "title": "Data Version Promoter",
+   "url": "https://coreyjames.ai/agents/specialists/data-version-promoter/"
+  },
+  {
+   "title": "Storage Incident Handler",
+   "url": "https://coreyjames.ai/agents/specialists/storage-incident-handler/"
+  },
+  {
+   "title": "Run Conditions Recorder",
+   "url": "https://coreyjames.ai/agents/specialists/run-conditions-recorder/"
+  },
+  {
+   "title": "Storage Spend Reconciler",
+   "url": "https://coreyjames.ai/agents/specialists/storage-spend-reconciler/"
+  }
+ ],
+ "featured": false,
+ "routes": [],
+ "related": [
+  {
+   "title": "GPU vector search and corpus analytics",
+   "url": "https://coreyjames.ai/capabilities/gpu-vector-search-and-corpus-analytics/",
+   "kind": "Capability"
+  },
+  {
+   "title": "High-throughput batch inference and embeddings",
+   "url": "https://coreyjames.ai/capabilities/high-throughput-batch-inference/",
+   "kind": "Capability"
+  },
+  {
+   "title": "Append-only, with tombstones and lineage",
+   "url": "https://coreyjames.ai/ideas/append-only-with-lineage/",
+   "kind": "Idea"
+  },
+  {
+   "title": "Three shards that move together",
+   "url": "https://coreyjames.ai/stories/three-shards-that-move-together/",
+   "kind": "Engineering story"
+  },
+  {
+   "title": "Millions of queued items that were not there",
+   "url": "https://coreyjames.ai/stories/millions-of-queued-items-that-were-not-there/",
+   "kind": "Engineering story"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/roles/archive-keeper/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/roles/archive-keeper",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

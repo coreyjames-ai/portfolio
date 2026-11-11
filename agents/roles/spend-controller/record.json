@@ -1,0 +1,98 @@
+{
+ "url": "https://coreyjames.ai/agents/roles/spend-controller/",
+ "kind": "agent-role",
+ "title": "The Spend Controller",
+ "subtitle": "For whoever signs off on compute spend.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "The owner sets a daily limit, and only the owner can change it. Every request to start a machine or an AI worker passes the agent first. A request that would break the limit is refused with the reason and the numbers. The finance lead gets a cost report by project.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "function": "Infrastructure and operations",
+ "function_url": "https://coreyjames.ai/agents/functions/infrastructure-and-operations/",
+ "specialists": [
+  {
+   "title": "Compute Budget Guardian",
+   "url": "https://coreyjames.ai/agents/specialists/compute-budget-guardian/"
+  },
+  {
+   "title": "Engineering Cost Analyst",
+   "url": "https://coreyjames.ai/agents/specialists/engineering-cost-analyst/"
+  },
+  {
+   "title": "GPU Spend and Power Guard",
+   "url": "https://coreyjames.ai/agents/specialists/gpu-spend-and-power-guard/"
+  },
+  {
+   "title": "Cloud Compute Dispatcher",
+   "url": "https://coreyjames.ai/agents/specialists/cloud-compute-dispatcher/"
+  },
+  {
+   "title": "AI Spend Recorder",
+   "url": "https://coreyjames.ai/agents/specialists/ai-spend-recorder/"
+  },
+  {
+   "title": "Storage Spend Reconciler",
+   "url": "https://coreyjames.ai/agents/specialists/storage-spend-reconciler/"
+  },
+  {
+   "title": "Compute Cost Reporter",
+   "url": "https://coreyjames.ai/agents/specialists/compute-cost-reporter/"
+  },
+  {
+   "title": "Idle Machine Drainer",
+   "url": "https://coreyjames.ai/agents/specialists/idle-machine-drainer/"
+  },
+  {
+   "title": "Cloud Price Watcher",
+   "url": "https://coreyjames.ai/agents/specialists/cloud-price-watcher/"
+  },
+  {
+   "title": "Recovery Policy Setter",
+   "url": "https://coreyjames.ai/agents/specialists/recovery-policy-setter/"
+  },
+  {
+   "title": "AI Provider Switchboard",
+   "url": "https://coreyjames.ai/agents/specialists/ai-provider-switchboard/"
+  },
+  {
+   "title": "Work Budget Setter",
+   "url": "https://coreyjames.ai/agents/specialists/work-budget-setter/"
+  }
+ ],
+ "featured": false,
+ "routes": [
+  "A new model becomes a story",
+  "A new function becomes a staffed desk"
+ ],
+ "related": [
+  {
+   "title": "AI subscriptions as governed workers",
+   "url": "https://coreyjames.ai/capabilities/use-the-ai-subscriptions-you-already-have/",
+   "kind": "Capability"
+  },
+  {
+   "title": "Budgets and refusals",
+   "url": "https://coreyjames.ai/ideas/budgets-and-refusals/",
+   "kind": "Idea"
+  },
+  {
+   "title": "One call to a GPU anywhere",
+   "url": "https://coreyjames.ai/stories/one-call-to-a-gpu-anywhere/",
+   "kind": "Engineering story"
+  },
+  {
+   "title": "What the work cost, to the penny",
+   "url": "https://coreyjames.ai/stories/what-the-work-cost/",
+   "kind": "Engineering story"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/roles/spend-controller/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/roles/spend-controller",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

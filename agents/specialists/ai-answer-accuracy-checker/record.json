@@ -1,0 +1,36 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/ai-answer-accuracy-checker/",
+ "kind": "agent-specialist",
+ "title": "AI Answer Accuracy Checker",
+ "subtitle": "This agent checks whether a change alters the model's answers, finds where any difference starts and gives a clear yes or no.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "This agent checks whether a change alters the model's answers, finds where any difference starts and gives a clear yes or no.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "An AI platform lead who must not let a speed-up change the answers",
+ "group": "AI models and performance",
+ "specialist_kind": "Audits and guards",
+ "roles": [
+  {
+   "title": "The Model Launch Manager",
+   "url": "https://coreyjames.ai/agents/roles/model-launch-manager/"
+  },
+  {
+   "title": "The Model Shrinker",
+   "url": "https://coreyjames.ai/agents/roles/model-shrinker/"
+  },
+  {
+   "title": "The Speed Detective",
+   "url": "https://coreyjames.ai/agents/roles/speed-detective/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/ai-answer-accuracy-checker/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/ai-answer-accuracy-checker",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

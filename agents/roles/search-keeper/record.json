@@ -1,0 +1,76 @@
+{
+ "url": "https://coreyjames.ai/agents/roles/search-keeper/",
+ "kind": "agent-role",
+ "title": "The Search Keeper",
+ "subtitle": "For a platform lead whose company relies on searching its own code and documents.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "A new codebase is taken in and mapped. From then on the agent re-scans on a timer and again whenever new code lands. It removes entries for deleted files, resets an indexing job that has stalled and rebuilds everything when the model behind the search changes. The service itself is watched, restarted on request and kept licensed.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "function": "Knowledge and memory",
+ "function_url": "https://coreyjames.ai/agents/functions/knowledge-and-memory/",
+ "specialists": [
+  {
+   "title": "Codebase Intake Engineer",
+   "url": "https://coreyjames.ai/agents/specialists/codebase-intake-engineer/"
+  },
+  {
+   "title": "Code Map Builder",
+   "url": "https://coreyjames.ai/agents/specialists/code-map-builder/"
+  },
+  {
+   "title": "Scheduled Index Refresher",
+   "url": "https://coreyjames.ai/agents/specialists/scheduled-index-refresher/"
+  },
+  {
+   "title": "Commit-Triggered Re-Indexer",
+   "url": "https://coreyjames.ai/agents/specialists/commit-triggered-re-indexer/"
+  },
+  {
+   "title": "Deleted Code Cleaner",
+   "url": "https://coreyjames.ai/agents/specialists/deleted-code-cleaner/"
+  },
+  {
+   "title": "Index Stall Watchdog",
+   "url": "https://coreyjames.ai/agents/specialists/index-stall-watchdog/"
+  },
+  {
+   "title": "Index Upkeep Operator",
+   "url": "https://coreyjames.ai/agents/specialists/index-upkeep-operator/"
+  },
+  {
+   "title": "Embedding Migration Operator",
+   "url": "https://coreyjames.ai/agents/specialists/embedding-migration-operator/"
+  },
+  {
+   "title": "Memory Service Operator",
+   "url": "https://coreyjames.ai/agents/specialists/memory-service-operator/"
+  },
+  {
+   "title": "Reference Library Keeper",
+   "url": "https://coreyjames.ai/agents/specialists/reference-library-keeper/"
+  },
+  {
+   "title": "Search Index Manager",
+   "url": "https://coreyjames.ai/agents/specialists/search-index-manager/"
+  }
+ ],
+ "featured": false,
+ "routes": [],
+ "related": [
+  {
+   "title": "Memory and code intelligence for agents",
+   "url": "https://coreyjames.ai/capabilities/memory-and-code-intelligence-for-agents/",
+   "kind": "Capability"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/roles/search-keeper/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/roles/search-keeper",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

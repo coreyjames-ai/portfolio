@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/knowledge-entry-screener/",
+ "kind": "agent-specialist",
+ "title": "Knowledge Entry Screener",
+ "subtitle": "Tests each proposed entry against the existing topics and records an accept, hold or reject decision with the measurement behind it.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Tests each proposed entry against the existing topics and records an accept, hold or reject decision with the measurement behind it.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A knowledge base owner who wants only entries that belong",
+ "group": "AI models and performance",
+ "specialist_kind": "Audits and guards",
+ "roles": [
+  {
+   "title": "The Model Interviewer",
+   "url": "https://coreyjames.ai/agents/roles/model-interviewer/"
+  },
+  {
+   "title": "The Knowledge Gardener",
+   "url": "https://coreyjames.ai/agents/roles/knowledge-gardener/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/knowledge-entry-screener/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/knowledge-entry-screener",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

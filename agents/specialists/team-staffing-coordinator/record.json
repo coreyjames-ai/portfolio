@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/team-staffing-coordinator/",
+ "kind": "agent-specialist",
+ "title": "Team Staffing Coordinator",
+ "subtitle": "Assembles a mixed team from different model families, gives each role its tool access, replaces anyone who drops out with their history intact and winds the team down at the end.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Assembles a mixed team from different model families, gives each role its tool access, replaces anyone who drops out with their history intact and winds the team down at the end.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "An engineering manager who needs the right people on a project",
+ "group": "Managing an AI workforce",
+ "specialist_kind": "Supervises other agents",
+ "roles": [
+  {
+   "title": "The AI Workforce Manager",
+   "url": "https://coreyjames.ai/agents/roles/ai-workforce-manager/"
+  },
+  {
+   "title": "The Team Architect",
+   "url": "https://coreyjames.ai/agents/roles/team-architect/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/team-staffing-coordinator/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/team-staffing-coordinator",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

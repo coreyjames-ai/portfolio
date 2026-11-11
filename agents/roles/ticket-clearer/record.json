@@ -1,0 +1,79 @@
+{
+ "url": "https://coreyjames.ai/agents/roles/ticket-clearer/",
+ "kind": "agent-role",
+ "title": "The Ticket Clearer",
+ "subtitle": "For an engineering manager with a queue of small tickets.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "The agent takes a ticket, finds the code, makes the change and runs the build and tests. A second agent reviews the change against the ticket. The manager gets a merge request that is ready to approve, and the ticket is updated either way.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "function": "Engineering",
+ "function_url": "https://coreyjames.ai/agents/functions/engineering/",
+ "specialists": [
+  {
+   "title": "Issue Triage Engineer",
+   "url": "https://coreyjames.ai/agents/specialists/issue-triage-engineer/"
+  },
+  {
+   "title": "Ticket-to-Fix Engineer",
+   "url": "https://coreyjames.ai/agents/specialists/ticket-to-fix-engineer/"
+  },
+  {
+   "title": "Build and Test Runner",
+   "url": "https://coreyjames.ai/agents/specialists/build-and-test-runner/"
+  },
+  {
+   "title": "Code Reviewer",
+   "url": "https://coreyjames.ai/agents/specialists/code-reviewer/"
+  },
+  {
+   "title": "Repository Steward",
+   "url": "https://coreyjames.ai/agents/specialists/repository-steward/"
+  },
+  {
+   "title": "Credential-Free Contributor",
+   "url": "https://coreyjames.ai/agents/specialists/credential-free-contributor/"
+  },
+  {
+   "title": "Acceptance Checker",
+   "url": "https://coreyjames.ai/agents/specialists/acceptance-checker/"
+  },
+  {
+   "title": "Repository Assistant",
+   "url": "https://coreyjames.ai/agents/specialists/repository-assistant/"
+  },
+  {
+   "title": "Issue Change Watcher",
+   "url": "https://coreyjames.ai/agents/specialists/issue-change-watcher/"
+  },
+  {
+   "title": "Vulnerability Triage Analyst",
+   "url": "https://coreyjames.ai/agents/specialists/vulnerability-triage-analyst/"
+  }
+ ],
+ "featured": false,
+ "routes": [
+  "A complaint becomes a release"
+ ],
+ "related": [
+  {
+   "title": "Governed autonomous engineering",
+   "url": "https://coreyjames.ai/capabilities/governed-autonomous-engineering/",
+   "kind": "Capability"
+  },
+  {
+   "title": "A coding agent that never holds the keys",
+   "url": "https://coreyjames.ai/stories/a-coding-agent-that-never-holds-the-keys/",
+   "kind": "Engineering story"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/roles/ticket-clearer/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/roles/ticket-clearer",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

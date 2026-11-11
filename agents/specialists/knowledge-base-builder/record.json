@@ -1,0 +1,28 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/knowledge-base-builder/",
+ "kind": "agent-specialist",
+ "title": "Knowledge Base Builder",
+ "subtitle": "This agent questions an AI model topic by topic, finds the thin areas, proposes new entries, keeps only the ones that pass a quality bar, and deepens weak topics until the knowledge base is full.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "This agent questions an AI model topic by topic, finds the thin areas, proposes new entries, keeps only the ones that pass a quality bar, and deepens weak topics until the knowledge base is full.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A research lead or knowledge manager who wants an AI model's knowledge written down",
+ "group": "AI models and performance",
+ "specialist_kind": "Keeps knowledge",
+ "roles": [
+  {
+   "title": "The Model Interviewer",
+   "url": "https://coreyjames.ai/agents/roles/model-interviewer/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/knowledge-base-builder/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/knowledge-base-builder",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

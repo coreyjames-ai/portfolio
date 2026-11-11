@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/pause-and-resume-controller/",
+ "kind": "agent-specialist",
+ "title": "Pause and Resume Controller",
+ "subtitle": "Pauses a single AI worker without losing its place and resumes it when the blocker clears.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Pauses a single AI worker without losing its place and resumes it when the blocker clears.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A team lead who needs one AI worker to wait",
+ "group": "Managing an AI workforce",
+ "specialist_kind": "Supervises other agents",
+ "roles": [
+  {
+   "title": "The Delegate",
+   "url": "https://coreyjames.ai/agents/roles/delegate/"
+  },
+  {
+   "title": "The Circuit Breaker",
+   "url": "https://coreyjames.ai/agents/roles/circuit-breaker/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/pause-and-resume-controller/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/pause-and-resume-controller",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

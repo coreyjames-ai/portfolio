@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/background-job-orchestrator/",
+ "kind": "agent-specialist",
+ "title": "Background Job Orchestrator",
+ "subtitle": "Splits a job into child jobs, hands them to short-lived workers, tracks each one and collects the results.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Splits a job into child jobs, hands them to short-lived workers, tracks each one and collects the results.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A team lead with work that splits into many small jobs",
+ "group": "Managing an AI workforce",
+ "specialist_kind": "Runs infrastructure",
+ "roles": [
+  {
+   "title": "The Operations Desk",
+   "url": "https://coreyjames.ai/agents/roles/operations-desk/"
+  },
+  {
+   "title": "The Control Room",
+   "url": "https://coreyjames.ai/agents/roles/control-room/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/background-job-orchestrator/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/background-job-orchestrator",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

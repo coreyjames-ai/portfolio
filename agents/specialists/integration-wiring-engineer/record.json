@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/integration-wiring-engineer/",
+ "kind": "agent-specialist",
+ "title": "Integration Wiring Engineer",
+ "subtitle": "Registers each incoming feed, wires the website, email route and provider inbox to the right project, checks that events arrive and reach the lead, and rotates credentials on schedule.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Registers each incoming feed, wires the website, email route and provider inbox to the right project, checks that events arrive and reach the lead, and rotates credentials on schedule.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A founder connecting outside services to the team",
+ "group": "Connecting tools and signals",
+ "specialist_kind": "Runs infrastructure",
+ "roles": [
+  {
+   "title": "The Integration Engineer",
+   "url": "https://coreyjames.ai/agents/roles/integration-engineer/"
+  },
+  {
+   "title": "The Assistant-Ready Website",
+   "url": "https://coreyjames.ai/agents/roles/assistant-ready-website/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/integration-wiring-engineer/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/integration-wiring-engineer",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

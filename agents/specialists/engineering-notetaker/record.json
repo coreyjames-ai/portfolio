@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/engineering-notetaker/",
+ "kind": "agent-specialist",
+ "title": "Engineering Notetaker",
+ "subtitle": "Turns the team's working sessions into typed notes.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Turns the team's working sessions into typed notes. Each note carries a title, a narrative and facts, a type such as decision, bug fix or discovery, and concept tags such as gotcha or trade-off, and is searchable from then on. People can also record a note by hand, import notes in batches, and take notes in 28 languages or in a special mode for email investigations.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "An engineering team that keeps losing what it learned between sessions",
+ "group": "Code intelligence and team memory",
+ "specialist_kind": "Keeps knowledge",
+ "roles": [
+  {
+   "title": "The Record Keeper",
+   "url": "https://coreyjames.ai/agents/roles/record-keeper/"
+  },
+  {
+   "title": "The Institutional Memory",
+   "url": "https://coreyjames.ai/agents/roles/institutional-memory/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/engineering-notetaker/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/engineering-notetaker",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

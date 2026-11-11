@@ -1,0 +1,34 @@
+{
+ "url": "https://coreyjames.ai/agents/functions/the-public-front-door/",
+ "kind": "agent-function",
+ "title": "The public front door",
+ "subtitle": "How outside people and their assistants find and question the work.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "How outside people and their assistants find and question the work. Roles: The Recruiter's Counterpart; The Publisher of Record; The Assistant-Ready Website.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "roles": [
+  {
+   "title": "The Recruiter's Counterpart",
+   "url": "https://coreyjames.ai/agents/roles/recruiters-counterpart/"
+  },
+  {
+   "title": "The Publisher of Record",
+   "url": "https://coreyjames.ai/agents/roles/publisher-of-record/"
+  },
+  {
+   "title": "The Assistant-Ready Website",
+   "url": "https://coreyjames.ai/agents/roles/assistant-ready-website/"
+  }
+ ],
+ "related": [],
+ "canonical": "https://coreyjames.ai/agents/functions/the-public-front-door/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/functions/the-public-front-door",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

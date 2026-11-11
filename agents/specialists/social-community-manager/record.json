@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/social-community-manager/",
+ "kind": "agent-specialist",
+ "title": "Social Community Manager",
+ "subtitle": "It reads the thread, replies in the brand voice, and records each reply with the post it belongs to.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "It reads the thread, replies in the brand voice, and records each reply with the post it belongs to.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A marketing lead or a social media manager",
+ "group": "Social media",
+ "specialist_kind": "Speaks to people",
+ "roles": [
+  {
+   "title": "The Newsroom",
+   "url": "https://coreyjames.ai/agents/roles/newsroom/"
+  },
+  {
+   "title": "The Launch Manager",
+   "url": "https://coreyjames.ai/agents/roles/launch-manager/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/social-community-manager/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/social-community-manager",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

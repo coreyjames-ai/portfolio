@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/meeting-participant/",
+ "kind": "agent-specialist",
+ "title": "Meeting Participant",
+ "subtitle": "It listens, answers aloud, takes on tasks, raises its hand when a result is ready, and shows its work on screen or in a presentation.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "It listens, answers aloud, takes on tasks, raises its hand when a result is ready, and shows its work on screen or in a presentation.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A team lead or an executive who wants an AI colleague in the meeting",
+ "group": "Meetings, voice and the AI colleague",
+ "specialist_kind": "Speaks to people",
+ "roles": [
+  {
+   "title": "The Digital Employee",
+   "url": "https://coreyjames.ai/agents/roles/digital-employee/"
+  },
+  {
+   "title": "The Sales Engineer",
+   "url": "https://coreyjames.ai/agents/roles/sales-engineer/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/meeting-participant/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/meeting-participant",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

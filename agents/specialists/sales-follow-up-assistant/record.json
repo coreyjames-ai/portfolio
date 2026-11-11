@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/sales-follow-up-assistant/",
+ "kind": "agent-specialist",
+ "title": "Sales Follow-up Assistant",
+ "subtitle": "It makes sure every conversation has a next step: it creates follow-up tasks with due dates, writes notes on deals, contacts and companies, and keeps the related files.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "It makes sure every conversation has a next step: it creates follow-up tasks with due dates, writes notes on deals, contacts and companies, and keeps the related files.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "a sales team",
+ "group": "Sales, customers and service",
+ "specialist_kind": "Speaks to people",
+ "roles": [
+  {
+   "title": "The Lead Catcher",
+   "url": "https://coreyjames.ai/agents/roles/lead-catcher/"
+  },
+  {
+   "title": "The Revenue Rescuer",
+   "url": "https://coreyjames.ai/agents/roles/revenue-rescuer/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/sales-follow-up-assistant/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/sales-follow-up-assistant",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

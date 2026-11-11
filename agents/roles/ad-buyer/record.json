@@ -1,0 +1,60 @@
+{
+ "url": "https://coreyjames.ai/agents/roles/ad-buyer/",
+ "kind": "agent-role",
+ "title": "The Ad Buyer",
+ "subtitle": "For a producer with a finished video and a small budget.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "A render finishes. The agent confirms the clip, publishes it with researched hashtags and puts paid promotion behind it. It reads how long people watch and what each click costs. When viewers leave early, it cuts a new opening, runs both versions and keeps the one that holds attention.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "function": "Marketing and audience",
+ "function_url": "https://coreyjames.ai/agents/functions/marketing-and-audience/",
+ "specialists": [
+  {
+   "title": "Render-to-Release Agent",
+   "url": "https://coreyjames.ai/agents/specialists/render-to-release-agent/"
+  },
+  {
+   "title": "Film and Video Promoter",
+   "url": "https://coreyjames.ai/agents/specialists/film-and-video-promoter/"
+  },
+  {
+   "title": "Paid Social Campaign Manager",
+   "url": "https://coreyjames.ai/agents/specialists/paid-social-campaign-manager/"
+  },
+  {
+   "title": "Social Video Cutdown Editor",
+   "url": "https://coreyjames.ai/agents/specialists/social-video-cutdown-editor/"
+  },
+  {
+   "title": "Social Analytics Reporter",
+   "url": "https://coreyjames.ai/agents/specialists/social-analytics-reporter/"
+  },
+  {
+   "title": "Render Producer",
+   "url": "https://coreyjames.ai/agents/specialists/render-producer/"
+  },
+  {
+   "title": "Revenue Attribution Analyst",
+   "url": "https://coreyjames.ai/agents/specialists/revenue-attribution-analyst/"
+  }
+ ],
+ "featured": false,
+ "routes": [],
+ "related": [
+  {
+   "title": "Business systems as safe agent tools",
+   "url": "https://coreyjames.ai/capabilities/business-systems-as-safe-agent-tools/",
+   "kind": "Capability"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/roles/ad-buyer/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/roles/ad-buyer",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

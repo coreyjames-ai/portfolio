@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/x-reply-campaign-manager/",
+ "kind": "agent-specialist",
+ "title": "X Reply Campaign Manager",
+ "subtitle": "It finds threads to join, drafts reply options for a person to pick on their phone, posts the approved replies at a safe pace, follows each author and checks every reply landed correctly.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "It finds threads to join, drafts reply options for a person to pick on their phone, posts the approved replies at a safe pace, follows each author and checks every reply landed correctly.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "a marketing lead running a reply push",
+ "group": "Social media",
+ "specialist_kind": "Does the work",
+ "roles": [
+  {
+   "title": "The Conversation Finder",
+   "url": "https://coreyjames.ai/agents/roles/conversation-finder/"
+  },
+  {
+   "title": "The Rapid Responder",
+   "url": "https://coreyjames.ai/agents/roles/rapid-responder/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/x-reply-campaign-manager/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/x-reply-campaign-manager",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

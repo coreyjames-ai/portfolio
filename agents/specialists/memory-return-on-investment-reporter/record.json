@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/memory-return-on-investment-reporter/",
+ "kind": "agent-specialist",
+ "title": "Memory Return-on-Investment Reporter",
+ "subtitle": "Reports the tokens spent creating each note against the tokens saved each time a note is reused or compressed, priced per model provider on per-token or flat-fee plans, and shows project-level totals on a live dashboard.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Reports the tokens spent creating each note against the tokens saved each time a note is reused or compressed, priced per model provider on per-token or flat-fee plans, and shows project-level totals on a live dashboard.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A finance lead or engineering manager asking what the memory system saves",
+ "group": "Code intelligence and team memory",
+ "specialist_kind": "Keeps knowledge",
+ "roles": [
+  {
+   "title": "The Model Broker",
+   "url": "https://coreyjames.ai/agents/roles/model-broker/"
+  },
+  {
+   "title": "The Search Auditor",
+   "url": "https://coreyjames.ai/agents/roles/search-auditor/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/memory-return-on-investment-reporter/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/memory-return-on-investment-reporter",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

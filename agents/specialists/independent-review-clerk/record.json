@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/independent-review-clerk/",
+ "kind": "agent-specialist",
+ "title": "Independent Review Clerk",
+ "subtitle": "It matches the verdict to the review that was requested and releases or holds the project exactly once.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "It matches the verdict to the review that was requested and releases or holds the project exactly once.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A compliance lead or an engineering manager",
+ "group": "Building software",
+ "specialist_kind": "Challenges decisions",
+ "roles": [
+  {
+   "title": "The Second Opinion",
+   "url": "https://coreyjames.ai/agents/roles/second-opinion/"
+  },
+  {
+   "title": "The Change Board",
+   "url": "https://coreyjames.ai/agents/roles/change-board/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/independent-review-clerk/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/independent-review-clerk",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

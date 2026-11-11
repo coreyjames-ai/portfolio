@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/ai-experiment-runner/",
+ "kind": "agent-specialist",
+ "title": "AI Experiment Runner",
+ "subtitle": "This agent runs each experiment the same way: it sets up a baseline, packages the experiment, runs it on the GPUs with measurement attached and compares the result with the baseline.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "This agent runs each experiment the same way: it sets up a baseline, packages the experiment, runs it on the GPUs with measurement attached and compares the result with the baseline.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "An AI platform lead running many tuning experiments",
+ "group": "AI models and performance",
+ "specialist_kind": "Does the work",
+ "roles": [
+  {
+   "title": "The Speed Detective",
+   "url": "https://coreyjames.ai/agents/roles/speed-detective/"
+  },
+  {
+   "title": "The Research Lab",
+   "url": "https://coreyjames.ai/agents/roles/research-lab/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/ai-experiment-runner/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/ai-experiment-runner",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

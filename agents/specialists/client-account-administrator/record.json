@@ -1,0 +1,28 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/client-account-administrator/",
+ "kind": "agent-specialist",
+ "title": "Client Account Administrator",
+ "subtitle": "It opens and closes a sub-account for each client or brand, sets each one's plan and features, groups them, and hands the right people access with single sign-on links.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "It opens and closes a sub-account for each client or brand, sets each one's plan and features, groups them, and hands the right people access with single sign-on links. It takes the account paperwork off the owner's desk and keeps every brand separated.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "an agency owner or a company running several brands",
+ "group": "Email, text and messaging",
+ "specialist_kind": "Audits and guards",
+ "roles": [
+  {
+   "title": "The Agency Back Office",
+   "url": "https://coreyjames.ai/agents/roles/agency-back-office/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/client-account-administrator/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/client-account-administrator",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

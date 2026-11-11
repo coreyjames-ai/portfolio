@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/internal-tool-builder-crew/",
+ "kind": "agent-specialist",
+ "title": "Internal Tool Builder Crew",
+ "subtitle": "Starting from a conversation about the job, it writes the design, studies the database, designs the work queue, drafts the blueprint and prepares the database.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Starting from a conversation about the job, it writes the design, studies the database, designs the work queue, drafts the blueprint and prepares the database. It then writes the settings, logic and documentation, checks the result against the rules and registers the job as a new tool that a person switches on.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A data engineering lead who needs a new automated data job",
+ "group": "Building software",
+ "specialist_kind": "Does the work",
+ "roles": [
+  {
+   "title": "The Automation Builder",
+   "url": "https://coreyjames.ai/agents/roles/automation-builder/"
+  },
+  {
+   "title": "The Team Architect",
+   "url": "https://coreyjames.ai/agents/roles/team-architect/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/internal-tool-builder-crew/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/internal-tool-builder-crew",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

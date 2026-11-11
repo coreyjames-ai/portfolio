@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/job-dispatcher/",
+ "kind": "agent-specialist",
+ "title": "Job Dispatcher",
+ "subtitle": "This agent starts, follows and recovers processing jobs across every automated job the team owns, and reports their status on request.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "This agent starts, follows and recovers processing jobs across every automated job the team owns, and reports their status on request.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A data team lead running many processing jobs",
+ "group": "Machines, data and operations",
+ "specialist_kind": "Runs infrastructure",
+ "roles": [
+  {
+   "title": "The Automation Builder",
+   "url": "https://coreyjames.ai/agents/roles/automation-builder/"
+  },
+  {
+   "title": "The Pipeline Foreman",
+   "url": "https://coreyjames.ai/agents/roles/pipeline-foreman/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/job-dispatcher/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/job-dispatcher",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

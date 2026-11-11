@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/ai-model-librarian/",
+ "kind": "agent-specialist",
+ "title": "AI Model Librarian",
+ "subtitle": "Brings a requested AI model in from its exact source, checks access and the licence question with the owner first, installs it, checks the files are intact and keeps the catalogue of every model and where it came from.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Brings a requested AI model in from its exact source, checks access and the licence question with the owner first, installs it, checks the files are intact and keeps the catalogue of every model and where it came from.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "An IT operations lead",
+ "group": "Machines, data and operations",
+ "specialist_kind": "Keeps knowledge",
+ "roles": [
+  {
+   "title": "The Model Launch Manager",
+   "url": "https://coreyjames.ai/agents/roles/model-launch-manager/"
+  },
+  {
+   "title": "The Studio Engineer",
+   "url": "https://coreyjames.ai/agents/roles/studio-engineer/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/ai-model-librarian/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/ai-model-librarian",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

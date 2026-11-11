@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/record-keeping-auditor/",
+ "kind": "agent-specialist",
+ "title": "Record-Keeping Auditor",
+ "subtitle": "Checks that meetings were set to record before they began, that recordings and transcripts exist, and that key documents have a complete version history, then writes up any gaps.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Checks that meetings were set to record before they began, that recordings and transcripts exist, and that key documents have a complete version history, then writes up any gaps.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A compliance or IT operations lead",
+ "group": "Meetings, voice and the AI colleague",
+ "specialist_kind": "Audits and guards",
+ "roles": [
+  {
+   "title": "The Chief of Staff",
+   "url": "https://coreyjames.ai/agents/roles/chief-of-staff/"
+  },
+  {
+   "title": "The Compliance Officer",
+   "url": "https://coreyjames.ai/agents/roles/compliance-officer/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/record-keeping-auditor/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/record-keeping-auditor",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

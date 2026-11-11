@@ -1,0 +1,28 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/ai-research-team-lead/",
+ "kind": "agent-specialist",
+ "title": "AI Research Team Lead",
+ "subtitle": "This agent splits a research program among specialists who each own their own files, keeps GPU time and final assembly to itself, and keeps a tamper-evident record of decisions.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "This agent splits a research program among specialists who each own their own files, keeps GPU time and final assembly to itself, and keeps a tamper-evident record of decisions.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A research director running a multi-person AI program",
+ "group": "AI models and performance",
+ "specialist_kind": "Supervises other agents",
+ "roles": [
+  {
+   "title": "The Research Lab",
+   "url": "https://coreyjames.ai/agents/roles/research-lab/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/ai-research-team-lead/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/ai-research-team-lead",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

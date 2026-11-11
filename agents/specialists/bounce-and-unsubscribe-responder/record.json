@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/bounce-and-unsubscribe-responder/",
+ "kind": "agent-specialist",
+ "title": "Bounce and Unsubscribe Responder",
+ "subtitle": "When an email bounces, is marked as spam or gets an unsubscribe, it takes that person off the marketing lists at once and notes why on their record.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "When an email bounces, is marked as spam or gets an unsubscribe, it takes that person off the marketing lists at once and notes why on their record.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "a marketing team",
+ "group": "Email, text and messaging",
+ "specialist_kind": "Speaks to people",
+ "roles": [
+  {
+   "title": "The Email Marketer",
+   "url": "https://coreyjames.ai/agents/roles/email-marketer/"
+  },
+  {
+   "title": "The Compliance Officer",
+   "url": "https://coreyjames.ai/agents/roles/compliance-officer/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/bounce-and-unsubscribe-responder/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/bounce-and-unsubscribe-responder",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

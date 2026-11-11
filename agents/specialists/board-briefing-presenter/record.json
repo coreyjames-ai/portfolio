@@ -1,0 +1,36 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/board-briefing-presenter/",
+ "kind": "agent-specialist",
+ "title": "Board Briefing Presenter",
+ "subtitle": "It turns an agreed plan into a briefing deck, joins the video meeting as a named digital colleague, presents the deck slide by slide, and drops the plan link into the meeting chat.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "It turns an agreed plan into a briefing deck, joins the video meeting as a named digital colleague, presents the deck slide by slide, and drops the plan link into the meeting chat.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A founder who reports to a board or an investor group",
+ "group": "Meetings, voice and the AI colleague",
+ "specialist_kind": "Speaks to people",
+ "roles": [
+  {
+   "title": "The Advisory Board",
+   "url": "https://coreyjames.ai/agents/roles/advisory-board/"
+  },
+  {
+   "title": "The Presenter",
+   "url": "https://coreyjames.ai/agents/roles/presenter/"
+  },
+  {
+   "title": "The Due-Diligence Analyst",
+   "url": "https://coreyjames.ai/agents/roles/due-diligence-analyst/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/board-briefing-presenter/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/board-briefing-presenter",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

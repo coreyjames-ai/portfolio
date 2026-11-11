@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/incident-responder/",
+ "kind": "agent-specialist",
+ "title": "Incident Responder",
+ "subtitle": "Reads the alert and the service logs, matches them to the written procedure, restarts the failing worker or service, rolls back a bad deployment if needed, and files the incident on the issue tracker.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Reads the alert and the service logs, matches them to the written procedure, restarts the failing worker or service, rolls back a bad deployment if needed, and files the incident on the issue tracker.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "An IT operations lead",
+ "group": "Machines, data and operations",
+ "specialist_kind": "Runs infrastructure",
+ "roles": [
+  {
+   "title": "The Incident Commander",
+   "url": "https://coreyjames.ai/agents/roles/incident-commander/"
+  },
+  {
+   "title": "The Night Shift",
+   "url": "https://coreyjames.ai/agents/roles/night-shift/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/incident-responder/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/incident-responder",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

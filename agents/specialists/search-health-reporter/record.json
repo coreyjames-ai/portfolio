@@ -1,0 +1,28 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/search-health-reporter/",
+ "kind": "agent-specialist",
+ "title": "Search Health Reporter",
+ "subtitle": "Runs the search quality comparison, the cache gap count and a smoke test, and leaves a short health summary in the team lead's inbox.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Runs the search quality comparison, the cache gap count and a smoke test, and leaves a short health summary in the team lead's inbox.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A platform lead",
+ "group": "Code intelligence and team memory",
+ "specialist_kind": "Audits and guards",
+ "roles": [
+  {
+   "title": "The Search Auditor",
+   "url": "https://coreyjames.ai/agents/roles/search-auditor/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/search-health-reporter/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/search-health-reporter",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

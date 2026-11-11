@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/website-visitor-assistant/",
+ "kind": "agent-specialist",
+ "title": "Website Visitor Assistant",
+ "subtitle": "On any page of the site it gives the visitor's assistant ready-made actions for a fit report, a search, a page summary, an introduction and a message to the owner.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "On any page of the site it gives the visitor's assistant ready-made actions for a fit report, a search, a page summary, an introduction and a message to the owner.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A visitor whose browser has a built-in AI assistant",
+ "group": "The public front door",
+ "specialist_kind": "Speaks to people",
+ "roles": [
+  {
+   "title": "The Lead Catcher",
+   "url": "https://coreyjames.ai/agents/roles/lead-catcher/"
+  },
+  {
+   "title": "The Assistant-Ready Website",
+   "url": "https://coreyjames.ai/agents/roles/assistant-ready-website/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/website-visitor-assistant/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/website-visitor-assistant",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

@@ -1,0 +1,75 @@
+{
+ "url": "https://coreyjames.ai/agents/roles/operations-desk/",
+ "kind": "agent-role",
+ "title": "The Operations Desk",
+ "subtitle": "For a founder who needs a function staffed around the clock, such as support.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "The founder describes the function once. The agent sets up a standing desk with a lead and a roster of specialists who start only when there is work. An event arrives from the business's own software, such as a failed import or a cancelled booking. The lead opens a task, brings the right specialist online, checks the result and stands the specialist down again.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "function": "Running the company",
+ "function_url": "https://coreyjames.ai/agents/functions/running-the-company/",
+ "specialists": [
+  {
+   "title": "Long-Running Operations Planner",
+   "url": "https://coreyjames.ai/agents/specialists/long-running-operations-planner/"
+  },
+  {
+   "title": "Operations Desk Lead",
+   "url": "https://coreyjames.ai/agents/specialists/operations-desk-lead/"
+  },
+  {
+   "title": "Application Event Responder",
+   "url": "https://coreyjames.ai/agents/specialists/application-event-responder/"
+  },
+  {
+   "title": "Agent Workforce Provisioner",
+   "url": "https://coreyjames.ai/agents/specialists/agent-workforce-provisioner/"
+  },
+  {
+   "title": "Background Job Orchestrator",
+   "url": "https://coreyjames.ai/agents/specialists/background-job-orchestrator/"
+  },
+  {
+   "title": "Platform Help Desk",
+   "url": "https://coreyjames.ai/agents/specialists/platform-help-desk/"
+  },
+  {
+   "title": "Agent Coordination Dispatcher",
+   "url": "https://coreyjames.ai/agents/specialists/agent-coordination-dispatcher/"
+  },
+  {
+   "title": "Agent Team Designer",
+   "url": "https://coreyjames.ai/agents/specialists/agent-team-designer/"
+  },
+  {
+   "title": "Business Event Switchboard",
+   "url": "https://coreyjames.ai/agents/specialists/business-event-switchboard/"
+  }
+ ],
+ "featured": false,
+ "routes": [
+  "A new function becomes a staffed desk"
+ ],
+ "related": [
+  {
+   "title": "Governed autonomous engineering",
+   "url": "https://coreyjames.ai/capabilities/governed-autonomous-engineering/",
+   "kind": "Capability"
+  },
+  {
+   "title": "Agents that react to the world",
+   "url": "https://coreyjames.ai/ideas/agents-that-react-to-the-world/",
+   "kind": "Idea"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/roles/operations-desk/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/roles/operations-desk",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

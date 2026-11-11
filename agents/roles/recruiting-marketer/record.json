@@ -1,0 +1,72 @@
+{
+ "url": "https://coreyjames.ai/agents/roles/recruiting-marketer/",
+ "kind": "agent-role",
+ "title": "The Recruiting Marketer",
+ "subtitle": "For a hiring manager with an open role.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "A job posting becomes a short captioned video that names the role, the team and how to apply. The agent builds the matching cover cards, posts everything to the company's channels and answers the questions candidates leave in the comments. Applications that arrive by email are filed against the role.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "function": "Marketing and audience",
+ "function_url": "https://coreyjames.ai/agents/functions/marketing-and-audience/",
+ "specialists": [
+  {
+   "title": "Job Ad Video Maker",
+   "url": "https://coreyjames.ai/agents/specialists/job-ad-video-maker/"
+  },
+  {
+   "title": "Carousel and Cover Designer",
+   "url": "https://coreyjames.ai/agents/specialists/carousel-and-cover-designer/"
+  },
+  {
+   "title": "Caption and Format Specialist",
+   "url": "https://coreyjames.ai/agents/specialists/caption-and-format-specialist/"
+  },
+  {
+   "title": "Cross-Platform Publisher",
+   "url": "https://coreyjames.ai/agents/specialists/cross-platform-publisher/"
+  },
+  {
+   "title": "Social Inbox Manager",
+   "url": "https://coreyjames.ai/agents/specialists/social-inbox-manager/"
+  },
+  {
+   "title": "Inbound Mail Clerk",
+   "url": "https://coreyjames.ai/agents/specialists/inbound-mail-clerk/"
+  },
+  {
+   "title": "Video Mix and Finishing Editor",
+   "url": "https://coreyjames.ai/agents/specialists/video-mix-and-finishing-editor/"
+  },
+  {
+   "title": "Facebook Page Manager",
+   "url": "https://coreyjames.ai/agents/specialists/facebook-page-manager/"
+  },
+  {
+   "title": "Paid Social Campaign Manager",
+   "url": "https://coreyjames.ai/agents/specialists/paid-social-campaign-manager/"
+  },
+  {
+   "title": "Candidate Fit Analyst",
+   "url": "https://coreyjames.ai/agents/specialists/candidate-fit-analyst/"
+  }
+ ],
+ "featured": false,
+ "routes": [],
+ "related": [
+  {
+   "title": "Business systems as safe agent tools",
+   "url": "https://coreyjames.ai/capabilities/business-systems-as-safe-agent-tools/",
+   "kind": "Capability"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/roles/recruiting-marketer/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/roles/recruiting-marketer",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

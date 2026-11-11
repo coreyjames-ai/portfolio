@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/ai-fleet-supervisor/",
+ "kind": "agent-specialist",
+ "title": "AI Fleet Supervisor",
+ "subtitle": "Watches every running agent across every machine: who is alive, which tool versions they run, and who asked whom for what.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Watches every running agent across every machine: who is alive, which tool versions they run, and who asked whom for what. It takes work back from agents that go silent and sends you a daily digest.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "An AI operations lead",
+ "group": "Managing an AI workforce",
+ "specialist_kind": "Supervises other agents",
+ "roles": [
+  {
+   "title": "The Control Room",
+   "url": "https://coreyjames.ai/agents/roles/control-room/"
+  },
+  {
+   "title": "The Circuit Breaker",
+   "url": "https://coreyjames.ai/agents/roles/circuit-breaker/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/ai-fleet-supervisor/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/ai-fleet-supervisor",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

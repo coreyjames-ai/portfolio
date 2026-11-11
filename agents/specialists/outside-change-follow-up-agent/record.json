@@ -1,0 +1,28 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/outside-change-follow-up-agent/",
+ "kind": "agent-specialist",
+ "title": "Outside Change Follow-up Agent",
+ "subtitle": "It updates the local copy, makes the follow-up change safely and notes it on the related ticket.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "It updates the local copy, makes the follow-up change safely and notes it on the related ticket.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "An operations lead whose processes span several apps",
+ "group": "Connecting tools and signals",
+ "specialist_kind": "Runs infrastructure",
+ "roles": [
+  {
+   "title": "The Systems Bridge",
+   "url": "https://coreyjames.ai/agents/roles/systems-bridge/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/outside-change-follow-up-agent/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/outside-change-follow-up-agent",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

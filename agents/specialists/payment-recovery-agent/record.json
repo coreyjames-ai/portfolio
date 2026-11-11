@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/payment-recovery-agent/",
+ "kind": "agent-specialist",
+ "title": "Payment Recovery Agent",
+ "subtitle": "It sends the buyer a fresh payment link with a short note, watches for the payment, and tells the team whether the sale was recovered.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "It sends the buyer a fresh payment link with a short note, watches for the payment, and tells the team whether the sale was recovered.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A finance lead or a founder",
+ "group": "Store, loyalty and payments",
+ "specialist_kind": "Does the work",
+ "roles": [
+  {
+   "title": "The Revenue Rescuer",
+   "url": "https://coreyjames.ai/agents/roles/revenue-rescuer/"
+  },
+  {
+   "title": "The Accounts Office",
+   "url": "https://coreyjames.ai/agents/roles/accounts-office/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/payment-recovery-agent/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/payment-recovery-agent",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

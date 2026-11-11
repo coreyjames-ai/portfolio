@@ -1,0 +1,79 @@
+{
+ "url": "https://coreyjames.ai/agents/roles/night-shift/",
+ "kind": "agent-role",
+ "title": "The Night Shift",
+ "subtitle": "For a one-person operations team.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "An alert fires at 3 a.m. The agent reads it, follows the runbook, restarts what needs restarting and moves work off a machine that has failed. Before any step that could lose data it texts a person and waits. The morning report says what happened and what was done.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "function": "Infrastructure and operations",
+ "function_url": "https://coreyjames.ai/agents/functions/infrastructure-and-operations/",
+ "specialists": [
+  {
+   "title": "On-call Pager",
+   "url": "https://coreyjames.ai/agents/specialists/on-call-pager/"
+  },
+  {
+   "title": "Night-Shift On-Call Responder",
+   "url": "https://coreyjames.ai/agents/specialists/night-shift-on-call-responder/"
+  },
+  {
+   "title": "Night-Shift Fleet Watch",
+   "url": "https://coreyjames.ai/agents/specialists/night-shift-fleet-watch/"
+  },
+  {
+   "title": "Incident Responder",
+   "url": "https://coreyjames.ai/agents/specialists/incident-responder/"
+  },
+  {
+   "title": "Failed Machine Recovery Specialist",
+   "url": "https://coreyjames.ai/agents/specialists/failed-machine-recovery-specialist/"
+  },
+  {
+   "title": "Service Caretaker",
+   "url": "https://coreyjames.ai/agents/specialists/service-caretaker/"
+  },
+  {
+   "title": "Morning Operations Briefer",
+   "url": "https://coreyjames.ai/agents/specialists/morning-operations-briefer/"
+  },
+  {
+   "title": "Agent Fleet Operator",
+   "url": "https://coreyjames.ai/agents/specialists/agent-fleet-operator/"
+  },
+  {
+   "title": "Agent Replacement Specialist",
+   "url": "https://coreyjames.ai/agents/specialists/agent-replacement-specialist/"
+  },
+  {
+   "title": "Write Queue Firefighter",
+   "url": "https://coreyjames.ai/agents/specialists/write-queue-firefighter/"
+  },
+  {
+   "title": "Alert Tuner",
+   "url": "https://coreyjames.ai/agents/specialists/alert-tuner/"
+  }
+ ],
+ "featured": false,
+ "routes": [
+  "An alert becomes a customer notice",
+  "An outage becomes a lesson"
+ ],
+ "related": [
+  {
+   "title": "A human at the privileged step",
+   "url": "https://coreyjames.ai/ideas/a-human-at-the-privileged-step/",
+   "kind": "Idea"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/roles/night-shift/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/roles/night-shift",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

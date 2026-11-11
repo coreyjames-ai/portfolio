@@ -1,0 +1,90 @@
+{
+ "url": "https://coreyjames.ai/agents/roles/security-officer/",
+ "kind": "agent-role",
+ "title": "The Security Officer",
+ "subtitle": "For a security lead.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "The agent issues and rotates certificates and secrets, registers each application that wants access and manages sign-in tokens. It hunts the sign-in records for takeover attempts. When a new advisory lands, it checks whether the company is exposed. It also attacks the company's own AI tools to find what an agent could be tricked into running.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "function": "Infrastructure and operations",
+ "function_url": "https://coreyjames.ai/agents/functions/infrastructure-and-operations/",
+ "specialists": [
+  {
+   "title": "Secrets and Certificates Officer",
+   "url": "https://coreyjames.ai/agents/specialists/secrets-and-certificates-officer/"
+  },
+  {
+   "title": "App Access Registrar",
+   "url": "https://coreyjames.ai/agents/specialists/app-access-registrar/"
+  },
+  {
+   "title": "Sign-in and Token Manager",
+   "url": "https://coreyjames.ai/agents/specialists/sign-in-and-token-manager/"
+  },
+  {
+   "title": "Sign-in Threat Hunter",
+   "url": "https://coreyjames.ai/agents/specialists/sign-in-threat-hunter/"
+  },
+  {
+   "title": "Vulnerability Triage Analyst",
+   "url": "https://coreyjames.ai/agents/specialists/vulnerability-triage-analyst/"
+  },
+  {
+   "title": "Security Attack Tester",
+   "url": "https://coreyjames.ai/agents/specialists/security-attack-tester/"
+  },
+  {
+   "title": "Secret Access Auditor",
+   "url": "https://coreyjames.ai/agents/specialists/secret-access-auditor/"
+  },
+  {
+   "title": "Credential Rotation Clerk",
+   "url": "https://coreyjames.ai/agents/specialists/credential-rotation-clerk/"
+  },
+  {
+   "title": "Emergency Stop Officer",
+   "url": "https://coreyjames.ai/agents/specialists/emergency-stop-officer/"
+  },
+  {
+   "title": "Remote Machine Rebuilder",
+   "url": "https://coreyjames.ai/agents/specialists/remote-machine-rebuilder/"
+  },
+  {
+   "title": "Machine Decommissioner",
+   "url": "https://coreyjames.ai/agents/specialists/machine-decommissioner/"
+  },
+  {
+   "title": "AI Access Desk",
+   "url": "https://coreyjames.ai/agents/specialists/ai-access-desk/"
+  }
+ ],
+ "featured": false,
+ "routes": [],
+ "related": [
+  {
+   "title": "Business systems as safe agent tools",
+   "url": "https://coreyjames.ai/capabilities/business-systems-as-safe-agent-tools/",
+   "kind": "Capability"
+  },
+  {
+   "title": "Identity from the caller, credentials on the server",
+   "url": "https://coreyjames.ai/ideas/identity-from-the-caller/",
+   "kind": "Idea"
+  },
+  {
+   "title": "The hardening fix that locked everyone out",
+   "url": "https://coreyjames.ai/stories/the-hardening-fix-that-locked-everyone-out/",
+   "kind": "Engineering story"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/roles/security-officer/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/roles/security-officer",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/support-inbox-triage-agent/",
+ "kind": "agent-specialist",
+ "title": "Support Inbox Triage Agent",
+ "subtitle": "It reads new support emails, chat messages and social messages, finds the answer in the business's knowledge base, drafts the reply for a person to approve, sends it and notes the case on the customer's record.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "It reads new support emails, chat messages and social messages, finds the answer in the business's knowledge base, drafts the reply for a person to approve, sends it and notes the case on the customer's record.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "a support desk",
+ "group": "Sales, customers and service",
+ "specialist_kind": "Speaks to people",
+ "roles": [
+  {
+   "title": "The Support Desk",
+   "url": "https://coreyjames.ai/agents/roles/support-desk/"
+  },
+  {
+   "title": "The Front Desk",
+   "url": "https://coreyjames.ai/agents/roles/front-desk/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/support-inbox-triage-agent/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/support-inbox-triage-agent",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

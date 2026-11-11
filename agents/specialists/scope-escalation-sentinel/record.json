@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/scope-escalation-sentinel/",
+ "kind": "agent-specialist",
+ "title": "Scope Escalation Sentinel",
+ "subtitle": "It warns that this label needs an independent review first and blocks the shortcut until that review exists.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "It warns that this label needs an independent review first and blocks the shortcut until that review exists.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A compliance lead or an engineering manager",
+ "group": "Managing an AI workforce",
+ "specialist_kind": "Audits and guards",
+ "roles": [
+  {
+   "title": "The AI Workforce Manager",
+   "url": "https://coreyjames.ai/agents/roles/ai-workforce-manager/"
+  },
+  {
+   "title": "The Circuit Breaker",
+   "url": "https://coreyjames.ai/agents/roles/circuit-breaker/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/scope-escalation-sentinel/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/scope-escalation-sentinel",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

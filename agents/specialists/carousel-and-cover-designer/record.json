@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/carousel-and-cover-designer/",
+ "kind": "agent-specialist",
+ "title": "Carousel and Cover Designer",
+ "subtitle": "Builds carousels, cover cards, hook cards and thumbnails from fixed brand templates, so every slide carries the same type, colours and closing logo.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Builds carousels, cover cards, hook cards and thumbnails from fixed brand templates, so every slide carries the same type, colours and closing logo.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A marketing lead",
+ "group": "Content, film and brand",
+ "specialist_kind": "Does the work",
+ "roles": [
+  {
+   "title": "The Social Desk",
+   "url": "https://coreyjames.ai/agents/roles/social-desk/"
+  },
+  {
+   "title": "The Recruiting Marketer",
+   "url": "https://coreyjames.ai/agents/roles/recruiting-marketer/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/carousel-and-cover-designer/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/carousel-and-cover-designer",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

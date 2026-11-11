@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/social-video-cutdown-editor/",
+ "kind": "agent-specialist",
+ "title": "Social Video Cutdown Editor",
+ "subtitle": "Turns one finished video into feed versions: a cold open, a size-capped upload, a looping GIF and a carousel built from its best frames.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Turns one finished video into feed versions: a cold open, a size-capped upload, a looping GIF and a carousel built from its best frames.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A marketing lead",
+ "group": "Content, film and brand",
+ "specialist_kind": "Does the work",
+ "roles": [
+  {
+   "title": "The Launch Manager",
+   "url": "https://coreyjames.ai/agents/roles/launch-manager/"
+  },
+  {
+   "title": "The Ad Buyer",
+   "url": "https://coreyjames.ai/agents/roles/ad-buyer/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/social-video-cutdown-editor/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/social-video-cutdown-editor",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

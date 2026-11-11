@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/team-ai-colleague/",
+ "kind": "agent-specialist",
+ "title": "Team AI Colleague",
+ "subtitle": "It is a named AI colleague in the team chat that answers when someone addresses it, in the right thread, already knowing the project's recent history and files.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "It is a named AI colleague in the team chat that answers when someone addresses it, in the right thread, already knowing the project's recent history and files. It keeps its own memory even when the model behind it changes.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A team lead whose team works in a group chat",
+ "group": "Meetings, voice and the AI colleague",
+ "specialist_kind": "Speaks to people",
+ "roles": [
+  {
+   "title": "The Digital Employee",
+   "url": "https://coreyjames.ai/agents/roles/digital-employee/"
+  },
+  {
+   "title": "The Project Room",
+   "url": "https://coreyjames.ai/agents/roles/project-room/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/team-ai-colleague/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/team-ai-colleague",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

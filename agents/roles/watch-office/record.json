@@ -1,0 +1,66 @@
+{
+ "url": "https://coreyjames.ai/agents/roles/watch-office/",
+ "kind": "agent-role",
+ "title": "The Watch Office",
+ "subtitle": "For an operations lead who wants one screen and alerts that mean something.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "The agent builds the dashboards from the numbers the services already report. It tests every alert rule and its route to a phone from start to finish. Anyone on the team can ask in plain words what is running on which machine, what today has cost or which machine is free.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "function": "Infrastructure and operations",
+ "function_url": "https://coreyjames.ai/agents/functions/infrastructure-and-operations/",
+ "specialists": [
+  {
+   "title": "Operations Dashboard Builder",
+   "url": "https://coreyjames.ai/agents/specialists/operations-dashboard-builder/"
+  },
+  {
+   "title": "Alert Tuner",
+   "url": "https://coreyjames.ai/agents/specialists/alert-tuner/"
+  },
+  {
+   "title": "Fleet Help Desk",
+   "url": "https://coreyjames.ai/agents/specialists/fleet-help-desk/"
+  },
+  {
+   "title": "GPU Capacity Inventory Clerk",
+   "url": "https://coreyjames.ai/agents/specialists/gpu-capacity-inventory-clerk/"
+  },
+  {
+   "title": "On-call Pager",
+   "url": "https://coreyjames.ai/agents/specialists/on-call-pager/"
+  },
+  {
+   "title": "Memory Service Operator",
+   "url": "https://coreyjames.ai/agents/specialists/memory-service-operator/"
+  },
+  {
+   "title": "Index Stall Watchdog",
+   "url": "https://coreyjames.ai/agents/specialists/index-stall-watchdog/"
+  },
+  {
+   "title": "Agent Fleet Health Monitor",
+   "url": "https://coreyjames.ai/agents/specialists/agent-fleet-health-monitor/"
+  },
+  {
+   "title": "Night-Shift Fleet Watch",
+   "url": "https://coreyjames.ai/agents/specialists/night-shift-fleet-watch/"
+  },
+  {
+   "title": "Live Operations Announcer",
+   "url": "https://coreyjames.ai/agents/specialists/live-operations-announcer/"
+  }
+ ],
+ "featured": false,
+ "routes": [],
+ "related": [],
+ "canonical": "https://coreyjames.ai/agents/roles/watch-office/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/roles/watch-office",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

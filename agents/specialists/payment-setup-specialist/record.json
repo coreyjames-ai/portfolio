@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/payment-setup-specialist/",
+ "kind": "agent-specialist",
+ "title": "Payment Setup Specialist",
+ "subtitle": "It plans how the business will take payment, then creates the products, prices, one-time and subscription payment links and checkout pages with the business's return addresses, and wires the payment notifications.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "It plans how the business will take payment, then creates the products, prices, one-time and subscription payment links and checkout pages with the business's return addresses, and wires the payment notifications.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "a founder starting to sell online",
+ "group": "Store, loyalty and payments",
+ "specialist_kind": "Does the work",
+ "roles": [
+  {
+   "title": "The Agency Back Office",
+   "url": "https://coreyjames.ai/agents/roles/agency-back-office/"
+  },
+  {
+   "title": "The Accounts Office",
+   "url": "https://coreyjames.ai/agents/roles/accounts-office/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/payment-setup-specialist/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/payment-setup-specialist",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

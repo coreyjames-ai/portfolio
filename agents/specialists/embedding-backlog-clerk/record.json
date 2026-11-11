@@ -1,0 +1,28 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/embedding-backlog-clerk/",
+ "kind": "agent-specialist",
+ "title": "Embedding Backlog Clerk",
+ "subtitle": "Finds the collections with material waiting to be embedded, queues the work and starts the workers.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Finds the collections with material waiting to be embedded, queues the work and starts the workers.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A search owner with new material that is not yet searchable",
+ "group": "AI models and performance",
+ "specialist_kind": "Runs infrastructure",
+ "roles": [
+  {
+   "title": "The Knowledge Gardener",
+   "url": "https://coreyjames.ai/agents/roles/knowledge-gardener/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/embedding-backlog-clerk/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/embedding-backlog-clerk",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

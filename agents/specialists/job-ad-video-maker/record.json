@@ -1,0 +1,28 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/job-ad-video-maker/",
+ "kind": "agent-specialist",
+ "title": "Job Ad Video Maker",
+ "subtitle": "Turns a job posting into a short captioned vertical video with the role, team and how to apply, and posts it to the company's channels.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Turns a job posting into a short captioned vertical video with the role, team and how to apply, and posts it to the company's channels.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A recruiter or hiring manager",
+ "group": "Content, film and brand",
+ "specialist_kind": "Does the work",
+ "roles": [
+  {
+   "title": "The Recruiting Marketer",
+   "url": "https://coreyjames.ai/agents/roles/recruiting-marketer/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/job-ad-video-maker/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/job-ad-video-maker",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

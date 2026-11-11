@@ -1,0 +1,74 @@
+{
+ "url": "https://coreyjames.ai/agents/roles/code-guide/",
+ "kind": "agent-role",
+ "title": "The Code Guide",
+ "subtitle": "For anyone with a question about the code.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "A product manager asks whether the product already does something. The agent searches the code by meaning, follows the calls from end to end and answers in plain language with the file and line. Every path it describes exists in the code.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "function": "Knowledge and memory",
+ "function_url": "https://coreyjames.ai/agents/functions/knowledge-and-memory/",
+ "specialists": [
+  {
+   "title": "Codebase Answer Desk",
+   "url": "https://coreyjames.ai/agents/specialists/codebase-answer-desk/"
+  },
+  {
+   "title": "Existing-Capability Checker",
+   "url": "https://coreyjames.ai/agents/specialists/existing-capability-checker/"
+  },
+  {
+   "title": "Code Flow Explainer",
+   "url": "https://coreyjames.ai/agents/specialists/code-flow-explainer/"
+  },
+  {
+   "title": "Code Impact Analyst",
+   "url": "https://coreyjames.ai/agents/specialists/code-impact-analyst/"
+  },
+  {
+   "title": "Reference Researcher",
+   "url": "https://coreyjames.ai/agents/specialists/reference-researcher/"
+  },
+  {
+   "title": "Codebase Onboarding Guide",
+   "url": "https://coreyjames.ai/agents/specialists/codebase-onboarding-guide/"
+  },
+  {
+   "title": "Grounding Coach",
+   "url": "https://coreyjames.ai/agents/specialists/grounding-coach/"
+  },
+  {
+   "title": "Commit-Triggered Re-Indexer",
+   "url": "https://coreyjames.ai/agents/specialists/commit-triggered-re-indexer/"
+  }
+ ],
+ "featured": false,
+ "routes": [],
+ "related": [
+  {
+   "title": "Memory and code intelligence for agents",
+   "url": "https://coreyjames.ai/capabilities/memory-and-code-intelligence-for-agents/",
+   "kind": "Capability"
+  },
+  {
+   "title": "Compute first, narrate second",
+   "url": "https://coreyjames.ai/ideas/compute-first-narrate-second/",
+   "kind": "Idea"
+  },
+  {
+   "title": "A code explainer that is not allowed to invent",
+   "url": "https://coreyjames.ai/stories/a-code-explainer-that-is-not-allowed-to-invent/",
+   "kind": "Engineering story"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/roles/code-guide/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/roles/code-guide",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

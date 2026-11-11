@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/multi-model-team-room-host/",
+ "kind": "agent-specialist",
+ "title": "Multi-model Team Room Host",
+ "subtitle": "It brings AI models from different vendors into one room as named teammates with their own accounts, makes them take turns so they never talk over each other or set each other off, and adds a new model family by a repeatable sign-up routine.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "It brings AI models from different vendors into one room as named teammates with their own accounts, makes them take turns so they never talk over each other or set each other off, and adds a new model family by a repeatable sign-up routine.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "An engineering manager who wants several AI models on the team",
+ "group": "Meetings, voice and the AI colleague",
+ "specialist_kind": "Supervises other agents",
+ "roles": [
+  {
+   "title": "The Digital Employee",
+   "url": "https://coreyjames.ai/agents/roles/digital-employee/"
+  },
+  {
+   "title": "The Project Room",
+   "url": "https://coreyjames.ai/agents/roles/project-room/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/multi-model-team-room-host/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/multi-model-team-room-host",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

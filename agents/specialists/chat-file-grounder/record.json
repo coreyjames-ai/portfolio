@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/chat-file-grounder/",
+ "kind": "agent-specialist",
+ "title": "Chat File Grounder",
+ "subtitle": "Reads the shared file from a read-only mount and adds it to that team's searchable knowledge without keeping its own copy.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Reads the shared file from a read-only mount and adds it to that team's searchable knowledge without keeping its own copy.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A support desk or project team in a chat workspace",
+ "group": "Code intelligence and team memory",
+ "specialist_kind": "Keeps knowledge",
+ "roles": [
+  {
+   "title": "The Project Room",
+   "url": "https://coreyjames.ai/agents/roles/project-room/"
+  },
+  {
+   "title": "The Company Librarian",
+   "url": "https://coreyjames.ai/agents/roles/company-librarian/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/chat-file-grounder/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/chat-file-grounder",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

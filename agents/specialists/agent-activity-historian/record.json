@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/agent-activity-historian/",
+ "kind": "agent-specialist",
+ "title": "Agent Activity Historian",
+ "subtitle": "Turns what agents did into searchable notes, so that tool errors become lessons and approvals become recorded decisions.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Turns what agents did into searchable notes, so that tool errors become lessons and approvals become recorded decisions. Anyone can later ask what happened and why.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "An AI operations lead",
+ "group": "Managing an AI workforce",
+ "specialist_kind": "Keeps knowledge",
+ "roles": [
+  {
+   "title": "The Control Room",
+   "url": "https://coreyjames.ai/agents/roles/control-room/"
+  },
+  {
+   "title": "The Institutional Memory",
+   "url": "https://coreyjames.ai/agents/roles/institutional-memory/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/agent-activity-historian/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/agent-activity-historian",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

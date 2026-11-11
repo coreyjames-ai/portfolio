@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/engineering-team-lead/",
+ "kind": "agent-specialist",
+ "title": "Engineering Team Lead",
+ "subtitle": "Runs the whole team through the project: hands out ready work, relays review findings, applies each next step and keeps everyone pointed at the finish line.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Runs the whole team through the project: hands out ready work, relays review findings, applies each next step and keeps everyone pointed at the finish line.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "An engineering manager who wants a team run day to day",
+ "group": "Building software",
+ "specialist_kind": "Supervises other agents",
+ "roles": [
+  {
+   "title": "The Programme Office",
+   "url": "https://coreyjames.ai/agents/roles/programme-office/"
+  },
+  {
+   "title": "The AI Workforce Manager",
+   "url": "https://coreyjames.ai/agents/roles/ai-workforce-manager/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/engineering-team-lead/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/engineering-team-lead",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

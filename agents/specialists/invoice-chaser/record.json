@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/invoice-chaser/",
+ "kind": "agent-specialist",
+ "title": "Invoice Chaser",
+ "subtitle": "When a payment fails or an invoice goes unpaid it tells the customer with a fresh payment link, reminds them once, and opens a follow-up task for a person.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "When a payment fails or an invoice goes unpaid it tells the customer with a fresh payment link, reminds them once, and opens a follow-up task for a person.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "a finance lead",
+ "group": "Store, loyalty and payments",
+ "specialist_kind": "Speaks to people",
+ "roles": [
+  {
+   "title": "The Revenue Rescuer",
+   "url": "https://coreyjames.ai/agents/roles/revenue-rescuer/"
+  },
+  {
+   "title": "The Accounts Office",
+   "url": "https://coreyjames.ai/agents/roles/accounts-office/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/invoice-chaser/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/invoice-chaser",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

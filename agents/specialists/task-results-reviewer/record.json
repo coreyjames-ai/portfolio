@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/task-results-reviewer/",
+ "kind": "agent-specialist",
+ "title": "Task Results Reviewer",
+ "subtitle": "It checks the result, marks the task complete or cancelled, and starts the next task in line.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "It checks the result, marks the task complete or cancelled, and starts the next task in line.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "An operations lead delegating many small jobs",
+ "group": "Building software",
+ "specialist_kind": "Challenges decisions",
+ "roles": [
+  {
+   "title": "The Programme Office",
+   "url": "https://coreyjames.ai/agents/roles/programme-office/"
+  },
+  {
+   "title": "The AI Workforce Manager",
+   "url": "https://coreyjames.ai/agents/roles/ai-workforce-manager/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/task-results-reviewer/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/task-results-reviewer",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

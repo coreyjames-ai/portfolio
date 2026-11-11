@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/incident-communications-officer/",
+ "kind": "agent-specialist",
+ "title": "Incident Communications Officer",
+ "subtitle": "During an outage it sends one factual update to affected customers by email and text, posts it on X and the Facebook Page, pins it, messages active website visitors, and sends the all-clear when service returns.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "During an outage it sends one factual update to affected customers by email and text, posts it on X and the Facebook Page, pins it, messages active website visitors, and sends the all-clear when service returns.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "an operations lead",
+ "group": "Social media",
+ "specialist_kind": "Speaks to people",
+ "roles": [
+  {
+   "title": "The Reputation Guard",
+   "url": "https://coreyjames.ai/agents/roles/reputation-guard/"
+  },
+  {
+   "title": "The Incident Commander",
+   "url": "https://coreyjames.ai/agents/roles/incident-commander/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/incident-communications-officer/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/incident-communications-officer",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

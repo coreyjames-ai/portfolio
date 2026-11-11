@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/launch-campaign-runner/",
+ "kind": "agent-specialist",
+ "title": "Launch Campaign Runner",
+ "subtitle": "From one brief it sends the launch email, the launch text message and WhatsApp template, posts on X and the Facebook Page, cross-posts to other channels, pins the announcement and opens a payment link.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "From one brief it sends the launch email, the launch text message and WhatsApp template, posts on X and the Facebook Page, cross-posts to other channels, pins the announcement and opens a payment link. It then reports the response across all of them.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "a founder or marketing lead with a product launch",
+ "group": "Email, text and messaging",
+ "specialist_kind": "Speaks to people",
+ "roles": [
+  {
+   "title": "The Launch Manager",
+   "url": "https://coreyjames.ai/agents/roles/launch-manager/"
+  },
+  {
+   "title": "The Message Centre",
+   "url": "https://coreyjames.ai/agents/roles/message-centre/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/launch-campaign-runner/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/launch-campaign-runner",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

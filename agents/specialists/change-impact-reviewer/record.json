@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/change-impact-reviewer/",
+ "kind": "agent-specialist",
+ "title": "Change Impact Reviewer",
+ "subtitle": "Maps everything a proposed change touches before anyone approves it and posts the impact summary on the merge request.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Maps everything a proposed change touches before anyone approves it and posts the impact summary on the merge request.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "An engineering manager about to approve a risky change",
+ "group": "Building software",
+ "specialist_kind": "Challenges decisions",
+ "roles": [
+  {
+   "title": "The Change Board",
+   "url": "https://coreyjames.ai/agents/roles/change-board/"
+  },
+  {
+   "title": "The Migration Planner",
+   "url": "https://coreyjames.ai/agents/roles/migration-planner/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/change-impact-reviewer/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/change-impact-reviewer",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/ai-speed-investigator/",
+ "kind": "agent-specialist",
+ "title": "AI Speed Investigator",
+ "subtitle": "This agent finds where the time goes in each AI response, from the full request down to waiting, copying and the slowest steps, and compares serving modes side by side.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "This agent finds where the time goes in each AI response, from the full request down to waiting, copying and the slowest steps, and compares serving modes side by side.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "An AI platform lead whose responses are slower than expected",
+ "group": "AI models and performance",
+ "specialist_kind": "Runs infrastructure",
+ "roles": [
+  {
+   "title": "The Model Launch Manager",
+   "url": "https://coreyjames.ai/agents/roles/model-launch-manager/"
+  },
+  {
+   "title": "The Speed Detective",
+   "url": "https://coreyjames.ai/agents/roles/speed-detective/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/ai-speed-investigator/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/ai-speed-investigator",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

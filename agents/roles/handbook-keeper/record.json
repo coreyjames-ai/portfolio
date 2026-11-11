@@ -1,0 +1,66 @@
+{
+ "url": "https://coreyjames.ai/agents/roles/handbook-keeper/",
+ "kind": "agent-role",
+ "title": "The Handbook Keeper",
+ "subtitle": "For an operations lead whose team runs on a written playbook.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "The agent reads the whole handbook and every automated routine, and finds the rules nobody enforces. It compares the documents with what the code does and rewrites the ones that have drifted, keeping the old versions. Every worker, human or AI, starts a session briefed on the current rules.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "function": "Engineering",
+ "function_url": "https://coreyjames.ai/agents/functions/engineering/",
+ "specialists": [
+  {
+   "title": "Team Handbook Auditor",
+   "url": "https://coreyjames.ai/agents/specialists/team-handbook-auditor/"
+  },
+  {
+   "title": "Documentation Drift Auditor",
+   "url": "https://coreyjames.ai/agents/specialists/documentation-drift-auditor/"
+  },
+  {
+   "title": "Out-of-Date Document Fixer",
+   "url": "https://coreyjames.ai/agents/specialists/out-of-date-document-fixer/"
+  },
+  {
+   "title": "Session Briefer",
+   "url": "https://coreyjames.ai/agents/specialists/session-briefer/"
+  },
+  {
+   "title": "Context Briefer",
+   "url": "https://coreyjames.ai/agents/specialists/context-briefer/"
+  },
+  {
+   "title": "Documentation Reviewer",
+   "url": "https://coreyjames.ai/agents/specialists/documentation-reviewer/"
+  },
+  {
+   "title": "Knowledge Distiller",
+   "url": "https://coreyjames.ai/agents/specialists/knowledge-distiller/"
+  },
+  {
+   "title": "Role Catalogue Updater",
+   "url": "https://coreyjames.ai/agents/specialists/role-catalogue-updater/"
+  }
+ ],
+ "featured": false,
+ "routes": [
+  "An outage becomes a lesson"
+ ],
+ "related": [
+  {
+   "title": "Memory and code intelligence for agents",
+   "url": "https://coreyjames.ai/capabilities/memory-and-code-intelligence-for-agents/",
+   "kind": "Capability"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/roles/handbook-keeper/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/roles/handbook-keeper",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

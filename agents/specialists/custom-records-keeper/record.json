@@ -1,0 +1,28 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/custom-records-keeper/",
+ "kind": "agent-specialist",
+ "title": "Custom Records Keeper",
+ "subtitle": "Keeps the records the business defines for itself, such as vehicles, policies or properties, links each to its customer, and updates or removes them in bulk.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Keeps the records the business defines for itself, such as vehicles, policies or properties, links each to its customer, and updates or removes them in bulk.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "An operations lead whose business tracks something a standard customer record has no place for",
+ "group": "Sales, customers and service",
+ "specialist_kind": "Keeps knowledge",
+ "roles": [
+  {
+   "title": "The Customer Success Manager",
+   "url": "https://coreyjames.ai/agents/roles/customer-success-manager/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/custom-records-keeper/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/custom-records-keeper",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

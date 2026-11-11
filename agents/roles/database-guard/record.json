@@ -1,0 +1,92 @@
+{
+ "url": "https://coreyjames.ai/agents/roles/database-guard/",
+ "kind": "agent-role",
+ "title": "The Database Guard",
+ "subtitle": "For a team whose database takes writes from many directions.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "The agent meters every writer so bulk loads go in only as fast as the database can take them. When pressure rises it slows the loads, and it has an emergency stop. Asked where a row came from, it traces it back to the job that wrote it.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "function": "Infrastructure and operations",
+ "function_url": "https://coreyjames.ai/agents/functions/infrastructure-and-operations/",
+ "specialists": [
+  {
+   "title": "Database Traffic Controller",
+   "url": "https://coreyjames.ai/agents/specialists/database-traffic-controller/"
+  },
+  {
+   "title": "Database Overload Guard",
+   "url": "https://coreyjames.ai/agents/specialists/database-overload-guard/"
+  },
+  {
+   "title": "Write Queue Firefighter",
+   "url": "https://coreyjames.ai/agents/specialists/write-queue-firefighter/"
+  },
+  {
+   "title": "Batch Job Controller",
+   "url": "https://coreyjames.ai/agents/specialists/batch-job-controller/"
+  },
+  {
+   "title": "Data Lineage Investigator",
+   "url": "https://coreyjames.ai/agents/specialists/data-lineage-investigator/"
+  },
+  {
+   "title": "Stored Data Integrity Checker",
+   "url": "https://coreyjames.ai/agents/specialists/stored-data-integrity-checker/"
+  },
+  {
+   "title": "Worker Fleet Scaler",
+   "url": "https://coreyjames.ai/agents/specialists/worker-fleet-scaler/"
+  },
+  {
+   "title": "Throttle Rehearsal Analyst",
+   "url": "https://coreyjames.ai/agents/specialists/throttle-rehearsal-analyst/"
+  },
+  {
+   "title": "Throughput Tuner",
+   "url": "https://coreyjames.ai/agents/specialists/throughput-tuner/"
+  },
+  {
+   "title": "Stuck Job Unblocker",
+   "url": "https://coreyjames.ai/agents/specialists/stuck-job-unblocker/"
+  }
+ ],
+ "featured": false,
+ "routes": [],
+ "related": [
+  {
+   "title": "Budgets and refusals",
+   "url": "https://coreyjames.ai/ideas/budgets-and-refusals/",
+   "kind": "Idea"
+  },
+  {
+   "title": "Append-only, with tombstones and lineage",
+   "url": "https://coreyjames.ai/ideas/append-only-with-lineage/",
+   "kind": "Idea"
+  },
+  {
+   "title": "Pricing writes by what they cost the database",
+   "url": "https://coreyjames.ai/stories/pricing-writes-by-what-they-cost/",
+   "kind": "Engineering story"
+  },
+  {
+   "title": "A write path that sizes itself",
+   "url": "https://coreyjames.ai/stories/a-write-path-that-sizes-itself/",
+   "kind": "Engineering story"
+  },
+  {
+   "title": "196 deadlocks to zero",
+   "url": "https://coreyjames.ai/stories/196-deadlocks-to-zero/",
+   "kind": "Engineering story"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/roles/database-guard/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/roles/database-guard",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

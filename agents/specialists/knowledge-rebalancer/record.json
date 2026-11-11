@@ -1,0 +1,28 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/knowledge-rebalancer/",
+ "kind": "agent-specialist",
+ "title": "Knowledge Rebalancer",
+ "subtitle": "Finds the overcrowded topics, proposes which entries to move at a cautious, balanced or aggressive setting, and shows the plan as a dry run before anything moves.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Finds the overcrowded topics, proposes which entries to move at a cautious, balanced or aggressive setting, and shows the plan as a dry run before anything moves.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A knowledge base owner with some topics overcrowded and others thin",
+ "group": "AI models and performance",
+ "specialist_kind": "Keeps knowledge",
+ "roles": [
+  {
+   "title": "The Knowledge Gardener",
+   "url": "https://coreyjames.ai/agents/roles/knowledge-gardener/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/knowledge-rebalancer/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/knowledge-rebalancer",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

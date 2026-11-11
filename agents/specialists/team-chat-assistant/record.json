@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/team-chat-assistant/",
+ "kind": "agent-specialist",
+ "title": "Team Chat Assistant",
+ "subtitle": "It answers in the same thread using the team's shared memory and documents, and creates or updates documents when asked.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "It answers in the same thread using the team's shared memory and documents, and creates or updates documents when asked.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "Any team that works in a shared chat",
+ "group": "Meetings, voice and the AI colleague",
+ "specialist_kind": "Speaks to people",
+ "roles": [
+  {
+   "title": "The Digital Employee",
+   "url": "https://coreyjames.ai/agents/roles/digital-employee/"
+  },
+  {
+   "title": "The Project Room",
+   "url": "https://coreyjames.ai/agents/roles/project-room/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/team-chat-assistant/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/team-chat-assistant",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

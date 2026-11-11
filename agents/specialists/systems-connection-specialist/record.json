@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/systems-connection-specialist/",
+ "kind": "agent-specialist",
+ "title": "Systems Connection Specialist",
+ "subtitle": "It sets up the connection, issues and rotates its access key, configures the sending system, confirms events arrive, and switches the connection off when it is no longer needed.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "It sets up the connection, issues and rotates its access key, configures the sending system, confirms events arrive, and switches the connection off when it is no longer needed.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "An IT lead or an operations lead connecting a new tool",
+ "group": "Connecting tools and signals",
+ "specialist_kind": "Runs infrastructure",
+ "roles": [
+  {
+   "title": "The Integration Engineer",
+   "url": "https://coreyjames.ai/agents/roles/integration-engineer/"
+  },
+  {
+   "title": "The Systems Bridge",
+   "url": "https://coreyjames.ai/agents/roles/systems-bridge/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/systems-connection-specialist/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/systems-connection-specialist",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

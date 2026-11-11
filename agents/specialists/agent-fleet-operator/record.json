@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/agent-fleet-operator/",
+ "kind": "agent-specialist",
+ "title": "Agent Fleet Operator",
+ "subtitle": "Keeps the agent fleet healthy: who is online, who stopped heart-beating, which machines run old tool catalogs, and where a conversation between agents got stuck.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Keeps the agent fleet healthy: who is online, who stopped heart-beating, which machines run old tool catalogs, and where a conversation between agents got stuck.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "An IT operations lead running many agents across machines",
+ "group": "Managing an AI workforce",
+ "specialist_kind": "Supervises other agents",
+ "roles": [
+  {
+   "title": "The Control Room",
+   "url": "https://coreyjames.ai/agents/roles/control-room/"
+  },
+  {
+   "title": "The Night Shift",
+   "url": "https://coreyjames.ai/agents/roles/night-shift/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/agent-fleet-operator/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/agent-fleet-operator",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

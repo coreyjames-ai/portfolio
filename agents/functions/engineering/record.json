@@ -1,0 +1,116 @@
+{
+ "url": "https://coreyjames.ai/agents/functions/engineering/",
+ "kind": "agent-function",
+ "title": "Engineering",
+ "subtitle": "Planning, building, reviewing and releasing software, with the reasoning kept.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Planning, building, reviewing and releasing software, with the reasoning kept. Roles: The Software Department; The Ticket Clearer; The Programme Office; The Second Opinion; The Change Board; The Due-Diligence Analyst; The Integration Engineer; The Automation Builder; The Record Keeper; The Contractor Pass; The Migration Planner; The Incident Commander; The Follow-Through Engineer; The Handbook Keeper; The Research Desk; The Systems Bridge; The Review Panel.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "roles": [
+  {
+   "title": "The Software Department",
+   "url": "https://coreyjames.ai/agents/roles/software-department/"
+  },
+  {
+   "title": "The Ticket Clearer",
+   "url": "https://coreyjames.ai/agents/roles/ticket-clearer/"
+  },
+  {
+   "title": "The Programme Office",
+   "url": "https://coreyjames.ai/agents/roles/programme-office/"
+  },
+  {
+   "title": "The Second Opinion",
+   "url": "https://coreyjames.ai/agents/roles/second-opinion/"
+  },
+  {
+   "title": "The Change Board",
+   "url": "https://coreyjames.ai/agents/roles/change-board/"
+  },
+  {
+   "title": "The Due-Diligence Analyst",
+   "url": "https://coreyjames.ai/agents/roles/due-diligence-analyst/"
+  },
+  {
+   "title": "The Integration Engineer",
+   "url": "https://coreyjames.ai/agents/roles/integration-engineer/"
+  },
+  {
+   "title": "The Automation Builder",
+   "url": "https://coreyjames.ai/agents/roles/automation-builder/"
+  },
+  {
+   "title": "The Record Keeper",
+   "url": "https://coreyjames.ai/agents/roles/record-keeper/"
+  },
+  {
+   "title": "The Contractor Pass",
+   "url": "https://coreyjames.ai/agents/roles/contractor-pass/"
+  },
+  {
+   "title": "The Migration Planner",
+   "url": "https://coreyjames.ai/agents/roles/migration-planner/"
+  },
+  {
+   "title": "The Incident Commander",
+   "url": "https://coreyjames.ai/agents/roles/incident-commander/"
+  },
+  {
+   "title": "The Follow-Through Engineer",
+   "url": "https://coreyjames.ai/agents/roles/follow-through-engineer/"
+  },
+  {
+   "title": "The Handbook Keeper",
+   "url": "https://coreyjames.ai/agents/roles/handbook-keeper/"
+  },
+  {
+   "title": "The Research Desk",
+   "url": "https://coreyjames.ai/agents/roles/research-desk/"
+  },
+  {
+   "title": "The Systems Bridge",
+   "url": "https://coreyjames.ai/agents/roles/systems-bridge/"
+  },
+  {
+   "title": "The Review Panel",
+   "url": "https://coreyjames.ai/agents/roles/review-panel/"
+  }
+ ],
+ "related": [
+  {
+   "title": "Governed autonomous engineering",
+   "url": "https://coreyjames.ai/capabilities/governed-autonomous-engineering/",
+   "kind": "Capability"
+  },
+  {
+   "title": "Memory and code intelligence for agents",
+   "url": "https://coreyjames.ai/capabilities/memory-and-code-intelligence-for-agents/",
+   "kind": "Capability"
+  },
+  {
+   "title": "Directing AI coding agents at program scale",
+   "url": "https://coreyjames.ai/stories/directing-ai-coding-agents-at-program-scale/",
+   "kind": "Engineering story"
+  },
+  {
+   "title": "Separation of duties for AI work",
+   "url": "https://coreyjames.ai/stories/separation-of-duties-for-ai-work/",
+   "kind": "Engineering story"
+  },
+  {
+   "title": "A coding agent that never holds the keys",
+   "url": "https://coreyjames.ai/stories/a-coding-agent-that-never-holds-the-keys/",
+   "kind": "Engineering story"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/functions/engineering/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/functions/engineering",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

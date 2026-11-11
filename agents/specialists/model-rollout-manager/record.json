@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/model-rollout-manager/",
+ "kind": "agent-specialist",
+ "title": "Model Rollout Manager",
+ "subtitle": "Moves a new model version into service: builds it, sends a harmless test job through, benchmarks it against the current version, brings up new workers, drains the old ones, and puts the old version back if the new one is worse.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Moves a new model version into service: builds it, sends a harmless test job through, benchmarks it against the current version, brings up new workers, drains the old ones, and puts the old version back if the new one is worse.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "An ML platform lead shipping a new model version",
+ "group": "AI models and performance",
+ "specialist_kind": "Runs infrastructure",
+ "roles": [
+  {
+   "title": "The Model Launch Manager",
+   "url": "https://coreyjames.ai/agents/roles/model-launch-manager/"
+  },
+  {
+   "title": "The Model Shrinker",
+   "url": "https://coreyjames.ai/agents/roles/model-shrinker/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/model-rollout-manager/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/model-rollout-manager",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

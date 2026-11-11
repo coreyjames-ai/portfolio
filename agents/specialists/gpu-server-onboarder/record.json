@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/gpu-server-onboarder/",
+ "kind": "agent-specialist",
+ "title": "GPU Server Onboarder",
+ "subtitle": "This agent prepares a newly built AI engine to take work from the shared queue by writing and checking the settings files it needs.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "This agent prepares a newly built AI engine to take work from the shared queue by writing and checking the settings files it needs.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "An engineering lead adding a new GPU server to a shared pool",
+ "group": "AI models and performance",
+ "specialist_kind": "Runs infrastructure",
+ "roles": [
+  {
+   "title": "The Engine Builder",
+   "url": "https://coreyjames.ai/agents/roles/engine-builder/"
+  },
+  {
+   "title": "The Branch Office Engineer",
+   "url": "https://coreyjames.ai/agents/roles/branch-office-engineer/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/gpu-server-onboarder/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/gpu-server-onboarder",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

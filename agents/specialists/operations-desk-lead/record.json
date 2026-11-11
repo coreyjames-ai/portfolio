@@ -1,0 +1,28 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/operations-desk-lead/",
+ "kind": "agent-specialist",
+ "title": "Operations Desk Lead",
+ "subtitle": "Watches for incoming events, opens a finite task for each one, brings the right specialist online, closes the task and stands the specialist down again.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Watches for incoming events, opens a finite task for each one, brings the right specialist online, closes the task and stands the specialist down again.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A founder running support or another always-on function",
+ "group": "Building software",
+ "specialist_kind": "Supervises other agents",
+ "roles": [
+  {
+   "title": "The Operations Desk",
+   "url": "https://coreyjames.ai/agents/roles/operations-desk/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/operations-desk-lead/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/operations-desk-lead",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

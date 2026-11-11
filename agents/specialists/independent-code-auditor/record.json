@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/independent-code-auditor/",
+ "kind": "agent-specialist",
+ "title": "Independent Code Auditor",
+ "subtitle": "Audits a running system read-only in parallel tracks (interfaces, storage, runtime and deployment, test honesty) and reports every finding with file, line and severity against what the documentation claims.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Audits a running system read-only in parallel tracks (interfaces, storage, runtime and deployment, test honesty) and reports every finding with file, line and severity against what the documentation claims.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A CTO who needs an outside read of a system already in production",
+ "group": "Building software",
+ "specialist_kind": "Audits and guards",
+ "roles": [
+  {
+   "title": "The Second Opinion",
+   "url": "https://coreyjames.ai/agents/roles/second-opinion/"
+  },
+  {
+   "title": "The Due-Diligence Analyst",
+   "url": "https://coreyjames.ai/agents/roles/due-diligence-analyst/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/independent-code-auditor/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/independent-code-auditor",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

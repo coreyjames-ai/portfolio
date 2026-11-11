@@ -1,0 +1,80 @@
+{
+ "url": "https://coreyjames.ai/agents/roles/developer-advocate/",
+ "kind": "agent-role",
+ "title": "The Developer Advocate",
+ "subtitle": "For an engineering-led company whose product is hard to explain.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "The agent picks a real part of the product and traces how it works in the code. It writes the explanation in plain language and builds invented screens for the video, so no customer data appears on camera. The post is scheduled, the release notes go to subscribers and the agent joins the community threads where the subject comes up.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "function": "Marketing and audience",
+ "function_url": "https://coreyjames.ai/agents/functions/marketing-and-audience/",
+ "specialists": [
+  {
+   "title": "Engineering Story Writer",
+   "url": "https://coreyjames.ai/agents/specialists/engineering-story-writer/"
+  },
+  {
+   "title": "Code Flow Explainer",
+   "url": "https://coreyjames.ai/agents/specialists/code-flow-explainer/"
+  },
+  {
+   "title": "On-Screen Content Designer",
+   "url": "https://coreyjames.ai/agents/specialists/on-screen-content-designer/"
+  },
+  {
+   "title": "Explainer Video Maker",
+   "url": "https://coreyjames.ai/agents/specialists/explainer-video-maker/"
+  },
+  {
+   "title": "Release Notes Mailer",
+   "url": "https://coreyjames.ai/agents/specialists/release-notes-mailer/"
+  },
+  {
+   "title": "Reddit Community Participant",
+   "url": "https://coreyjames.ai/agents/specialists/reddit-community-participant/"
+  },
+  {
+   "title": "Product Demo Clip Maker",
+   "url": "https://coreyjames.ai/agents/specialists/product-demo-clip-maker/"
+  },
+  {
+   "title": "Portfolio Publisher",
+   "url": "https://coreyjames.ai/agents/specialists/portfolio-publisher/"
+  },
+  {
+   "title": "Research Archivist",
+   "url": "https://coreyjames.ai/agents/specialists/research-archivist/"
+  }
+ ],
+ "featured": false,
+ "routes": [
+  "A topic becomes a week of content"
+ ],
+ "related": [
+  {
+   "title": "Memory and code intelligence for agents",
+   "url": "https://coreyjames.ai/capabilities/memory-and-code-intelligence-for-agents/",
+   "kind": "Capability"
+  },
+  {
+   "title": "Compute first, narrate second",
+   "url": "https://coreyjames.ai/ideas/compute-first-narrate-second/",
+   "kind": "Idea"
+  },
+  {
+   "title": "A code explainer that is not allowed to invent",
+   "url": "https://coreyjames.ai/stories/a-code-explainer-that-is-not-allowed-to-invent/",
+   "kind": "Engineering story"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/roles/developer-advocate/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/roles/developer-advocate",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

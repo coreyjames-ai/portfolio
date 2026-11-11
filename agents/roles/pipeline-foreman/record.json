@@ -1,0 +1,82 @@
+{
+ "url": "https://coreyjames.ai/agents/roles/pipeline-foreman/",
+ "kind": "agent-role",
+ "title": "The Pipeline Foreman",
+ "subtitle": "For a data team lead who needs a new processing job by Thursday.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "The agent generates the skeleton of the job so that only the business logic is left to write. It checks that the job builds, waits for a person to approve the restart and runs a harmless test through it. Once the job is in service the agent starts it, follows it and recovers it, and adds or removes workers as the backlog moves.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "function": "Infrastructure and operations",
+ "function_url": "https://coreyjames.ai/agents/functions/infrastructure-and-operations/",
+ "specialists": [
+  {
+   "title": "Data Job Builder",
+   "url": "https://coreyjames.ai/agents/specialists/data-job-builder/"
+  },
+  {
+   "title": "Service Function Builder",
+   "url": "https://coreyjames.ai/agents/specialists/service-function-builder/"
+  },
+  {
+   "title": "Job Dispatcher",
+   "url": "https://coreyjames.ai/agents/specialists/job-dispatcher/"
+  },
+  {
+   "title": "Worker Fleet Scaler",
+   "url": "https://coreyjames.ai/agents/specialists/worker-fleet-scaler/"
+  },
+  {
+   "title": "Self-Starting Job Scheduler",
+   "url": "https://coreyjames.ai/agents/specialists/self-starting-job-scheduler/"
+  },
+  {
+   "title": "Batch Job Controller",
+   "url": "https://coreyjames.ai/agents/specialists/batch-job-controller/"
+  },
+  {
+   "title": "Internal Automation Builder",
+   "url": "https://coreyjames.ai/agents/specialists/internal-automation-builder/"
+  },
+  {
+   "title": "Database Traffic Controller",
+   "url": "https://coreyjames.ai/agents/specialists/database-traffic-controller/"
+  },
+  {
+   "title": "Launch Pre-flight Checker",
+   "url": "https://coreyjames.ai/agents/specialists/launch-pre-flight-checker/"
+  },
+  {
+   "title": "Smoke Test Runner",
+   "url": "https://coreyjames.ai/agents/specialists/smoke-test-runner/"
+  }
+ ],
+ "featured": false,
+ "routes": [],
+ "related": [
+  {
+   "title": "A human at the privileged step",
+   "url": "https://coreyjames.ai/ideas/a-human-at-the-privileged-step/",
+   "kind": "Idea"
+  },
+  {
+   "title": "Tools that build tools, under governance",
+   "url": "https://coreyjames.ai/stories/tools-that-build-tools-under-governance/",
+   "kind": "Engineering story"
+  },
+  {
+   "title": "A write path that sizes itself",
+   "url": "https://coreyjames.ai/stories/a-write-path-that-sizes-itself/",
+   "kind": "Engineering story"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/roles/pipeline-foreman/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/roles/pipeline-foreman",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

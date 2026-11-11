@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/customer-support-desk-agent/",
+ "kind": "agent-specialist",
+ "title": "Customer Support Desk Agent",
+ "subtitle": "It opens a case, hands it to the right specialist, writes back to the customer by email, and closes the case with a note of what was done.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "It opens a case, hands it to the right specialist, writes back to the customer by email, and closes the case with a note of what was done.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A support desk lead or a founder answering customers alone",
+ "group": "Sales, customers and service",
+ "specialist_kind": "Speaks to people",
+ "roles": [
+  {
+   "title": "The Support Desk",
+   "url": "https://coreyjames.ai/agents/roles/support-desk/"
+  },
+  {
+   "title": "The Front Desk",
+   "url": "https://coreyjames.ai/agents/roles/front-desk/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/customer-support-desk-agent/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/customer-support-desk-agent",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

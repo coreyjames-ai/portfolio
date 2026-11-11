@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/documentation-reviewer/",
+ "kind": "agent-specialist",
+ "title": "Documentation Reviewer",
+ "subtitle": "Checks that the documentation for a change matches what the code now does and lists what is missing.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Checks that the documentation for a change matches what the code now does and lists what is missing.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A team whose documentation trails the code",
+ "group": "Building software",
+ "specialist_kind": "Challenges decisions",
+ "roles": [
+  {
+   "title": "The Handbook Keeper",
+   "url": "https://coreyjames.ai/agents/roles/handbook-keeper/"
+  },
+  {
+   "title": "The Review Panel",
+   "url": "https://coreyjames.ai/agents/roles/review-panel/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/documentation-reviewer/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/documentation-reviewer",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

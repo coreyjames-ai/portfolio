@@ -1,0 +1,36 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/action-item-chaser/",
+ "kind": "agent-specialist",
+ "title": "Action-Item Chaser",
+ "subtitle": "Pulls every promise made in a meeting into a list with owners and due dates, then nudges each owner by chat until the item is done.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Pulls every promise made in a meeting into a list with owners and due dates, then nudges each owner by chat until the item is done.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A project manager",
+ "group": "Meetings, voice and the AI colleague",
+ "specialist_kind": "Speaks to people",
+ "roles": [
+  {
+   "title": "The Chief of Staff",
+   "url": "https://coreyjames.ai/agents/roles/chief-of-staff/"
+  },
+  {
+   "title": "The Meeting Concierge",
+   "url": "https://coreyjames.ai/agents/roles/meeting-concierge/"
+  },
+  {
+   "title": "The Stand-up Host",
+   "url": "https://coreyjames.ai/agents/roles/stand-up-host/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/action-item-chaser/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/action-item-chaser",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

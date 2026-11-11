@@ -1,0 +1,36 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/consent-and-opt-in-officer/",
+ "kind": "agent-specialist",
+ "title": "Consent and Opt-in Officer",
+ "subtitle": "It signs new subscribers up through a confirm-by-email step, records where consent came from, honours every unsubscribe and block, and keeps an export for anyone who asks what is held.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "It signs new subscribers up through a confirm-by-email step, records where consent came from, honours every unsubscribe and block, and keeps an export for anyone who asks what is held.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "a founder or compliance-minded marketing lead",
+ "group": "Email, text and messaging",
+ "specialist_kind": "Audits and guards",
+ "roles": [
+  {
+   "title": "The Email Marketer",
+   "url": "https://coreyjames.ai/agents/roles/email-marketer/"
+  },
+  {
+   "title": "The Message Centre",
+   "url": "https://coreyjames.ai/agents/roles/message-centre/"
+  },
+  {
+   "title": "The Compliance Officer",
+   "url": "https://coreyjames.ai/agents/roles/compliance-officer/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/consent-and-opt-in-officer/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/consent-and-opt-in-officer",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

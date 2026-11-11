@@ -1,0 +1,92 @@
+{
+ "url": "https://coreyjames.ai/agents/roles/engine-builder/",
+ "kind": "agent-role",
+ "title": "The Engine Builder",
+ "subtitle": "For an engineering lead shipping an AI engine to more than one kind of graphics processor.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "The agent takes stock of each machine: memory, model files and idle capacity. It builds the engine for each processor type, runs the tests and measures throughput with the results saved. Where a small helper model shares a card with a large one, it lets requests in only when there is measured room and tells the rest when to try again.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "function": "AI and model teams",
+ "function_url": "https://coreyjames.ai/agents/functions/ai-and-model-teams/",
+ "specialists": [
+  {
+   "title": "GPU Capacity Inventory Clerk",
+   "url": "https://coreyjames.ai/agents/specialists/gpu-capacity-inventory-clerk/"
+  },
+  {
+   "title": "AI Engine Build and Benchmark Agent",
+   "url": "https://coreyjames.ai/agents/specialists/ai-engine-build-and-benchmark-agent/"
+  },
+  {
+   "title": "Performance Benchmark Analyst",
+   "url": "https://coreyjames.ai/agents/specialists/performance-benchmark-analyst/"
+  },
+  {
+   "title": "Shared GPU Traffic Warden",
+   "url": "https://coreyjames.ai/agents/specialists/shared-gpu-traffic-warden/"
+  },
+  {
+   "title": "Model Serving Engineer",
+   "url": "https://coreyjames.ai/agents/specialists/model-serving-engineer/"
+  },
+  {
+   "title": "Release Engineer",
+   "url": "https://coreyjames.ai/agents/specialists/release-engineer/"
+  },
+  {
+   "title": "Porting Pattern Scout",
+   "url": "https://coreyjames.ai/agents/specialists/porting-pattern-scout/"
+  },
+  {
+   "title": "GPU Server Onboarder",
+   "url": "https://coreyjames.ai/agents/specialists/gpu-server-onboarder/"
+  },
+  {
+   "title": "GPU Profiler",
+   "url": "https://coreyjames.ai/agents/specialists/gpu-profiler/"
+  },
+  {
+   "title": "Model Courier",
+   "url": "https://coreyjames.ai/agents/specialists/model-courier/"
+  }
+ ],
+ "featured": false,
+ "routes": [],
+ "related": [
+  {
+   "title": "Custom small models for tool calling and routing",
+   "url": "https://coreyjames.ai/capabilities/small-models-for-tool-calling-and-routing/",
+   "kind": "Capability"
+  },
+  {
+   "title": "Budgets and refusals",
+   "url": "https://coreyjames.ai/ideas/budgets-and-refusals/",
+   "kind": "Idea"
+  },
+  {
+   "title": "A router beside a production model",
+   "url": "https://coreyjames.ai/stories/a-router-beside-a-production-model/",
+   "kind": "Engineering story"
+  },
+  {
+   "title": "Bringing a serving stack up on new silicon",
+   "url": "https://coreyjames.ai/stories/bringing-a-serving-stack-up-on-new-silicon/",
+   "kind": "Engineering story"
+  },
+  {
+   "title": "Engines for the card you have",
+   "url": "https://coreyjames.ai/stories/engines-for-the-card-you-have/",
+   "kind": "Engineering story"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/roles/engine-builder/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/roles/engine-builder",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

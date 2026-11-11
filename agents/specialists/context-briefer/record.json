@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/context-briefer/",
+ "kind": "agent-specialist",
+ "title": "Context Briefer",
+ "subtitle": "Puts the most relevant past notes and related code in front of the assistant at the moment it needs them.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Puts the most relevant past notes and related code in front of the assistant at the moment it needs them. It weighs what the session has been working on, ranks the notes, filters out near-duplicates and avoids repeating the same topic on the next step.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A team using AI coding assistants",
+ "group": "Code intelligence and team memory",
+ "specialist_kind": "Keeps knowledge",
+ "roles": [
+  {
+   "title": "The Handbook Keeper",
+   "url": "https://coreyjames.ai/agents/roles/handbook-keeper/"
+  },
+  {
+   "title": "The Institutional Memory",
+   "url": "https://coreyjames.ai/agents/roles/institutional-memory/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/context-briefer/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/context-briefer",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

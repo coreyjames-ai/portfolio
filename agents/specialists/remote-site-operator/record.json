@@ -1,0 +1,28 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/remote-site-operator/",
+ "kind": "agent-specialist",
+ "title": "Remote Site Operator",
+ "subtitle": "Joins a new remote machine to the fleet, gives it its own certificates, copies the models across, keeps it reachable without opening any inbound door in the firewall, and retires it cleanly when it is no longer needed.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Joins a new remote machine to the fleet, gives it its own certificates, copies the models across, keeps it reachable without opening any inbound door in the firewall, and retires it cleanly when it is no longer needed. You get remote hardware that behaves like the box under your desk.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "An infrastructure lead with machines in other rooms, offices or rented data centres",
+ "group": "Machines, data and operations",
+ "specialist_kind": "Runs infrastructure",
+ "roles": [
+  {
+   "title": "The Branch Office Engineer",
+   "url": "https://coreyjames.ai/agents/roles/branch-office-engineer/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/remote-site-operator/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/remote-site-operator",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

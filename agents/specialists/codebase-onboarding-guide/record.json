@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/codebase-onboarding-guide/",
+ "kind": "agent-specialist",
+ "title": "Codebase Onboarding Guide",
+ "subtitle": "Answers a newcomer's questions about how the code works with the exact files and lines involved, plus the reference documents and past decisions behind them.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Answers a newcomer's questions about how the code works with the exact files and lines involved, plus the reference documents and past decisions behind them.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A new engineer joining a large codebase",
+ "group": "Building software",
+ "specialist_kind": "Speaks to people",
+ "roles": [
+  {
+   "title": "The Onboarding Buddy",
+   "url": "https://coreyjames.ai/agents/roles/onboarding-buddy/"
+  },
+  {
+   "title": "The Code Guide",
+   "url": "https://coreyjames.ai/agents/roles/code-guide/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/codebase-onboarding-guide/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/codebase-onboarding-guide",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

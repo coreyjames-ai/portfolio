@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/serving-capacity-tuner/",
+ "kind": "agent-specialist",
+ "title": "Serving Capacity Tuner",
+ "subtitle": "Sets how much GPU memory holds conversations in progress and when new requests wait, then measures how many run at once.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Sets how much GPU memory holds conversations in progress and when new requests wait, then measures how many run at once.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "An AI lead whose model server handles fewer conversations than it should",
+ "group": "AI models and performance",
+ "specialist_kind": "Runs infrastructure",
+ "roles": [
+  {
+   "title": "The Model Launch Manager",
+   "url": "https://coreyjames.ai/agents/roles/model-launch-manager/"
+  },
+  {
+   "title": "The Speed Detective",
+   "url": "https://coreyjames.ai/agents/roles/speed-detective/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/serving-capacity-tuner/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/serving-capacity-tuner",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

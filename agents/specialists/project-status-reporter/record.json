@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/project-status-reporter/",
+ "kind": "agent-specialist",
+ "title": "Project Status Reporter",
+ "subtitle": "Reads where each project stands and gives a short spoken update in the meeting, with a written version in the meeting chat.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Reads where each project stands and gives a short spoken update in the meeting, with a written version in the meeting chat.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A founder or client-facing lead",
+ "group": "Meetings, voice and the AI colleague",
+ "specialist_kind": "Speaks to people",
+ "roles": [
+  {
+   "title": "The Pocket Operator",
+   "url": "https://coreyjames.ai/agents/roles/pocket-operator/"
+  },
+  {
+   "title": "The Stand-up Host",
+   "url": "https://coreyjames.ai/agents/roles/stand-up-host/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/project-status-reporter/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/project-status-reporter",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

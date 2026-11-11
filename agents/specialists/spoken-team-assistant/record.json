@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/spoken-team-assistant/",
+ "kind": "agent-specialist",
+ "title": "Spoken Team Assistant",
+ "subtitle": "It answers a spoken question with a short reply out loud and posts the full written answer in the right chat room.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "It answers a spoken question with a short reply out loud and posts the full written answer in the right chat room. It can move between rooms, address a teammate, start a panel discussion or hand heavy work to a stronger model.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A manager who would rather talk than type",
+ "group": "Meetings, voice and the AI colleague",
+ "specialist_kind": "Speaks to people",
+ "roles": [
+  {
+   "title": "The Digital Employee",
+   "url": "https://coreyjames.ai/agents/roles/digital-employee/"
+  },
+  {
+   "title": "The Front Desk",
+   "url": "https://coreyjames.ai/agents/roles/front-desk/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/spoken-team-assistant/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/spoken-team-assistant",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

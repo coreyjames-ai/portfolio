@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/integration-desk/",
+ "kind": "agent-specialist",
+ "title": "Integration Desk",
+ "subtitle": "It offers every question type as a plain web address with a published description, returns answers as data or as readable text, and supports the standard search-and-fetch pattern that chat assistants use.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "It offers every question type as a plain web address with a published description, returns answers as data or as readable text, and supports the standard search-and-fetch pattern that chat assistants use.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A team that wants to plug the portfolio into its own assistant or tools",
+ "group": "Connecting tools and signals",
+ "specialist_kind": "Speaks to people",
+ "roles": [
+  {
+   "title": "The Recruiter's Counterpart",
+   "url": "https://coreyjames.ai/agents/roles/recruiters-counterpart/"
+  },
+  {
+   "title": "The Assistant-Ready Website",
+   "url": "https://coreyjames.ai/agents/roles/assistant-ready-website/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/integration-desk/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/integration-desk",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

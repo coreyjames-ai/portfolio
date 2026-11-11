@@ -1,0 +1,87 @@
+{
+ "url": "https://coreyjames.ai/agents/roles/research-lab/",
+ "kind": "agent-role",
+ "title": "The Research Lab",
+ "subtitle": "For a research director running an AI program with several lines of work.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "The agent splits the program among specialists who each own their files, and keeps processor time and final assembly to itself. One specialist captures what a model does internally across a large prompt set. Another tests ways to compress what the model holds in memory and measures what each costs in accuracy. Results are stored by version, and when storage reports a fault, lost items go back for reprocessing.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "function": "AI and model teams",
+ "function_url": "https://coreyjames.ai/agents/functions/ai-and-model-teams/",
+ "specialists": [
+  {
+   "title": "AI Research Team Lead",
+   "url": "https://coreyjames.ai/agents/specialists/ai-research-team-lead/"
+  },
+  {
+   "title": "Model Insight Extractor",
+   "url": "https://coreyjames.ai/agents/specialists/model-insight-extractor/"
+  },
+  {
+   "title": "Memory Compression Researcher",
+   "url": "https://coreyjames.ai/agents/specialists/memory-compression-researcher/"
+  },
+  {
+   "title": "AI Experiment Runner",
+   "url": "https://coreyjames.ai/agents/specialists/ai-experiment-runner/"
+  },
+  {
+   "title": "Model Evaluation Analyst",
+   "url": "https://coreyjames.ai/agents/specialists/model-evaluation-analyst/"
+  },
+  {
+   "title": "Research Data Archivist",
+   "url": "https://coreyjames.ai/agents/specialists/research-data-archivist/"
+  },
+  {
+   "title": "Storage Incident Handler",
+   "url": "https://coreyjames.ai/agents/specialists/storage-incident-handler/"
+  },
+  {
+   "title": "Failed Item Replayer",
+   "url": "https://coreyjames.ai/agents/specialists/failed-item-replayer/"
+  },
+  {
+   "title": "Bulk Inference Run Manager",
+   "url": "https://coreyjames.ai/agents/specialists/bulk-inference-run-manager/"
+  },
+  {
+   "title": "Training Data Producer",
+   "url": "https://coreyjames.ai/agents/specialists/training-data-producer/"
+  }
+ ],
+ "featured": false,
+ "routes": [],
+ "related": [
+  {
+   "title": "High-throughput batch inference and embeddings",
+   "url": "https://coreyjames.ai/capabilities/high-throughput-batch-inference/",
+   "kind": "Capability"
+  },
+  {
+   "title": "Bigger models and longer context on fixed GPU memory",
+   "url": "https://coreyjames.ai/capabilities/longer-context-on-the-gpus-you-own/",
+   "kind": "Capability"
+  },
+  {
+   "title": "A detector for a silent corruption",
+   "url": "https://coreyjames.ai/stories/a-detector-for-a-silent-corruption/",
+   "kind": "Engineering story"
+  },
+  {
+   "title": "Judge a representation by the bytes it stops moving",
+   "url": "https://coreyjames.ai/stories/judge-a-representation-by-the-bytes-it-stops-moving/",
+   "kind": "Engineering story"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/roles/research-lab/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/roles/research-lab",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

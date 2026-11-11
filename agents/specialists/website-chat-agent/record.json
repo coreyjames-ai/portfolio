@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/website-chat-agent/",
+ "kind": "agent-specialist",
+ "title": "Website Chat Agent",
+ "subtitle": "It answers visitors in the website chat as a named agent, corrects or removes its own messages, and sends proactive messages such as order updates or announcements to one visitor or a batch.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "It answers visitors in the website chat as a named agent, corrects or removes its own messages, and sends proactive messages such as order updates or announcements to one visitor or a batch.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "a support desk or online shop",
+ "group": "Sales, customers and service",
+ "specialist_kind": "Speaks to people",
+ "roles": [
+  {
+   "title": "The Lead Catcher",
+   "url": "https://coreyjames.ai/agents/roles/lead-catcher/"
+  },
+  {
+   "title": "The Shop Manager",
+   "url": "https://coreyjames.ai/agents/roles/shop-manager/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/website-chat-agent/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/website-chat-agent",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

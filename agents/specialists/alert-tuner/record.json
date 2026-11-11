@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/alert-tuner/",
+ "kind": "agent-specialist",
+ "title": "Alert Tuner",
+ "subtitle": "This agent keeps alert rules and text-message delivery working by testing each rule and its route from start to finish.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "This agent keeps alert rules and text-message delivery working by testing each rule and its route from start to finish.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "An IT operations lead who gets too many or too few alerts",
+ "group": "Machines, data and operations",
+ "specialist_kind": "Runs infrastructure",
+ "roles": [
+  {
+   "title": "The Night Shift",
+   "url": "https://coreyjames.ai/agents/roles/night-shift/"
+  },
+  {
+   "title": "The Watch Office",
+   "url": "https://coreyjames.ai/agents/roles/watch-office/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/alert-tuner/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/alert-tuner",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

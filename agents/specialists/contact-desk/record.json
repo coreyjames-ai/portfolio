@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/contact-desk/",
+ "kind": "agent-specialist",
+ "title": "Contact Desk",
+ "subtitle": "It takes a message from a visitor, a browser assistant or another company's agent and delivers it only when the sender has given their own name and email.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "It takes a message from a visitor, a browser assistant or another company's agent and delivers it only when the sender has given their own name and email.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "Anyone who wants to reach the person behind the work",
+ "group": "The public front door",
+ "specialist_kind": "Speaks to people",
+ "roles": [
+  {
+   "title": "The Recruiter's Counterpart",
+   "url": "https://coreyjames.ai/agents/roles/recruiters-counterpart/"
+  },
+  {
+   "title": "The Assistant-Ready Website",
+   "url": "https://coreyjames.ai/agents/roles/assistant-ready-website/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/contact-desk/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/contact-desk",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

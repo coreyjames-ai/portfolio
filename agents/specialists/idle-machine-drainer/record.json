@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/idle-machine-drainer/",
+ "kind": "agent-specialist",
+ "title": "Idle Machine Drainer",
+ "subtitle": "Sets how long a machine may sit idle, empties its queues when the time is up and shuts it down.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Sets how long a machine may sit idle, empties its queues when the time is up and shuts it down.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "An owner paying for GPUs that sit waiting",
+ "group": "Machines, data and operations",
+ "specialist_kind": "Runs infrastructure",
+ "roles": [
+  {
+   "title": "The Spend Controller",
+   "url": "https://coreyjames.ai/agents/roles/spend-controller/"
+  },
+  {
+   "title": "The Branch Office Engineer",
+   "url": "https://coreyjames.ai/agents/roles/branch-office-engineer/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/idle-machine-drainer/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/idle-machine-drainer",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/incident-code-locator/",
+ "kind": "agent-specialist",
+ "title": "Incident Code Locator",
+ "subtitle": "Finds the code that produced the error, traces what depends on it, explains the failure path, and leaves the finding in the team lead's inbox.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Finds the code that produced the error, traces what depends on it, explains the failure path, and leaves the finding in the team lead's inbox.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "An on-call engineer or IT operations lead",
+ "group": "Code intelligence and team memory",
+ "specialist_kind": "Keeps knowledge",
+ "roles": [
+  {
+   "title": "The Support Desk",
+   "url": "https://coreyjames.ai/agents/roles/support-desk/"
+  },
+  {
+   "title": "The Incident Commander",
+   "url": "https://coreyjames.ai/agents/roles/incident-commander/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/incident-code-locator/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/incident-code-locator",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

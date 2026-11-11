@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/model-evaluation-analyst/",
+ "kind": "agent-specialist",
+ "title": "Model Evaluation Analyst",
+ "subtitle": "It compares compressed variants of a model against the original on fixed prompts and scored tasks, and it checks that a new model endpoint calls tools correctly before anyone relies on it.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "It compares compressed variants of a model against the original on fixed prompts and scored tasks, and it checks that a new model endpoint calls tools correctly before anyone relies on it.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A machine-learning platform lead choosing a compressed model or a new model endpoint",
+ "group": "AI models and performance",
+ "specialist_kind": "Runs infrastructure",
+ "roles": [
+  {
+   "title": "The Model Shrinker",
+   "url": "https://coreyjames.ai/agents/roles/model-shrinker/"
+  },
+  {
+   "title": "The Research Lab",
+   "url": "https://coreyjames.ai/agents/roles/research-lab/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/model-evaluation-analyst/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/model-evaluation-analyst",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

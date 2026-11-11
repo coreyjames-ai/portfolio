@@ -1,0 +1,28 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/queue-priority-balancer/",
+ "kind": "agent-specialist",
+ "title": "Queue Priority Balancer",
+ "subtitle": "Sets how worker time is shared between quick updates and bulk loads, and switches either line off during maintenance.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Sets how worker time is shared between quick updates and bulk loads, and switches either line off during maintenance.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A data team lead whose quick updates wait behind bulk loads",
+ "group": "Machines, data and operations",
+ "specialist_kind": "Runs infrastructure",
+ "roles": [
+  {
+   "title": "The Housekeeper",
+   "url": "https://coreyjames.ai/agents/roles/housekeeper/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/queue-priority-balancer/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/queue-priority-balancer",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

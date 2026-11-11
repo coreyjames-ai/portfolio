@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/x-conversation-scout/",
+ "kind": "agent-specialist",
+ "title": "X Conversation Scout",
+ "subtitle": "It finds the live conversations worth joining, the accounts like the brand's best followers, and the hashtags and phrases actually being used, and keeps a history of what it has seen.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "It finds the live conversations worth joining, the accounts like the brand's best followers, and the hashtags and phrases actually being used, and keeps a history of what it has seen.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "a social media manager or founder",
+ "group": "Social media",
+ "specialist_kind": "Does the work",
+ "roles": [
+  {
+   "title": "The Conversation Finder",
+   "url": "https://coreyjames.ai/agents/roles/conversation-finder/"
+  },
+  {
+   "title": "The Rapid Responder",
+   "url": "https://coreyjames.ai/agents/roles/rapid-responder/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/x-conversation-scout/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/x-conversation-scout",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

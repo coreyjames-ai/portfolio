@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/change-risk-reviewer/",
+ "kind": "agent-specialist",
+ "title": "Change Risk Reviewer",
+ "subtitle": "Before a change goes in, this agent works out how risky it is from what it touches, maps everything that depends on it and asks for the matching level of checking.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Before a change goes in, this agent works out how risky it is from what it touches, maps everything that depends on it and asks for the matching level of checking.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "An engineering manager who wants risky changes looked at harder",
+ "group": "Building software",
+ "specialist_kind": "Challenges decisions",
+ "roles": [
+  {
+   "title": "The Change Board",
+   "url": "https://coreyjames.ai/agents/roles/change-board/"
+  },
+  {
+   "title": "The Safe Change Desk",
+   "url": "https://coreyjames.ai/agents/roles/safe-change-desk/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/change-risk-reviewer/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/change-risk-reviewer",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

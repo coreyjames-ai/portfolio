@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/gpu-spend-and-power-guard/",
+ "kind": "agent-specialist",
+ "title": "GPU Spend and Power Guard",
+ "subtitle": "Keeps rendering inside the daily spend limit and the office's power limit: no job starts without budget, and only one graphics card runs flat out at a time.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Keeps rendering inside the daily spend limit and the office's power limit: no job starts without budget, and only one graphics card runs flat out at a time.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A finance lead or IT operations lead",
+ "group": "Machines, data and operations",
+ "specialist_kind": "Audits and guards",
+ "roles": [
+  {
+   "title": "The Spend Controller",
+   "url": "https://coreyjames.ai/agents/roles/spend-controller/"
+  },
+  {
+   "title": "The Studio Engineer",
+   "url": "https://coreyjames.ai/agents/roles/studio-engineer/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/gpu-spend-and-power-guard/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/gpu-spend-and-power-guard",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

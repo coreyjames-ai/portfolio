@@ -1,0 +1,36 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/reference-researcher/",
+ "kind": "agent-specialist",
+ "title": "Reference Researcher",
+ "subtitle": "Before anyone writes code, finds how the specification, the vendor manual, a library's source or a documentation website handles the problem, and returns cited sections with page numbers or file paths.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Before anyone writes code, finds how the specification, the vendor manual, a library's source or a documentation website handles the problem, and returns cited sections with page numbers or file paths.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "An architect or engineer about to build something that standards, vendor documentation or open libraries already cover",
+ "group": "Code intelligence and team memory",
+ "specialist_kind": "Keeps knowledge",
+ "roles": [
+  {
+   "title": "The Sales Engineer",
+   "url": "https://coreyjames.ai/agents/roles/sales-engineer/"
+  },
+  {
+   "title": "The Research Desk",
+   "url": "https://coreyjames.ai/agents/roles/research-desk/"
+  },
+  {
+   "title": "The Code Guide",
+   "url": "https://coreyjames.ai/agents/roles/code-guide/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/reference-researcher/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/reference-researcher",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

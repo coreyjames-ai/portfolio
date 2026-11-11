@@ -1,0 +1,36 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/campaign-results-analyst/",
+ "kind": "agent-specialist",
+ "title": "Campaign Results Analyst",
+ "subtitle": "It reads how each email went, which version of an A/B test won, what each campaign earned in orders, and gives a plain recommendation for the next send.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "It reads how each email went, which version of an A/B test won, what each campaign earned in orders, and gives a plain recommendation for the next send.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "a marketing lead",
+ "group": "Email, text and messaging",
+ "specialist_kind": "Does the work",
+ "roles": [
+  {
+   "title": "The Morning Brief",
+   "url": "https://coreyjames.ai/agents/roles/morning-brief/"
+  },
+  {
+   "title": "The Week in Review",
+   "url": "https://coreyjames.ai/agents/roles/week-in-review/"
+  },
+  {
+   "title": "The Newsletter Editor",
+   "url": "https://coreyjames.ai/agents/roles/newsletter-editor/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/campaign-results-analyst/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/campaign-results-analyst",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/capacity-planner/",
+ "kind": "agent-specialist",
+ "title": "Capacity Planner",
+ "subtitle": "Reads how fast each card runs, how full the queues and the database are, what is running now and what spot GPUs cost, then proposes where the next workload should go and whether renting is worth it.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Reads how fast each card runs, how full the queues and the database are, what is running now and what spot GPUs cost, then proposes where the next workload should go and whether renting is worth it.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "An infrastructure lead deciding what to buy or rent",
+ "group": "Machines, data and operations",
+ "specialist_kind": "Runs infrastructure",
+ "roles": [
+  {
+   "title": "The Model Launch Manager",
+   "url": "https://coreyjames.ai/agents/roles/model-launch-manager/"
+  },
+  {
+   "title": "The Bulk Run Manager",
+   "url": "https://coreyjames.ai/agents/roles/bulk-run-manager/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/capacity-planner/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/capacity-planner",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

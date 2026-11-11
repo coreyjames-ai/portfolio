@@ -1,0 +1,64 @@
+{
+ "url": "https://coreyjames.ai/agents/functions/meetings-and-teamwork/",
+ "kind": "agent-function",
+ "title": "Meetings and teamwork",
+ "subtitle": "Agents that sit in the meeting, speak, present and follow through.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Agents that sit in the meeting, speak, present and follow through. Roles: The Presenter; The Stand-up Host; The Company Librarian; The Onboarding Buddy.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "roles": [
+  {
+   "title": "The Presenter",
+   "url": "https://coreyjames.ai/agents/roles/presenter/"
+  },
+  {
+   "title": "The Stand-up Host",
+   "url": "https://coreyjames.ai/agents/roles/stand-up-host/"
+  },
+  {
+   "title": "The Company Librarian",
+   "url": "https://coreyjames.ai/agents/roles/company-librarian/"
+  },
+  {
+   "title": "The Onboarding Buddy",
+   "url": "https://coreyjames.ai/agents/roles/onboarding-buddy/"
+  }
+ ],
+ "related": [
+  {
+   "title": "AI teammates inside Microsoft Teams and team chat",
+   "url": "https://coreyjames.ai/capabilities/ai-teammates-in-teams-and-chat/",
+   "kind": "Capability"
+  },
+  {
+   "title": "Voice agents in calls and meetings",
+   "url": "https://coreyjames.ai/capabilities/voice-agents-in-meetings/",
+   "kind": "Capability"
+  },
+  {
+   "title": "Memory and code intelligence for agents",
+   "url": "https://coreyjames.ai/capabilities/memory-and-code-intelligence-for-agents/",
+   "kind": "Capability"
+  },
+  {
+   "title": "A meeting attendee that will not fake it",
+   "url": "https://coreyjames.ai/stories/a-meeting-attendee-that-will-not-fake-it/",
+   "kind": "Engineering story"
+  },
+  {
+   "title": "A self-hosted colleague in a Teams call",
+   "url": "https://coreyjames.ai/stories/a-self-hosted-colleague-in-a-teams-call/",
+   "kind": "Engineering story"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/functions/meetings-and-teamwork/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/functions/meetings-and-teamwork",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

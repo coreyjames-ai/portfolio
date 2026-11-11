@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/session-briefer/",
+ "kind": "agent-specialist",
+ "title": "Session Briefer",
+ "subtitle": "It briefs the agent on the current goal and the state of the project before any work begins.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "It briefs the agent on the current goal and the state of the project before any work begins.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "An engineering manager who needs every agent to start with the same picture",
+ "group": "Managing an AI workforce",
+ "specialist_kind": "Keeps knowledge",
+ "roles": [
+  {
+   "title": "The Handbook Keeper",
+   "url": "https://coreyjames.ai/agents/roles/handbook-keeper/"
+  },
+  {
+   "title": "The Team Architect",
+   "url": "https://coreyjames.ai/agents/roles/team-architect/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/session-briefer/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/session-briefer",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

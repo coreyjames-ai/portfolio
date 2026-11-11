@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/supplier-support-liaison/",
+ "kind": "agent-specialist",
+ "title": "Supplier Support Liaison",
+ "subtitle": "Writes up the unexplained problem with its evidence, raises it with the supplier's support, follows the case and reports the answer.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Writes up the unexplained problem with its evidence, raises it with the supplier's support, follows the case and reports the answer.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "An operations lead with a problem that sits on the supplier's side",
+ "group": "Connecting tools and signals",
+ "specialist_kind": "Speaks to people",
+ "roles": [
+  {
+   "title": "The Integration Engineer",
+   "url": "https://coreyjames.ai/agents/roles/integration-engineer/"
+  },
+  {
+   "title": "The Incident Commander",
+   "url": "https://coreyjames.ai/agents/roles/incident-commander/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/supplier-support-liaison/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/supplier-support-liaison",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

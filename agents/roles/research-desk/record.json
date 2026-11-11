@@ -1,0 +1,68 @@
+{
+ "url": "https://coreyjames.ai/agents/roles/research-desk/",
+ "kind": "agent-role",
+ "title": "The Research Desk",
+ "subtitle": "For anyone with a question that needs digging.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "The agent reads the relevant files, harvests the documentation sites and visits the pages a signed-in browser can reach. It recalls related work the team did before. The answer comes back as a structured summary with its sources, and as a document when the question was large.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "function": "Engineering",
+ "function_url": "https://coreyjames.ai/agents/functions/engineering/",
+ "specialists": [
+  {
+   "title": "Research Assistant",
+   "url": "https://coreyjames.ai/agents/specialists/research-assistant/"
+  },
+  {
+   "title": "Browser Research Assistant",
+   "url": "https://coreyjames.ai/agents/specialists/browser-research-assistant/"
+  },
+  {
+   "title": "Reference Researcher",
+   "url": "https://coreyjames.ai/agents/specialists/reference-researcher/"
+  },
+  {
+   "title": "Technical Due-diligence Researcher",
+   "url": "https://coreyjames.ai/agents/specialists/technical-due-diligence-researcher/"
+  },
+  {
+   "title": "Documentation Site Harvester",
+   "url": "https://coreyjames.ai/agents/specialists/documentation-site-harvester/"
+  },
+  {
+   "title": "Document Writer and Editor",
+   "url": "https://coreyjames.ai/agents/specialists/document-writer-and-editor/"
+  },
+  {
+   "title": "Feasibility Study Coordinator",
+   "url": "https://coreyjames.ai/agents/specialists/feasibility-study-coordinator/"
+  },
+  {
+   "title": "Technical Document Librarian",
+   "url": "https://coreyjames.ai/agents/specialists/technical-document-librarian/"
+  },
+  {
+   "title": "Third-Party Integration Researcher",
+   "url": "https://coreyjames.ai/agents/specialists/third-party-integration-researcher/"
+  }
+ ],
+ "featured": false,
+ "routes": [],
+ "related": [
+  {
+   "title": "Memory and code intelligence for agents",
+   "url": "https://coreyjames.ai/capabilities/memory-and-code-intelligence-for-agents/",
+   "kind": "Capability"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/roles/research-desk/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/roles/research-desk",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

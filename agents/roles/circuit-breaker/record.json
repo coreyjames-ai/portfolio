@@ -1,0 +1,77 @@
+{
+ "url": "https://coreyjames.ai/agents/roles/circuit-breaker/",
+ "kind": "agent-role",
+ "title": "The Circuit Breaker",
+ "subtitle": "For an AI operations lead who needs a stop button and a paper trail.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "A new agent is inspected before it joins: identity, access and workspace. While the team works, every start, failure and recovery is announced in the team chat. When one agent says another never answered, the agent follows that message hop by hop and names where it stopped. If a role misbehaves, every agent in that role is stopped at once, and the record shows what each one did.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "function": "AI and model teams",
+ "function_url": "https://coreyjames.ai/agents/functions/ai-and-model-teams/",
+ "specialists": [
+  {
+   "title": "New Agent Pre-flight Inspector",
+   "url": "https://coreyjames.ai/agents/specialists/new-agent-pre-flight-inspector/"
+  },
+  {
+   "title": "Live Operations Announcer",
+   "url": "https://coreyjames.ai/agents/specialists/live-operations-announcer/"
+  },
+  {
+   "title": "Lost Message Tracer",
+   "url": "https://coreyjames.ai/agents/specialists/lost-message-tracer/"
+  },
+  {
+   "title": "Emergency Stop Officer",
+   "url": "https://coreyjames.ai/agents/specialists/emergency-stop-officer/"
+  },
+  {
+   "title": "Agent Activity Auditor",
+   "url": "https://coreyjames.ai/agents/specialists/agent-activity-auditor/"
+  },
+  {
+   "title": "Pause and Resume Controller",
+   "url": "https://coreyjames.ai/agents/specialists/pause-and-resume-controller/"
+  },
+  {
+   "title": "Project Recovery Specialist",
+   "url": "https://coreyjames.ai/agents/specialists/project-recovery-specialist/"
+  },
+  {
+   "title": "AI Fleet Supervisor",
+   "url": "https://coreyjames.ai/agents/specialists/ai-fleet-supervisor/"
+  },
+  {
+   "title": "Scope Escalation Sentinel",
+   "url": "https://coreyjames.ai/agents/specialists/scope-escalation-sentinel/"
+  },
+  {
+   "title": "Operations Audit Clerk",
+   "url": "https://coreyjames.ai/agents/specialists/operations-audit-clerk/"
+  }
+ ],
+ "featured": true,
+ "routes": [],
+ "related": [
+  {
+   "title": "Governed autonomous engineering",
+   "url": "https://coreyjames.ai/capabilities/governed-autonomous-engineering/",
+   "kind": "Capability"
+  },
+  {
+   "title": "Authority outside the model",
+   "url": "https://coreyjames.ai/ideas/authority-outside-the-model/",
+   "kind": "Idea"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/roles/circuit-breaker/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/roles/circuit-breaker",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

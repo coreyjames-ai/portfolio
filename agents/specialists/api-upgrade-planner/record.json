@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/api-upgrade-planner/",
+ "kind": "agent-specialist",
+ "title": "API Upgrade Planner",
+ "subtitle": "Reads the documentation for the new version, finds every place the old interface is used, sizes the change, and drafts the task plan for the upgrade.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Reads the documentation for the new version, finds every place the old interface is used, sizes the change, and drafts the task plan for the upgrade.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "An engineering lead facing a vendor or internal API change",
+ "group": "Code intelligence and team memory",
+ "specialist_kind": "Does the work",
+ "roles": [
+  {
+   "title": "The Integration Engineer",
+   "url": "https://coreyjames.ai/agents/roles/integration-engineer/"
+  },
+  {
+   "title": "The Migration Planner",
+   "url": "https://coreyjames.ai/agents/roles/migration-planner/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/api-upgrade-planner/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/api-upgrade-planner",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/stored-data-integrity-checker/",
+ "kind": "agent-specialist",
+ "title": "Stored Data Integrity Checker",
+ "subtitle": "Re-checks that each stored data file is intact and correctly laid out, and reports any file that fails.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Re-checks that each stored data file is intact and correctly laid out, and reports any file that fails.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A research lead who cannot afford silently damaged files",
+ "group": "AI models and performance",
+ "specialist_kind": "Audits and guards",
+ "roles": [
+  {
+   "title": "The Archive Keeper",
+   "url": "https://coreyjames.ai/agents/roles/archive-keeper/"
+  },
+  {
+   "title": "The Database Guard",
+   "url": "https://coreyjames.ai/agents/roles/database-guard/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/stored-data-integrity-checker/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/stored-data-integrity-checker",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

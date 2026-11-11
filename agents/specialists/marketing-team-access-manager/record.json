@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/marketing-team-access-manager/",
+ "kind": "agent-specialist",
+ "title": "Marketing Team Access Manager",
+ "subtitle": "It invites colleagues to the email and messaging account, gives each the permissions their job needs, and removes access when someone leaves.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "It invites colleagues to the email and messaging account, gives each the permissions their job needs, and removes access when someone leaves.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "a marketing operations lead",
+ "group": "Email, text and messaging",
+ "specialist_kind": "Audits and guards",
+ "roles": [
+  {
+   "title": "The Agency Back Office",
+   "url": "https://coreyjames.ai/agents/roles/agency-back-office/"
+  },
+  {
+   "title": "The Onboarding Buddy",
+   "url": "https://coreyjames.ai/agents/roles/onboarding-buddy/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/marketing-team-access-manager/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/marketing-team-access-manager",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

@@ -1,0 +1,36 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/revenue-attribution-analyst/",
+ "kind": "agent-specialist",
+ "title": "Revenue Attribution Analyst",
+ "subtitle": "It shows which email campaigns, text campaigns and automated journeys brought in orders and revenue, and which products sold through them.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "It shows which email campaigns, text campaigns and automated journeys brought in orders and revenue, and which products sold through them.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "a marketing or finance lead",
+ "group": "Store, loyalty and payments",
+ "specialist_kind": "Does the work",
+ "roles": [
+  {
+   "title": "The Week in Review",
+   "url": "https://coreyjames.ai/agents/roles/week-in-review/"
+  },
+  {
+   "title": "The Email Marketer",
+   "url": "https://coreyjames.ai/agents/roles/email-marketer/"
+  },
+  {
+   "title": "The Ad Buyer",
+   "url": "https://coreyjames.ai/agents/roles/ad-buyer/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/revenue-attribution-analyst/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/revenue-attribution-analyst",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

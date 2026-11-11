@@ -1,0 +1,73 @@
+{
+ "url": "https://coreyjames.ai/agents/roles/meeting-concierge/",
+ "kind": "agent-role",
+ "title": "The Meeting Concierge",
+ "subtitle": "For a team lead whose meetings end with \"someone should look into that\".",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "The agent books the meeting with an agenda and makes sure it is recorded. During the call someone asks for a number or a document. The agent starts a worker on the request while the meeting continues and posts the result in the meeting chat before people leave. Afterwards a panel reconciles what was decided and what is still open, and the minutes go out as a document.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "function": "Running the company",
+ "function_url": "https://coreyjames.ai/agents/functions/running-the-company/",
+ "specialists": [
+  {
+   "title": "Meeting Scheduler",
+   "url": "https://coreyjames.ai/agents/specialists/meeting-scheduler/"
+  },
+  {
+   "title": "Meeting Follow-through Agent",
+   "url": "https://coreyjames.ai/agents/specialists/meeting-follow-through-agent/"
+  },
+  {
+   "title": "Teams Work Request Runner",
+   "url": "https://coreyjames.ai/agents/specialists/teams-work-request-runner/"
+  },
+  {
+   "title": "Background Task Worker",
+   "url": "https://coreyjames.ai/agents/specialists/background-task-worker/"
+  },
+  {
+   "title": "Meeting Decision Recorder",
+   "url": "https://coreyjames.ai/agents/specialists/meeting-decision-recorder/"
+  },
+  {
+   "title": "Meeting Minute-Taker",
+   "url": "https://coreyjames.ai/agents/specialists/meeting-minute-taker/"
+  },
+  {
+   "title": "Meeting Recap Producer",
+   "url": "https://coreyjames.ai/agents/specialists/meeting-recap-producer/"
+  },
+  {
+   "title": "Action-Item Chaser",
+   "url": "https://coreyjames.ai/agents/specialists/action-item-chaser/"
+  },
+  {
+   "title": "Meeting Follow-up Engineer",
+   "url": "https://coreyjames.ai/agents/specialists/meeting-follow-up-engineer/"
+  }
+ ],
+ "featured": false,
+ "routes": [],
+ "related": [
+  {
+   "title": "AI teammates inside Microsoft Teams and team chat",
+   "url": "https://coreyjames.ai/capabilities/ai-teammates-in-teams-and-chat/",
+   "kind": "Capability"
+  },
+  {
+   "title": "A meeting attendee that will not fake it",
+   "url": "https://coreyjames.ai/stories/a-meeting-attendee-that-will-not-fake-it/",
+   "kind": "Engineering story"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/roles/meeting-concierge/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/roles/meeting-concierge",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

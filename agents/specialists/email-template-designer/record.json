@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/email-template-designer/",
+ "kind": "agent-specialist",
+ "title": "Email Template Designer",
+ "subtitle": "It keeps the library of campaign and transactional templates, previews them with real data, pulls live content from external feeds, and sends test copies before anyone uses a template.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "It keeps the library of campaign and transactional templates, previews them with real data, pulls live content from external feeds, and sends test copies before anyone uses a template.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "a marketing lead or designer",
+ "group": "Email, text and messaging",
+ "specialist_kind": "Does the work",
+ "roles": [
+  {
+   "title": "The Email Marketer",
+   "url": "https://coreyjames.ai/agents/roles/email-marketer/"
+  },
+  {
+   "title": "The Newsletter Editor",
+   "url": "https://coreyjames.ai/agents/roles/newsletter-editor/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/email-template-designer/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/email-template-designer",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

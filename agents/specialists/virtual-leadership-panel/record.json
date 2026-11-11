@@ -1,0 +1,28 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/virtual-leadership-panel/",
+ "kind": "agent-specialist",
+ "title": "Virtual Leadership Panel",
+ "subtitle": "Gives you a spoken meeting with a facilitator, a technology advisor and a marketing advisor, who take turns, pass questions to each other by name, and respect your interruptions.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Gives you a spoken meeting with a facilitator, a technology advisor and a marketing advisor, who take turns, pass questions to each other by name, and respect your interruptions.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A founder who wants a sounding board",
+ "group": "Decisions and deliberation",
+ "specialist_kind": "Challenges decisions",
+ "roles": [
+  {
+   "title": "The Advisory Board",
+   "url": "https://coreyjames.ai/agents/roles/advisory-board/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/virtual-leadership-panel/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/virtual-leadership-panel",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

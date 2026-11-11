@@ -1,0 +1,36 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/team-knowledge-desk/",
+ "kind": "agent-specialist",
+ "title": "Team Knowledge Desk",
+ "subtitle": "Answers questions in team chat from everything that team is allowed to see: the channel's own conversation, files shared there, the codebase, reference documents, libraries, past engineering notes and agent activity.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Answers questions in team chat from everything that team is allowed to see: the channel's own conversation, files shared there, the codebase, reference documents, libraries, past engineering notes and agent activity. Each source is searched and ranked separately and stays inside the team's scope.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A support desk or project team that works in a shared chat workspace",
+ "group": "Code intelligence and team memory",
+ "specialist_kind": "Keeps knowledge",
+ "roles": [
+  {
+   "title": "The Support Desk",
+   "url": "https://coreyjames.ai/agents/roles/support-desk/"
+  },
+  {
+   "title": "The Front Desk",
+   "url": "https://coreyjames.ai/agents/roles/front-desk/"
+  },
+  {
+   "title": "The Company Librarian",
+   "url": "https://coreyjames.ai/agents/roles/company-librarian/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/team-knowledge-desk/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/team-knowledge-desk",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

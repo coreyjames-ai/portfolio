@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/gpu-profiler/",
+ "kind": "agent-specialist",
+ "title": "GPU Profiler",
+ "subtitle": "This agent profiles the AI engine at system, chip and memory level, finds idle time under steady load and records GPU use.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "This agent profiles the AI engine at system, chip and memory level, finds idle time under steady load and records GPU use.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A performance engineer tuning an AI engine",
+ "group": "AI models and performance",
+ "specialist_kind": "Runs infrastructure",
+ "roles": [
+  {
+   "title": "The Speed Detective",
+   "url": "https://coreyjames.ai/agents/roles/speed-detective/"
+  },
+  {
+   "title": "The Engine Builder",
+   "url": "https://coreyjames.ai/agents/roles/engine-builder/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/gpu-profiler/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/gpu-profiler",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

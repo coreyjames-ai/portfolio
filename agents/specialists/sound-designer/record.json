@@ -1,0 +1,28 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/sound-designer/",
+ "kind": "agent-specialist",
+ "title": "Sound Designer",
+ "subtitle": "Gives every shot its own sound effects generated from the picture and a short sound brief, cut to the exact shot length.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Gives every shot its own sound effects generated from the picture and a short sound brief, cut to the exact shot length.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A content producer or video editor",
+ "group": "Content, film and brand",
+ "specialist_kind": "Does the work",
+ "roles": [
+  {
+   "title": "The Film Studio",
+   "url": "https://coreyjames.ai/agents/roles/film-studio/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/sound-designer/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/sound-designer",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

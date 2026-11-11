@@ -1,0 +1,66 @@
+{
+ "url": "https://coreyjames.ai/agents/roles/company-librarian/",
+ "kind": "agent-role",
+ "title": "The Company Librarian",
+ "subtitle": "For a team whose knowledge is scattered.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Files dropped in chat, manuals, specifications and outside documentation all go into one library the agent keeps current. Anyone can ask a question in chat and get an answer with its source. When a plan no longer matches what was built, the agent rewrites the document and keeps the old version.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "function": "Meetings and teamwork",
+ "function_url": "https://coreyjames.ai/agents/functions/meetings-and-teamwork/",
+ "specialists": [
+  {
+   "title": "Team File Librarian",
+   "url": "https://coreyjames.ai/agents/specialists/team-file-librarian/"
+  },
+  {
+   "title": "Technical Document Librarian",
+   "url": "https://coreyjames.ai/agents/specialists/technical-document-librarian/"
+  },
+  {
+   "title": "Documentation Site Harvester",
+   "url": "https://coreyjames.ai/agents/specialists/documentation-site-harvester/"
+  },
+  {
+   "title": "Reference Library Keeper",
+   "url": "https://coreyjames.ai/agents/specialists/reference-library-keeper/"
+  },
+  {
+   "title": "Team Knowledge Desk",
+   "url": "https://coreyjames.ai/agents/specialists/team-knowledge-desk/"
+  },
+  {
+   "title": "Out-of-Date Document Fixer",
+   "url": "https://coreyjames.ai/agents/specialists/out-of-date-document-fixer/"
+  },
+  {
+   "title": "Chat File Grounder",
+   "url": "https://coreyjames.ai/agents/specialists/chat-file-grounder/"
+  },
+  {
+   "title": "New Hire Guide",
+   "url": "https://coreyjames.ai/agents/specialists/new-hire-guide/"
+  }
+ ],
+ "featured": false,
+ "routes": [
+  "An acquisition becomes a working team"
+ ],
+ "related": [
+  {
+   "title": "Memory and code intelligence for agents",
+   "url": "https://coreyjames.ai/capabilities/memory-and-code-intelligence-for-agents/",
+   "kind": "Capability"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/roles/company-librarian/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/roles/company-librarian",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

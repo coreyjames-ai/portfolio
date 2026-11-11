@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/sms-campaign-manager/",
+ "kind": "agent-specialist",
+ "title": "SMS Campaign Manager",
+ "subtitle": "It creates text campaigns for a list, sends a test to a phone, sends or schedules the campaign, and reports and exports the recipients.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "It creates text campaigns for a list, sends a test to a phone, sends or schedules the campaign, and reports and exports the recipients.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "a marketing lead",
+ "group": "Email, text and messaging",
+ "specialist_kind": "Speaks to people",
+ "roles": [
+  {
+   "title": "The Message Centre",
+   "url": "https://coreyjames.ai/agents/roles/message-centre/"
+  },
+  {
+   "title": "The Loyalty Director",
+   "url": "https://coreyjames.ai/agents/roles/loyalty-director/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/sms-campaign-manager/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/sms-campaign-manager",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

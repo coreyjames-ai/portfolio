@@ -1,0 +1,28 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/answer-consistency-setter/",
+ "kind": "agent-specialist",
+ "title": "Answer Consistency Setter",
+ "subtitle": "Sets how predictable or varied a model's answers are, from fully repeatable to more varied, for each deployment.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Sets how predictable or varied a model's answers are, from fully repeatable to more varied, for each deployment.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A product owner who wants the same question to get the same answer",
+ "group": "AI models and performance",
+ "specialist_kind": "Runs infrastructure",
+ "roles": [
+  {
+   "title": "The Model Launch Manager",
+   "url": "https://coreyjames.ai/agents/roles/model-launch-manager/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/answer-consistency-setter/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/answer-consistency-setter",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

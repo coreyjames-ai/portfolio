@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/self-starting-job-scheduler/",
+ "kind": "agent-specialist",
+ "title": "Self-Starting Job Scheduler",
+ "subtitle": "This agent turns a job into a standing service that starts itself when work piles up or on a schedule, and lets you list or stop those services at any time.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "This agent turns a job into a standing service that starts itself when work piles up or on a schedule, and lets you list or stop those services at any time.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A data team lead tired of kicking off jobs by hand",
+ "group": "Machines, data and operations",
+ "specialist_kind": "Runs infrastructure",
+ "roles": [
+  {
+   "title": "The Automation Builder",
+   "url": "https://coreyjames.ai/agents/roles/automation-builder/"
+  },
+  {
+   "title": "The Pipeline Foreman",
+   "url": "https://coreyjames.ai/agents/roles/pipeline-foreman/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/self-starting-job-scheduler/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/self-starting-job-scheduler",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

@@ -1,0 +1,97 @@
+{
+ "url": "https://coreyjames.ai/agents/roles/ai-workforce-manager/",
+ "kind": "agent-role",
+ "title": "The AI Workforce Manager",
+ "subtitle": "For a manager running a team of AI agents.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "The agent staffs each project with the right mix of agents, starts them and stops them. It watches every session, restarts the ones that hit a limit and records what each task cost. If an agent steps outside its assignment, the manager hears about it. Any question about what an agent did has an answer on file.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "function": "AI and model teams",
+ "function_url": "https://coreyjames.ai/agents/functions/ai-and-model-teams/",
+ "specialists": [
+  {
+   "title": "Team Staffing Coordinator",
+   "url": "https://coreyjames.ai/agents/specialists/team-staffing-coordinator/"
+  },
+  {
+   "title": "AI Team Dispatcher",
+   "url": "https://coreyjames.ai/agents/specialists/ai-team-dispatcher/"
+  },
+  {
+   "title": "AI Session Supervisor",
+   "url": "https://coreyjames.ai/agents/specialists/ai-session-supervisor/"
+  },
+  {
+   "title": "Rate Limit Recovery Agent",
+   "url": "https://coreyjames.ai/agents/specialists/rate-limit-recovery-agent/"
+  },
+  {
+   "title": "AI Spend Recorder",
+   "url": "https://coreyjames.ai/agents/specialists/ai-spend-recorder/"
+  },
+  {
+   "title": "Scope Escalation Sentinel",
+   "url": "https://coreyjames.ai/agents/specialists/scope-escalation-sentinel/"
+  },
+  {
+   "title": "Agent Activity Auditor",
+   "url": "https://coreyjames.ai/agents/specialists/agent-activity-auditor/"
+  },
+  {
+   "title": "Agent Replacement Specialist",
+   "url": "https://coreyjames.ai/agents/specialists/agent-replacement-specialist/"
+  },
+  {
+   "title": "Work Budget Setter",
+   "url": "https://coreyjames.ai/agents/specialists/work-budget-setter/"
+  },
+  {
+   "title": "Role Catalogue Updater",
+   "url": "https://coreyjames.ai/agents/specialists/role-catalogue-updater/"
+  },
+  {
+   "title": "Engineering Team Lead",
+   "url": "https://coreyjames.ai/agents/specialists/engineering-team-lead/"
+  },
+  {
+   "title": "Task Results Reviewer",
+   "url": "https://coreyjames.ai/agents/specialists/task-results-reviewer/"
+  }
+ ],
+ "featured": true,
+ "routes": [
+  "A text becomes a finished project"
+ ],
+ "related": [
+  {
+   "title": "Governed autonomous engineering",
+   "url": "https://coreyjames.ai/capabilities/governed-autonomous-engineering/",
+   "kind": "Capability"
+  },
+  {
+   "title": "AI subscriptions as governed workers",
+   "url": "https://coreyjames.ai/capabilities/use-the-ai-subscriptions-you-already-have/",
+   "kind": "Capability"
+  },
+  {
+   "title": "What the work cost, to the penny",
+   "url": "https://coreyjames.ai/stories/what-the-work-cost/",
+   "kind": "Engineering story"
+  },
+  {
+   "title": "Directing AI coding agents at program scale",
+   "url": "https://coreyjames.ai/stories/directing-ai-coding-agents-at-program-scale/",
+   "kind": "Engineering story"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/roles/ai-workforce-manager/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/roles/ai-workforce-manager",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

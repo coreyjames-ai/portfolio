@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/remote-machine-rebuilder/",
+ "kind": "agent-specialist",
+ "title": "Remote Machine Rebuilder",
+ "subtitle": "Removes a remote machine, rejoins it from a clean state with the standard images and setup, starts the agents it should host, and has an independent reviewer check the result against a checklist.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Removes a remote machine, rejoins it from a clean state with the standard images and setup, starts the agents it should host, and has an independent reviewer check the result against a checklist.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "An infrastructure lead who wants a remote machine rebuilt from scratch",
+ "group": "Machines, data and operations",
+ "specialist_kind": "Runs infrastructure",
+ "roles": [
+  {
+   "title": "The Branch Office Engineer",
+   "url": "https://coreyjames.ai/agents/roles/branch-office-engineer/"
+  },
+  {
+   "title": "The Security Officer",
+   "url": "https://coreyjames.ai/agents/roles/security-officer/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/remote-machine-rebuilder/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/remote-machine-rebuilder",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

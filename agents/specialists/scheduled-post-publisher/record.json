@@ -1,0 +1,28 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/scheduled-post-publisher/",
+ "kind": "agent-specialist",
+ "title": "Scheduled Post Publisher",
+ "subtitle": "It publishes posts that have come due, cancels withdrawn ones, and sends any waiting social notifications.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "It publishes posts that have come due, cancels withdrawn ones, and sends any waiting social notifications.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A social media manager",
+ "group": "Social media",
+ "specialist_kind": "Does the work",
+ "roles": [
+  {
+   "title": "The Social Desk",
+   "url": "https://coreyjames.ai/agents/roles/social-desk/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/scheduled-post-publisher/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/scheduled-post-publisher",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

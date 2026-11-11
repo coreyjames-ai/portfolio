@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/run-conditions-recorder/",
+ "kind": "agent-specialist",
+ "title": "Run Conditions Recorder",
+ "subtitle": "This agent records GPU memory and machine load around every run so results are read against the conditions they ran in.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "This agent records GPU memory and machine load around every run so results are read against the conditions they ran in.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "An AI platform lead who needs results read in context",
+ "group": "AI models and performance",
+ "specialist_kind": "Keeps knowledge",
+ "roles": [
+  {
+   "title": "The Speed Detective",
+   "url": "https://coreyjames.ai/agents/roles/speed-detective/"
+  },
+  {
+   "title": "The Archive Keeper",
+   "url": "https://coreyjames.ai/agents/roles/archive-keeper/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/run-conditions-recorder/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/run-conditions-recorder",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

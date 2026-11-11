@@ -1,0 +1,28 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/stale-worker-sweeper/",
+ "kind": "agent-specialist",
+ "title": "Stale Worker Sweeper",
+ "subtitle": "Lists the workers that have sat idle past a set time, shows what would be removed as a dry run and clears them.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Lists the workers that have sat idle past a set time, shows what would be removed as a dry run and clears them.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "An operations lead whose queue shows workers that stopped answering",
+ "group": "Machines, data and operations",
+ "specialist_kind": "Runs infrastructure",
+ "roles": [
+  {
+   "title": "The Housekeeper",
+   "url": "https://coreyjames.ai/agents/roles/housekeeper/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/stale-worker-sweeper/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/stale-worker-sweeper",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

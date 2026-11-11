@@ -1,0 +1,85 @@
+{
+ "url": "https://coreyjames.ai/agents/roles/email-marketer/",
+ "kind": "agent-role",
+ "title": "The Email Marketer",
+ "subtitle": "For a marketing lead who owns the list.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "The agent keeps the list clean, with consent recorded for every address. It builds the segments, designs the template, sends a test and then sends the campaign at the hour people open. Bounces and unsubscribes are handled as they arrive so the sender reputation holds. People who clicked get a follow-up, and the report ties the campaign to the orders it produced.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "function": "Marketing and audience",
+ "function_url": "https://coreyjames.ai/agents/functions/marketing-and-audience/",
+ "specialists": [
+  {
+   "title": "Contact Data Steward",
+   "url": "https://coreyjames.ai/agents/specialists/contact-data-steward/"
+  },
+  {
+   "title": "Consent and Opt-in Officer",
+   "url": "https://coreyjames.ai/agents/specialists/consent-and-opt-in-officer/"
+  },
+  {
+   "title": "List and Segment Keeper",
+   "url": "https://coreyjames.ai/agents/specialists/list-and-segment-keeper/"
+  },
+  {
+   "title": "Email Template Designer",
+   "url": "https://coreyjames.ai/agents/specialists/email-template-designer/"
+  },
+  {
+   "title": "Email Campaign Manager",
+   "url": "https://coreyjames.ai/agents/specialists/email-campaign-manager/"
+  },
+  {
+   "title": "Deliverability Keeper",
+   "url": "https://coreyjames.ai/agents/specialists/deliverability-keeper/"
+  },
+  {
+   "title": "Bounce and Unsubscribe Responder",
+   "url": "https://coreyjames.ai/agents/specialists/bounce-and-unsubscribe-responder/"
+  },
+  {
+   "title": "Campaign Follow-up Agent",
+   "url": "https://coreyjames.ai/agents/specialists/campaign-follow-up-agent/"
+  },
+  {
+   "title": "Revenue Attribution Analyst",
+   "url": "https://coreyjames.ai/agents/specialists/revenue-attribution-analyst/"
+  },
+  {
+   "title": "Brand Kit Keeper",
+   "url": "https://coreyjames.ai/agents/specialists/brand-kit-keeper/"
+  },
+  {
+   "title": "Import and Export Tracker",
+   "url": "https://coreyjames.ai/agents/specialists/import-and-export-tracker/"
+  },
+  {
+   "title": "Email List Hygiene Agent",
+   "url": "https://coreyjames.ai/agents/specialists/email-list-hygiene-agent/"
+  }
+ ],
+ "featured": false,
+ "routes": [],
+ "related": [
+  {
+   "title": "Business systems as safe agent tools",
+   "url": "https://coreyjames.ai/capabilities/business-systems-as-safe-agent-tools/",
+   "kind": "Capability"
+  },
+  {
+   "title": "Agents that react to the world",
+   "url": "https://coreyjames.ai/ideas/agents-that-react-to-the-world/",
+   "kind": "Idea"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/roles/email-marketer/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/roles/email-marketer",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

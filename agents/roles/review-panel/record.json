@@ -1,0 +1,69 @@
+{
+ "url": "https://coreyjames.ai/agents/roles/review-panel/",
+ "kind": "agent-role",
+ "title": "The Review Panel",
+ "subtitle": "For a tech lead who wants every change read by more than one specialist.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Each change is read four times, for design, speed, documentation and tests. Every reviewer writes its findings on the ticket with the lines concerned. When the reviewers disagree and cannot settle it, the ticket is marked for a person, with the disagreement summarised. The lead also hears when a tracked ticket gets a new comment, label or due date.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "function": "Engineering",
+ "function_url": "https://coreyjames.ai/agents/functions/engineering/",
+ "specialists": [
+  {
+   "title": "Architecture Reviewer",
+   "url": "https://coreyjames.ai/agents/specialists/architecture-reviewer/"
+  },
+  {
+   "title": "Performance Reviewer",
+   "url": "https://coreyjames.ai/agents/specialists/performance-reviewer/"
+  },
+  {
+   "title": "Documentation Reviewer",
+   "url": "https://coreyjames.ai/agents/specialists/documentation-reviewer/"
+  },
+  {
+   "title": "Test Coverage Reviewer",
+   "url": "https://coreyjames.ai/agents/specialists/test-coverage-reviewer/"
+  },
+  {
+   "title": "Human Escalation Flagger",
+   "url": "https://coreyjames.ai/agents/specialists/human-escalation-flagger/"
+  },
+  {
+   "title": "Issue Change Watcher",
+   "url": "https://coreyjames.ai/agents/specialists/issue-change-watcher/"
+  },
+  {
+   "title": "Quality Fix Coordinator",
+   "url": "https://coreyjames.ai/agents/specialists/quality-fix-coordinator/"
+  },
+  {
+   "title": "Code-Grounded Reviewer",
+   "url": "https://coreyjames.ai/agents/specialists/code-grounded-reviewer/"
+  }
+ ],
+ "featured": false,
+ "routes": [],
+ "related": [
+  {
+   "title": "Governed autonomous engineering",
+   "url": "https://coreyjames.ai/capabilities/governed-autonomous-engineering/",
+   "kind": "Capability"
+  },
+  {
+   "title": "Role contracts, with vendors as data",
+   "url": "https://coreyjames.ai/ideas/role-contracts-not-vendors/",
+   "kind": "Idea"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/roles/review-panel/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/roles/review-panel",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

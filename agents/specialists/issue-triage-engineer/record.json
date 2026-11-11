@@ -1,0 +1,36 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/issue-triage-engineer/",
+ "kind": "agent-specialist",
+ "title": "Issue Triage Engineer",
+ "subtitle": "Reads each new issue, finds the code most likely at fault and comments the suspect file and line with a triage label so a developer starts in the right place.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Reads each new issue, finds the code most likely at fault and comments the suspect file and line with a triage label so a developer starts in the right place.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A support desk or engineering manager with a growing issue queue",
+ "group": "Building software",
+ "specialist_kind": "Does the work",
+ "roles": [
+  {
+   "title": "The Sales Engineer",
+   "url": "https://coreyjames.ai/agents/roles/sales-engineer/"
+  },
+  {
+   "title": "The Support Desk",
+   "url": "https://coreyjames.ai/agents/roles/support-desk/"
+  },
+  {
+   "title": "The Ticket Clearer",
+   "url": "https://coreyjames.ai/agents/roles/ticket-clearer/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/issue-triage-engineer/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/issue-triage-engineer",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

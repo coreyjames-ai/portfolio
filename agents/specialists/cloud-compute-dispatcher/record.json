@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/cloud-compute-dispatcher/",
+ "kind": "agent-specialist",
+ "title": "Cloud Compute Dispatcher",
+ "subtitle": "This agent picks an image, checks the container settings, runs the job on local or rented GPUs, keeps an eye on it and shuts the container down when it is done.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "This agent picks an image, checks the container settings, runs the job on local or rented GPUs, keeps an eye on it and shuts the container down when it is done.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "An engineering lead who runs heavy jobs on rented or local GPUs",
+ "group": "Machines, data and operations",
+ "specialist_kind": "Runs infrastructure",
+ "roles": [
+  {
+   "title": "The Spend Controller",
+   "url": "https://coreyjames.ai/agents/roles/spend-controller/"
+  },
+  {
+   "title": "The Branch Office Engineer",
+   "url": "https://coreyjames.ai/agents/roles/branch-office-engineer/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/cloud-compute-dispatcher/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/cloud-compute-dispatcher",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

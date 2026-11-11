@@ -1,0 +1,36 @@
+# Sound Designer
+
+**Gives every shot its own sound effects generated from the picture and a short sound brief, cut to the exact shot length.**
+
+Canonical: https://coreyjames.ai/agents/specialists/sound-designer/  
+Author: Corey James · Published: 2026-11-11 · Kind: agent specialist  
+
+## What it does
+
+Gives every shot its own sound effects generated from the picture and a short sound brief, cut to the exact shot length.
+
+For a content producer or video editor.
+
+Kind: [Does the work](https://coreyjames.ai/agents/specialists/?kind=does-the-work). Writes, builds, renders and ships the thing that was asked for.
+
+Group: Content, film and brand.
+
+## Roles it serves
+
+- [The Film Studio](https://github.com/coreyjames-ai/portfolio/tree/main/agents/roles/film-studio) · [page](https://coreyjames.ai/agents/roles/film-studio/): For a marketing lead with a story and no crew.
+
+## Citation
+
+Corey James. "Sound Designer." coreyjames.ai, 2026. https://coreyjames.ai/agents/specialists/sound-designer/
+
+```bibtex
+@misc{coreyjames-agent-specialist-sound-designer,
+  author = {Corey James},
+  title = {Sound Designer},
+  year = {2026},
+  howpublished = {\url{https://coreyjames.ai/agents/specialists/sound-designer/}},
+  note = {GitHub copy: https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/sound-designer}
+}
+```
+
+Part of [Corey James's portfolio](https://github.com/coreyjames-ai/portfolio) · site: https://coreyjames.ai/ · MCP server: https://coreyjames.ai/mcp · agent card: https://coreyjames.ai/.well-known/agent.json

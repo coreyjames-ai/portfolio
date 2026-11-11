@@ -1,0 +1,36 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/ai-spend-recorder/",
+ "kind": "agent-specialist",
+ "title": "AI Spend Recorder",
+ "subtitle": "It reads the model usage from the session, removes duplicates, and records the cost against the task it belongs to.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "It reads the model usage from the session, removes duplicates, and records the cost against the task it belongs to.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A finance lead tracking AI cost by task",
+ "group": "Managing an AI workforce",
+ "specialist_kind": "Keeps knowledge",
+ "roles": [
+  {
+   "title": "The AI Workforce Manager",
+   "url": "https://coreyjames.ai/agents/roles/ai-workforce-manager/"
+  },
+  {
+   "title": "The Model Broker",
+   "url": "https://coreyjames.ai/agents/roles/model-broker/"
+  },
+  {
+   "title": "The Spend Controller",
+   "url": "https://coreyjames.ai/agents/roles/spend-controller/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/ai-spend-recorder/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/ai-spend-recorder",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

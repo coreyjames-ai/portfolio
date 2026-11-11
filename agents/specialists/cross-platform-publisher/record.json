@@ -1,0 +1,40 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/cross-platform-publisher/",
+ "kind": "agent-specialist",
+ "title": "Cross-Platform Publisher",
+ "subtitle": "It checks a post against each platform's rules, uploads its media, publishes it now or cross-posts it, and withdraws it if needed.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "It checks a post against each platform's rules, uploads its media, publishes it now or cross-posts it, and withdraws it if needed.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "a social media manager",
+ "group": "Social media",
+ "specialist_kind": "Does the work",
+ "roles": [
+  {
+   "title": "The Newsroom",
+   "url": "https://coreyjames.ai/agents/roles/newsroom/"
+  },
+  {
+   "title": "The Launch Manager",
+   "url": "https://coreyjames.ai/agents/roles/launch-manager/"
+  },
+  {
+   "title": "The Rapid Responder",
+   "url": "https://coreyjames.ai/agents/roles/rapid-responder/"
+  },
+  {
+   "title": "The Recruiting Marketer",
+   "url": "https://coreyjames.ai/agents/roles/recruiting-marketer/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/cross-platform-publisher/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/cross-platform-publisher",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

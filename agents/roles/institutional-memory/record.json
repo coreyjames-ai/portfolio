@@ -1,0 +1,68 @@
+{
+ "url": "https://coreyjames.ai/agents/roles/institutional-memory/",
+ "kind": "agent-role",
+ "title": "The Institutional Memory",
+ "subtitle": "For a team that keeps relearning what it already knew.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "The agent takes notes on every working session, records each decision and distils them over time. Anyone can ask \"have we seen this before?\" and get the earlier answer. Every AI worker starts its day already briefed on what the team knows.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "function": "Knowledge and memory",
+ "function_url": "https://coreyjames.ai/agents/functions/knowledge-and-memory/",
+ "specialists": [
+  {
+   "title": "Engineering Notetaker",
+   "url": "https://coreyjames.ai/agents/specialists/engineering-notetaker/"
+  },
+  {
+   "title": "Session Recorder",
+   "url": "https://coreyjames.ai/agents/specialists/session-recorder/"
+  },
+  {
+   "title": "Decision Recorder",
+   "url": "https://coreyjames.ai/agents/specialists/decision-recorder/"
+  },
+  {
+   "title": "Knowledge Distiller",
+   "url": "https://coreyjames.ai/agents/specialists/knowledge-distiller/"
+  },
+  {
+   "title": "Team Memory Search Desk",
+   "url": "https://coreyjames.ai/agents/specialists/team-memory-search-desk/"
+  },
+  {
+   "title": "Context Briefer",
+   "url": "https://coreyjames.ai/agents/specialists/context-briefer/"
+  },
+  {
+   "title": "Long-Session Memory Keeper",
+   "url": "https://coreyjames.ai/agents/specialists/long-session-memory-keeper/"
+  },
+  {
+   "title": "Note Queue Reconciler",
+   "url": "https://coreyjames.ai/agents/specialists/note-queue-reconciler/"
+  },
+  {
+   "title": "Agent Activity Historian",
+   "url": "https://coreyjames.ai/agents/specialists/agent-activity-historian/"
+  }
+ ],
+ "featured": true,
+ "routes": [],
+ "related": [
+  {
+   "title": "Memory and code intelligence for agents",
+   "url": "https://coreyjames.ai/capabilities/memory-and-code-intelligence-for-agents/",
+   "kind": "Capability"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/roles/institutional-memory/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/roles/institutional-memory",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

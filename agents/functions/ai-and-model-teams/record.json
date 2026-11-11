@@ -1,0 +1,105 @@
+{
+ "url": "https://coreyjames.ai/agents/functions/ai-and-model-teams/",
+ "kind": "agent-function",
+ "title": "AI and model teams",
+ "subtitle": "Launching, tuning and supervising models and the agents that use them.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Launching, tuning and supervising models and the agents that use them. Roles: The AI Workforce Manager; The Model Launch Manager; The Model Shrinker; The Speed Detective; The Bulk Run Manager; The Model Interviewer; The Model Broker; The Research Lab; The Engine Builder; The Team Architect; The Control Room; The Circuit Breaker; The Archive Keeper.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "roles": [
+  {
+   "title": "The AI Workforce Manager",
+   "url": "https://coreyjames.ai/agents/roles/ai-workforce-manager/"
+  },
+  {
+   "title": "The Model Launch Manager",
+   "url": "https://coreyjames.ai/agents/roles/model-launch-manager/"
+  },
+  {
+   "title": "The Model Shrinker",
+   "url": "https://coreyjames.ai/agents/roles/model-shrinker/"
+  },
+  {
+   "title": "The Speed Detective",
+   "url": "https://coreyjames.ai/agents/roles/speed-detective/"
+  },
+  {
+   "title": "The Bulk Run Manager",
+   "url": "https://coreyjames.ai/agents/roles/bulk-run-manager/"
+  },
+  {
+   "title": "The Model Interviewer",
+   "url": "https://coreyjames.ai/agents/roles/model-interviewer/"
+  },
+  {
+   "title": "The Model Broker",
+   "url": "https://coreyjames.ai/agents/roles/model-broker/"
+  },
+  {
+   "title": "The Research Lab",
+   "url": "https://coreyjames.ai/agents/roles/research-lab/"
+  },
+  {
+   "title": "The Engine Builder",
+   "url": "https://coreyjames.ai/agents/roles/engine-builder/"
+  },
+  {
+   "title": "The Team Architect",
+   "url": "https://coreyjames.ai/agents/roles/team-architect/"
+  },
+  {
+   "title": "The Control Room",
+   "url": "https://coreyjames.ai/agents/roles/control-room/"
+  },
+  {
+   "title": "The Circuit Breaker",
+   "url": "https://coreyjames.ai/agents/roles/circuit-breaker/"
+  },
+  {
+   "title": "The Archive Keeper",
+   "url": "https://coreyjames.ai/agents/roles/archive-keeper/"
+  }
+ ],
+ "related": [
+  {
+   "title": "AI subscriptions as governed workers",
+   "url": "https://coreyjames.ai/capabilities/use-the-ai-subscriptions-you-already-have/",
+   "kind": "Capability"
+  },
+  {
+   "title": "Bigger models and longer context on fixed GPU memory",
+   "url": "https://coreyjames.ai/capabilities/longer-context-on-the-gpus-you-own/",
+   "kind": "Capability"
+  },
+  {
+   "title": "High-throughput batch inference and embeddings",
+   "url": "https://coreyjames.ai/capabilities/high-throughput-batch-inference/",
+   "kind": "Capability"
+  },
+  {
+   "title": "What the work cost, to the penny",
+   "url": "https://coreyjames.ai/stories/what-the-work-cost/",
+   "kind": "Engineering story"
+  },
+  {
+   "title": "A router beside a production model",
+   "url": "https://coreyjames.ai/stories/a-router-beside-a-production-model/",
+   "kind": "Engineering story"
+  },
+  {
+   "title": "The observer that changed the answer",
+   "url": "https://coreyjames.ai/stories/the-observer-that-changed-the-answer/",
+   "kind": "Engineering story"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/functions/ai-and-model-teams/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/functions/ai-and-model-teams",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

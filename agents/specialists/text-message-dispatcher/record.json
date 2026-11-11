@@ -1,0 +1,36 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/text-message-dispatcher/",
+ "kind": "agent-specialist",
+ "title": "Text Message Dispatcher",
+ "subtitle": "It sends one-off text messages such as delivery and appointment notices from templates, and reports what was delivered.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "It sends one-off text messages such as delivery and appointment notices from templates, and reports what was delivered.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "an operations lead",
+ "group": "Email, text and messaging",
+ "specialist_kind": "Speaks to people",
+ "roles": [
+  {
+   "title": "The Launch Manager",
+   "url": "https://coreyjames.ai/agents/roles/launch-manager/"
+  },
+  {
+   "title": "The Message Centre",
+   "url": "https://coreyjames.ai/agents/roles/message-centre/"
+  },
+  {
+   "title": "The Revenue Rescuer",
+   "url": "https://coreyjames.ai/agents/roles/revenue-rescuer/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/text-message-dispatcher/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/text-message-dispatcher",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

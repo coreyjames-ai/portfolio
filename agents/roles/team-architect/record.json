@@ -1,0 +1,89 @@
+{
+ "url": "https://coreyjames.ai/agents/roles/team-architect/",
+ "kind": "agent-role",
+ "title": "The Team Architect",
+ "subtitle": "For a founder who wants a set of specialist assistants built around the company's own material.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "The founder gives a goal and points at the source material. The agent explores it, proposes a roster of specialists and writes each one's guide. A person reviews the roster before anything starts. New tools are tested with normal and hostile cases before the specialists can use them, and each specialist can ask for the right tool in plain words.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "function": "AI and model teams",
+ "function_url": "https://coreyjames.ai/agents/functions/ai-and-model-teams/",
+ "specialists": [
+  {
+   "title": "Agent Team Designer",
+   "url": "https://coreyjames.ai/agents/specialists/agent-team-designer/"
+  },
+  {
+   "title": "Agent Workforce Provisioner",
+   "url": "https://coreyjames.ai/agents/specialists/agent-workforce-provisioner/"
+  },
+  {
+   "title": "Tool Onboarding Specialist",
+   "url": "https://coreyjames.ai/agents/specialists/tool-onboarding-specialist/"
+  },
+  {
+   "title": "Tool Concierge",
+   "url": "https://coreyjames.ai/agents/specialists/tool-concierge/"
+  },
+  {
+   "title": "Session Briefer",
+   "url": "https://coreyjames.ai/agents/specialists/session-briefer/"
+  },
+  {
+   "title": "Long-Running Operations Planner",
+   "url": "https://coreyjames.ai/agents/specialists/long-running-operations-planner/"
+  },
+  {
+   "title": "Internal Tool Builder Crew",
+   "url": "https://coreyjames.ai/agents/specialists/internal-tool-builder-crew/"
+  },
+  {
+   "title": "Team Staffing Coordinator",
+   "url": "https://coreyjames.ai/agents/specialists/team-staffing-coordinator/"
+  },
+  {
+   "title": "New Agent Pre-flight Inspector",
+   "url": "https://coreyjames.ai/agents/specialists/new-agent-pre-flight-inspector/"
+  },
+  {
+   "title": "New App Integration Engineer",
+   "url": "https://coreyjames.ai/agents/specialists/new-app-integration-engineer/"
+  }
+ ],
+ "featured": false,
+ "routes": [
+  "A new function becomes a staffed desk"
+ ],
+ "related": [
+  {
+   "title": "Custom small models for tool calling and routing",
+   "url": "https://coreyjames.ai/capabilities/small-models-for-tool-calling-and-routing/",
+   "kind": "Capability"
+  },
+  {
+   "title": "Tools are the platform",
+   "url": "https://coreyjames.ai/ideas/tools-are-the-platform/",
+   "kind": "Idea"
+  },
+  {
+   "title": "Tools are the platform",
+   "url": "https://coreyjames.ai/stories/tools-are-the-platform/",
+   "kind": "Engineering story"
+  },
+  {
+   "title": "A hundred tokens instead of forty-two thousand",
+   "url": "https://coreyjames.ai/stories/a-hundred-tokens-instead-of-forty-two-thousand/",
+   "kind": "Engineering story"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/roles/team-architect/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/roles/team-architect",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

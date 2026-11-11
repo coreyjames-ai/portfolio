@@ -1,0 +1,28 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/daily-standup-host/",
+ "kind": "agent-specialist",
+ "title": "Daily Standup Host",
+ "subtitle": "Runs the morning standup: it calls on each person, notes blockers against the right project, and posts the summary when the meeting ends.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Runs the morning standup: it calls on each person, notes blockers against the right project, and posts the summary when the meeting ends.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "An engineering or operations team",
+ "group": "Meetings, voice and the AI colleague",
+ "specialist_kind": "Speaks to people",
+ "roles": [
+  {
+   "title": "The Stand-up Host",
+   "url": "https://coreyjames.ai/agents/roles/stand-up-host/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/daily-standup-host/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/daily-standup-host",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

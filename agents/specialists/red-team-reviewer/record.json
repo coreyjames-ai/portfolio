@@ -1,0 +1,36 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/red-team-reviewer/",
+ "kind": "agent-specialist",
+ "title": "Red Team Reviewer",
+ "subtitle": "Attacks every major decision and every change of scope from a different model family than the builders, looking for the assumption that breaks, and holds approval until it has answered.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Attacks every major decision and every change of scope from a different model family than the builders, looking for the assumption that breaks, and holds approval until it has answered.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A CTO who wants decisions attacked before they are made",
+ "group": "Building software",
+ "specialist_kind": "Challenges decisions",
+ "roles": [
+  {
+   "title": "The Advisory Board",
+   "url": "https://coreyjames.ai/agents/roles/advisory-board/"
+  },
+  {
+   "title": "The Software Department",
+   "url": "https://coreyjames.ai/agents/roles/software-department/"
+  },
+  {
+   "title": "The Second Opinion",
+   "url": "https://coreyjames.ai/agents/roles/second-opinion/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/red-team-reviewer/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/red-team-reviewer",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

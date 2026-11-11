@@ -1,0 +1,70 @@
+{
+ "url": "https://coreyjames.ai/agents/roles/newsletter-editor/",
+ "kind": "agent-role",
+ "title": "The Newsletter Editor",
+ "subtitle": "For a team that owes its subscribers something every week.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "The agent gathers what the company published during the week and lays it out in the newsletter template. It sends a test, then schedules the issue. New subscribers get a confirmation and a welcome. Addresses that bounce or complain come off the list, with the reason recorded.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "function": "Marketing and audience",
+ "function_url": "https://coreyjames.ai/agents/functions/marketing-and-audience/",
+ "specialists": [
+  {
+   "title": "Newsletter Builder",
+   "url": "https://coreyjames.ai/agents/specialists/newsletter-builder/"
+  },
+  {
+   "title": "Email Template Designer",
+   "url": "https://coreyjames.ai/agents/specialists/email-template-designer/"
+  },
+  {
+   "title": "Subscriber Welcome Agent",
+   "url": "https://coreyjames.ai/agents/specialists/subscriber-welcome-agent/"
+  },
+  {
+   "title": "Email List Hygiene Agent",
+   "url": "https://coreyjames.ai/agents/specialists/email-list-hygiene-agent/"
+  },
+  {
+   "title": "Campaign Results Analyst",
+   "url": "https://coreyjames.ai/agents/specialists/campaign-results-analyst/"
+  },
+  {
+   "title": "Sending Domain and Sender Steward",
+   "url": "https://coreyjames.ai/agents/specialists/sending-domain-and-sender-steward/"
+  },
+  {
+   "title": "Contact Data Steward",
+   "url": "https://coreyjames.ai/agents/specialists/contact-data-steward/"
+  },
+  {
+   "title": "Deliverability Keeper",
+   "url": "https://coreyjames.ai/agents/specialists/deliverability-keeper/"
+  },
+  {
+   "title": "Release Notes Mailer",
+   "url": "https://coreyjames.ai/agents/specialists/release-notes-mailer/"
+  }
+ ],
+ "featured": false,
+ "routes": [
+  "A topic becomes a week of content"
+ ],
+ "related": [
+  {
+   "title": "Business systems as safe agent tools",
+   "url": "https://coreyjames.ai/capabilities/business-systems-as-safe-agent-tools/",
+   "kind": "Capability"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/roles/newsletter-editor/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/roles/newsletter-editor",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

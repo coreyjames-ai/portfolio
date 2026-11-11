@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/candidate-fit-analyst/",
+ "kind": "agent-specialist",
+ "title": "Candidate Fit Analyst",
+ "subtitle": "Paste in a job description and it tells you, requirement by requirement, whether the candidate's published work covers it, with a link to the page that shows it.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Paste in a job description and it tells you, requirement by requirement, whether the candidate's published work covers it, with a link to the page that shows it. It also lists the gaps plainly.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A recruiter or a hiring manager",
+ "group": "The public front door",
+ "specialist_kind": "Does the work",
+ "roles": [
+  {
+   "title": "The Recruiting Marketer",
+   "url": "https://coreyjames.ai/agents/roles/recruiting-marketer/"
+  },
+  {
+   "title": "The Recruiter's Counterpart",
+   "url": "https://coreyjames.ai/agents/roles/recruiters-counterpart/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/candidate-fit-analyst/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/candidate-fit-analyst",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

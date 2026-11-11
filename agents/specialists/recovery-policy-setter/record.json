@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/recovery-policy-setter/",
+ "kind": "agent-specialist",
+ "title": "Recovery Policy Setter",
+ "subtitle": "Sets for each job whether a lost machine is replaced automatically, moved to owned hardware, paused for a decision or allowed to fail, and how much extra price is acceptable.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Sets for each job whether a lost machine is replaced automatically, moved to owned hardware, paused for a decision or allowed to fail, and how much extra price is acceptable.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "An owner who wants a say in what happens when a rented machine is taken away",
+ "group": "Machines, data and operations",
+ "specialist_kind": "Runs infrastructure",
+ "roles": [
+  {
+   "title": "The Bulk Run Manager",
+   "url": "https://coreyjames.ai/agents/roles/bulk-run-manager/"
+  },
+  {
+   "title": "The Spend Controller",
+   "url": "https://coreyjames.ai/agents/roles/spend-controller/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/recovery-policy-setter/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/recovery-policy-setter",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

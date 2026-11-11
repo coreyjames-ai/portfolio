@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/post-launch-monitor/",
+ "kind": "agent-specialist",
+ "title": "Post Launch Monitor",
+ "subtitle": "It confirms where the post went live, re-posts to any platform that failed, and gives the owner the live links.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "It confirms where the post went live, re-posts to any platform that failed, and gives the owner the live links.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A content producer or a marketing lead",
+ "group": "Social media",
+ "specialist_kind": "Audits and guards",
+ "roles": [
+  {
+   "title": "The Launch Manager",
+   "url": "https://coreyjames.ai/agents/roles/launch-manager/"
+  },
+  {
+   "title": "The Social Desk",
+   "url": "https://coreyjames.ai/agents/roles/social-desk/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/post-launch-monitor/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/post-launch-monitor",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

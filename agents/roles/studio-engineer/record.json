@@ -1,0 +1,68 @@
+{
+ "url": "https://coreyjames.ai/agents/roles/studio-engineer/",
+ "kind": "agent-role",
+ "title": "The Studio Engineer",
+ "subtitle": "For a studio or IT lead with graphics machines.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "The agent keeps the library of AI models: where each file came from and whether it is intact. It starts and stops the render services, schedules the jobs so the power draw stays within what the building supplies and diagnoses a job that fails.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "function": "Infrastructure and operations",
+ "function_url": "https://coreyjames.ai/agents/functions/infrastructure-and-operations/",
+ "specialists": [
+  {
+   "title": "Render Farm Operator",
+   "url": "https://coreyjames.ai/agents/specialists/render-farm-operator/"
+  },
+  {
+   "title": "AI Model Librarian",
+   "url": "https://coreyjames.ai/agents/specialists/ai-model-librarian/"
+  },
+  {
+   "title": "Render Producer",
+   "url": "https://coreyjames.ai/agents/specialists/render-producer/"
+  },
+  {
+   "title": "Render Job Troubleshooter",
+   "url": "https://coreyjames.ai/agents/specialists/render-job-troubleshooter/"
+  },
+  {
+   "title": "GPU Spend and Power Guard",
+   "url": "https://coreyjames.ai/agents/specialists/gpu-spend-and-power-guard/"
+  },
+  {
+   "title": "New Render Machine Setup Technician",
+   "url": "https://coreyjames.ai/agents/specialists/new-render-machine-setup-technician/"
+  },
+  {
+   "title": "Production Planner",
+   "url": "https://coreyjames.ai/agents/specialists/production-planner/"
+  },
+  {
+   "title": "Shared GPU Traffic Warden",
+   "url": "https://coreyjames.ai/agents/specialists/shared-gpu-traffic-warden/"
+  },
+  {
+   "title": "Fleet Help Desk",
+   "url": "https://coreyjames.ai/agents/specialists/fleet-help-desk/"
+  }
+ ],
+ "featured": false,
+ "routes": [],
+ "related": [
+  {
+   "title": "Budgets and refusals",
+   "url": "https://coreyjames.ai/ideas/budgets-and-refusals/",
+   "kind": "Idea"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/roles/studio-engineer/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/roles/studio-engineer",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

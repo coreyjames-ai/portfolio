@@ -1,0 +1,28 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/recruiter-concierge/",
+ "kind": "agent-specialist",
+ "title": "Recruiter Concierge",
+ "subtitle": "It takes the role, returns a cited fit report with the gaps, adds a short introduction for the recruiter's client, and passes the recruiter's note on to the candidate.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "It takes the role, returns a cited fit report with the gaps, adds a short introduction for the recruiter's client, and passes the recruiter's note on to the candidate.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A recruiter working a specific role",
+ "group": "The public front door",
+ "specialist_kind": "Speaks to people",
+ "roles": [
+  {
+   "title": "The Recruiter's Counterpart",
+   "url": "https://coreyjames.ai/agents/roles/recruiters-counterpart/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/recruiter-concierge/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/recruiter-concierge",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

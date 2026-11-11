@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/answer-quality-steward/",
+ "kind": "agent-specialist",
+ "title": "Answer Quality Steward",
+ "subtitle": "It keeps the judging model running at the edge or on a local graphics card, caps how many judgements are spent each day, falls back to keyword scoring when the model is unavailable, and checks answer quality against a fixed set of reference questions.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "It keeps the judging model running at the edge or on a local graphics card, caps how many judgements are spent each day, falls back to keyword scoring when the model is unavailable, and checks answer quality against a fixed set of reference questions.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "The owner of a public agent",
+ "group": "The public front door",
+ "specialist_kind": "Audits and guards",
+ "roles": [
+  {
+   "title": "The Publisher of Record",
+   "url": "https://coreyjames.ai/agents/roles/publisher-of-record/"
+  },
+  {
+   "title": "The Assistant-Ready Website",
+   "url": "https://coreyjames.ai/agents/roles/assistant-ready-website/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/answer-quality-steward/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/answer-quality-steward",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

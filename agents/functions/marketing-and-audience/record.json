@@ -1,0 +1,93 @@
+{
+ "url": "https://coreyjames.ai/agents/functions/marketing-and-audience/",
+ "kind": "agent-function",
+ "title": "Marketing and audience",
+ "subtitle": "Films, posts, campaigns and replies, from a brief to a published result.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Films, posts, campaigns and replies, from a brief to a published result. Roles: The Newsroom; The Launch Manager; The Conversation Finder; The Reputation Guard; The Film Studio; The Training Department; The Email Marketer; The Agency Back Office; The Social Desk; The Rapid Responder; The Ad Buyer; The Recruiting Marketer; The Developer Advocate; The Newsletter Editor; The Message Centre.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "roles": [
+  {
+   "title": "The Newsroom",
+   "url": "https://coreyjames.ai/agents/roles/newsroom/"
+  },
+  {
+   "title": "The Launch Manager",
+   "url": "https://coreyjames.ai/agents/roles/launch-manager/"
+  },
+  {
+   "title": "The Conversation Finder",
+   "url": "https://coreyjames.ai/agents/roles/conversation-finder/"
+  },
+  {
+   "title": "The Reputation Guard",
+   "url": "https://coreyjames.ai/agents/roles/reputation-guard/"
+  },
+  {
+   "title": "The Film Studio",
+   "url": "https://coreyjames.ai/agents/roles/film-studio/"
+  },
+  {
+   "title": "The Training Department",
+   "url": "https://coreyjames.ai/agents/roles/training-department/"
+  },
+  {
+   "title": "The Email Marketer",
+   "url": "https://coreyjames.ai/agents/roles/email-marketer/"
+  },
+  {
+   "title": "The Agency Back Office",
+   "url": "https://coreyjames.ai/agents/roles/agency-back-office/"
+  },
+  {
+   "title": "The Social Desk",
+   "url": "https://coreyjames.ai/agents/roles/social-desk/"
+  },
+  {
+   "title": "The Rapid Responder",
+   "url": "https://coreyjames.ai/agents/roles/rapid-responder/"
+  },
+  {
+   "title": "The Ad Buyer",
+   "url": "https://coreyjames.ai/agents/roles/ad-buyer/"
+  },
+  {
+   "title": "The Recruiting Marketer",
+   "url": "https://coreyjames.ai/agents/roles/recruiting-marketer/"
+  },
+  {
+   "title": "The Developer Advocate",
+   "url": "https://coreyjames.ai/agents/roles/developer-advocate/"
+  },
+  {
+   "title": "The Newsletter Editor",
+   "url": "https://coreyjames.ai/agents/roles/newsletter-editor/"
+  },
+  {
+   "title": "The Message Centre",
+   "url": "https://coreyjames.ai/agents/roles/message-centre/"
+  }
+ ],
+ "related": [
+  {
+   "title": "Business systems as safe agent tools",
+   "url": "https://coreyjames.ai/capabilities/business-systems-as-safe-agent-tools/",
+   "kind": "Capability"
+  },
+  {
+   "title": "Agents with real tools and no keys",
+   "url": "https://coreyjames.ai/stories/agents-with-real-tools-and-no-keys/",
+   "kind": "Engineering story"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/functions/marketing-and-audience/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/functions/marketing-and-audience",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

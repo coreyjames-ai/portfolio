@@ -1,0 +1,92 @@
+{
+ "url": "https://coreyjames.ai/agents/roles/programme-office/",
+ "kind": "agent-role",
+ "title": "The Programme Office",
+ "subtitle": "For a programme manager with several projects in flight.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "The agent watches each project and wakes when something changes: a review fails, a team stalls, a requirement shifts. It assigns the fix, replans what the change affects and keeps the owner informed by phone. A project closes only when every item has been checked against what was asked for.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "function": "Engineering",
+ "function_url": "https://coreyjames.ai/agents/functions/engineering/",
+ "specialists": [
+  {
+   "title": "Delivery Manager",
+   "url": "https://coreyjames.ai/agents/specialists/delivery-manager/"
+  },
+  {
+   "title": "Engineering Team Lead",
+   "url": "https://coreyjames.ai/agents/specialists/engineering-team-lead/"
+  },
+  {
+   "title": "Close-out and Pause Coordinator",
+   "url": "https://coreyjames.ai/agents/specialists/close-out-and-pause-coordinator/"
+  },
+  {
+   "title": "Scope Change Manager",
+   "url": "https://coreyjames.ai/agents/specialists/scope-change-manager/"
+  },
+  {
+   "title": "Quality Fix Coordinator",
+   "url": "https://coreyjames.ai/agents/specialists/quality-fix-coordinator/"
+  },
+  {
+   "title": "Project Recovery Specialist",
+   "url": "https://coreyjames.ai/agents/specialists/project-recovery-specialist/"
+  },
+  {
+   "title": "Task Results Reviewer",
+   "url": "https://coreyjames.ai/agents/specialists/task-results-reviewer/"
+  },
+  {
+   "title": "Project Closer",
+   "url": "https://coreyjames.ai/agents/specialists/project-closer/"
+  },
+  {
+   "title": "Owner Phone Assistant",
+   "url": "https://coreyjames.ai/agents/specialists/owner-phone-assistant/"
+  },
+  {
+   "title": "Delivery Review Presenter",
+   "url": "https://coreyjames.ai/agents/specialists/delivery-review-presenter/"
+  },
+  {
+   "title": "Project Workspace Organiser",
+   "url": "https://coreyjames.ai/agents/specialists/project-workspace-organiser/"
+  },
+  {
+   "title": "Decision Desk",
+   "url": "https://coreyjames.ai/agents/specialists/decision-desk/"
+  }
+ ],
+ "featured": false,
+ "routes": [
+  "A text becomes a finished project"
+ ],
+ "related": [
+  {
+   "title": "Governed autonomous engineering",
+   "url": "https://coreyjames.ai/capabilities/governed-autonomous-engineering/",
+   "kind": "Capability"
+  },
+  {
+   "title": "Authority outside the model",
+   "url": "https://coreyjames.ai/ideas/authority-outside-the-model/",
+   "kind": "Idea"
+  },
+  {
+   "title": "Closed by evidence",
+   "url": "https://coreyjames.ai/stories/closed-by-evidence/",
+   "kind": "Engineering story"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/roles/programme-office/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/roles/programme-office",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

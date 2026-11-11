@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/research-assistant/",
+ "kind": "agent-specialist",
+ "title": "Research Assistant",
+ "subtitle": "Finds and reads the relevant files and web pages, searches them, recalls related past work and returns a structured summary.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Finds and reads the relevant files and web pages, searches them, recalls related past work and returns a structured summary.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "Any engineer with a question that needs digging",
+ "group": "Building software",
+ "specialist_kind": "Does the work",
+ "roles": [
+  {
+   "title": "The Planning Room",
+   "url": "https://coreyjames.ai/agents/roles/planning-room/"
+  },
+  {
+   "title": "The Research Desk",
+   "url": "https://coreyjames.ai/agents/roles/research-desk/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/research-assistant/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/research-assistant",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

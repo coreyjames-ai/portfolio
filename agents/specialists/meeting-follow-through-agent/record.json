@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/meeting-follow-through-agent/",
+ "kind": "agent-specialist",
+ "title": "Meeting Follow-through Agent",
+ "subtitle": "It takes the request, runs the work on a worker while the meeting continues, posts the result in the meeting chat, and records the item in the minutes.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "It takes the request, runs the work on a worker while the meeting continues, posts the result in the meeting chat, and records the item in the minutes.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A team lead or an executive",
+ "group": "Signal to done",
+ "specialist_kind": "Does the work",
+ "roles": [
+  {
+   "title": "The Meeting Concierge",
+   "url": "https://coreyjames.ai/agents/roles/meeting-concierge/"
+  },
+  {
+   "title": "The Follow-Through Engineer",
+   "url": "https://coreyjames.ai/agents/roles/follow-through-engineer/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/meeting-follow-through-agent/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/meeting-follow-through-agent",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

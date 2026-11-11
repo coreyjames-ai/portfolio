@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/data-lineage-investigator/",
+ "kind": "agent-specialist",
+ "title": "Data Lineage Investigator",
+ "subtitle": "This agent traces a record back through every job and change that touched it and writes up the answer.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "This agent traces a record back through every job and change that touched it and writes up the answer.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A data owner or compliance lead who is asked \"where did this number come from\"",
+ "group": "Machines, data and operations",
+ "specialist_kind": "Audits and guards",
+ "roles": [
+  {
+   "title": "The Database Guard",
+   "url": "https://coreyjames.ai/agents/roles/database-guard/"
+  },
+  {
+   "title": "The Compliance Officer",
+   "url": "https://coreyjames.ai/agents/roles/compliance-officer/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/data-lineage-investigator/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/data-lineage-investigator",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

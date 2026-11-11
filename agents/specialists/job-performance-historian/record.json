@@ -1,0 +1,28 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/job-performance-historian/",
+ "kind": "agent-specialist",
+ "title": "Job Performance Historian",
+ "subtitle": "Keeps the run history of every job and reports the trend over the last hour, day, week or month, with the slowest step named.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Keeps the run history of every job and reports the trend over the last hour, day, week or month, with the slowest step named.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A data team lead asked whether the nightly loads are getting slower",
+ "group": "Machines, data and operations",
+ "specialist_kind": "Keeps knowledge",
+ "roles": [
+  {
+   "title": "The Housekeeper",
+   "url": "https://coreyjames.ai/agents/roles/housekeeper/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/job-performance-historian/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/job-performance-historian",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

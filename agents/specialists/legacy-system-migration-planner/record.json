@@ -1,0 +1,28 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/legacy-system-migration-planner/",
+ "kind": "agent-specialist",
+ "title": "Legacy System Migration Planner",
+ "subtitle": "This agent maps every step of the old system, compares it with the new design and produces the list of pieces to rebuild and in what order.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "This agent maps every step of the old system, compares it with the new design and produces the list of pieces to rebuild and in what order.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "An engineering manager replacing an older system",
+ "group": "AI models and performance",
+ "specialist_kind": "Does the work",
+ "roles": [
+  {
+   "title": "The Migration Planner",
+   "url": "https://coreyjames.ai/agents/roles/migration-planner/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/legacy-system-migration-planner/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/legacy-system-migration-planner",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

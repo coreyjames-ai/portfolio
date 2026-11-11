@@ -1,0 +1,28 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/3d-scene-builder/",
+ "kind": "agent-specialist",
+ "title": "3D Scene Builder",
+ "subtitle": "Builds the world of a film as a scripted 3D scene with exact moving parts and camera paths, and renders the picture layers the finishing team needs.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Builds the world of a film as a scripted 3D scene with exact moving parts and camera paths, and renders the picture layers the finishing team needs.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A content producer",
+ "group": "Content, film and brand",
+ "specialist_kind": "Does the work",
+ "roles": [
+  {
+   "title": "The Film Studio",
+   "url": "https://coreyjames.ai/agents/roles/film-studio/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/3d-scene-builder/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/3d-scene-builder",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

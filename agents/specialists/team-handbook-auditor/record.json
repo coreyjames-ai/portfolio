@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/team-handbook-auditor/",
+ "kind": "agent-specialist",
+ "title": "Team Handbook Auditor",
+ "subtitle": "This agent reads the whole team handbook and every automated routine, finds rules that nobody actually enforces, and drafts the changes for the next revision.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "This agent reads the whole team handbook and every automated routine, finds rules that nobody actually enforces, and drafts the changes for the next revision.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "An operations lead whose team runs on a written playbook",
+ "group": "Building software",
+ "specialist_kind": "Audits and guards",
+ "roles": [
+  {
+   "title": "The Handbook Keeper",
+   "url": "https://coreyjames.ai/agents/roles/handbook-keeper/"
+  },
+  {
+   "title": "The Compliance Officer",
+   "url": "https://coreyjames.ai/agents/roles/compliance-officer/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/team-handbook-auditor/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/team-handbook-auditor",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

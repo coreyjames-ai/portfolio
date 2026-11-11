@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/human-escalation-flagger/",
+ "kind": "agent-specialist",
+ "title": "Human Escalation Flagger",
+ "subtitle": "Marks a ticket as needing a person when the AI reviewers cannot settle it, with a summary of the disagreement.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Marks a ticket as needing a person when the AI reviewers cannot settle it, with a summary of the disagreement.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A team that lets AI workers handle tickets and wants a person on the hard ones",
+ "group": "Building software",
+ "specialist_kind": "Audits and guards",
+ "roles": [
+  {
+   "title": "The Delegate",
+   "url": "https://coreyjames.ai/agents/roles/delegate/"
+  },
+  {
+   "title": "The Review Panel",
+   "url": "https://coreyjames.ai/agents/roles/review-panel/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/human-escalation-flagger/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/human-escalation-flagger",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

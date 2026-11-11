@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/hands-free-office-assistant/",
+ "kind": "agent-specialist",
+ "title": "Hands-Free Office Assistant",
+ "subtitle": "Takes spoken requests at the desk speakerphone, answers quick questions aloud, and hands longer jobs, such as building a presentation, to a background worker while showing progress in the team chat.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Takes spoken requests at the desk speakerphone, answers quick questions aloud, and hands longer jobs, such as building a presentation, to a background worker while showing progress in the team chat.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A manager who works away from a keyboard",
+ "group": "Meetings, voice and the AI colleague",
+ "specialist_kind": "Speaks to people",
+ "roles": [
+  {
+   "title": "The Front Desk",
+   "url": "https://coreyjames.ai/agents/roles/front-desk/"
+  },
+  {
+   "title": "The Onboarding Buddy",
+   "url": "https://coreyjames.ai/agents/roles/onboarding-buddy/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/hands-free-office-assistant/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/hands-free-office-assistant",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

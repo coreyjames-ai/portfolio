@@ -1,0 +1,28 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/loyalty-program-architect/",
+ "kind": "agent-specialist",
+ "title": "Loyalty Program Architect",
+ "subtitle": "It designs and launches the loyalty program: the points currencies and their limits, the tier ladder, the rewards and offers, and publishes the program when it is ready.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "It designs and launches the loyalty program: the points currencies and their limits, the tier ladder, the rewards and offers, and publishes the program when it is ready.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "a retail or e-commerce marketing lead",
+ "group": "Store, loyalty and payments",
+ "specialist_kind": "Does the work",
+ "roles": [
+  {
+   "title": "The Loyalty Director",
+   "url": "https://coreyjames.ai/agents/roles/loyalty-director/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/loyalty-program-architect/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/loyalty-program-architect",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

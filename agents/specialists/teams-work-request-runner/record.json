@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/teams-work-request-runner/",
+ "kind": "agent-specialist",
+ "title": "Teams Work Request Runner",
+ "subtitle": "It starts a worker on a local machine or in the cloud, keeps the requester informed of progress, returns the results and files, and shuts the worker down when idle.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "It starts a worker on a local machine or in the cloud, keeps the requester informed of progress, returns the results and files, and shuts the worker down when idle.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "An IT or operations lead whose people work in Microsoft Teams",
+ "group": "Meetings, voice and the AI colleague",
+ "specialist_kind": "Does the work",
+ "roles": [
+  {
+   "title": "The Meeting Concierge",
+   "url": "https://coreyjames.ai/agents/roles/meeting-concierge/"
+  },
+  {
+   "title": "The Follow-Through Engineer",
+   "url": "https://coreyjames.ai/agents/roles/follow-through-engineer/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/teams-work-request-runner/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/teams-work-request-runner",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

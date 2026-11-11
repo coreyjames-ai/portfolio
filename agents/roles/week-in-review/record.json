@@ -1,0 +1,70 @@
+{
+ "url": "https://coreyjames.ai/agents/roles/week-in-review/",
+ "kind": "agent-role",
+ "title": "The Week in Review",
+ "subtitle": "For a founder who wants Friday's numbers without building the report.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Each week the agent pulls the results from every social channel, the email campaigns, the sales pipeline and the payment account. It writes a short brief that reads well on a phone and posts it in the team chat. It also turns the numbers into a designed reel over the week's most-watched clips and schedules it.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "function": "Running the company",
+ "function_url": "https://coreyjames.ai/agents/functions/running-the-company/",
+ "specialists": [
+  {
+   "title": "Weekly Cross-Channel Brief",
+   "url": "https://coreyjames.ai/agents/specialists/weekly-cross-channel-brief/"
+  },
+  {
+   "title": "Weekly Results Reel Maker",
+   "url": "https://coreyjames.ai/agents/specialists/weekly-results-reel-maker/"
+  },
+  {
+   "title": "Social Analytics Reporter",
+   "url": "https://coreyjames.ai/agents/specialists/social-analytics-reporter/"
+  },
+  {
+   "title": "X Performance Analyst",
+   "url": "https://coreyjames.ai/agents/specialists/x-performance-analyst/"
+  },
+  {
+   "title": "Facebook Page Analyst",
+   "url": "https://coreyjames.ai/agents/specialists/facebook-page-analyst/"
+  },
+  {
+   "title": "Campaign Results Analyst",
+   "url": "https://coreyjames.ai/agents/specialists/campaign-results-analyst/"
+  },
+  {
+   "title": "Revenue Reporter",
+   "url": "https://coreyjames.ai/agents/specialists/revenue-reporter/"
+  },
+  {
+   "title": "Motion Graphics Artist",
+   "url": "https://coreyjames.ai/agents/specialists/motion-graphics-artist/"
+  },
+  {
+   "title": "Revenue Attribution Analyst",
+   "url": "https://coreyjames.ai/agents/specialists/revenue-attribution-analyst/"
+  }
+ ],
+ "featured": false,
+ "routes": [
+  "A topic becomes a week of content"
+ ],
+ "related": [
+  {
+   "title": "Business systems as safe agent tools",
+   "url": "https://coreyjames.ai/capabilities/business-systems-as-safe-agent-tools/",
+   "kind": "Capability"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/roles/week-in-review/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/roles/week-in-review",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

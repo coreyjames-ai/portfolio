@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/billing-desk/",
+ "kind": "agent-specialist",
+ "title": "Billing Desk",
+ "subtitle": "It answers customers' billing questions by finding the payment, invoice or subscription, and makes approved changes such as updating a subscription.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "It answers customers' billing questions by finding the payment, invoice or subscription, and makes approved changes such as updating a subscription.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "a finance or support lead",
+ "group": "Store, loyalty and payments",
+ "specialist_kind": "Speaks to people",
+ "roles": [
+  {
+   "title": "The Accounts Office",
+   "url": "https://coreyjames.ai/agents/roles/accounts-office/"
+  },
+  {
+   "title": "The Support Desk",
+   "url": "https://coreyjames.ai/agents/roles/support-desk/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/billing-desk/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/billing-desk",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

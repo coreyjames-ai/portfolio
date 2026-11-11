@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/pipeline-weekly-reviewer/",
+ "kind": "agent-specialist",
+ "title": "Pipeline Weekly Reviewer",
+ "subtitle": "Each week it lists deals that have stalled and tasks that are overdue, writes a note on each, and sends the summary to the team's chat.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Each week it lists deals that have stalled and tasks that are overdue, writes a note on each, and sends the summary to the team's chat.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "a sales lead",
+ "group": "Sales, customers and service",
+ "specialist_kind": "Challenges decisions",
+ "roles": [
+  {
+   "title": "The Morning Brief",
+   "url": "https://coreyjames.ai/agents/roles/morning-brief/"
+  },
+  {
+   "title": "The Lead Catcher",
+   "url": "https://coreyjames.ai/agents/roles/lead-catcher/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/pipeline-weekly-reviewer/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/pipeline-weekly-reviewer",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

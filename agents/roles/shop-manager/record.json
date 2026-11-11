@@ -1,0 +1,78 @@
+{
+ "url": "https://coreyjames.ai/agents/roles/shop-manager/",
+ "kind": "agent-role",
+ "title": "The Shop Manager",
+ "subtitle": "For an online shop owner.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "The agent keeps the catalogue current and records every order. A customer who leaves a full basket gets a reminder. A customer waiting on an item hears when it is back in stock, and everyone hears when their order moves. Points are added, vouchers are issued and redeemed, and coupon drops go to the segments most likely to use them.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "function": "Sales and customers",
+ "function_url": "https://coreyjames.ai/agents/functions/sales-and-customers/",
+ "specialists": [
+  {
+   "title": "Store Catalogue Manager",
+   "url": "https://coreyjames.ai/agents/specialists/store-catalogue-manager/"
+  },
+  {
+   "title": "Order Desk",
+   "url": "https://coreyjames.ai/agents/specialists/order-desk/"
+  },
+  {
+   "title": "Order Fulfilment Agent",
+   "url": "https://coreyjames.ai/agents/specialists/order-fulfilment-agent/"
+  },
+  {
+   "title": "Abandoned Checkout Follow-up",
+   "url": "https://coreyjames.ai/agents/specialists/abandoned-checkout-follow-up/"
+  },
+  {
+   "title": "Back-in-Stock Notifier",
+   "url": "https://coreyjames.ai/agents/specialists/back-in-stock-notifier/"
+  },
+  {
+   "title": "Order Status Notifier",
+   "url": "https://coreyjames.ai/agents/specialists/order-status-notifier/"
+  },
+  {
+   "title": "Points and Redemption Clerk",
+   "url": "https://coreyjames.ai/agents/specialists/points-and-redemption-clerk/"
+  },
+  {
+   "title": "Voucher and Reward Desk",
+   "url": "https://coreyjames.ai/agents/specialists/voucher-and-reward-desk/"
+  },
+  {
+   "title": "Coupon Drop Manager",
+   "url": "https://coreyjames.ai/agents/specialists/coupon-drop-manager/"
+  },
+  {
+   "title": "Website Chat Agent",
+   "url": "https://coreyjames.ai/agents/specialists/website-chat-agent/"
+  },
+  {
+   "title": "Pricing Change Watchdog",
+   "url": "https://coreyjames.ai/agents/specialists/pricing-change-watchdog/"
+  }
+ ],
+ "featured": false,
+ "routes": [
+  "A decision becomes a launch"
+ ],
+ "related": [
+  {
+   "title": "Business systems as safe agent tools",
+   "url": "https://coreyjames.ai/capabilities/business-systems-as-safe-agent-tools/",
+   "kind": "Capability"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/roles/shop-manager/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/roles/shop-manager",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

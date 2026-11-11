@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/storage-space-reclaimer/",
+ "kind": "agent-specialist",
+ "title": "Storage Space Reclaimer",
+ "subtitle": "Lists the old stored versions, confirms which one is active and clears the ones no longer needed.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Lists the old stored versions, confirms which one is active and clears the ones no longer needed.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "An owner of stored research data who is running low on disk",
+ "group": "AI models and performance",
+ "specialist_kind": "Runs infrastructure",
+ "roles": [
+  {
+   "title": "The Housekeeper",
+   "url": "https://coreyjames.ai/agents/roles/housekeeper/"
+  },
+  {
+   "title": "The Knowledge Gardener",
+   "url": "https://coreyjames.ai/agents/roles/knowledge-gardener/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/storage-space-reclaimer/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/storage-space-reclaimer",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

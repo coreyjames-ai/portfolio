@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/social-calendar-manager/",
+ "kind": "agent-specialist",
+ "title": "Social Calendar Manager",
+ "subtitle": "It keeps each brand's posting calendar: brand profiles, which accounts belong to which brand, the weekly posting slots, and every draft and scheduled post, including bulk uploads.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "It keeps each brand's posting calendar: brand profiles, which accounts belong to which brand, the weekly posting slots, and every draft and scheduled post, including bulk uploads.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "a social media manager",
+ "group": "Social media",
+ "specialist_kind": "Does the work",
+ "roles": [
+  {
+   "title": "The Newsroom",
+   "url": "https://coreyjames.ai/agents/roles/newsroom/"
+  },
+  {
+   "title": "The Agency Back Office",
+   "url": "https://coreyjames.ai/agents/roles/agency-back-office/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/social-calendar-manager/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/social-calendar-manager",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

@@ -1,0 +1,28 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/stand-up-note-taker/",
+ "kind": "agent-specialist",
+ "title": "Stand-up Note Taker",
+ "subtitle": "Sits in the stand-up, captures the transcript and recording, lines up what was said with each project's status digest and sends the action items to the team lead.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Sits in the stand-up, captures the transcript and recording, lines up what was said with each project's status digest and sends the action items to the team lead.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "An engineering manager running daily stand-ups",
+ "group": "Meetings, voice and the AI colleague",
+ "specialist_kind": "Keeps knowledge",
+ "roles": [
+  {
+   "title": "The Stand-up Host",
+   "url": "https://coreyjames.ai/agents/roles/stand-up-host/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/stand-up-note-taker/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/stand-up-note-taker",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

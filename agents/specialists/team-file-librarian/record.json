@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/team-file-librarian/",
+ "kind": "agent-specialist",
+ "title": "Team File Librarian",
+ "subtitle": "Finds the file someone is talking about, says what it is and whether it is searchable yet, and answers questions about what is inside it.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Finds the file someone is talking about, says what it is and whether it is searchable yet, and answers questions about what is inside it.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A team whose shared files pile up",
+ "group": "Meetings, voice and the AI colleague",
+ "specialist_kind": "Keeps knowledge",
+ "roles": [
+  {
+   "title": "The Digital Employee",
+   "url": "https://coreyjames.ai/agents/roles/digital-employee/"
+  },
+  {
+   "title": "The Company Librarian",
+   "url": "https://coreyjames.ai/agents/roles/company-librarian/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/team-file-librarian/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/team-file-librarian",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

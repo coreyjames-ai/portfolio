@@ -1,0 +1,88 @@
+{
+ "url": "https://coreyjames.ai/agents/roles/lead-catcher/",
+ "kind": "agent-role",
+ "title": "The Lead Catcher",
+ "subtitle": "For a sales team that loses inquiries.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "An inquiry arrives through the website, an email, a chat or a direct message. The agent creates the contact, the company and the deal, reads what it can about the company and sends a reply that answers the question asked. It sets the follow-up task, sends the reminder when the day comes and moves the deal through the pipeline. On Monday the sales lead gets the pipeline review.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "function": "Sales and customers",
+ "function_url": "https://coreyjames.ai/agents/functions/sales-and-customers/",
+ "specialists": [
+  {
+   "title": "Lead Capture Desk",
+   "url": "https://coreyjames.ai/agents/specialists/lead-capture-desk/"
+  },
+  {
+   "title": "Inbound Mail Clerk",
+   "url": "https://coreyjames.ai/agents/specialists/inbound-mail-clerk/"
+  },
+  {
+   "title": "Website Chat Agent",
+   "url": "https://coreyjames.ai/agents/specialists/website-chat-agent/"
+  },
+  {
+   "title": "Company Records Manager",
+   "url": "https://coreyjames.ai/agents/specialists/company-records-manager/"
+  },
+  {
+   "title": "Sales Pipeline Manager",
+   "url": "https://coreyjames.ai/agents/specialists/sales-pipeline-manager/"
+  },
+  {
+   "title": "Sales Follow-up Assistant",
+   "url": "https://coreyjames.ai/agents/specialists/sales-follow-up-assistant/"
+  },
+  {
+   "title": "Pipeline Weekly Reviewer",
+   "url": "https://coreyjames.ai/agents/specialists/pipeline-weekly-reviewer/"
+  },
+  {
+   "title": "Page Inbox Collector",
+   "url": "https://coreyjames.ai/agents/specialists/page-inbox-collector/"
+  },
+  {
+   "title": "X Direct Message Desk",
+   "url": "https://coreyjames.ai/agents/specialists/x-direct-message-desk/"
+  },
+  {
+   "title": "Campaign Follow-up Agent",
+   "url": "https://coreyjames.ai/agents/specialists/campaign-follow-up-agent/"
+  },
+  {
+   "title": "Website Visitor Assistant",
+   "url": "https://coreyjames.ai/agents/specialists/website-visitor-assistant/"
+  }
+ ],
+ "featured": true,
+ "routes": [
+  "A comment becomes a customer"
+ ],
+ "related": [
+  {
+   "title": "Business systems as safe agent tools",
+   "url": "https://coreyjames.ai/capabilities/business-systems-as-safe-agent-tools/",
+   "kind": "Capability"
+  },
+  {
+   "title": "Agents that react to the world",
+   "url": "https://coreyjames.ai/ideas/agents-that-react-to-the-world/",
+   "kind": "Idea"
+  },
+  {
+   "title": "Agents with real tools and no keys",
+   "url": "https://coreyjames.ai/stories/agents-with-real-tools-and-no-keys/",
+   "kind": "Engineering story"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/roles/lead-catcher/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/roles/lead-catcher",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/storage-incident-handler/",
+ "kind": "agent-specialist",
+ "title": "Storage Incident Handler",
+ "subtitle": "When storage reports a problem, this agent reads the recovery report, runs a consistency check, sends lost items back for reprocessing and records the sign-off.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "When storage reports a problem, this agent reads the recovery report, runs a consistency check, sends lost items back for reprocessing and records the sign-off.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "An IT operations lead responsible for research data storage",
+ "group": "AI models and performance",
+ "specialist_kind": "Runs infrastructure",
+ "roles": [
+  {
+   "title": "The Research Lab",
+   "url": "https://coreyjames.ai/agents/roles/research-lab/"
+  },
+  {
+   "title": "The Archive Keeper",
+   "url": "https://coreyjames.ai/agents/roles/archive-keeper/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/storage-incident-handler/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/storage-incident-handler",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

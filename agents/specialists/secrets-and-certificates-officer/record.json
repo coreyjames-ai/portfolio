@@ -1,0 +1,36 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/secrets-and-certificates-officer/",
+ "kind": "agent-specialist",
+ "title": "Secrets and Certificates Officer",
+ "subtitle": "Keeps every credential and certificate in one locked store.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Keeps every credential and certificate in one locked store. It rotates them, pushes them to the machines that need them, renews public certificates, issues internal ones, and installs trust into each new container as it starts, and it never shows a secret's value to anyone.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A security lead",
+ "group": "Security and access",
+ "specialist_kind": "Audits and guards",
+ "roles": [
+  {
+   "title": "The Contractor Pass",
+   "url": "https://coreyjames.ai/agents/roles/contractor-pass/"
+  },
+  {
+   "title": "The Branch Office Engineer",
+   "url": "https://coreyjames.ai/agents/roles/branch-office-engineer/"
+  },
+  {
+   "title": "The Security Officer",
+   "url": "https://coreyjames.ai/agents/roles/security-officer/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/secrets-and-certificates-officer/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/secrets-and-certificates-officer",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

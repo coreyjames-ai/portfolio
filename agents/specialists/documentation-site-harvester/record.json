@@ -1,0 +1,40 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/documentation-site-harvester/",
+ "kind": "agent-specialist",
+ "title": "Documentation Site Harvester",
+ "subtitle": "Crawls a documentation website inside set domain and path boundaries, cleans each page into readable text, splits it into sections, writes a summary, keywords and a quality score for each section, and makes the whole site searchable.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Crawls a documentation website inside set domain and path boundaries, cleans each page into readable text, splits it into sections, writes a summary, keywords and a quality score for each section, and makes the whole site searchable. Later passes re-crawl only what is new or changed.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A platform team or developer relations lead who wants a vendor's or partner's documentation searchable next to the team's own work",
+ "group": "Code intelligence and team memory",
+ "specialist_kind": "Keeps knowledge",
+ "roles": [
+  {
+   "title": "The Company Librarian",
+   "url": "https://coreyjames.ai/agents/roles/company-librarian/"
+  },
+  {
+   "title": "The Integration Engineer",
+   "url": "https://coreyjames.ai/agents/roles/integration-engineer/"
+  },
+  {
+   "title": "The Migration Planner",
+   "url": "https://coreyjames.ai/agents/roles/migration-planner/"
+  },
+  {
+   "title": "The Research Desk",
+   "url": "https://coreyjames.ai/agents/roles/research-desk/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/documentation-site-harvester/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/documentation-site-harvester",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

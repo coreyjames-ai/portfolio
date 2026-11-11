@@ -1,0 +1,76 @@
+{
+ "url": "https://coreyjames.ai/agents/roles/film-studio/",
+ "kind": "agent-role",
+ "title": "The Film Studio",
+ "subtitle": "For a marketing lead with a story and no crew.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "A one-paragraph brief becomes a storyboard. The agent generates each shot, turns product photos into motion and builds the on-screen graphics. It records the narration, lays in sound, cuts the film and exports a version for every channel with captions. A reviewer sees each cut before it goes out.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "function": "Marketing and audience",
+ "function_url": "https://coreyjames.ai/agents/functions/marketing-and-audience/",
+ "specialists": [
+  {
+   "title": "Production Planner",
+   "url": "https://coreyjames.ai/agents/specialists/production-planner/"
+  },
+  {
+   "title": "Storyboard Artist",
+   "url": "https://coreyjames.ai/agents/specialists/storyboard-artist/"
+  },
+  {
+   "title": "Photo-to-Motion Artist",
+   "url": "https://coreyjames.ai/agents/specialists/photo-to-motion-artist/"
+  },
+  {
+   "title": "3D Scene Builder",
+   "url": "https://coreyjames.ai/agents/specialists/3d-scene-builder/"
+  },
+  {
+   "title": "Motion Graphics Artist",
+   "url": "https://coreyjames.ai/agents/specialists/motion-graphics-artist/"
+  },
+  {
+   "title": "Voice-Over Artist",
+   "url": "https://coreyjames.ai/agents/specialists/voice-over-artist/"
+  },
+  {
+   "title": "Sound Designer",
+   "url": "https://coreyjames.ai/agents/specialists/sound-designer/"
+  },
+  {
+   "title": "Video Mix and Finishing Editor",
+   "url": "https://coreyjames.ai/agents/specialists/video-mix-and-finishing-editor/"
+  },
+  {
+   "title": "Caption and Format Specialist",
+   "url": "https://coreyjames.ai/agents/specialists/caption-and-format-specialist/"
+  },
+  {
+   "title": "Creative Review Coordinator",
+   "url": "https://coreyjames.ai/agents/specialists/creative-review-coordinator/"
+  },
+  {
+   "title": "Render Farm Operator",
+   "url": "https://coreyjames.ai/agents/specialists/render-farm-operator/"
+  },
+  {
+   "title": "Render Job Troubleshooter",
+   "url": "https://coreyjames.ai/agents/specialists/render-job-troubleshooter/"
+  }
+ ],
+ "featured": true,
+ "routes": [
+  "A decision becomes a launch"
+ ],
+ "related": [],
+ "canonical": "https://coreyjames.ai/agents/roles/film-studio/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/roles/film-studio",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

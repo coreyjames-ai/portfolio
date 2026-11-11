@@ -1,0 +1,36 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/sales-pipeline-manager/",
+ "kind": "agent-specialist",
+ "title": "Sales Pipeline Manager",
+ "subtitle": "It keeps every deal in the right stage of the right pipeline, links deals to the people and companies involved, imports deals from other tools, and reports the pipeline.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "It keeps every deal in the right stage of the right pipeline, links deals to the people and companies involved, imports deals from other tools, and reports the pipeline.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "a sales lead",
+ "group": "Sales, customers and service",
+ "specialist_kind": "Does the work",
+ "roles": [
+  {
+   "title": "The Chief of Staff",
+   "url": "https://coreyjames.ai/agents/roles/chief-of-staff/"
+  },
+  {
+   "title": "The Lead Catcher",
+   "url": "https://coreyjames.ai/agents/roles/lead-catcher/"
+  },
+  {
+   "title": "The Sales Engineer",
+   "url": "https://coreyjames.ai/agents/roles/sales-engineer/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/sales-pipeline-manager/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/sales-pipeline-manager",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

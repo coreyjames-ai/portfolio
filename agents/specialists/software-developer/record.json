@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/software-developer/",
+ "kind": "agent-specialist",
+ "title": "Software Developer",
+ "subtitle": "Takes one assigned task, reads the brief and the code around it, writes and tests the change inside its allowed folders, submits evidence for each acceptance point and fixes what reviewers send back.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Takes one assigned task, reads the brief and the code around it, writes and tests the change inside its allowed folders, submits evidence for each acceptance point and fixes what reviewers send back.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "An engineering team that needs code written",
+ "group": "Building software",
+ "specialist_kind": "Does the work",
+ "roles": [
+  {
+   "title": "The Software Department",
+   "url": "https://coreyjames.ai/agents/roles/software-department/"
+  },
+  {
+   "title": "The Automation Builder",
+   "url": "https://coreyjames.ai/agents/roles/automation-builder/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/software-developer/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/software-developer",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

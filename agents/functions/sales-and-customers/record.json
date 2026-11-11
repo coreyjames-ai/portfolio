@@ -1,0 +1,74 @@
+{
+ "url": "https://coreyjames.ai/agents/functions/sales-and-customers/",
+ "kind": "agent-function",
+ "title": "Sales and customers",
+ "subtitle": "Inquiries, deals, orders, payments and support, kept moving after the first reply.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Inquiries, deals, orders, payments and support, kept moving after the first reply. Roles: The Lead Catcher; The Sales Engineer; The Customer Success Manager; The Revenue Rescuer; The Shop Manager; The Loyalty Director; The Accounts Office; The Support Desk; The Front Desk.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "roles": [
+  {
+   "title": "The Lead Catcher",
+   "url": "https://coreyjames.ai/agents/roles/lead-catcher/"
+  },
+  {
+   "title": "The Sales Engineer",
+   "url": "https://coreyjames.ai/agents/roles/sales-engineer/"
+  },
+  {
+   "title": "The Customer Success Manager",
+   "url": "https://coreyjames.ai/agents/roles/customer-success-manager/"
+  },
+  {
+   "title": "The Revenue Rescuer",
+   "url": "https://coreyjames.ai/agents/roles/revenue-rescuer/"
+  },
+  {
+   "title": "The Shop Manager",
+   "url": "https://coreyjames.ai/agents/roles/shop-manager/"
+  },
+  {
+   "title": "The Loyalty Director",
+   "url": "https://coreyjames.ai/agents/roles/loyalty-director/"
+  },
+  {
+   "title": "The Accounts Office",
+   "url": "https://coreyjames.ai/agents/roles/accounts-office/"
+  },
+  {
+   "title": "The Support Desk",
+   "url": "https://coreyjames.ai/agents/roles/support-desk/"
+  },
+  {
+   "title": "The Front Desk",
+   "url": "https://coreyjames.ai/agents/roles/front-desk/"
+  }
+ ],
+ "related": [
+  {
+   "title": "Business systems as safe agent tools",
+   "url": "https://coreyjames.ai/capabilities/business-systems-as-safe-agent-tools/",
+   "kind": "Capability"
+  },
+  {
+   "title": "Voice agents in calls and meetings",
+   "url": "https://coreyjames.ai/capabilities/voice-agents-in-meetings/",
+   "kind": "Capability"
+  },
+  {
+   "title": "Agents with real tools and no keys",
+   "url": "https://coreyjames.ai/stories/agents-with-real-tools-and-no-keys/",
+   "kind": "Engineering story"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/functions/sales-and-customers/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/functions/sales-and-customers",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

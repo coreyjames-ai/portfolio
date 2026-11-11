@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/software-delivery-crew/",
+ "kind": "agent-specialist",
+ "title": "Software Delivery Crew",
+ "subtitle": "This crew of five takes a plan and turns it into working code: a planner writes the tasks, a builder writes the code, a reviewer reads every critical path, a researcher answers \"what else does this touch\", and an inspector checks the finished work before it is accepted.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "This crew of five takes a plan and turns it into working code: a planner writes the tasks, a builder writes the code, a reviewer reads every critical path, a researcher answers \"what else does this touch\", and an inspector checks the finished work before it is accepted.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A founder or CTO with a large build and a small team",
+ "group": "Building software",
+ "specialist_kind": "Does the work",
+ "roles": [
+  {
+   "title": "The Pocket Operator",
+   "url": "https://coreyjames.ai/agents/roles/pocket-operator/"
+  },
+  {
+   "title": "The Software Department",
+   "url": "https://coreyjames.ai/agents/roles/software-department/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/software-delivery-crew/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/software-delivery-crew",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

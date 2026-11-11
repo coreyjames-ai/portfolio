@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/fast-data-lookup-assistant/",
+ "kind": "agent-specialist",
+ "title": "Fast Data Lookup Assistant",
+ "subtitle": "This agent answers questions about another app's records from a kept-in-sync copy, so the team gets fast answers and the other app is not overloaded.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "This agent answers questions about another app's records from a kept-in-sync copy, so the team gets fast answers and the other app is not overloaded.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A support desk or sales team that keeps hitting another app's rate limits",
+ "group": "Connecting tools and signals",
+ "specialist_kind": "Speaks to people",
+ "roles": [
+  {
+   "title": "The Front Desk",
+   "url": "https://coreyjames.ai/agents/roles/front-desk/"
+  },
+  {
+   "title": "The Systems Bridge",
+   "url": "https://coreyjames.ai/agents/roles/systems-bridge/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/fast-data-lookup-assistant/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/fast-data-lookup-assistant",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

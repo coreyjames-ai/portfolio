@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/new-hire-guide/",
+ "kind": "agent-specialist",
+ "title": "New Hire Guide",
+ "subtitle": "Walks a new team member through the team's shared files and recent decisions, by voice or chat, and leaves them an orientation document to come back to.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Walks a new team member through the team's shared files and recent decisions, by voice or chat, and leaves them an orientation document to come back to.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A people lead or team manager onboarding someone",
+ "group": "Meetings, voice and the AI colleague",
+ "specialist_kind": "Speaks to people",
+ "roles": [
+  {
+   "title": "The Company Librarian",
+   "url": "https://coreyjames.ai/agents/roles/company-librarian/"
+  },
+  {
+   "title": "The Onboarding Buddy",
+   "url": "https://coreyjames.ai/agents/roles/onboarding-buddy/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/new-hire-guide/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/new-hire-guide",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

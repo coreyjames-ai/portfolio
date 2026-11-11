@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/brand-image-maker/",
+ "kind": "agent-specialist",
+ "title": "Brand Image Maker",
+ "subtitle": "Turns an image brief into finished images in the brand's look, with the words set by a designer template instead of drawn by the image model.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Turns an image brief into finished images in the brand's look, with the words set by a designer template instead of drawn by the image model.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A marketing lead or social media manager",
+ "group": "Content, film and brand",
+ "specialist_kind": "Does the work",
+ "roles": [
+  {
+   "title": "The Newsroom",
+   "url": "https://coreyjames.ai/agents/roles/newsroom/"
+  },
+  {
+   "title": "The Rapid Responder",
+   "url": "https://coreyjames.ai/agents/roles/rapid-responder/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/brand-image-maker/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/brand-image-maker",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

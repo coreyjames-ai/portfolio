@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/whatsapp-business-messenger/",
+ "kind": "agent-specialist",
+ "title": "WhatsApp Business Messenger",
+ "subtitle": "It writes message templates, submits them for approval, runs WhatsApp campaigns and sends individual messages, then reads the delivery report.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "It writes message templates, submits them for approval, runs WhatsApp campaigns and sends individual messages, then reads the delivery report.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "a customer team that talks to customers on WhatsApp",
+ "group": "Email, text and messaging",
+ "specialist_kind": "Speaks to people",
+ "roles": [
+  {
+   "title": "The Message Centre",
+   "url": "https://coreyjames.ai/agents/roles/message-centre/"
+  },
+  {
+   "title": "The Customer Success Manager",
+   "url": "https://coreyjames.ai/agents/roles/customer-success-manager/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/whatsapp-business-messenger/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/whatsapp-business-messenger",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

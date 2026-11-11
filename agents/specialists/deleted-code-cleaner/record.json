@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/deleted-code-cleaner/",
+ "kind": "agent-specialist",
+ "title": "Deleted Code Cleaner",
+ "subtitle": "Deletes the search entries and dependency links for code that no longer exists, without holding up the scan.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Deletes the search entries and dependency links for code that no longer exists, without holding up the scan.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A platform lead",
+ "group": "Code intelligence and team memory",
+ "specialist_kind": "Keeps knowledge",
+ "roles": [
+  {
+   "title": "The Housekeeper",
+   "url": "https://coreyjames.ai/agents/roles/housekeeper/"
+  },
+  {
+   "title": "The Search Keeper",
+   "url": "https://coreyjames.ai/agents/roles/search-keeper/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/deleted-code-cleaner/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/deleted-code-cleaner",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

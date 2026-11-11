@@ -1,0 +1,72 @@
+{
+ "url": "https://coreyjames.ai/agents/roles/housekeeper/",
+ "kind": "agent-role",
+ "title": "The Housekeeper",
+ "subtitle": "For an operations lead whose systems collect clutter.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Dead jobs leave locks behind, and stalled workers stay attached to their queues. The agent finds both, shows what it would remove and clears them once the lead agrees. It sets how worker time is shared between quick updates and bulk loads. A retired machine is taken out of the fleet and its certificates are revoked. The lead also gets the trend in job run times, with the slowest step named.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "function": "Infrastructure and operations",
+ "function_url": "https://coreyjames.ai/agents/functions/infrastructure-and-operations/",
+ "specialists": [
+  {
+   "title": "Stuck Job Unblocker",
+   "url": "https://coreyjames.ai/agents/specialists/stuck-job-unblocker/"
+  },
+  {
+   "title": "Stale Worker Sweeper",
+   "url": "https://coreyjames.ai/agents/specialists/stale-worker-sweeper/"
+  },
+  {
+   "title": "Queue Priority Balancer",
+   "url": "https://coreyjames.ai/agents/specialists/queue-priority-balancer/"
+  },
+  {
+   "title": "Machine Decommissioner",
+   "url": "https://coreyjames.ai/agents/specialists/machine-decommissioner/"
+  },
+  {
+   "title": "Job Performance Historian",
+   "url": "https://coreyjames.ai/agents/specialists/job-performance-historian/"
+  },
+  {
+   "title": "Automation Library Caretaker",
+   "url": "https://coreyjames.ai/agents/specialists/automation-library-caretaker/"
+  },
+  {
+   "title": "Index Upkeep Operator",
+   "url": "https://coreyjames.ai/agents/specialists/index-upkeep-operator/"
+  },
+  {
+   "title": "Deleted Code Cleaner",
+   "url": "https://coreyjames.ai/agents/specialists/deleted-code-cleaner/"
+  },
+  {
+   "title": "Storage Space Reclaimer",
+   "url": "https://coreyjames.ai/agents/specialists/storage-space-reclaimer/"
+  },
+  {
+   "title": "Service Caretaker",
+   "url": "https://coreyjames.ai/agents/specialists/service-caretaker/"
+  }
+ ],
+ "featured": false,
+ "routes": [],
+ "related": [
+  {
+   "title": "Rules that never ran",
+   "url": "https://coreyjames.ai/stories/rules-that-never-ran/",
+   "kind": "Engineering story"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/roles/housekeeper/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/roles/housekeeper",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

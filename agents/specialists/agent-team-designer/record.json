@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/agent-team-designer/",
+ "kind": "agent-specialist",
+ "title": "Agent Team Designer",
+ "subtitle": "Takes a project's goal and its source material, explores that material through the search tools, proposes a roster of specialist agents, and writes their skill guides and agent definitions.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Takes a project's goal and its source material, explores that material through the search tools, proposes a roster of specialist agents, and writes their skill guides and agent definitions. A person reviews them first; they are then deployed, archived and restored on request, and the team can be stood up with those members.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A founder or team lead who wants a set of specialist assistants built around their own material",
+ "group": "Managing an AI workforce",
+ "specialist_kind": "Supervises other agents",
+ "roles": [
+  {
+   "title": "The Operations Desk",
+   "url": "https://coreyjames.ai/agents/roles/operations-desk/"
+  },
+  {
+   "title": "The Team Architect",
+   "url": "https://coreyjames.ai/agents/roles/team-architect/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/agent-team-designer/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/agent-team-designer",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/knowledge-base-health-analyst/",
+ "kind": "agent-specialist",
+ "title": "Knowledge Base Health Analyst",
+ "subtitle": "This agent scores every topic on dozens of health measures and reports which topics need more depth or rebalancing.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "This agent scores every topic on dozens of health measures and reports which topics need more depth or rebalancing.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A knowledge manager who needs to know where the knowledge base is weak",
+ "group": "AI models and performance",
+ "specialist_kind": "Audits and guards",
+ "roles": [
+  {
+   "title": "The Model Interviewer",
+   "url": "https://coreyjames.ai/agents/roles/model-interviewer/"
+  },
+  {
+   "title": "The Knowledge Gardener",
+   "url": "https://coreyjames.ai/agents/roles/knowledge-gardener/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/knowledge-base-health-analyst/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/knowledge-base-health-analyst",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

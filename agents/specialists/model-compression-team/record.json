@@ -1,0 +1,28 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/model-compression-team/",
+ "kind": "agent-specialist",
+ "title": "Model Compression Team",
+ "subtitle": "A coordinated group of six agents: one reads the model and serving code, one designs and applies the compression recipe, one measures quality against the full-size model, one measures speed, one checks every claim against the measurements, and a coordinator pulls it together into a release you can publish.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "A coordinated group of six agents: one reads the model and serving code, one designs and applies the compression recipe, one measures quality against the full-size model, one measures speed, one checks every claim against the measurements, and a coordinator pulls it together into a release you can publish.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "An ML team that wants a large model to fit on a smaller card",
+ "group": "AI models and performance",
+ "specialist_kind": "Does the work",
+ "roles": [
+  {
+   "title": "The Model Shrinker",
+   "url": "https://coreyjames.ai/agents/roles/model-shrinker/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/model-compression-team/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/model-compression-team",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

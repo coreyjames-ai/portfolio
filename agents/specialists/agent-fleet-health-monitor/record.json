@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/agent-fleet-health-monitor/",
+ "kind": "agent-specialist",
+ "title": "Agent Fleet Health Monitor",
+ "subtitle": "It removes silent agents from the roster, updates the list of available machines, and reports fleet status.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "It removes silent agents from the roster, updates the list of available machines, and reports fleet status.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "An IT operations lead running many agents",
+ "group": "Managing an AI workforce",
+ "specialist_kind": "Supervises other agents",
+ "roles": [
+  {
+   "title": "The Control Room",
+   "url": "https://coreyjames.ai/agents/roles/control-room/"
+  },
+  {
+   "title": "The Watch Office",
+   "url": "https://coreyjames.ai/agents/roles/watch-office/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/agent-fleet-health-monitor/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/agent-fleet-health-monitor",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

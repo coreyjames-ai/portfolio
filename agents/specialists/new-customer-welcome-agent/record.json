@@ -1,0 +1,28 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/new-customer-welcome-agent/",
+ "kind": "agent-specialist",
+ "title": "New Customer Welcome Agent",
+ "subtitle": "After a first purchase it adds the customer to the welcome list, sends the welcome email, enrols them in the loyalty program, marks the deal won and books a check-in.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "After a first purchase it adds the customer to the welcome list, sends the welcome email, enrols them in the loyalty program, marks the deal won and books a check-in.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "a founder or customer success lead",
+ "group": "Store, loyalty and payments",
+ "specialist_kind": "Speaks to people",
+ "roles": [
+  {
+   "title": "The Customer Success Manager",
+   "url": "https://coreyjames.ai/agents/roles/customer-success-manager/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/new-customer-welcome-agent/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/new-customer-welcome-agent",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

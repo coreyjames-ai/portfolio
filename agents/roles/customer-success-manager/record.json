@@ -1,0 +1,80 @@
+{
+ "url": "https://coreyjames.ai/agents/roles/customer-success-manager/",
+ "kind": "agent-role",
+ "title": "The Customer Success Manager",
+ "subtitle": "For a subscription business.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "A first payment arrives and the agent sends the welcome, enrols the customer in the loyalty program and schedules the check-ins. It notices when a customer goes quiet and reaches out before the renewal. Upgrades, downgrades and cancellations each get their own message and the matching change to the account.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "function": "Sales and customers",
+ "function_url": "https://coreyjames.ai/agents/functions/sales-and-customers/",
+ "specialists": [
+  {
+   "title": "New Customer Welcome Agent",
+   "url": "https://coreyjames.ai/agents/specialists/new-customer-welcome-agent/"
+  },
+  {
+   "title": "Loyalty Member Concierge",
+   "url": "https://coreyjames.ai/agents/specialists/loyalty-member-concierge/"
+  },
+  {
+   "title": "Subscription Change Handler",
+   "url": "https://coreyjames.ai/agents/specialists/subscription-change-handler/"
+  },
+  {
+   "title": "Subscription Retention Agent",
+   "url": "https://coreyjames.ai/agents/specialists/subscription-retention-agent/"
+  },
+  {
+   "title": "Win-back Agent",
+   "url": "https://coreyjames.ai/agents/specialists/win-back-agent/"
+  },
+  {
+   "title": "Customer Lifecycle Agent",
+   "url": "https://coreyjames.ai/agents/specialists/customer-lifecycle-agent/"
+  },
+  {
+   "title": "Custom Records Keeper",
+   "url": "https://coreyjames.ai/agents/specialists/custom-records-keeper/"
+  },
+  {
+   "title": "Deal File Clerk",
+   "url": "https://coreyjames.ai/agents/specialists/deal-file-clerk/"
+  },
+  {
+   "title": "WhatsApp Business Messenger",
+   "url": "https://coreyjames.ai/agents/specialists/whatsapp-business-messenger/"
+  },
+  {
+   "title": "Contact Activity Recorder",
+   "url": "https://coreyjames.ai/agents/specialists/contact-activity-recorder/"
+  }
+ ],
+ "featured": false,
+ "routes": [
+  "A comment becomes a customer",
+  "A failed payment becomes a kept account"
+ ],
+ "related": [
+  {
+   "title": "Business systems as safe agent tools",
+   "url": "https://coreyjames.ai/capabilities/business-systems-as-safe-agent-tools/",
+   "kind": "Capability"
+  },
+  {
+   "title": "Agents that react to the world",
+   "url": "https://coreyjames.ai/ideas/agents-that-react-to-the-world/",
+   "kind": "Idea"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/roles/customer-success-manager/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/roles/customer-success-manager",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

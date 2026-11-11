@@ -1,0 +1,36 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/audio-briefing-producer/",
+ "kind": "agent-specialist",
+ "title": "Audio Briefing Producer",
+ "subtitle": "Turns the week's project activity into a short narrated audio briefing that people can listen to on the move.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Turns the week's project activity into a short narrated audio briefing that people can listen to on the move.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A busy leadership team or field staff",
+ "group": "Meetings, voice and the AI colleague",
+ "specialist_kind": "Speaks to people",
+ "roles": [
+  {
+   "title": "The Chief of Staff",
+   "url": "https://coreyjames.ai/agents/roles/chief-of-staff/"
+  },
+  {
+   "title": "The Morning Brief",
+   "url": "https://coreyjames.ai/agents/roles/morning-brief/"
+  },
+  {
+   "title": "The Training Department",
+   "url": "https://coreyjames.ai/agents/roles/training-department/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/audio-briefing-producer/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/audio-briefing-producer",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

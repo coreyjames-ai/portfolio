@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/transactional-mail-officer/",
+ "kind": "agent-specialist",
+ "title": "Transactional Mail Officer",
+ "subtitle": "It sends receipts, confirmations, password and security notices from approved templates.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "It sends receipts, confirmations, password and security notices from approved templates. It looks up any single email's content and delivery history when a customer says it never arrived, and it cancels scheduled emails that are no longer needed.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "a product or engineering lead",
+ "group": "Email, text and messaging",
+ "specialist_kind": "Speaks to people",
+ "roles": [
+  {
+   "title": "The Message Centre",
+   "url": "https://coreyjames.ai/agents/roles/message-centre/"
+  },
+  {
+   "title": "The Accounts Office",
+   "url": "https://coreyjames.ai/agents/roles/accounts-office/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/transactional-mail-officer/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/transactional-mail-officer",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

@@ -1,0 +1,72 @@
+{
+ "url": "https://coreyjames.ai/agents/roles/onboarding-buddy/",
+ "kind": "agent-role",
+ "title": "The Onboarding Buddy",
+ "subtitle": "For a manager onboarding someone.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "The new person asks how the system works and the agent explains it in plain language, with the path through the code behind every statement. It can say why a part was built the way it was and what was tried before. The first week comes with a reading list and someone to ask at any hour, by text or by voice.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "function": "Meetings and teamwork",
+ "function_url": "https://coreyjames.ai/agents/functions/meetings-and-teamwork/",
+ "specialists": [
+  {
+   "title": "New Hire Guide",
+   "url": "https://coreyjames.ai/agents/specialists/new-hire-guide/"
+  },
+  {
+   "title": "Codebase Onboarding Guide",
+   "url": "https://coreyjames.ai/agents/specialists/codebase-onboarding-guide/"
+  },
+  {
+   "title": "Code Flow Explainer",
+   "url": "https://coreyjames.ai/agents/specialists/code-flow-explainer/"
+  },
+  {
+   "title": "System Historian",
+   "url": "https://coreyjames.ai/agents/specialists/system-historian/"
+  },
+  {
+   "title": "Hands-Free Office Assistant",
+   "url": "https://coreyjames.ai/agents/specialists/hands-free-office-assistant/"
+  },
+  {
+   "title": "Project Reference Librarian",
+   "url": "https://coreyjames.ai/agents/specialists/project-reference-librarian/"
+  },
+  {
+   "title": "Marketing Team Access Manager",
+   "url": "https://coreyjames.ai/agents/specialists/marketing-team-access-manager/"
+  }
+ ],
+ "featured": false,
+ "routes": [
+  "An acquisition becomes a working team"
+ ],
+ "related": [
+  {
+   "title": "Memory and code intelligence for agents",
+   "url": "https://coreyjames.ai/capabilities/memory-and-code-intelligence-for-agents/",
+   "kind": "Capability"
+  },
+  {
+   "title": "Compute first, narrate second",
+   "url": "https://coreyjames.ai/ideas/compute-first-narrate-second/",
+   "kind": "Idea"
+  },
+  {
+   "title": "A code explainer that is not allowed to invent",
+   "url": "https://coreyjames.ai/stories/a-code-explainer-that-is-not-allowed-to-invent/",
+   "kind": "Engineering story"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/roles/onboarding-buddy/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/roles/onboarding-buddy",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

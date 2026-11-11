@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/service-function-builder/",
+ "kind": "agent-specialist",
+ "title": "Service Function Builder",
+ "subtitle": "Plans a new data-processing function, prepares its database work queue, generates its files, registers it as a tool and runs a harmless smoke test through it.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Plans a new data-processing function, prepares its database work queue, generates its files, registers it as a tool and runs a harmless smoke test through it.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A data team that needs a new processing service",
+ "group": "Connecting tools and signals",
+ "specialist_kind": "Runs infrastructure",
+ "roles": [
+  {
+   "title": "The Automation Builder",
+   "url": "https://coreyjames.ai/agents/roles/automation-builder/"
+  },
+  {
+   "title": "The Pipeline Foreman",
+   "url": "https://coreyjames.ai/agents/roles/pipeline-foreman/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/service-function-builder/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/service-function-builder",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

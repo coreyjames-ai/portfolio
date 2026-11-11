@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/out-of-date-document-fixer/",
+ "kind": "agent-specialist",
+ "title": "Out-of-Date Document Fixer",
+ "subtitle": "Spots plans that newer decisions have overtaken, publishes a corrected version of each, and tells the owner what changed.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Spots plans that newer decisions have overtaken, publishes a corrected version of each, and tells the owner what changed.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A team lead whose plans drift from reality",
+ "group": "Meetings, voice and the AI colleague",
+ "specialist_kind": "Keeps knowledge",
+ "roles": [
+  {
+   "title": "The Company Librarian",
+   "url": "https://coreyjames.ai/agents/roles/company-librarian/"
+  },
+  {
+   "title": "The Handbook Keeper",
+   "url": "https://coreyjames.ai/agents/roles/handbook-keeper/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/out-of-date-document-fixer/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/out-of-date-document-fixer",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

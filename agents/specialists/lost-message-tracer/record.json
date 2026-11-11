@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/lost-message-tracer/",
+ "kind": "agent-specialist",
+ "title": "Lost Message Tracer",
+ "subtitle": "Follows a single message from agent to agent by its reference, shows each hop and how long it took, and names where it stopped.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Follows a single message from agent to agent by its reference, shows each hop and how long it took, and names where it stopped.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "An AI operations lead told that one agent never answered another",
+ "group": "Managing an AI workforce",
+ "specialist_kind": "Supervises other agents",
+ "roles": [
+  {
+   "title": "The Incident Commander",
+   "url": "https://coreyjames.ai/agents/roles/incident-commander/"
+  },
+  {
+   "title": "The Circuit Breaker",
+   "url": "https://coreyjames.ai/agents/roles/circuit-breaker/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/lost-message-tracer/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/lost-message-tracer",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

@@ -1,0 +1,67 @@
+{
+ "url": "https://coreyjames.ai/agents/roles/record-keeper/",
+ "kind": "agent-role",
+ "title": "The Record Keeper",
+ "subtitle": "For whoever owns a system now.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "\"Why is it built this way?\" has an answer. The agent keeps a searchable record of what each working session did, what was decided and why. When something that used to work stops, it finds the change that broke it.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "function": "Engineering",
+ "function_url": "https://coreyjames.ai/agents/functions/engineering/",
+ "specialists": [
+  {
+   "title": "System Historian",
+   "url": "https://coreyjames.ai/agents/specialists/system-historian/"
+  },
+  {
+   "title": "Decision History Keeper",
+   "url": "https://coreyjames.ai/agents/specialists/decision-history-keeper/"
+  },
+  {
+   "title": "Session Recorder",
+   "url": "https://coreyjames.ai/agents/specialists/session-recorder/"
+  },
+  {
+   "title": "Engineering Notetaker",
+   "url": "https://coreyjames.ai/agents/specialists/engineering-notetaker/"
+  },
+  {
+   "title": "Decision Recorder",
+   "url": "https://coreyjames.ai/agents/specialists/decision-recorder/"
+  },
+  {
+   "title": "Regression Historian",
+   "url": "https://coreyjames.ai/agents/specialists/regression-historian/"
+  },
+  {
+   "title": "Team Memory Search Desk",
+   "url": "https://coreyjames.ai/agents/specialists/team-memory-search-desk/"
+  },
+  {
+   "title": "Meeting Decision Recorder",
+   "url": "https://coreyjames.ai/agents/specialists/meeting-decision-recorder/"
+  }
+ ],
+ "featured": false,
+ "routes": [
+  "An alert becomes a customer notice",
+  "An outage becomes a lesson"
+ ],
+ "related": [
+  {
+   "title": "Memory and code intelligence for agents",
+   "url": "https://coreyjames.ai/capabilities/memory-and-code-intelligence-for-agents/",
+   "kind": "Capability"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/roles/record-keeper/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/roles/record-keeper",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/decision-history-keeper/",
+ "kind": "agent-specialist",
+ "title": "Decision History Keeper",
+ "subtitle": "It turns notable actions into entries in the searchable decision history.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "It turns notable actions into entries in the searchable decision history.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "An engineering manager who wants a searchable record of what agents did",
+ "group": "Managing an AI workforce",
+ "specialist_kind": "Keeps knowledge",
+ "roles": [
+  {
+   "title": "The Record Keeper",
+   "url": "https://coreyjames.ai/agents/roles/record-keeper/"
+  },
+  {
+   "title": "The Control Room",
+   "url": "https://coreyjames.ai/agents/roles/control-room/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/decision-history-keeper/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/decision-history-keeper",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

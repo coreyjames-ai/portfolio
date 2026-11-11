@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/meeting-decision-recorder/",
+ "kind": "agent-specialist",
+ "title": "Meeting Decision Recorder",
+ "subtitle": "After the meeting it takes the transcript, has a panel reconcile what was decided and what is still open, records each decision in the project's memory, and posts the minutes as a document.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "After the meeting it takes the transcript, has a panel reconcile what was decided and what is still open, records each decision in the project's memory, and posts the minutes as a document.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A leadership team that meets by video",
+ "group": "Meetings, voice and the AI colleague",
+ "specialist_kind": "Keeps knowledge",
+ "roles": [
+  {
+   "title": "The Meeting Concierge",
+   "url": "https://coreyjames.ai/agents/roles/meeting-concierge/"
+  },
+  {
+   "title": "The Record Keeper",
+   "url": "https://coreyjames.ai/agents/roles/record-keeper/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/meeting-decision-recorder/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/meeting-decision-recorder",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

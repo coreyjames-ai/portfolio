@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/performance-benchmark-analyst/",
+ "kind": "agent-specialist",
+ "title": "Performance Benchmark Analyst",
+ "subtitle": "Runs the same fixed benchmark set on every change, reports the same four numbers each time, ramps concurrent users until a stop condition is hit, and says plainly whether the change helped.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Runs the same fixed benchmark set on every change, reports the same four numbers each time, ramps concurrent users until a stop condition is hit, and says plainly whether the change helped.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "An engineering manager who needs to know whether a change made things faster",
+ "group": "AI models and performance",
+ "specialist_kind": "Runs infrastructure",
+ "roles": [
+  {
+   "title": "The Model Shrinker",
+   "url": "https://coreyjames.ai/agents/roles/model-shrinker/"
+  },
+  {
+   "title": "The Engine Builder",
+   "url": "https://coreyjames.ai/agents/roles/engine-builder/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/performance-benchmark-analyst/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/performance-benchmark-analyst",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/facebook-page-analyst/",
+ "kind": "agent-specialist",
+ "title": "Facebook Page Analyst",
+ "subtitle": "It reports post and Page performance and how quickly the Page answers people, and it keeps an eye on the Page's usage limits.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "It reports post and Page performance and how quickly the Page answers people, and it keeps an eye on the Page's usage limits.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "a marketing lead",
+ "group": "Social media",
+ "specialist_kind": "Does the work",
+ "roles": [
+  {
+   "title": "The Week in Review",
+   "url": "https://coreyjames.ai/agents/roles/week-in-review/"
+  },
+  {
+   "title": "The Reputation Guard",
+   "url": "https://coreyjames.ai/agents/roles/reputation-guard/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/facebook-page-analyst/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/facebook-page-analyst",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

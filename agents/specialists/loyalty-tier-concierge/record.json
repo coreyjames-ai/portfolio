@@ -1,0 +1,28 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/loyalty-tier-concierge/",
+ "kind": "agent-specialist",
+ "title": "Loyalty Tier Concierge",
+ "subtitle": "After each order it adds the points, checks whether the customer moved up a tier, and tells them by email or text with what the new tier unlocks.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "After each order it adds the points, checks whether the customer moved up a tier, and tells them by email or text with what the new tier unlocks.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "a retail or subscription business",
+ "group": "Store, loyalty and payments",
+ "specialist_kind": "Speaks to people",
+ "roles": [
+  {
+   "title": "The Loyalty Director",
+   "url": "https://coreyjames.ai/agents/roles/loyalty-director/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/loyalty-tier-concierge/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/loyalty-tier-concierge",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

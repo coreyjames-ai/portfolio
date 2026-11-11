@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/delivery-review-presenter/",
+ "kind": "agent-specialist",
+ "title": "Delivery Review Presenter",
+ "subtitle": "Joins the review meeting, shares and walks through the project's closing summary, raises a hand for questions and posts the summary in the chat.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Joins the review meeting, shares and walks through the project's closing summary, raises a hand for questions and posts the summary in the chat.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A team that reviews finished projects in a meeting",
+ "group": "Meetings, voice and the AI colleague",
+ "specialist_kind": "Challenges decisions",
+ "roles": [
+  {
+   "title": "The Stand-up Host",
+   "url": "https://coreyjames.ai/agents/roles/stand-up-host/"
+  },
+  {
+   "title": "The Programme Office",
+   "url": "https://coreyjames.ai/agents/roles/programme-office/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/delivery-review-presenter/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/delivery-review-presenter",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

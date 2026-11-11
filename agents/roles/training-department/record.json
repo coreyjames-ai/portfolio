@@ -1,0 +1,64 @@
+{
+ "url": "https://coreyjames.ai/agents/roles/training-department/",
+ "kind": "agent-role",
+ "title": "The Training Department",
+ "subtitle": "For a support or training lead.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Help articles and product pages become short narrated videos. The agent cuts demo clips from a live screen and records audio briefings for staff who are on the road. When a page changes, its video is remade. The same script can be voiced in other languages.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "function": "Marketing and audience",
+ "function_url": "https://coreyjames.ai/agents/functions/marketing-and-audience/",
+ "specialists": [
+  {
+   "title": "Help Article Video Maker",
+   "url": "https://coreyjames.ai/agents/specialists/help-article-video-maker/"
+  },
+  {
+   "title": "Explainer Video Maker",
+   "url": "https://coreyjames.ai/agents/specialists/explainer-video-maker/"
+  },
+  {
+   "title": "Product Demo Clip Maker",
+   "url": "https://coreyjames.ai/agents/specialists/product-demo-clip-maker/"
+  },
+  {
+   "title": "Audio Briefing Producer",
+   "url": "https://coreyjames.ai/agents/specialists/audio-briefing-producer/"
+  },
+  {
+   "title": "Dubbing and Translation Producer",
+   "url": "https://coreyjames.ai/agents/specialists/dubbing-and-translation-producer/"
+  },
+  {
+   "title": "Voice-Over Artist",
+   "url": "https://coreyjames.ai/agents/specialists/voice-over-artist/"
+  },
+  {
+   "title": "Meeting Highlight Editor",
+   "url": "https://coreyjames.ai/agents/specialists/meeting-highlight-editor/"
+  },
+  {
+   "title": "Storyboard Artist",
+   "url": "https://coreyjames.ai/agents/specialists/storyboard-artist/"
+  },
+  {
+   "title": "On-Screen Content Designer",
+   "url": "https://coreyjames.ai/agents/specialists/on-screen-content-designer/"
+  }
+ ],
+ "featured": false,
+ "routes": [
+  "A complaint becomes a release"
+ ],
+ "related": [],
+ "canonical": "https://coreyjames.ai/agents/roles/training-department/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/roles/training-department",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

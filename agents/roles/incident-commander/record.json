@@ -1,0 +1,87 @@
+{
+ "url": "https://coreyjames.ai/agents/roles/incident-commander/",
+ "kind": "agent-role",
+ "title": "The Incident Commander",
+ "subtitle": "For an engineering manager in the middle of a messy incident.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "An error alert arrives. The agent finds the code behind it and pulls what happened the last time that area broke. It gathers the evidence and asks a panel of several AI models to debate the fix. The agreed plan becomes tickets and a merge request for approval, and customers hear what is going on while the work is done.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "function": "Engineering",
+ "function_url": "https://coreyjames.ai/agents/functions/engineering/",
+ "specialists": [
+  {
+   "title": "Incident Code Locator",
+   "url": "https://coreyjames.ai/agents/specialists/incident-code-locator/"
+  },
+  {
+   "title": "Regression Historian",
+   "url": "https://coreyjames.ai/agents/specialists/regression-historian/"
+  },
+  {
+   "title": "Incident Fix Planner",
+   "url": "https://coreyjames.ai/agents/specialists/incident-fix-planner/"
+  },
+  {
+   "title": "Issue Review Panel",
+   "url": "https://coreyjames.ai/agents/specialists/issue-review-panel/"
+  },
+  {
+   "title": "Ticket-to-Fix Engineer",
+   "url": "https://coreyjames.ai/agents/specialists/ticket-to-fix-engineer/"
+  },
+  {
+   "title": "Incident Communications Officer",
+   "url": "https://coreyjames.ai/agents/specialists/incident-communications-officer/"
+  },
+  {
+   "title": "Quarantine Officer",
+   "url": "https://coreyjames.ai/agents/specialists/quarantine-officer/"
+  },
+  {
+   "title": "Emergency Stop Officer",
+   "url": "https://coreyjames.ai/agents/specialists/emergency-stop-officer/"
+  },
+  {
+   "title": "Lost Message Tracer",
+   "url": "https://coreyjames.ai/agents/specialists/lost-message-tracer/"
+  },
+  {
+   "title": "Incident Responder",
+   "url": "https://coreyjames.ai/agents/specialists/incident-responder/"
+  },
+  {
+   "title": "Settings Change Keeper",
+   "url": "https://coreyjames.ai/agents/specialists/settings-change-keeper/"
+  },
+  {
+   "title": "Supplier Support Liaison",
+   "url": "https://coreyjames.ai/agents/specialists/supplier-support-liaison/"
+  }
+ ],
+ "featured": false,
+ "routes": [
+  "An outage becomes a lesson"
+ ],
+ "related": [
+  {
+   "title": "Memory and code intelligence for agents",
+   "url": "https://coreyjames.ai/capabilities/memory-and-code-intelligence-for-agents/",
+   "kind": "Capability"
+  },
+  {
+   "title": "AI subscriptions as governed workers",
+   "url": "https://coreyjames.ai/capabilities/use-the-ai-subscriptions-you-already-have/",
+   "kind": "Capability"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/roles/incident-commander/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/roles/incident-commander",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

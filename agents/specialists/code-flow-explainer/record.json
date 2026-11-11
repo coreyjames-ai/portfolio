@@ -1,0 +1,40 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/code-flow-explainer/",
+ "kind": "agent-specialist",
+ "title": "Code Flow Explainer",
+ "subtitle": "Takes a starting point (a file and line, a function name or a plain question), traces how the work flows through the code, and explains it in plain language.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Takes a starting point (a file and line, a function name or a plain question), traces how the work flows through the code, and explains it in plain language. The explanation only describes connections that actually exist in the code.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A product manager, new hire or executive who needs to understand how a part of the system works without reading code",
+ "group": "Code intelligence and team memory",
+ "specialist_kind": "Keeps knowledge",
+ "roles": [
+  {
+   "title": "The Developer Advocate",
+   "url": "https://coreyjames.ai/agents/roles/developer-advocate/"
+  },
+  {
+   "title": "The Onboarding Buddy",
+   "url": "https://coreyjames.ai/agents/roles/onboarding-buddy/"
+  },
+  {
+   "title": "The Change Board",
+   "url": "https://coreyjames.ai/agents/roles/change-board/"
+  },
+  {
+   "title": "The Code Guide",
+   "url": "https://coreyjames.ai/agents/roles/code-guide/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/code-flow-explainer/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/code-flow-explainer",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

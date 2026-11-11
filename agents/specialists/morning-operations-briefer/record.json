@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/morning-operations-briefer/",
+ "kind": "agent-specialist",
+ "title": "Morning Operations Briefer",
+ "subtitle": "Each morning, this agent gathers the state of the knowledge base, the queues, the database load, the storage and any open alerts, and sends one short briefing.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Each morning, this agent gathers the state of the knowledge base, the queues, the database load, the storage and any open alerts, and sends one short briefing.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A founder or operations lead who wants one message each morning",
+ "group": "Machines, data and operations",
+ "specialist_kind": "Speaks to people",
+ "roles": [
+  {
+   "title": "The Morning Brief",
+   "url": "https://coreyjames.ai/agents/roles/morning-brief/"
+  },
+  {
+   "title": "The Night Shift",
+   "url": "https://coreyjames.ai/agents/roles/night-shift/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/morning-operations-briefer/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/morning-operations-briefer",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

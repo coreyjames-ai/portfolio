@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/test-coverage-reviewer/",
+ "kind": "agent-specialist",
+ "title": "Test Coverage Reviewer",
+ "subtitle": "Checks whether a change comes with tests for the cases that matter and names the cases left untested.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Checks whether a change comes with tests for the cases that matter and names the cases left untested.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A tech lead who has been surprised by untested code before",
+ "group": "Building software",
+ "specialist_kind": "Challenges decisions",
+ "roles": [
+  {
+   "title": "The Contractor Pass",
+   "url": "https://coreyjames.ai/agents/roles/contractor-pass/"
+  },
+  {
+   "title": "The Review Panel",
+   "url": "https://coreyjames.ai/agents/roles/review-panel/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/test-coverage-reviewer/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/test-coverage-reviewer",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

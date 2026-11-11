@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/research-archivist/",
+ "kind": "agent-specialist",
+ "title": "Research Archivist",
+ "subtitle": "It publishes a public code repository for each project on two code hosts with a README, a citation file and figures, deposits each project report in a research archive to get a permanent citation identifier, and links both back from every page.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "It publishes a public code repository for each project on two code hosts with a README, a citation file and figures, deposits each project report in a research archive to get a permanent citation identifier, and links both back from every page.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A researcher or an open-source lead",
+ "group": "The public front door",
+ "specialist_kind": "Keeps knowledge",
+ "roles": [
+  {
+   "title": "The Developer Advocate",
+   "url": "https://coreyjames.ai/agents/roles/developer-advocate/"
+  },
+  {
+   "title": "The Publisher of Record",
+   "url": "https://coreyjames.ai/agents/roles/publisher-of-record/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/research-archivist/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/research-archivist",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

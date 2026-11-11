@@ -1,0 +1,78 @@
+{
+ "url": "https://coreyjames.ai/agents/roles/accounts-office/",
+ "kind": "agent-role",
+ "title": "The Accounts Office",
+ "subtitle": "For a freelancer, a finance lead or anyone owed money.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "The agent sends the payment request, watches for the payment and thanks the customer when it lands. Late invoices get reminders on a schedule. Billing questions are answered from the account record, and the month closes with a revenue report.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "function": "Sales and customers",
+ "function_url": "https://coreyjames.ai/agents/functions/sales-and-customers/",
+ "specialists": [
+  {
+   "title": "Billing Desk",
+   "url": "https://coreyjames.ai/agents/specialists/billing-desk/"
+  },
+  {
+   "title": "Payment Request Collector",
+   "url": "https://coreyjames.ai/agents/specialists/payment-request-collector/"
+  },
+  {
+   "title": "Invoice Chaser",
+   "url": "https://coreyjames.ai/agents/specialists/invoice-chaser/"
+  },
+  {
+   "title": "Revenue Reporter",
+   "url": "https://coreyjames.ai/agents/specialists/revenue-reporter/"
+  },
+  {
+   "title": "Pricing Change Watchdog",
+   "url": "https://coreyjames.ai/agents/specialists/pricing-change-watchdog/"
+  },
+  {
+   "title": "Subscription Change Handler",
+   "url": "https://coreyjames.ai/agents/specialists/subscription-change-handler/"
+  },
+  {
+   "title": "Transactional Mail Officer",
+   "url": "https://coreyjames.ai/agents/specialists/transactional-mail-officer/"
+  },
+  {
+   "title": "Company Records Manager",
+   "url": "https://coreyjames.ai/agents/specialists/company-records-manager/"
+  },
+  {
+   "title": "Deal File Clerk",
+   "url": "https://coreyjames.ai/agents/specialists/deal-file-clerk/"
+  },
+  {
+   "title": "Payment Recovery Agent",
+   "url": "https://coreyjames.ai/agents/specialists/payment-recovery-agent/"
+  },
+  {
+   "title": "Payment Setup Specialist",
+   "url": "https://coreyjames.ai/agents/specialists/payment-setup-specialist/"
+  }
+ ],
+ "featured": false,
+ "routes": [
+  "A comment becomes a customer"
+ ],
+ "related": [
+  {
+   "title": "Business systems as safe agent tools",
+   "url": "https://coreyjames.ai/capabilities/business-systems-as-safe-agent-tools/",
+   "kind": "Capability"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/roles/accounts-office/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/roles/accounts-office",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

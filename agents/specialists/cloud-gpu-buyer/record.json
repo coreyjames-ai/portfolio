@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/cloud-gpu-buyer/",
+ "kind": "agent-specialist",
+ "title": "Cloud GPU Buyer",
+ "subtitle": "Rents cloud GPUs only when the day's budget allows, prefers the cheapest current spot price, connects them back to your private network over an outbound link, and hands them back as soon as the work is done or the money runs out.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Rents cloud GPUs only when the day's budget allows, prefers the cheapest current spot price, connects them back to your private network over an outbound link, and hands them back as soon as the work is done or the money runs out. You pay for minutes of real work, not forgotten machines.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "An engineering manager who rents GPUs by the hour",
+ "group": "Machines, data and operations",
+ "specialist_kind": "Runs infrastructure",
+ "roles": [
+  {
+   "title": "The Bulk Run Manager",
+   "url": "https://coreyjames.ai/agents/roles/bulk-run-manager/"
+  },
+  {
+   "title": "The Branch Office Engineer",
+   "url": "https://coreyjames.ai/agents/roles/branch-office-engineer/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/cloud-gpu-buyer/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/cloud-gpu-buyer",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

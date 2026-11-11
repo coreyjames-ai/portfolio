@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/lead-capture-desk/",
+ "kind": "agent-specialist",
+ "title": "Lead Capture Desk",
+ "subtitle": "When someone shows buying interest in a Facebook message, an X direct message, a website chat or an email, it creates the contact and company, opens a deal, sets a follow-up task and answers with a payment link where that fits.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "When someone shows buying interest in a Facebook message, an X direct message, a website chat or an email, it creates the contact and company, opens a deal, sets a follow-up task and answers with a payment link where that fits.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "a founder or sales team",
+ "group": "Sales, customers and service",
+ "specialist_kind": "Speaks to people",
+ "roles": [
+  {
+   "title": "The Reputation Guard",
+   "url": "https://coreyjames.ai/agents/roles/reputation-guard/"
+  },
+  {
+   "title": "The Lead Catcher",
+   "url": "https://coreyjames.ai/agents/roles/lead-catcher/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/lead-capture-desk/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/lead-capture-desk",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

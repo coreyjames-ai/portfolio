@@ -1,0 +1,40 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/slide-presenter/",
+ "kind": "agent-specialist",
+ "title": "Slide Presenter",
+ "subtitle": "Turns a written project document into a slide deck, presents it in the meeting, moves through the slides as it talks, and shares the deck once the meeting is over.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Turns a written project document into a slide deck, presents it in the meeting, moves through the slides as it talks, and shares the deck once the meeting is over.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A sales team or a founder giving a recurring update",
+ "group": "Meetings, voice and the AI colleague",
+ "specialist_kind": "Speaks to people",
+ "roles": [
+  {
+   "title": "The Chief of Staff",
+   "url": "https://coreyjames.ai/agents/roles/chief-of-staff/"
+  },
+  {
+   "title": "The Launch Manager",
+   "url": "https://coreyjames.ai/agents/roles/launch-manager/"
+  },
+  {
+   "title": "The Sales Engineer",
+   "url": "https://coreyjames.ai/agents/roles/sales-engineer/"
+  },
+  {
+   "title": "The Presenter",
+   "url": "https://coreyjames.ai/agents/roles/presenter/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/slide-presenter/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/slide-presenter",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

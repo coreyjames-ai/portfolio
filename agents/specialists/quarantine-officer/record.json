@@ -1,0 +1,28 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/quarantine-officer/",
+ "kind": "agent-specialist",
+ "title": "Quarantine Officer",
+ "subtitle": "Isolates the misbehaving step so nothing sends it new work, keeps the rest running and releases it once it is fixed.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Isolates the misbehaving step so nothing sends it new work, keeps the rest running and releases it once it is fixed.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "An operations lead with one processing step producing bad output",
+ "group": "Machines, data and operations",
+ "specialist_kind": "Audits and guards",
+ "roles": [
+  {
+   "title": "The Incident Commander",
+   "url": "https://coreyjames.ai/agents/roles/incident-commander/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/quarantine-officer/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/quarantine-officer",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

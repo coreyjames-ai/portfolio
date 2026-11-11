@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/code-grounded-reviewer/",
+ "kind": "agent-specialist",
+ "title": "Code-Grounded Reviewer",
+ "subtitle": "Reviews a team's claims about finished work with search access limited to that system's code, so every finding points to a file and line.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Reviews a team's claims about finished work with search access limited to that system's code, so every finding points to a file and line.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A QA lead who wants reviews checked against the real code rather than against claims",
+ "group": "Code intelligence and team memory",
+ "specialist_kind": "Challenges decisions",
+ "roles": [
+  {
+   "title": "The Second Opinion",
+   "url": "https://coreyjames.ai/agents/roles/second-opinion/"
+  },
+  {
+   "title": "The Review Panel",
+   "url": "https://coreyjames.ai/agents/roles/review-panel/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/code-grounded-reviewer/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/code-grounded-reviewer",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

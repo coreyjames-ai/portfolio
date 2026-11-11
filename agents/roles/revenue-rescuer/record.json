@@ -1,0 +1,84 @@
+{
+ "url": "https://coreyjames.ai/agents/roles/revenue-rescuer/",
+ "kind": "agent-role",
+ "title": "The Revenue Rescuer",
+ "subtitle": "For a finance lead who is tired of losing customers to expired cards.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "A customer's card fails at 2 a.m. The agent wakes on the failure, reads the customer's history and decides how much the account matters. A small account gets an email and a fresh payment link. A loyal one gets a text, a retention offer and a task on the account owner's list. On Friday the owner gets one number: how much revenue came back.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "function": "Sales and customers",
+ "function_url": "https://coreyjames.ai/agents/functions/sales-and-customers/",
+ "specialists": [
+  {
+   "title": "Payment Recovery Agent",
+   "url": "https://coreyjames.ai/agents/specialists/payment-recovery-agent/"
+  },
+  {
+   "title": "Payment Request Collector",
+   "url": "https://coreyjames.ai/agents/specialists/payment-request-collector/"
+  },
+  {
+   "title": "Text Message Dispatcher",
+   "url": "https://coreyjames.ai/agents/specialists/text-message-dispatcher/"
+  },
+  {
+   "title": "Coupon Drop Manager",
+   "url": "https://coreyjames.ai/agents/specialists/coupon-drop-manager/"
+  },
+  {
+   "title": "Sales Follow-up Assistant",
+   "url": "https://coreyjames.ai/agents/specialists/sales-follow-up-assistant/"
+  },
+  {
+   "title": "Revenue Reporter",
+   "url": "https://coreyjames.ai/agents/specialists/revenue-reporter/"
+  },
+  {
+   "title": "Subscription Retention Agent",
+   "url": "https://coreyjames.ai/agents/specialists/subscription-retention-agent/"
+  },
+  {
+   "title": "Abandoned Checkout Follow-up",
+   "url": "https://coreyjames.ai/agents/specialists/abandoned-checkout-follow-up/"
+  },
+  {
+   "title": "Invoice Chaser",
+   "url": "https://coreyjames.ai/agents/specialists/invoice-chaser/"
+  },
+  {
+   "title": "Customer Lifecycle Agent",
+   "url": "https://coreyjames.ai/agents/specialists/customer-lifecycle-agent/"
+  }
+ ],
+ "featured": false,
+ "routes": [
+  "A failed payment becomes a kept account"
+ ],
+ "related": [
+  {
+   "title": "Business systems as safe agent tools",
+   "url": "https://coreyjames.ai/capabilities/business-systems-as-safe-agent-tools/",
+   "kind": "Capability"
+  },
+  {
+   "title": "Agents that react to the world",
+   "url": "https://coreyjames.ai/ideas/agents-that-react-to-the-world/",
+   "kind": "Idea"
+  },
+  {
+   "title": "Agents with real tools and no keys",
+   "url": "https://coreyjames.ai/stories/agents-with-real-tools-and-no-keys/",
+   "kind": "Engineering story"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/roles/revenue-rescuer/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/roles/revenue-rescuer",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

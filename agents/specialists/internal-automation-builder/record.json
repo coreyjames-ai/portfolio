@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/internal-automation-builder/",
+ "kind": "agent-specialist",
+ "title": "Internal Automation Builder",
+ "subtitle": "You describe a recurring data job in plain words, and this agent designs it, sets up the database pieces, writes the code, checks it against the team's rules and switches it on.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "You describe a recurring data job in plain words, and this agent designs it, sets up the database pieces, writes the code, checks it against the team's rules and switches it on.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "An engineering manager or a founder with a backlog of recurring data jobs",
+ "group": "Building software",
+ "specialist_kind": "Does the work",
+ "roles": [
+  {
+   "title": "The Automation Builder",
+   "url": "https://coreyjames.ai/agents/roles/automation-builder/"
+  },
+  {
+   "title": "The Pipeline Foreman",
+   "url": "https://coreyjames.ai/agents/roles/pipeline-foreman/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/internal-automation-builder/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/internal-automation-builder",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/brand-compliance-checker/",
+ "kind": "agent-specialist",
+ "title": "Brand Compliance Checker",
+ "subtitle": "Checks every asset before it goes out: only approved words on screen, no web addresses or slide numbers, readable contrast, and the right size and format for the channel.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Checks every asset before it goes out: only approved words on screen, no web addresses or slide numbers, readable contrast, and the right size and format for the channel.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A brand manager",
+ "group": "Content, film and brand",
+ "specialist_kind": "Audits and guards",
+ "roles": [
+  {
+   "title": "The Newsroom",
+   "url": "https://coreyjames.ai/agents/roles/newsroom/"
+  },
+  {
+   "title": "The Compliance Officer",
+   "url": "https://coreyjames.ai/agents/roles/compliance-officer/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/brand-compliance-checker/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/brand-compliance-checker",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

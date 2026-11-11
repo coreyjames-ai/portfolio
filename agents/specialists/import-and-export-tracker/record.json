@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/import-and-export-tracker/",
+ "kind": "agent-specialist",
+ "title": "Import and Export Tracker",
+ "subtitle": "Follows every background import and export, says when each one finished or failed, and hands back the result file.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Follows every background import and export, says when each one finished or failed, and hands back the result file.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A marketing operations lead waiting on a large import",
+ "group": "Email, text and messaging",
+ "specialist_kind": "Does the work",
+ "roles": [
+  {
+   "title": "The Email Marketer",
+   "url": "https://coreyjames.ai/agents/roles/email-marketer/"
+  },
+  {
+   "title": "The Agency Back Office",
+   "url": "https://coreyjames.ai/agents/roles/agency-back-office/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/import-and-export-tracker/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/import-and-export-tracker",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

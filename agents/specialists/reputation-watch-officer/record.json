@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/reputation-watch-officer/",
+ "kind": "agent-specialist",
+ "title": "Reputation Watch Officer",
+ "subtitle": "Several times a day it reads mentions, tags, reviews and live threads about the business, answers what it should, and sends anything urgent to the team's chat.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Several times a day it reads mentions, tags, reviews and live threads about the business, answers what it should, and sends anything urgent to the team's chat.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "a founder or communications lead",
+ "group": "Social media",
+ "specialist_kind": "Audits and guards",
+ "roles": [
+  {
+   "title": "The Morning Brief",
+   "url": "https://coreyjames.ai/agents/roles/morning-brief/"
+  },
+  {
+   "title": "The Reputation Guard",
+   "url": "https://coreyjames.ai/agents/roles/reputation-guard/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/reputation-watch-officer/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/reputation-watch-officer",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

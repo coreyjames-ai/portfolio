@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/back-in-stock-notifier/",
+ "kind": "agent-specialist",
+ "title": "Back-in-Stock Notifier",
+ "subtitle": "It signs customers up for an alert on a product they want, and tells them when it returns.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "It signs customers up for an alert on a product they want, and tells them when it returns.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "an e-commerce manager",
+ "group": "Store, loyalty and payments",
+ "specialist_kind": "Speaks to people",
+ "roles": [
+  {
+   "title": "The Message Centre",
+   "url": "https://coreyjames.ai/agents/roles/message-centre/"
+  },
+  {
+   "title": "The Shop Manager",
+   "url": "https://coreyjames.ai/agents/roles/shop-manager/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/back-in-stock-notifier/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/back-in-stock-notifier",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

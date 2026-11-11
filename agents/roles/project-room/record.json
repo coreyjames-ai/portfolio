@@ -1,0 +1,83 @@
+{
+ "url": "https://coreyjames.ai/agents/roles/project-room/",
+ "kind": "agent-role",
+ "title": "The Project Room",
+ "subtitle": "For a team that runs its projects in group chat.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Every project gets a room with its folders, code and history attached. A named AI colleague sits in each one and answers when addressed, already aware of what happened last week. Long answers arrive as documents with every version kept. The colleague keeps its memory when the model behind it is swapped for another.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "function": "Running the company",
+ "function_url": "https://coreyjames.ai/agents/functions/running-the-company/",
+ "specialists": [
+  {
+   "title": "Team AI Colleague",
+   "url": "https://coreyjames.ai/agents/specialists/team-ai-colleague/"
+  },
+  {
+   "title": "Project Workspace Organiser",
+   "url": "https://coreyjames.ai/agents/specialists/project-workspace-organiser/"
+  },
+  {
+   "title": "Project Document Writer",
+   "url": "https://coreyjames.ai/agents/specialists/project-document-writer/"
+  },
+  {
+   "title": "Project Reference Librarian",
+   "url": "https://coreyjames.ai/agents/specialists/project-reference-librarian/"
+  },
+  {
+   "title": "Conversation Archivist",
+   "url": "https://coreyjames.ai/agents/specialists/conversation-archivist/"
+  },
+  {
+   "title": "Multi-model Team Room Host",
+   "url": "https://coreyjames.ai/agents/specialists/multi-model-team-room-host/"
+  },
+  {
+   "title": "AI Teammate With Its Own Account",
+   "url": "https://coreyjames.ai/agents/specialists/ai-teammate-with-its-own-account/"
+  },
+  {
+   "title": "Team Chat Assistant",
+   "url": "https://coreyjames.ai/agents/specialists/team-chat-assistant/"
+  },
+  {
+   "title": "Chat File Grounder",
+   "url": "https://coreyjames.ai/agents/specialists/chat-file-grounder/"
+  }
+ ],
+ "featured": false,
+ "routes": [],
+ "related": [
+  {
+   "title": "AI teammates inside Microsoft Teams and team chat",
+   "url": "https://coreyjames.ai/capabilities/ai-teammates-in-teams-and-chat/",
+   "kind": "Capability"
+  },
+  {
+   "title": "Memory and code intelligence for agents",
+   "url": "https://coreyjames.ai/capabilities/memory-and-code-intelligence-for-agents/",
+   "kind": "Capability"
+  },
+  {
+   "title": "The copy of record lives off the accelerator",
+   "url": "https://coreyjames.ai/ideas/the-copy-of-record-lives-off-the-accelerator/",
+   "kind": "Idea"
+  },
+  {
+   "title": "Several minds in one room",
+   "url": "https://coreyjames.ai/stories/several-minds-in-one-room/",
+   "kind": "Engineering story"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/roles/project-room/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/roles/project-room",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

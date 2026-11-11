@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/on-screen-content-designer/",
+ "kind": "agent-specialist",
+ "title": "On-Screen Content Designer",
+ "subtitle": "Builds realistic but invented screens, terminals and dashboards for videos so no real log, customer name or address ever appears on camera.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Builds realistic but invented screens, terminals and dashboards for videos so no real log, customer name or address ever appears on camera.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A content producer or a security lead",
+ "group": "Content, film and brand",
+ "specialist_kind": "Does the work",
+ "roles": [
+  {
+   "title": "The Training Department",
+   "url": "https://coreyjames.ai/agents/roles/training-department/"
+  },
+  {
+   "title": "The Developer Advocate",
+   "url": "https://coreyjames.ai/agents/roles/developer-advocate/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/on-screen-content-designer/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/on-screen-content-designer",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

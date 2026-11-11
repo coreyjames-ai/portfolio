@@ -1,0 +1,96 @@
+{
+ "url": "https://coreyjames.ai/agents/roles/digital-employee/",
+ "kind": "agent-role",
+ "title": "The Digital Employee",
+ "subtitle": "For a company that wants an AI colleague everyone can work with.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "The agent has its own account in the company directory, so it shows up in chat and in meetings like anyone else. People ask it for work in the team channel and it answers there. It writes documents and keeps every version, files what the team shares and remembers what was decided last month. Several AI models can sit in the same room, each addressed by name.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "function": "Running the company",
+ "function_url": "https://coreyjames.ai/agents/functions/running-the-company/",
+ "specialists": [
+  {
+   "title": "AI Teammate With Its Own Account",
+   "url": "https://coreyjames.ai/agents/specialists/ai-teammate-with-its-own-account/"
+  },
+  {
+   "title": "Team Chat Assistant",
+   "url": "https://coreyjames.ai/agents/specialists/team-chat-assistant/"
+  },
+  {
+   "title": "Meeting Participant",
+   "url": "https://coreyjames.ai/agents/specialists/meeting-participant/"
+  },
+  {
+   "title": "Multi-model Team Room Host",
+   "url": "https://coreyjames.ai/agents/specialists/multi-model-team-room-host/"
+  },
+  {
+   "title": "Document Writer and Editor",
+   "url": "https://coreyjames.ai/agents/specialists/document-writer-and-editor/"
+  },
+  {
+   "title": "Team File Librarian",
+   "url": "https://coreyjames.ai/agents/specialists/team-file-librarian/"
+  },
+  {
+   "title": "Conversation Archivist",
+   "url": "https://coreyjames.ai/agents/specialists/conversation-archivist/"
+  },
+  {
+   "title": "Background Task Worker",
+   "url": "https://coreyjames.ai/agents/specialists/background-task-worker/"
+  },
+  {
+   "title": "Team AI Colleague",
+   "url": "https://coreyjames.ai/agents/specialists/team-ai-colleague/"
+  },
+  {
+   "title": "Chat Front Desk",
+   "url": "https://coreyjames.ai/agents/specialists/chat-front-desk/"
+  },
+  {
+   "title": "Spoken Team Assistant",
+   "url": "https://coreyjames.ai/agents/specialists/spoken-team-assistant/"
+  }
+ ],
+ "featured": true,
+ "routes": [],
+ "related": [
+  {
+   "title": "AI teammates inside Microsoft Teams and team chat",
+   "url": "https://coreyjames.ai/capabilities/ai-teammates-in-teams-and-chat/",
+   "kind": "Capability"
+  },
+  {
+   "title": "AI subscriptions as governed workers",
+   "url": "https://coreyjames.ai/capabilities/use-the-ai-subscriptions-you-already-have/",
+   "kind": "Capability"
+  },
+  {
+   "title": "Identity from the caller, credentials on the server",
+   "url": "https://coreyjames.ai/ideas/identity-from-the-caller/",
+   "kind": "Idea"
+  },
+  {
+   "title": "Solving the digital-employee identity",
+   "url": "https://coreyjames.ai/stories/solving-the-digital-employee-identity/",
+   "kind": "Engineering story"
+  },
+  {
+   "title": "Several minds in one room",
+   "url": "https://coreyjames.ai/stories/several-minds-in-one-room/",
+   "kind": "Engineering story"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/roles/digital-employee/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/roles/digital-employee",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

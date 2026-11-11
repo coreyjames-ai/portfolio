@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/model-serving-engineer/",
+ "kind": "agent-specialist",
+ "title": "Model Serving Engineer",
+ "subtitle": "Builds a version of the model sized for each GPU card you own, measures how fast each card runs it, sets each card's limits for the scheduler, and copies the right build to every machine.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Builds a version of the model sized for each GPU card you own, measures how fast each card runs it, sets each card's limits for the scheduler, and copies the right build to every machine. You get the most out of mixed hardware without hand-tuning each box.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "An ML platform engineer",
+ "group": "AI models and performance",
+ "specialist_kind": "Runs infrastructure",
+ "roles": [
+  {
+   "title": "The Model Launch Manager",
+   "url": "https://coreyjames.ai/agents/roles/model-launch-manager/"
+  },
+  {
+   "title": "The Engine Builder",
+   "url": "https://coreyjames.ai/agents/roles/engine-builder/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/model-serving-engineer/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/model-serving-engineer",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

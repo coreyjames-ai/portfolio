@@ -1,0 +1,28 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/planning-panel-facilitator/",
+ "kind": "agent-specialist",
+ "title": "Planning Panel Facilitator",
+ "subtitle": "It brings several AI models together to debate the plan, asks the owner to decide the open questions in the room, and hands back a plan ready for approval.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "It brings several AI models together to debate the plan, asks the owner to decide the open questions in the room, and hands back a plan ready for approval.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A founder or an engineering manager deciding what to build",
+ "group": "Decisions and deliberation",
+ "specialist_kind": "Challenges decisions",
+ "roles": [
+  {
+   "title": "The Planning Room",
+   "url": "https://coreyjames.ai/agents/roles/planning-room/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/planning-panel-facilitator/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/planning-panel-facilitator",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

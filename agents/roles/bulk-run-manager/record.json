@@ -1,0 +1,95 @@
+{
+ "url": "https://coreyjames.ai/agents/roles/bulk-run-manager/",
+ "kind": "agent-role",
+ "title": "The Bulk Run Manager",
+ "subtitle": "For a team with millions of prompts to process.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "The agent estimates the job, rents the processors it needs within the budget and spreads the work across them. Machines that fail are replaced and their work is picked up. The results arrive with a cost report.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "function": "AI and model teams",
+ "function_url": "https://coreyjames.ai/agents/functions/ai-and-model-teams/",
+ "specialists": [
+  {
+   "title": "Capacity Planner",
+   "url": "https://coreyjames.ai/agents/specialists/capacity-planner/"
+  },
+  {
+   "title": "Cloud GPU Buyer",
+   "url": "https://coreyjames.ai/agents/specialists/cloud-gpu-buyer/"
+  },
+  {
+   "title": "Compute Budget Guardian",
+   "url": "https://coreyjames.ai/agents/specialists/compute-budget-guardian/"
+  },
+  {
+   "title": "Bulk Inference Run Manager",
+   "url": "https://coreyjames.ai/agents/specialists/bulk-inference-run-manager/"
+  },
+  {
+   "title": "Failed Machine Recovery Specialist",
+   "url": "https://coreyjames.ai/agents/specialists/failed-machine-recovery-specialist/"
+  },
+  {
+   "title": "Compute Cost Reporter",
+   "url": "https://coreyjames.ai/agents/specialists/compute-cost-reporter/"
+  },
+  {
+   "title": "Failed Item Replayer",
+   "url": "https://coreyjames.ai/agents/specialists/failed-item-replayer/"
+  },
+  {
+   "title": "Run Verification Clerk",
+   "url": "https://coreyjames.ai/agents/specialists/run-verification-clerk/"
+  },
+  {
+   "title": "GPU Fleet Manager",
+   "url": "https://coreyjames.ai/agents/specialists/gpu-fleet-manager/"
+  },
+  {
+   "title": "Database Overload Guard",
+   "url": "https://coreyjames.ai/agents/specialists/database-overload-guard/"
+  },
+  {
+   "title": "Cloud Price Watcher",
+   "url": "https://coreyjames.ai/agents/specialists/cloud-price-watcher/"
+  },
+  {
+   "title": "Recovery Policy Setter",
+   "url": "https://coreyjames.ai/agents/specialists/recovery-policy-setter/"
+  }
+ ],
+ "featured": false,
+ "routes": [],
+ "related": [
+  {
+   "title": "High-throughput batch inference and embeddings",
+   "url": "https://coreyjames.ai/capabilities/high-throughput-batch-inference/",
+   "kind": "Capability"
+  },
+  {
+   "title": "Budgets and refusals",
+   "url": "https://coreyjames.ai/ideas/budgets-and-refusals/",
+   "kind": "Idea"
+  },
+  {
+   "title": "One call to a GPU anywhere",
+   "url": "https://coreyjames.ai/stories/one-call-to-a-gpu-anywhere/",
+   "kind": "Engineering story"
+  },
+  {
+   "title": "Recovery that trusts only what happened",
+   "url": "https://coreyjames.ai/stories/recovery-that-trusts-only-what-happened/",
+   "kind": "Engineering story"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/roles/bulk-run-manager/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/roles/bulk-run-manager",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/feasibility-study-coordinator/",
+ "kind": "agent-specialist",
+ "title": "Feasibility Study Coordinator",
+ "subtitle": "It chairs a panel, sends temporary investigators off on side questions, reconciles what they bring back, writes up the questions that need the owner's answer, and drafts a synthesis for the panel to vote on.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "It chairs a panel, sends temporary investigators off on side questions, reconciles what they bring back, writes up the questions that need the owner's answer, and drafts a synthesis for the panel to vote on.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A programme manager commissioning a feasibility study",
+ "group": "Decisions and deliberation",
+ "specialist_kind": "Supervises other agents",
+ "roles": [
+  {
+   "title": "The Advisory Board",
+   "url": "https://coreyjames.ai/agents/roles/advisory-board/"
+  },
+  {
+   "title": "The Research Desk",
+   "url": "https://coreyjames.ai/agents/roles/research-desk/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/feasibility-study-coordinator/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/feasibility-study-coordinator",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

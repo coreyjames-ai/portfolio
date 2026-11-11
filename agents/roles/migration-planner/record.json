@@ -1,0 +1,70 @@
+{
+ "url": "https://coreyjames.ai/agents/roles/migration-planner/",
+ "kind": "agent-role",
+ "title": "The Migration Planner",
+ "subtitle": "For an engineering lead who just read a vendor's deprecation notice.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "The agent reads the documentation for the new version and finds every place the old interface is used. It sizes the change and maps what depends on each piece. Where the new version needs a different technique, it studies how a reference library does it and writes up the method for the team to implement. The result is a task plan in the order the work should happen.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "function": "Engineering",
+ "function_url": "https://coreyjames.ai/agents/functions/engineering/",
+ "specialists": [
+  {
+   "title": "API Upgrade Planner",
+   "url": "https://coreyjames.ai/agents/specialists/api-upgrade-planner/"
+  },
+  {
+   "title": "Documentation Site Harvester",
+   "url": "https://coreyjames.ai/agents/specialists/documentation-site-harvester/"
+  },
+  {
+   "title": "Code Impact Analyst",
+   "url": "https://coreyjames.ai/agents/specialists/code-impact-analyst/"
+  },
+  {
+   "title": "Porting Pattern Scout",
+   "url": "https://coreyjames.ai/agents/specialists/porting-pattern-scout/"
+  },
+  {
+   "title": "Legacy System Migration Planner",
+   "url": "https://coreyjames.ai/agents/specialists/legacy-system-migration-planner/"
+  },
+  {
+   "title": "Project Planning Clerk",
+   "url": "https://coreyjames.ai/agents/specialists/project-planning-clerk/"
+  },
+  {
+   "title": "Plan Deliberation Panel",
+   "url": "https://coreyjames.ai/agents/specialists/plan-deliberation-panel/"
+  },
+  {
+   "title": "Change Impact Reviewer",
+   "url": "https://coreyjames.ai/agents/specialists/change-impact-reviewer/"
+  },
+  {
+   "title": "Platform Capability Reviewer",
+   "url": "https://coreyjames.ai/agents/specialists/platform-capability-reviewer/"
+  }
+ ],
+ "featured": false,
+ "routes": [
+  "A vendor notice becomes a finished upgrade"
+ ],
+ "related": [
+  {
+   "title": "Memory and code intelligence for agents",
+   "url": "https://coreyjames.ai/capabilities/memory-and-code-intelligence-for-agents/",
+   "kind": "Capability"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/roles/migration-planner/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/roles/migration-planner",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

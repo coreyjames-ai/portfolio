@@ -1,0 +1,40 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/social-analytics-reporter/",
+ "kind": "agent-specialist",
+ "title": "Social Analytics Reporter",
+ "subtitle": "It reports reach and engagement per post and per day, follower growth and tracking-link results across every connected account, X and the Facebook Page.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "It reports reach and engagement per post and per day, follower growth and tracking-link results across every connected account, X and the Facebook Page.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "a marketing lead",
+ "group": "Social media",
+ "specialist_kind": "Does the work",
+ "roles": [
+  {
+   "title": "The Morning Brief",
+   "url": "https://coreyjames.ai/agents/roles/morning-brief/"
+  },
+  {
+   "title": "The Week in Review",
+   "url": "https://coreyjames.ai/agents/roles/week-in-review/"
+  },
+  {
+   "title": "The Newsroom",
+   "url": "https://coreyjames.ai/agents/roles/newsroom/"
+  },
+  {
+   "title": "The Ad Buyer",
+   "url": "https://coreyjames.ai/agents/roles/ad-buyer/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/social-analytics-reporter/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/social-analytics-reporter",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

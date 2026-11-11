@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/failed-machine-recovery-specialist/",
+ "kind": "agent-specialist",
+ "title": "Failed Machine Recovery Specialist",
+ "subtitle": "Notices when a GPU worker gets sick or goes silent, then moves its work: to a free local card first, then to the same provider at today's price, then to another provider, and otherwise into a waiting line.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Notices when a GPU worker gets sick or goes silent, then moves its work: to a free local card first, then to the same provider at today's price, then to another provider, and otherwise into a waiting line. For jobs you flag, it pauses and asks you first.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "An on-call operations engineer",
+ "group": "Machines, data and operations",
+ "specialist_kind": "Runs infrastructure",
+ "roles": [
+  {
+   "title": "The Bulk Run Manager",
+   "url": "https://coreyjames.ai/agents/roles/bulk-run-manager/"
+  },
+  {
+   "title": "The Night Shift",
+   "url": "https://coreyjames.ai/agents/roles/night-shift/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/failed-machine-recovery-specialist/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/failed-machine-recovery-specialist",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

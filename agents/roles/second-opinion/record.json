@@ -1,0 +1,72 @@
+{
+ "url": "https://coreyjames.ai/agents/roles/second-opinion/",
+ "kind": "agent-role",
+ "title": "The Second Opinion",
+ "subtitle": "For a CTO who wants a critical system read by someone who did not build it.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Several reviewers from different AI model families read the system in parallel, and none of them may change anything. One works as an attacker. Their findings are merged, ranked by severity and handed over with the file and line for each.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "function": "Engineering",
+ "function_url": "https://coreyjames.ai/agents/functions/engineering/",
+ "specialists": [
+  {
+   "title": "Independent Code Auditor",
+   "url": "https://coreyjames.ai/agents/specialists/independent-code-auditor/"
+  },
+  {
+   "title": "Red Team Reviewer",
+   "url": "https://coreyjames.ai/agents/specialists/red-team-reviewer/"
+  },
+  {
+   "title": "Security Attack Tester",
+   "url": "https://coreyjames.ai/agents/specialists/security-attack-tester/"
+  },
+  {
+   "title": "Code-Grounded Reviewer",
+   "url": "https://coreyjames.ai/agents/specialists/code-grounded-reviewer/"
+  },
+  {
+   "title": "Independent Review Clerk",
+   "url": "https://coreyjames.ai/agents/specialists/independent-review-clerk/"
+  },
+  {
+   "title": "Issue Review Panel",
+   "url": "https://coreyjames.ai/agents/specialists/issue-review-panel/"
+  },
+  {
+   "title": "Dead Code Finder",
+   "url": "https://coreyjames.ai/agents/specialists/dead-code-finder/"
+  }
+ ],
+ "featured": false,
+ "routes": [
+  "An acquisition becomes a working team"
+ ],
+ "related": [
+  {
+   "title": "Governed autonomous engineering",
+   "url": "https://coreyjames.ai/capabilities/governed-autonomous-engineering/",
+   "kind": "Capability"
+  },
+  {
+   "title": "Role contracts, with vendors as data",
+   "url": "https://coreyjames.ai/ideas/role-contracts-not-vendors/",
+   "kind": "Idea"
+  },
+  {
+   "title": "Separation of duties for AI work",
+   "url": "https://coreyjames.ai/stories/separation-of-duties-for-ai-work/",
+   "kind": "Engineering story"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/roles/second-opinion/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/roles/second-opinion",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

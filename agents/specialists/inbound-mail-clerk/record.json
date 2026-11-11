@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/inbound-mail-clerk/",
+ "kind": "agent-specialist",
+ "title": "Inbound Mail Clerk",
+ "subtitle": "It reads mail sent to the business's addresses, sorts it, answers routine questions, opens a task for anything that needs a person, and notes it on the sender's record.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "It reads mail sent to the business's addresses, sorts it, answers routine questions, opens a task for anything that needs a person, and notes it on the sender's record.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "a small business owner",
+ "group": "Email, text and messaging",
+ "specialist_kind": "Speaks to people",
+ "roles": [
+  {
+   "title": "The Recruiting Marketer",
+   "url": "https://coreyjames.ai/agents/roles/recruiting-marketer/"
+  },
+  {
+   "title": "The Lead Catcher",
+   "url": "https://coreyjames.ai/agents/roles/lead-catcher/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/inbound-mail-clerk/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/inbound-mail-clerk",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

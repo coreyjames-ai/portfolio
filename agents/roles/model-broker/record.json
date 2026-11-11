@@ -1,0 +1,70 @@
+{
+ "url": "https://coreyjames.ai/agents/roles/model-broker/",
+ "kind": "agent-role",
+ "title": "The Model Broker",
+ "subtitle": "For an AI team lead paying several model providers.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Every model call from every agent passes through one switchboard. The agent sends each call to an approved provider, keeps each provider inside its rate limit and steps down to a cheaper tier when a quota runs out. Commercial AI assistants that want access are registered, and a person approves each grant. Every call is charged to the task that made it.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "function": "AI and model teams",
+ "function_url": "https://coreyjames.ai/agents/functions/ai-and-model-teams/",
+ "specialists": [
+  {
+   "title": "AI Provider Switchboard",
+   "url": "https://coreyjames.ai/agents/specialists/ai-provider-switchboard/"
+  },
+  {
+   "title": "AI Access Desk",
+   "url": "https://coreyjames.ai/agents/specialists/ai-access-desk/"
+  },
+  {
+   "title": "AI Spend Recorder",
+   "url": "https://coreyjames.ai/agents/specialists/ai-spend-recorder/"
+  },
+  {
+   "title": "Engineering Cost Analyst",
+   "url": "https://coreyjames.ai/agents/specialists/engineering-cost-analyst/"
+  },
+  {
+   "title": "Tool Concierge",
+   "url": "https://coreyjames.ai/agents/specialists/tool-concierge/"
+  },
+  {
+   "title": "Memory Return-on-Investment Reporter",
+   "url": "https://coreyjames.ai/agents/specialists/memory-return-on-investment-reporter/"
+  },
+  {
+   "title": "Model Comparison Evaluator",
+   "url": "https://coreyjames.ai/agents/specialists/model-comparison-evaluator/"
+  }
+ ],
+ "featured": false,
+ "routes": [],
+ "related": [
+  {
+   "title": "AI subscriptions as governed workers",
+   "url": "https://coreyjames.ai/capabilities/use-the-ai-subscriptions-you-already-have/",
+   "kind": "Capability"
+  },
+  {
+   "title": "Role contracts, with vendors as data",
+   "url": "https://coreyjames.ai/ideas/role-contracts-not-vendors/",
+   "kind": "Idea"
+  },
+  {
+   "title": "What the work cost, to the penny",
+   "url": "https://coreyjames.ai/stories/what-the-work-cost/",
+   "kind": "Engineering story"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/roles/model-broker/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/roles/model-broker",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

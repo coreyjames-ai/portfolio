@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/event-delivery-watchdog/",
+ "kind": "agent-specialist",
+ "title": "Event Delivery Watchdog",
+ "subtitle": "It checks that social, email and payment notifications are still arriving and that usage allowances are not running out, and it alerts the team when something drops.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "It checks that social, email and payment notifications are still arriving and that usage allowances are not running out, and it alerts the team when something drops.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "an operations lead",
+ "group": "Connecting tools and signals",
+ "specialist_kind": "Audits and guards",
+ "roles": [
+  {
+   "title": "The Integration Engineer",
+   "url": "https://coreyjames.ai/agents/roles/integration-engineer/"
+  },
+  {
+   "title": "The Systems Bridge",
+   "url": "https://coreyjames.ai/agents/roles/systems-bridge/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/event-delivery-watchdog/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/event-delivery-watchdog",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

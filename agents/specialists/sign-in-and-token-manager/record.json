@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/sign-in-and-token-manager/",
+ "kind": "agent-specialist",
+ "title": "Sign-in and Token Manager",
+ "subtitle": "This agent handles sign-in codes, access tokens and refresh tokens end to end and keeps the site's security certificate renewed.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "This agent handles sign-in codes, access tokens and refresh tokens end to end and keeps the site's security certificate renewed.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A security lead running a sign-in service",
+ "group": "Security and access",
+ "specialist_kind": "Audits and guards",
+ "roles": [
+  {
+   "title": "The Security Officer",
+   "url": "https://coreyjames.ai/agents/roles/security-officer/"
+  },
+  {
+   "title": "The Assistant-Ready Website",
+   "url": "https://coreyjames.ai/agents/roles/assistant-ready-website/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/sign-in-and-token-manager/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/sign-in-and-token-manager",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

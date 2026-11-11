@@ -1,0 +1,36 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/compute-cost-reporter/",
+ "kind": "agent-specialist",
+ "title": "Compute Cost Reporter",
+ "subtitle": "Reports what compute and AI usage cost, broken down by machine, by dataset, by team role and by model, with today's projection and storage costs alongside.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Reports what compute and AI usage cost, broken down by machine, by dataset, by team role and by model, with today's projection and storage costs alongside.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A finance lead",
+ "group": "Machines, data and operations",
+ "specialist_kind": "Runs infrastructure",
+ "roles": [
+  {
+   "title": "The Morning Brief",
+   "url": "https://coreyjames.ai/agents/roles/morning-brief/"
+  },
+  {
+   "title": "The Bulk Run Manager",
+   "url": "https://coreyjames.ai/agents/roles/bulk-run-manager/"
+  },
+  {
+   "title": "The Spend Controller",
+   "url": "https://coreyjames.ai/agents/roles/spend-controller/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/compute-cost-reporter/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/compute-cost-reporter",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

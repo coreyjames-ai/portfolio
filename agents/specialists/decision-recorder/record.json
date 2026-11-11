@@ -1,0 +1,36 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/decision-recorder/",
+ "kind": "agent-specialist",
+ "title": "Decision Recorder",
+ "subtitle": "Watches the team's decisions log and working notes folder.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Watches the team's decisions log and working notes folder. It files each newly agreed decision together with the review it survived, files each checkpoint note, and keeps a log of what it filed.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A team lead who wants every agreed decision, and every checkpoint, kept where people can find it later",
+ "group": "Code intelligence and team memory",
+ "specialist_kind": "Keeps knowledge",
+ "roles": [
+  {
+   "title": "The Software Department",
+   "url": "https://coreyjames.ai/agents/roles/software-department/"
+  },
+  {
+   "title": "The Record Keeper",
+   "url": "https://coreyjames.ai/agents/roles/record-keeper/"
+  },
+  {
+   "title": "The Institutional Memory",
+   "url": "https://coreyjames.ai/agents/roles/institutional-memory/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/decision-recorder/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/decision-recorder",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

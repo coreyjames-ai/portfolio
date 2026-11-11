@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/portfolio-publisher/",
+ "kind": "agent-specialist",
+ "title": "Portfolio Publisher",
+ "subtitle": "It turns approved write-ups into a complete website, checks that every figure appears on its own page, renders diagrams and charts, takes desktop and phone screenshots for review, publishes the site, and tells the search engines.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "It turns approved write-ups into a complete website, checks that every figure appears on its own page, renders diagrams and charts, takes desktop and phone screenshots for review, publishes the site, and tells the search engines.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "An independent consultant or researcher who keeps a public portfolio",
+ "group": "The public front door",
+ "specialist_kind": "Does the work",
+ "roles": [
+  {
+   "title": "The Developer Advocate",
+   "url": "https://coreyjames.ai/agents/roles/developer-advocate/"
+  },
+  {
+   "title": "The Publisher of Record",
+   "url": "https://coreyjames.ai/agents/roles/publisher-of-record/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/portfolio-publisher/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/portfolio-publisher",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

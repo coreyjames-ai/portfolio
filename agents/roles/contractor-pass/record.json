@@ -1,0 +1,78 @@
+{
+ "url": "https://coreyjames.ai/agents/roles/contractor-pass/",
+ "kind": "agent-role",
+ "title": "The Contractor Pass",
+ "subtitle": "For a team that wants outside or automated contributors without handing over the keys.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "A contributor agent clones the repository, makes its change on its own branch and runs the tests. It never holds the repository key. A trusted steward opens the merge request for it, a reviewer reads the change and an assistant keeps the tickets, branches and comments in order.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "function": "Engineering",
+ "function_url": "https://coreyjames.ai/agents/functions/engineering/",
+ "specialists": [
+  {
+   "title": "Credential-Free Contributor",
+   "url": "https://coreyjames.ai/agents/specialists/credential-free-contributor/"
+  },
+  {
+   "title": "Repository Steward",
+   "url": "https://coreyjames.ai/agents/specialists/repository-steward/"
+  },
+  {
+   "title": "Repository Assistant",
+   "url": "https://coreyjames.ai/agents/specialists/repository-assistant/"
+  },
+  {
+   "title": "Code Reviewer",
+   "url": "https://coreyjames.ai/agents/specialists/code-reviewer/"
+  },
+  {
+   "title": "Build and Test Runner",
+   "url": "https://coreyjames.ai/agents/specialists/build-and-test-runner/"
+  },
+  {
+   "title": "Acceptance Tester",
+   "url": "https://coreyjames.ai/agents/specialists/acceptance-tester/"
+  },
+  {
+   "title": "Test Coverage Reviewer",
+   "url": "https://coreyjames.ai/agents/specialists/test-coverage-reviewer/"
+  },
+  {
+   "title": "Secrets and Certificates Officer",
+   "url": "https://coreyjames.ai/agents/specialists/secrets-and-certificates-officer/"
+  },
+  {
+   "title": "App Access Registrar",
+   "url": "https://coreyjames.ai/agents/specialists/app-access-registrar/"
+  }
+ ],
+ "featured": false,
+ "routes": [],
+ "related": [
+  {
+   "title": "Governed autonomous engineering",
+   "url": "https://coreyjames.ai/capabilities/governed-autonomous-engineering/",
+   "kind": "Capability"
+  },
+  {
+   "title": "Identity from the caller, credentials on the server",
+   "url": "https://coreyjames.ai/ideas/identity-from-the-caller/",
+   "kind": "Idea"
+  },
+  {
+   "title": "A coding agent that never holds the keys",
+   "url": "https://coreyjames.ai/stories/a-coding-agent-that-never-holds-the-keys/",
+   "kind": "Engineering story"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/roles/contractor-pass/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/roles/contractor-pass",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

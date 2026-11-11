@@ -1,0 +1,28 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/search-quality-analyst/",
+ "kind": "agent-specialist",
+ "title": "Search Quality Analyst",
+ "subtitle": "Measures and tunes search quality.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Measures and tunes search quality. It compares the fast search cache against the database baseline, runs side-by-side and smoke tests on fixed question sets, studies usage data with seven groups of model prompts, and recommends setting changes that a person can apply or dismiss.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A platform lead accountable for whether search finds the right thing",
+ "group": "Code intelligence and team memory",
+ "specialist_kind": "Audits and guards",
+ "roles": [
+  {
+   "title": "The Search Auditor",
+   "url": "https://coreyjames.ai/agents/roles/search-auditor/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/search-quality-analyst/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/search-quality-analyst",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

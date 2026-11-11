@@ -1,0 +1,76 @@
+{
+ "url": "https://coreyjames.ai/agents/roles/advisory-board/",
+ "kind": "agent-role",
+ "title": "The Advisory Board",
+ "subtitle": "For a leadership team facing a hard call.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "The question goes to a panel of different AI models, each given a role. They argue it in the open, and one of them is assigned to attack whatever the others favour. The panel closes only when every member agrees to the same written text. The agent then files the decision with the reasoning behind it, presents it at the leadership meeting and drafts the announcement.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "function": "Running the company",
+ "function_url": "https://coreyjames.ai/agents/functions/running-the-company/",
+ "specialists": [
+  {
+   "title": "Virtual Leadership Panel",
+   "url": "https://coreyjames.ai/agents/specialists/virtual-leadership-panel/"
+  },
+  {
+   "title": "Decision Panel Moderator",
+   "url": "https://coreyjames.ai/agents/specialists/decision-panel-moderator/"
+  },
+  {
+   "title": "Red Team Reviewer",
+   "url": "https://coreyjames.ai/agents/specialists/red-team-reviewer/"
+  },
+  {
+   "title": "Feasibility Study Coordinator",
+   "url": "https://coreyjames.ai/agents/specialists/feasibility-study-coordinator/"
+  },
+  {
+   "title": "Decision Keeper",
+   "url": "https://coreyjames.ai/agents/specialists/decision-keeper/"
+  },
+  {
+   "title": "Board Briefing Presenter",
+   "url": "https://coreyjames.ai/agents/specialists/board-briefing-presenter/"
+  },
+  {
+   "title": "Decision Announcer",
+   "url": "https://coreyjames.ai/agents/specialists/decision-announcer/"
+  },
+  {
+   "title": "Panel Watchdog",
+   "url": "https://coreyjames.ai/agents/specialists/panel-watchdog/"
+  }
+ ],
+ "featured": false,
+ "routes": [
+  "A decision becomes a launch"
+ ],
+ "related": [
+  {
+   "title": "AI subscriptions as governed workers",
+   "url": "https://coreyjames.ai/capabilities/use-the-ai-subscriptions-you-already-have/",
+   "kind": "Capability"
+  },
+  {
+   "title": "Role contracts, with vendors as data",
+   "url": "https://coreyjames.ai/ideas/role-contracts-not-vendors/",
+   "kind": "Idea"
+  },
+  {
+   "title": "Several minds in one room",
+   "url": "https://coreyjames.ai/stories/several-minds-in-one-room/",
+   "kind": "Engineering story"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/roles/advisory-board/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/roles/advisory-board",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

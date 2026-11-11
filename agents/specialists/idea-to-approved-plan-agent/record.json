@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/idea-to-approved-plan-agent/",
+ "kind": "agent-specialist",
+ "title": "Idea-to-Approved-Plan Agent",
+ "subtitle": "It runs a planning debate across several AI models, asks the owner to settle the open questions, and after the owner approves, starts a team on the plan.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "It runs a planning debate across several AI models, asks the owner to settle the open questions, and after the owner approves, starts a team on the plan.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A founder or an engineering manager",
+ "group": "Signal to done",
+ "specialist_kind": "Does the work",
+ "roles": [
+  {
+   "title": "The Pocket Operator",
+   "url": "https://coreyjames.ai/agents/roles/pocket-operator/"
+  },
+  {
+   "title": "The Planning Room",
+   "url": "https://coreyjames.ai/agents/roles/planning-room/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/idea-to-approved-plan-agent/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/idea-to-approved-plan-agent",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

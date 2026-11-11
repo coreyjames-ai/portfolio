@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/panel-watchdog/",
+ "kind": "agent-specialist",
+ "title": "Panel Watchdog",
+ "subtitle": "It watches a panel for spending limits, interrupted turns and idle sessions, pauses instead of forcing a rushed answer, recovers interrupted work in place, and tells you by voice what state the panel is in.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "It watches a panel for spending limits, interrupted turns and idle sessions, pauses instead of forcing a rushed answer, recovers interrupted work in place, and tells you by voice what state the panel is in.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "Anyone running long AI panel discussions",
+ "group": "Decisions and deliberation",
+ "specialist_kind": "Audits and guards",
+ "roles": [
+  {
+   "title": "The Advisory Board",
+   "url": "https://coreyjames.ai/agents/roles/advisory-board/"
+  },
+  {
+   "title": "The Planning Room",
+   "url": "https://coreyjames.ai/agents/roles/planning-room/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/panel-watchdog/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/panel-watchdog",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

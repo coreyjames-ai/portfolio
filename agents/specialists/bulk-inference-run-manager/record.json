@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/bulk-inference-run-manager/",
+ "kind": "agent-specialist",
+ "title": "Bulk Inference Run Manager",
+ "subtitle": "Takes a very large pile of prompts, packs them so every GPU stays busy, collects the answers after the submitting programs have gone home, and writes the results back with every item accounted for.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Takes a very large pile of prompts, packs them so every GPU stays busy, collects the answers after the submitting programs have gone home, and writes the results back with every item accounted for. You get a finished dataset rather than a babysitting job.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "An AI or ML team lead with millions of prompts to process",
+ "group": "AI models and performance",
+ "specialist_kind": "Runs infrastructure",
+ "roles": [
+  {
+   "title": "The Bulk Run Manager",
+   "url": "https://coreyjames.ai/agents/roles/bulk-run-manager/"
+  },
+  {
+   "title": "The Research Lab",
+   "url": "https://coreyjames.ai/agents/roles/research-lab/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/bulk-inference-run-manager/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/bulk-inference-run-manager",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

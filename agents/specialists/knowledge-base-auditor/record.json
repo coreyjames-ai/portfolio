@@ -1,0 +1,28 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/knowledge-base-auditor/",
+ "kind": "agent-specialist",
+ "title": "Knowledge Base Auditor",
+ "subtitle": "This agent checks that the knowledge base still lines up with its reference material and lists missing or incomplete topics for repair.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "This agent checks that the knowledge base still lines up with its reference material and lists missing or incomplete topics for repair.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A research lead who needs to trust the knowledge base",
+ "group": "AI models and performance",
+ "specialist_kind": "Audits and guards",
+ "roles": [
+  {
+   "title": "The Model Interviewer",
+   "url": "https://coreyjames.ai/agents/roles/model-interviewer/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/knowledge-base-auditor/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/knowledge-base-auditor",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

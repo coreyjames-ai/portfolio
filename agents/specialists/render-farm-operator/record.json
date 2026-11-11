@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/render-farm-operator/",
+ "kind": "agent-specialist",
+ "title": "Render Farm Operator",
+ "subtitle": "Keeps the GPU image and video service running for the whole team: starts it only within the spend limit, watches health and logs, frees GPU memory between jobs and shuts it down when work is done.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Keeps the GPU image and video service running for the whole team: starts it only within the spend limit, watches health and logs, frees GPU memory between jobs and shuts it down when work is done.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "An IT operations lead",
+ "group": "Machines, data and operations",
+ "specialist_kind": "Runs infrastructure",
+ "roles": [
+  {
+   "title": "The Film Studio",
+   "url": "https://coreyjames.ai/agents/roles/film-studio/"
+  },
+  {
+   "title": "The Studio Engineer",
+   "url": "https://coreyjames.ai/agents/roles/studio-engineer/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/render-farm-operator/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/render-farm-operator",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

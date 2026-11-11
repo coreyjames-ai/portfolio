@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/run-verification-clerk/",
+ "kind": "agent-specialist",
+ "title": "Run Verification Clerk",
+ "subtitle": "Checks a finished run against its original request and reports whether every item is present, without running anything again.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Checks a finished run against its original request and reports whether every item is present, without running anything again.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A research lead asked to confirm that an earlier run is complete",
+ "group": "AI models and performance",
+ "specialist_kind": "Audits and guards",
+ "roles": [
+  {
+   "title": "The Bulk Run Manager",
+   "url": "https://coreyjames.ai/agents/roles/bulk-run-manager/"
+  },
+  {
+   "title": "The Archive Keeper",
+   "url": "https://coreyjames.ai/agents/roles/archive-keeper/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/run-verification-clerk/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/run-verification-clerk",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

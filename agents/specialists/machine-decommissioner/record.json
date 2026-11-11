@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/machine-decommissioner/",
+ "kind": "agent-specialist",
+ "title": "Machine Decommissioner",
+ "subtitle": "Takes a retired machine out of the fleet, revokes its certificates and confirms nothing still routes work to it.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Takes a retired machine out of the fleet, revokes its certificates and confirms nothing still routes work to it.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "An IT lead retiring a server",
+ "group": "Machines, data and operations",
+ "specialist_kind": "Runs infrastructure",
+ "roles": [
+  {
+   "title": "The Security Officer",
+   "url": "https://coreyjames.ai/agents/roles/security-officer/"
+  },
+  {
+   "title": "The Housekeeper",
+   "url": "https://coreyjames.ai/agents/roles/housekeeper/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/machine-decommissioner/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/machine-decommissioner",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

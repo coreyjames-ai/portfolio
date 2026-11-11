@@ -1,0 +1,28 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/tool-version-checker/",
+ "kind": "agent-specialist",
+ "title": "Tool Version Checker",
+ "subtitle": "Compares the tool list on every machine in the fleet and names any machine running an older version.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Compares the tool list on every machine in the fleet and names any machine running an older version.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "An AI operations lead running agents across several machines",
+ "group": "Managing an AI workforce",
+ "specialist_kind": "Audits and guards",
+ "roles": [
+  {
+   "title": "The Control Room",
+   "url": "https://coreyjames.ai/agents/roles/control-room/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/tool-version-checker/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/tool-version-checker",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

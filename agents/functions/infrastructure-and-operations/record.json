@@ -1,0 +1,83 @@
+{
+ "url": "https://coreyjames.ai/agents/functions/infrastructure-and-operations/",
+ "kind": "agent-function",
+ "title": "Infrastructure and operations",
+ "subtitle": "Machines, queues, databases and spend, watched through the night.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Machines, queues, databases and spend, watched through the night. Roles: The Night Shift; The Spend Controller; The Branch Office Engineer; The Database Guard; The Security Officer; The Studio Engineer; The Pipeline Foreman; The Watch Office; The Safe Change Desk; The Housekeeper.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "roles": [
+  {
+   "title": "The Night Shift",
+   "url": "https://coreyjames.ai/agents/roles/night-shift/"
+  },
+  {
+   "title": "The Spend Controller",
+   "url": "https://coreyjames.ai/agents/roles/spend-controller/"
+  },
+  {
+   "title": "The Branch Office Engineer",
+   "url": "https://coreyjames.ai/agents/roles/branch-office-engineer/"
+  },
+  {
+   "title": "The Database Guard",
+   "url": "https://coreyjames.ai/agents/roles/database-guard/"
+  },
+  {
+   "title": "The Security Officer",
+   "url": "https://coreyjames.ai/agents/roles/security-officer/"
+  },
+  {
+   "title": "The Studio Engineer",
+   "url": "https://coreyjames.ai/agents/roles/studio-engineer/"
+  },
+  {
+   "title": "The Pipeline Foreman",
+   "url": "https://coreyjames.ai/agents/roles/pipeline-foreman/"
+  },
+  {
+   "title": "The Watch Office",
+   "url": "https://coreyjames.ai/agents/roles/watch-office/"
+  },
+  {
+   "title": "The Safe Change Desk",
+   "url": "https://coreyjames.ai/agents/roles/safe-change-desk/"
+  },
+  {
+   "title": "The Housekeeper",
+   "url": "https://coreyjames.ai/agents/roles/housekeeper/"
+  }
+ ],
+ "related": [
+  {
+   "title": "High-throughput batch inference and embeddings",
+   "url": "https://coreyjames.ai/capabilities/high-throughput-batch-inference/",
+   "kind": "Capability"
+  },
+  {
+   "title": "One call to a GPU anywhere",
+   "url": "https://coreyjames.ai/stories/one-call-to-a-gpu-anywhere/",
+   "kind": "Engineering story"
+  },
+  {
+   "title": "Pricing writes by what they cost the database",
+   "url": "https://coreyjames.ai/stories/pricing-writes-by-what-they-cost/",
+   "kind": "Engineering story"
+  },
+  {
+   "title": "The hardening fix that locked everyone out",
+   "url": "https://coreyjames.ai/stories/the-hardening-fix-that-locked-everyone-out/",
+   "kind": "Engineering story"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/functions/infrastructure-and-operations/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/functions/infrastructure-and-operations",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

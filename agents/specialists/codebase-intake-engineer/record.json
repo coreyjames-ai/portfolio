@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/codebase-intake-engineer/",
+ "kind": "agent-specialist",
+ "title": "Codebase Intake Engineer",
+ "subtitle": "Brings a codebase in from a local folder or straight from GitHub or GitLab, recommends which file types to include, splits the code along function and type boundaries for eight languages, and makes it searchable by meaning and by name.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Brings a codebase in from a local folder or straight from GitHub or GitLab, recommends which file types to include, splits the code along function and type boundaries for eight languages, and makes it searchable by meaning and by name. It also builds the map of which code calls, imports and implements which.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "An engineering manager adding a new repository, an acquired codebase or an open-source library to what the team can search",
+ "group": "Code intelligence and team memory",
+ "specialist_kind": "Keeps knowledge",
+ "roles": [
+  {
+   "title": "The Due-Diligence Analyst",
+   "url": "https://coreyjames.ai/agents/roles/due-diligence-analyst/"
+  },
+  {
+   "title": "The Search Keeper",
+   "url": "https://coreyjames.ai/agents/roles/search-keeper/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/codebase-intake-engineer/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/codebase-intake-engineer",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

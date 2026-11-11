@@ -1,0 +1,28 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/knowledge-base-curator/",
+ "kind": "agent-specialist",
+ "title": "Knowledge Base Curator",
+ "subtitle": "It finds the thin areas of the knowledge base, writes candidate entries, admits only those that fit the existing topics, labels and rebalances the topics, and reports which areas need repair.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "It finds the thin areas of the knowledge base, writes candidate entries, admits only those that fit the existing topics, labels and rebalances the topics, and reports which areas need repair.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A data or machine-learning team that maintains a question-and-answer knowledge base",
+ "group": "AI models and performance",
+ "specialist_kind": "Keeps knowledge",
+ "roles": [
+  {
+   "title": "The Model Interviewer",
+   "url": "https://coreyjames.ai/agents/roles/model-interviewer/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/knowledge-base-curator/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/knowledge-base-curator",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

@@ -1,0 +1,82 @@
+{
+ "url": "https://coreyjames.ai/agents/roles/automation-builder/",
+ "kind": "agent-role",
+ "title": "The Automation Builder",
+ "subtitle": "For a manager with recurring jobs done by hand.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "The job is described in plain words. A crew of agents designs it, writes it, tests it and registers it to run on a schedule or when a signal arrives. The library of automations is kept in working order as the systems around it change.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "function": "Engineering",
+ "function_url": "https://coreyjames.ai/agents/functions/engineering/",
+ "specialists": [
+  {
+   "title": "Internal Automation Builder",
+   "url": "https://coreyjames.ai/agents/specialists/internal-automation-builder/"
+  },
+  {
+   "title": "Internal Tool Builder Crew",
+   "url": "https://coreyjames.ai/agents/specialists/internal-tool-builder-crew/"
+  },
+  {
+   "title": "Acceptance Tester",
+   "url": "https://coreyjames.ai/agents/specialists/acceptance-tester/"
+  },
+  {
+   "title": "Self-Starting Job Scheduler",
+   "url": "https://coreyjames.ai/agents/specialists/self-starting-job-scheduler/"
+  },
+  {
+   "title": "Automation Library Caretaker",
+   "url": "https://coreyjames.ai/agents/specialists/automation-library-caretaker/"
+  },
+  {
+   "title": "Software Developer",
+   "url": "https://coreyjames.ai/agents/specialists/software-developer/"
+  },
+  {
+   "title": "Existing-Capability Checker",
+   "url": "https://coreyjames.ai/agents/specialists/existing-capability-checker/"
+  },
+  {
+   "title": "Data Job Builder",
+   "url": "https://coreyjames.ai/agents/specialists/data-job-builder/"
+  },
+  {
+   "title": "Job Dispatcher",
+   "url": "https://coreyjames.ai/agents/specialists/job-dispatcher/"
+  },
+  {
+   "title": "Service Function Builder",
+   "url": "https://coreyjames.ai/agents/specialists/service-function-builder/"
+  }
+ ],
+ "featured": false,
+ "routes": [],
+ "related": [
+  {
+   "title": "Governed autonomous engineering",
+   "url": "https://coreyjames.ai/capabilities/governed-autonomous-engineering/",
+   "kind": "Capability"
+  },
+  {
+   "title": "A human at the privileged step",
+   "url": "https://coreyjames.ai/ideas/a-human-at-the-privileged-step/",
+   "kind": "Idea"
+  },
+  {
+   "title": "Tools that build tools, under governance",
+   "url": "https://coreyjames.ai/stories/tools-that-build-tools-under-governance/",
+   "kind": "Engineering story"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/roles/automation-builder/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/roles/automation-builder",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

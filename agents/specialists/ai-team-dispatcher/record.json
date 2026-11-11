@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/ai-team-dispatcher/",
+ "kind": "agent-specialist",
+ "title": "AI Team Dispatcher",
+ "subtitle": "Starts an AI agent for each role you need, each with its own limited access, workspace and budget, on the machine you choose.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Starts an AI agent for each role you need, each with its own limited access, workspace and budget, on the machine you choose. It pauses, stops or replaces agents, stops every agent in a role at once, and reloads the role list when you add a new one.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "An engineering manager running a team of AI agents",
+ "group": "Managing an AI workforce",
+ "specialist_kind": "Supervises other agents",
+ "roles": [
+  {
+   "title": "The Pocket Operator",
+   "url": "https://coreyjames.ai/agents/roles/pocket-operator/"
+  },
+  {
+   "title": "The AI Workforce Manager",
+   "url": "https://coreyjames.ai/agents/roles/ai-workforce-manager/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/ai-team-dispatcher/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/ai-team-dispatcher",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

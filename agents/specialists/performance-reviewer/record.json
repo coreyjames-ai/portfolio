@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/performance-reviewer/",
+ "kind": "agent-specialist",
+ "title": "Performance Reviewer",
+ "subtitle": "Reads a change for slow paths and wasted work and reports them on the ticket with the lines concerned.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Reads a change for slow paths and wasted work and reports them on the ticket with the lines concerned.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A tech lead worried that a change will slow the product down",
+ "group": "Building software",
+ "specialist_kind": "Challenges decisions",
+ "roles": [
+  {
+   "title": "The Change Board",
+   "url": "https://coreyjames.ai/agents/roles/change-board/"
+  },
+  {
+   "title": "The Review Panel",
+   "url": "https://coreyjames.ai/agents/roles/review-panel/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/performance-reviewer/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/performance-reviewer",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

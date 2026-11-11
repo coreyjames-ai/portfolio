@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/ticket-to-fix-engineer/",
+ "kind": "agent-specialist",
+ "title": "Ticket-to-Fix Engineer",
+ "subtitle": "This agent picks up a new ticket, makes the change, checks it, opens a merge request and leaves a note on the ticket so the requester knows it is ready for review.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "This agent picks up a new ticket, makes the change, checks it, opens a merge request and leaves a note on the ticket so the requester knows it is ready for review.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "An engineering manager with a queue of small tickets",
+ "group": "Building software",
+ "specialist_kind": "Does the work",
+ "roles": [
+  {
+   "title": "The Ticket Clearer",
+   "url": "https://coreyjames.ai/agents/roles/ticket-clearer/"
+  },
+  {
+   "title": "The Incident Commander",
+   "url": "https://coreyjames.ai/agents/roles/incident-commander/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/ticket-to-fix-engineer/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/ticket-to-fix-engineer",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

@@ -1,0 +1,84 @@
+{
+ "url": "https://coreyjames.ai/agents/roles/speed-detective/",
+ "kind": "agent-role",
+ "title": "The Speed Detective",
+ "subtitle": "For a platform lead whose model responds slower than it should.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "The agent profiles the engine, traces hardware events and breaks each response down into where the time went. It records the conditions of every run so results can be compared fairly. Each proposed fix is tested as an experiment, with a check that the answers stayed the same.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "function": "AI and model teams",
+ "function_url": "https://coreyjames.ai/agents/functions/ai-and-model-teams/",
+ "specialists": [
+  {
+   "title": "AI Speed Investigator",
+   "url": "https://coreyjames.ai/agents/specialists/ai-speed-investigator/"
+  },
+  {
+   "title": "GPU Profiler",
+   "url": "https://coreyjames.ai/agents/specialists/gpu-profiler/"
+  },
+  {
+   "title": "Hardware Event Tracer",
+   "url": "https://coreyjames.ai/agents/specialists/hardware-event-tracer/"
+  },
+  {
+   "title": "Run Conditions Recorder",
+   "url": "https://coreyjames.ai/agents/specialists/run-conditions-recorder/"
+  },
+  {
+   "title": "AI Experiment Runner",
+   "url": "https://coreyjames.ai/agents/specialists/ai-experiment-runner/"
+  },
+  {
+   "title": "AI Answer Accuracy Checker",
+   "url": "https://coreyjames.ai/agents/specialists/ai-answer-accuracy-checker/"
+  },
+  {
+   "title": "AI Service Load Tester",
+   "url": "https://coreyjames.ai/agents/specialists/ai-service-load-tester/"
+  },
+  {
+   "title": "Serving Capacity Tuner",
+   "url": "https://coreyjames.ai/agents/specialists/serving-capacity-tuner/"
+  }
+ ],
+ "featured": true,
+ "routes": [],
+ "related": [
+  {
+   "title": "High-throughput batch inference and embeddings",
+   "url": "https://coreyjames.ai/capabilities/high-throughput-batch-inference/",
+   "kind": "Capability"
+  },
+  {
+   "title": "Measure the instrument",
+   "url": "https://coreyjames.ai/ideas/measure-the-instrument/",
+   "kind": "Idea"
+  },
+  {
+   "title": "The observer that changed the answer",
+   "url": "https://coreyjames.ai/stories/the-observer-that-changed-the-answer/",
+   "kind": "Engineering story"
+  },
+  {
+   "title": "The thirteen percent that was never missing",
+   "url": "https://coreyjames.ai/stories/the-thirteen-percent-that-was-never-missing/",
+   "kind": "Engineering story"
+  },
+  {
+   "title": "From 44K to 163K tokens per second",
+   "url": "https://coreyjames.ai/stories/from-44k-to-163k-tokens-per-second/",
+   "kind": "Engineering story"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/roles/speed-detective/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/roles/speed-detective",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

@@ -1,0 +1,36 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/operations-audit-clerk/",
+ "kind": "agent-specialist",
+ "title": "Operations Audit Clerk",
+ "subtitle": "Keeps the trail of every pause, resume, scale and stop, and answers who did what to which job and when.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Keeps the trail of every pause, resume, scale and stop, and answers who did what to which job and when.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "An operations lead asked who changed what last night",
+ "group": "Machines, data and operations",
+ "specialist_kind": "Audits and guards",
+ "roles": [
+  {
+   "title": "The Circuit Breaker",
+   "url": "https://coreyjames.ai/agents/roles/circuit-breaker/"
+  },
+  {
+   "title": "The Safe Change Desk",
+   "url": "https://coreyjames.ai/agents/roles/safe-change-desk/"
+  },
+  {
+   "title": "The Compliance Officer",
+   "url": "https://coreyjames.ai/agents/roles/compliance-officer/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/operations-audit-clerk/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/operations-audit-clerk",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

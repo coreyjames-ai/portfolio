@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/tool-concierge/",
+ "kind": "agent-specialist",
+ "title": "Tool Concierge",
+ "subtitle": "Takes a plain-language need and returns the best-matching tools from a catalog of hundreds in one answer.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Takes a plain-language need and returns the best-matching tools from a catalog of hundreds in one answer.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "Any agent or engineer who needs the right tool",
+ "group": "Connecting tools and signals",
+ "specialist_kind": "Speaks to people",
+ "roles": [
+  {
+   "title": "The Model Broker",
+   "url": "https://coreyjames.ai/agents/roles/model-broker/"
+  },
+  {
+   "title": "The Team Architect",
+   "url": "https://coreyjames.ai/agents/roles/team-architect/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/tool-concierge/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/tool-concierge",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

@@ -1,0 +1,28 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/operations-dashboard-builder/",
+ "kind": "agent-specialist",
+ "title": "Operations Dashboard Builder",
+ "subtitle": "This agent builds the dashboards for jobs, queues, mining and system resources from the numbers the services already report, and checks that they load.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "This agent builds the dashboards for jobs, queues, mining and system resources from the numbers the services already report, and checks that they load.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "An operations lead who wants one screen for the whole platform",
+ "group": "Machines, data and operations",
+ "specialist_kind": "Does the work",
+ "roles": [
+  {
+   "title": "The Watch Office",
+   "url": "https://coreyjames.ai/agents/roles/watch-office/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/operations-dashboard-builder/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/operations-dashboard-builder",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

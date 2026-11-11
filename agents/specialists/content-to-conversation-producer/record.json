@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/content-to-conversation-producer/",
+ "kind": "agent-specialist",
+ "title": "Content-to-Conversation Producer",
+ "subtitle": "It finds the live conversation on the topic, drafts the post, generates the image, publishes across platforms, answers every comment the post attracts, and reports how it performed.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "It finds the live conversation on the topic, drafts the post, generates the image, publishes across platforms, answers every comment the post attracts, and reports how it performed.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A marketing lead or a founder who wants to post and engage without a social team",
+ "group": "Signal to done",
+ "specialist_kind": "Does the work",
+ "roles": [
+  {
+   "title": "The Conversation Finder",
+   "url": "https://coreyjames.ai/agents/roles/conversation-finder/"
+  },
+  {
+   "title": "The Rapid Responder",
+   "url": "https://coreyjames.ai/agents/roles/rapid-responder/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/content-to-conversation-producer/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/content-to-conversation-producer",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

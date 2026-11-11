@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/recruiter-front-desk/",
+ "kind": "agent-specialist",
+ "title": "Recruiter Front Desk",
+ "subtitle": "When another company's AI agent sends a message, it works out whether the agent wants a fit report, a search, an introduction or a way to get in touch, answers with cited results, and asks for anything that is missing.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "When another company's AI agent sends a message, it works out whether the agent wants a fit report, a search, an introduction or a way to get in touch, answers with cited results, and asks for anything that is missing.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A recruiting firm whose own AI agent does the sourcing",
+ "group": "The public front door",
+ "specialist_kind": "Speaks to people",
+ "roles": [
+  {
+   "title": "The Recruiter's Counterpart",
+   "url": "https://coreyjames.ai/agents/roles/recruiters-counterpart/"
+  },
+  {
+   "title": "The Assistant-Ready Website",
+   "url": "https://coreyjames.ai/agents/roles/assistant-ready-website/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/recruiter-front-desk/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/recruiter-front-desk",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

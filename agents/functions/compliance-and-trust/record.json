@@ -1,0 +1,42 @@
+{
+ "url": "https://coreyjames.ai/agents/functions/compliance-and-trust/",
+ "kind": "agent-function",
+ "title": "Compliance and trust",
+ "subtitle": "A record of who did what, checked against the rules.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "A record of who did what, checked against the rules. Roles: The Compliance Officer.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "roles": [
+  {
+   "title": "The Compliance Officer",
+   "url": "https://coreyjames.ai/agents/roles/compliance-officer/"
+  }
+ ],
+ "related": [
+  {
+   "title": "Governed autonomous engineering",
+   "url": "https://coreyjames.ai/capabilities/governed-autonomous-engineering/",
+   "kind": "Capability"
+  },
+  {
+   "title": "Business systems as safe agent tools",
+   "url": "https://coreyjames.ai/capabilities/business-systems-as-safe-agent-tools/",
+   "kind": "Capability"
+  },
+  {
+   "title": "Separation of duties for AI work",
+   "url": "https://coreyjames.ai/stories/separation-of-duties-for-ai-work/",
+   "kind": "Engineering story"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/functions/compliance-and-trust/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/functions/compliance-and-trust",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

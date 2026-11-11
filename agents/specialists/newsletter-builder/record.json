@@ -1,0 +1,28 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/newsletter-builder/",
+ "kind": "agent-specialist",
+ "title": "Newsletter Builder",
+ "subtitle": "It gathers the week's published posts from X, the Facebook Page and other channels, lays them out in the newsletter template, sends a test, and schedules it to the subscriber list.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "It gathers the week's published posts from X, the Facebook Page and other channels, lays them out in the newsletter template, sends a test, and schedules it to the subscriber list.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "a content or marketing lead",
+ "group": "Email, text and messaging",
+ "specialist_kind": "Speaks to people",
+ "roles": [
+  {
+   "title": "The Newsletter Editor",
+   "url": "https://coreyjames.ai/agents/roles/newsletter-editor/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/newsletter-builder/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/newsletter-builder",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

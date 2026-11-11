@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/project-recovery-specialist/",
+ "kind": "agent-specialist",
+ "title": "Project Recovery Specialist",
+ "subtitle": "Winds a team down cleanly, takes a checkpoint, and later re-reads the saved state and the real code to restart the work under a fresh resume, relaunching any reviewer whose session broke.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Winds a team down cleanly, takes a checkpoint, and later re-reads the saved state and the real code to restart the work under a fresh resume, relaunching any reviewer whose session broke.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A team lead whose project stalled, crashed or ran out of capacity",
+ "group": "Building software",
+ "specialist_kind": "Supervises other agents",
+ "roles": [
+  {
+   "title": "The Programme Office",
+   "url": "https://coreyjames.ai/agents/roles/programme-office/"
+  },
+  {
+   "title": "The Circuit Breaker",
+   "url": "https://coreyjames.ai/agents/roles/circuit-breaker/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/project-recovery-specialist/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/project-recovery-specialist",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

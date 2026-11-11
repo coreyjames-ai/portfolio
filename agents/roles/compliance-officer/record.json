@@ -1,0 +1,82 @@
+{
+ "url": "https://coreyjames.ai/agents/roles/compliance-officer/",
+ "kind": "agent-role",
+ "title": "The Compliance Officer",
+ "subtitle": "For whoever has to answer for what was done.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "The agent can show what any AI worker did, in order, and who approved it. It keeps consent records for every contact, checks each piece of content against the brand rules before it goes out and records where every image and clip came from.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "function": "Compliance and trust",
+ "function_url": "https://coreyjames.ai/agents/functions/compliance-and-trust/",
+ "specialists": [
+  {
+   "title": "Agent Activity Auditor",
+   "url": "https://coreyjames.ai/agents/specialists/agent-activity-auditor/"
+  },
+  {
+   "title": "Record-Keeping Auditor",
+   "url": "https://coreyjames.ai/agents/specialists/record-keeping-auditor/"
+  },
+  {
+   "title": "Consent and Opt-in Officer",
+   "url": "https://coreyjames.ai/agents/specialists/consent-and-opt-in-officer/"
+  },
+  {
+   "title": "Brand Compliance Checker",
+   "url": "https://coreyjames.ai/agents/specialists/brand-compliance-checker/"
+  },
+  {
+   "title": "Asset Origin Auditor",
+   "url": "https://coreyjames.ai/agents/specialists/asset-origin-auditor/"
+  },
+  {
+   "title": "Bounce and Unsubscribe Responder",
+   "url": "https://coreyjames.ai/agents/specialists/bounce-and-unsubscribe-responder/"
+  },
+  {
+   "title": "Team Handbook Auditor",
+   "url": "https://coreyjames.ai/agents/specialists/team-handbook-auditor/"
+  },
+  {
+   "title": "Data Lineage Investigator",
+   "url": "https://coreyjames.ai/agents/specialists/data-lineage-investigator/"
+  },
+  {
+   "title": "Operations Audit Clerk",
+   "url": "https://coreyjames.ai/agents/specialists/operations-audit-clerk/"
+  },
+  {
+   "title": "Secret Access Auditor",
+   "url": "https://coreyjames.ai/agents/specialists/secret-access-auditor/"
+  }
+ ],
+ "featured": false,
+ "routes": [],
+ "related": [
+  {
+   "title": "Governed autonomous engineering",
+   "url": "https://coreyjames.ai/capabilities/governed-autonomous-engineering/",
+   "kind": "Capability"
+  },
+  {
+   "title": "Business systems as safe agent tools",
+   "url": "https://coreyjames.ai/capabilities/business-systems-as-safe-agent-tools/",
+   "kind": "Capability"
+  },
+  {
+   "title": "Append-only, with tombstones and lineage",
+   "url": "https://coreyjames.ai/ideas/append-only-with-lineage/",
+   "kind": "Idea"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/roles/compliance-officer/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/roles/compliance-officer",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

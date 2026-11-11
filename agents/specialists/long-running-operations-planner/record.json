@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/long-running-operations-planner/",
+ "kind": "agent-specialist",
+ "title": "Long-Running Operations Planner",
+ "subtitle": "Sets up a standing operation with open-ended responsibilities, a roster of specialists who start only when needed, and a lead who starts first.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Sets up a standing operation with open-ended responsibilities, a roster of specialists who start only when needed, and a lead who starts first.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A founder setting up an always-on function such as support",
+ "group": "Building software",
+ "specialist_kind": "Does the work",
+ "roles": [
+  {
+   "title": "The Operations Desk",
+   "url": "https://coreyjames.ai/agents/roles/operations-desk/"
+  },
+  {
+   "title": "The Team Architect",
+   "url": "https://coreyjames.ai/agents/roles/team-architect/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/long-running-operations-planner/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/long-running-operations-planner",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

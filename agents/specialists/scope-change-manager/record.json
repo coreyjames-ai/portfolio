@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/scope-change-manager/",
+ "kind": "agent-specialist",
+ "title": "Scope Change Manager",
+ "subtitle": "Handles a mid-project change from proposal to approval: it maps what the change touches, gets an architect's proposal, an independent ruling and a hostile second look, then folds the approved change into the live plan.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Handles a mid-project change from proposal to approval: it maps what the change touches, gets an architect's proposal, an independent ruling and a hostile second look, then folds the approved change into the live plan.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "An engineering manager whose project hit something unplanned",
+ "group": "Building software",
+ "specialist_kind": "Does the work",
+ "roles": [
+  {
+   "title": "The Programme Office",
+   "url": "https://coreyjames.ai/agents/roles/programme-office/"
+  },
+  {
+   "title": "The Change Board",
+   "url": "https://coreyjames.ai/agents/roles/change-board/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/scope-change-manager/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/scope-change-manager",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

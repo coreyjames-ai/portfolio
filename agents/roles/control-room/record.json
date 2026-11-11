@@ -1,0 +1,87 @@
+{
+ "url": "https://coreyjames.ai/agents/roles/control-room/",
+ "kind": "agent-role",
+ "title": "The Control Room",
+ "subtitle": "For an AI operations lead with agents running on many machines.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "The agent knows which agents are alive, which have gone silent and who asked whom for what. Work held by a silent agent is taken back and reassigned. Large jobs are split into small ones and handed to short-lived workers. What the agents did becomes searchable notes, so an error turns into a lesson and an approval into a recorded decision. A digest arrives every day.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "function": "AI and model teams",
+ "function_url": "https://coreyjames.ai/agents/functions/ai-and-model-teams/",
+ "specialists": [
+  {
+   "title": "AI Fleet Supervisor",
+   "url": "https://coreyjames.ai/agents/specialists/ai-fleet-supervisor/"
+  },
+  {
+   "title": "Agent Fleet Operator",
+   "url": "https://coreyjames.ai/agents/specialists/agent-fleet-operator/"
+  },
+  {
+   "title": "Agent Fleet Health Monitor",
+   "url": "https://coreyjames.ai/agents/specialists/agent-fleet-health-monitor/"
+  },
+  {
+   "title": "Agent Coordination Dispatcher",
+   "url": "https://coreyjames.ai/agents/specialists/agent-coordination-dispatcher/"
+  },
+  {
+   "title": "Background Job Orchestrator",
+   "url": "https://coreyjames.ai/agents/specialists/background-job-orchestrator/"
+  },
+  {
+   "title": "Agent Activity Historian",
+   "url": "https://coreyjames.ai/agents/specialists/agent-activity-historian/"
+  },
+  {
+   "title": "Decision History Keeper",
+   "url": "https://coreyjames.ai/agents/specialists/decision-history-keeper/"
+  },
+  {
+   "title": "Platform Help Desk",
+   "url": "https://coreyjames.ai/agents/specialists/platform-help-desk/"
+  },
+  {
+   "title": "Tool Version Checker",
+   "url": "https://coreyjames.ai/agents/specialists/tool-version-checker/"
+  },
+  {
+   "title": "Long-Session Memory Keeper",
+   "url": "https://coreyjames.ai/agents/specialists/long-session-memory-keeper/"
+  },
+  {
+   "title": "AI Session Supervisor",
+   "url": "https://coreyjames.ai/agents/specialists/ai-session-supervisor/"
+  },
+  {
+   "title": "Rate Limit Recovery Agent",
+   "url": "https://coreyjames.ai/agents/specialists/rate-limit-recovery-agent/"
+  }
+ ],
+ "featured": false,
+ "routes": [
+  "A new function becomes a staffed desk"
+ ],
+ "related": [
+  {
+   "title": "Governed autonomous engineering",
+   "url": "https://coreyjames.ai/capabilities/governed-autonomous-engineering/",
+   "kind": "Capability"
+  },
+  {
+   "title": "Memory and code intelligence for agents",
+   "url": "https://coreyjames.ai/capabilities/memory-and-code-intelligence-for-agents/",
+   "kind": "Capability"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/roles/control-room/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/roles/control-room",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

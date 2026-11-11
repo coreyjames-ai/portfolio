@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/stuck-job-unblocker/",
+ "kind": "agent-specialist",
+ "title": "Stuck Job Unblocker",
+ "subtitle": "Finds the locks left behind by dead jobs, confirms nothing live depends on them and releases them so the queue moves again.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Finds the locks left behind by dead jobs, confirms nothing live depends on them and releases them so the queue moves again.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "An operations lead with jobs frozen behind a lock nobody holds",
+ "group": "Machines, data and operations",
+ "specialist_kind": "Runs infrastructure",
+ "roles": [
+  {
+   "title": "The Database Guard",
+   "url": "https://coreyjames.ai/agents/roles/database-guard/"
+  },
+  {
+   "title": "The Housekeeper",
+   "url": "https://coreyjames.ai/agents/roles/housekeeper/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/stuck-job-unblocker/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/stuck-job-unblocker",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

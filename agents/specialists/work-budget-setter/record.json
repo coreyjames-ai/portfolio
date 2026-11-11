@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/work-budget-setter/",
+ "kind": "agent-specialist",
+ "title": "Work Budget Setter",
+ "subtitle": "Sets a limit on the number of steps an AI worker may take and reports when the worker reaches it.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Sets a limit on the number of steps an AI worker may take and reports when the worker reaches it.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A manager who wants a cap on how long an AI worker may spend on a task",
+ "group": "Managing an AI workforce",
+ "specialist_kind": "Supervises other agents",
+ "roles": [
+  {
+   "title": "The AI Workforce Manager",
+   "url": "https://coreyjames.ai/agents/roles/ai-workforce-manager/"
+  },
+  {
+   "title": "The Spend Controller",
+   "url": "https://coreyjames.ai/agents/roles/spend-controller/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/work-budget-setter/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/work-budget-setter",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

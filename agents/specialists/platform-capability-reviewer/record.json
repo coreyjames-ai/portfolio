@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/platform-capability-reviewer/",
+ "kind": "agent-specialist",
+ "title": "Platform Capability Reviewer",
+ "subtitle": "This agent compares what the platform's control layer and GPU servers can actually do with what the plans say, and closes each build stage with a written review.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "This agent compares what the platform's control layer and GPU servers can actually do with what the plans say, and closes each build stage with a written review.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A CTO who wants to know what a platform can really do today",
+ "group": "AI models and performance",
+ "specialist_kind": "Challenges decisions",
+ "roles": [
+  {
+   "title": "The Due-Diligence Analyst",
+   "url": "https://coreyjames.ai/agents/roles/due-diligence-analyst/"
+  },
+  {
+   "title": "The Migration Planner",
+   "url": "https://coreyjames.ai/agents/roles/migration-planner/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/platform-capability-reviewer/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/platform-capability-reviewer",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

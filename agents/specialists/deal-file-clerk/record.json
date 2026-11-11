@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/deal-file-clerk/",
+ "kind": "agent-specialist",
+ "title": "Deal File Clerk",
+ "subtitle": "Files each document against the right deal, company or contact, finds it on request and removes outdated copies.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Files each document against the right deal, company or contact, finds it on request and removes outdated copies.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A sales team that keeps contracts and proposals with the deal",
+ "group": "Sales, customers and service",
+ "specialist_kind": "Keeps knowledge",
+ "roles": [
+  {
+   "title": "The Customer Success Manager",
+   "url": "https://coreyjames.ai/agents/roles/customer-success-manager/"
+  },
+  {
+   "title": "The Accounts Office",
+   "url": "https://coreyjames.ai/agents/roles/accounts-office/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/deal-file-clerk/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/deal-file-clerk",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

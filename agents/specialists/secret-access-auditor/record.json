@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/secret-access-auditor/",
+ "kind": "agent-specialist",
+ "title": "Secret Access Auditor",
+ "subtitle": "Lists every stored credential with the roles and machines allowed to use it.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Lists every stored credential with the roles and machines allowed to use it. The values are never shown.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A security lead asked who can use which credential",
+ "group": "Security and access",
+ "specialist_kind": "Audits and guards",
+ "roles": [
+  {
+   "title": "The Security Officer",
+   "url": "https://coreyjames.ai/agents/roles/security-officer/"
+  },
+  {
+   "title": "The Compliance Officer",
+   "url": "https://coreyjames.ai/agents/roles/compliance-officer/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/secret-access-auditor/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/secret-access-auditor",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

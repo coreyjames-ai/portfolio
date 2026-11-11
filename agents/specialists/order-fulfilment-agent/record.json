@@ -1,0 +1,28 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/order-fulfilment-agent/",
+ "kind": "agent-specialist",
+ "title": "Order Fulfilment Agent",
+ "subtitle": "It confirms the order to the customer, adds them to the customer list, starts the welcome sequence, and records which offer and campaign produced the sale.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "It confirms the order to the customer, adds them to the customer list, starts the welcome sequence, and records which offer and campaign produced the sale.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A founder or an online store manager",
+ "group": "Store, loyalty and payments",
+ "specialist_kind": "Does the work",
+ "roles": [
+  {
+   "title": "The Shop Manager",
+   "url": "https://coreyjames.ai/agents/roles/shop-manager/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/order-fulfilment-agent/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/order-fulfilment-agent",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

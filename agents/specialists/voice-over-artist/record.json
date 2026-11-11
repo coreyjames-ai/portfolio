@@ -1,0 +1,40 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/voice-over-artist/",
+ "kind": "agent-specialist",
+ "title": "Voice-Over Artist",
+ "subtitle": "Reads a script in a chosen voice and returns a clean narration track, checks it word for word by listening back, and lays it under the video with captions.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Reads a script in a chosen voice and returns a clean narration track, checks it word for word by listening back, and lays it under the video with captions.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A training lead or content producer",
+ "group": "Content, film and brand",
+ "specialist_kind": "Does the work",
+ "roles": [
+  {
+   "title": "The Newsroom",
+   "url": "https://coreyjames.ai/agents/roles/newsroom/"
+  },
+  {
+   "title": "The Launch Manager",
+   "url": "https://coreyjames.ai/agents/roles/launch-manager/"
+  },
+  {
+   "title": "The Film Studio",
+   "url": "https://coreyjames.ai/agents/roles/film-studio/"
+  },
+  {
+   "title": "The Training Department",
+   "url": "https://coreyjames.ai/agents/roles/training-department/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/voice-over-artist/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/voice-over-artist",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

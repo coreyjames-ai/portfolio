@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/app-access-registrar/",
+ "kind": "agent-specialist",
+ "title": "App Access Registrar",
+ "subtitle": "This agent signs up new client apps, issues their credentials, enrols passkeys and manages registrations afterwards, keeping an audit trail of every step.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "This agent signs up new client apps, issues their credentials, enrols passkeys and manages registrations afterwards, keeping an audit trail of every step.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A security lead whose tools are used by many client apps",
+ "group": "Security and access",
+ "specialist_kind": "Audits and guards",
+ "roles": [
+  {
+   "title": "The Contractor Pass",
+   "url": "https://coreyjames.ai/agents/roles/contractor-pass/"
+  },
+  {
+   "title": "The Security Officer",
+   "url": "https://coreyjames.ai/agents/roles/security-officer/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/app-access-registrar/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/app-access-registrar",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

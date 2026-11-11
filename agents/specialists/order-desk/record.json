@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/order-desk/",
+ "kind": "agent-specialist",
+ "title": "Order Desk",
+ "subtitle": "It records orders as they happen or in bulk from another system, and lists them for finance and fulfilment.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "It records orders as they happen or in bulk from another system, and lists them for finance and fulfilment.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "an e-commerce manager",
+ "group": "Store, loyalty and payments",
+ "specialist_kind": "Does the work",
+ "roles": [
+  {
+   "title": "The Shop Manager",
+   "url": "https://coreyjames.ai/agents/roles/shop-manager/"
+  },
+  {
+   "title": "The Systems Bridge",
+   "url": "https://coreyjames.ai/agents/roles/systems-bridge/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/order-desk/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/order-desk",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

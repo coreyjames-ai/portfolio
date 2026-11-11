@@ -1,0 +1,94 @@
+{
+ "url": "https://coreyjames.ai/agents/roles/chief-of-staff/",
+ "kind": "agent-role",
+ "title": "The Chief of Staff",
+ "subtitle": "For a founder with more meetings than hours.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "The agent attends the meetings the founder cannot, speaks when it is asked a question and presents the slides when its turn comes. Afterwards it writes the minutes, sends each attendee their action items and chases the ones that slip. It updates the deal records with what the customer said and redrafts the proposal to match. The next morning it reads the founder a five-minute spoken briefing.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "function": "Running the company",
+ "function_url": "https://coreyjames.ai/agents/functions/running-the-company/",
+ "specialists": [
+  {
+   "title": "Meeting Stand-In",
+   "url": "https://coreyjames.ai/agents/specialists/meeting-stand-in/"
+  },
+  {
+   "title": "Meeting Minute-Taker",
+   "url": "https://coreyjames.ai/agents/specialists/meeting-minute-taker/"
+  },
+  {
+   "title": "Action-Item Chaser",
+   "url": "https://coreyjames.ai/agents/specialists/action-item-chaser/"
+  },
+  {
+   "title": "Slide Presenter",
+   "url": "https://coreyjames.ai/agents/specialists/slide-presenter/"
+  },
+  {
+   "title": "Meeting Recap Sender",
+   "url": "https://coreyjames.ai/agents/specialists/meeting-recap-sender/"
+  },
+  {
+   "title": "Decision Keeper",
+   "url": "https://coreyjames.ai/agents/specialists/decision-keeper/"
+  },
+  {
+   "title": "Sales Pipeline Manager",
+   "url": "https://coreyjames.ai/agents/specialists/sales-pipeline-manager/"
+  },
+  {
+   "title": "Document Writer and Editor",
+   "url": "https://coreyjames.ai/agents/specialists/document-writer-and-editor/"
+  },
+  {
+   "title": "Audio Briefing Producer",
+   "url": "https://coreyjames.ai/agents/specialists/audio-briefing-producer/"
+  },
+  {
+   "title": "Meeting Scheduler",
+   "url": "https://coreyjames.ai/agents/specialists/meeting-scheduler/"
+  },
+  {
+   "title": "Record-Keeping Auditor",
+   "url": "https://coreyjames.ai/agents/specialists/record-keeping-auditor/"
+  }
+ ],
+ "featured": true,
+ "routes": [
+  "A meeting becomes shipped software",
+  "An outside agent becomes a conversation"
+ ],
+ "related": [
+  {
+   "title": "AI teammates inside Microsoft Teams and team chat",
+   "url": "https://coreyjames.ai/capabilities/ai-teammates-in-teams-and-chat/",
+   "kind": "Capability"
+  },
+  {
+   "title": "Voice agents in calls and meetings",
+   "url": "https://coreyjames.ai/capabilities/voice-agents-in-meetings/",
+   "kind": "Capability"
+  },
+  {
+   "title": "A meeting attendee that will not fake it",
+   "url": "https://coreyjames.ai/stories/a-meeting-attendee-that-will-not-fake-it/",
+   "kind": "Engineering story"
+  },
+  {
+   "title": "A self-hosted colleague in a Teams call",
+   "url": "https://coreyjames.ai/stories/a-self-hosted-colleague-in-a-teams-call/",
+   "kind": "Engineering story"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/roles/chief-of-staff/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/roles/chief-of-staff",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

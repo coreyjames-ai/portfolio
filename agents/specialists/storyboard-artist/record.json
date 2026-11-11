@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/storyboard-artist/",
+ "kind": "agent-specialist",
+ "title": "Storyboard Artist",
+ "subtitle": "Turns a story into a shot-by-shot plan with timing, camera moves, the few lines of on-screen text and how each shot will be made.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Turns a story into a shot-by-shot plan with timing, camera moves, the few lines of on-screen text and how each shot will be made. It folds every round of notes back into the same plan.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A creative director or content producer",
+ "group": "Content, film and brand",
+ "specialist_kind": "Does the work",
+ "roles": [
+  {
+   "title": "The Film Studio",
+   "url": "https://coreyjames.ai/agents/roles/film-studio/"
+  },
+  {
+   "title": "The Training Department",
+   "url": "https://coreyjames.ai/agents/roles/training-department/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/storyboard-artist/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/storyboard-artist",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

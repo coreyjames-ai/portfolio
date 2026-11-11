@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/new-render-machine-setup-technician/",
+ "kind": "agent-specialist",
+ "title": "New Render Machine Setup Technician",
+ "subtitle": "Brings a new graphics machine into service: confirms the GPU, starts the service, registers the models already on disk, runs a test image and a test video and shuts down.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Brings a new graphics machine into service: confirms the GPU, starts the service, registers the models already on disk, runs a test image and a test video and shuts down.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "An IT operations lead",
+ "group": "Machines, data and operations",
+ "specialist_kind": "Runs infrastructure",
+ "roles": [
+  {
+   "title": "The Branch Office Engineer",
+   "url": "https://coreyjames.ai/agents/roles/branch-office-engineer/"
+  },
+  {
+   "title": "The Studio Engineer",
+   "url": "https://coreyjames.ai/agents/roles/studio-engineer/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/new-render-machine-setup-technician/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/new-render-machine-setup-technician",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

@@ -1,0 +1,28 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/film-and-video-promoter/",
+ "kind": "agent-specialist",
+ "title": "Film and Video Promoter",
+ "subtitle": "It posts a finished video with researched hashtags, runs paid promotion, reads how long people watch, cuts a stronger opening and keeps the better ad running.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "It posts a finished video with researched hashtags, runs paid promotion, reads how long people watch, cuts a stronger opening and keeps the better ad running.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "a film or content producer",
+ "group": "Content, film and brand",
+ "specialist_kind": "Does the work",
+ "roles": [
+  {
+   "title": "The Ad Buyer",
+   "url": "https://coreyjames.ai/agents/roles/ad-buyer/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/film-and-video-promoter/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/film-and-video-promoter",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

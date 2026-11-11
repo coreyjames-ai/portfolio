@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/sending-domain-and-sender-steward/",
+ "kind": "agent-specialist",
+ "title": "Sending Domain and Sender Steward",
+ "subtitle": "It adds the business's sending domain, gives back the DNS records to publish, checks authentication, and creates and confirms each sender address so mail arrives as the business.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "It adds the business's sending domain, gives back the DNS records to publish, checks authentication, and creates and confirms each sender address so mail arrives as the business.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "a founder or IT lead setting up email for a new business",
+ "group": "Email, text and messaging",
+ "specialist_kind": "Does the work",
+ "roles": [
+  {
+   "title": "The Agency Back Office",
+   "url": "https://coreyjames.ai/agents/roles/agency-back-office/"
+  },
+  {
+   "title": "The Newsletter Editor",
+   "url": "https://coreyjames.ai/agents/roles/newsletter-editor/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/sending-domain-and-sender-steward/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/sending-domain-and-sender-steward",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

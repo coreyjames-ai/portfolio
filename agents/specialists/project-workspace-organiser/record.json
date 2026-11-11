@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/project-workspace-organiser/",
+ "kind": "agent-specialist",
+ "title": "Project Workspace Organiser",
+ "subtitle": "It mirrors the company's programmes, projects and tasks into the chat sidebar, onboards several projects in one step, and ties each project to its folders and code repositories so that every AI colleague works in the right place.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "It mirrors the company's programmes, projects and tasks into the chat sidebar, onboards several projects in one step, and ties each project to its folders and code repositories so that every AI colleague works in the right place.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "An operations lead running many projects at once",
+ "group": "Meetings, voice and the AI colleague",
+ "specialist_kind": "Does the work",
+ "roles": [
+  {
+   "title": "The Project Room",
+   "url": "https://coreyjames.ai/agents/roles/project-room/"
+  },
+  {
+   "title": "The Programme Office",
+   "url": "https://coreyjames.ai/agents/roles/programme-office/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/project-workspace-organiser/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/project-workspace-organiser",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

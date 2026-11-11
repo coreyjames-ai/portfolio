@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/voucher-and-reward-desk/",
+ "kind": "agent-specialist",
+ "title": "Voucher and Reward Desk",
+ "subtitle": "It issues vouchers to members, redeems or revokes them, checks that a reward is valid, and reports how many codes are left.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "It issues vouchers to members, redeems or revokes them, checks that a reward is valid, and reports how many codes are left.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "a marketing or customer team",
+ "group": "Store, loyalty and payments",
+ "specialist_kind": "Does the work",
+ "roles": [
+  {
+   "title": "The Shop Manager",
+   "url": "https://coreyjames.ai/agents/roles/shop-manager/"
+  },
+  {
+   "title": "The Loyalty Director",
+   "url": "https://coreyjames.ai/agents/roles/loyalty-director/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/voucher-and-reward-desk/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/voucher-and-reward-desk",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

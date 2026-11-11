@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/subscription-retention-agent/",
+ "kind": "agent-specialist",
+ "title": "Subscription Retention Agent",
+ "subtitle": "It moves the customer to the right list, sends a retention or farewell message, and flags valuable cancellations for a person to call.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "It moves the customer to the right list, sends a retention or farewell message, and flags valuable cancellations for a person to call.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A subscription business owner or a customer success lead",
+ "group": "Store, loyalty and payments",
+ "specialist_kind": "Does the work",
+ "roles": [
+  {
+   "title": "The Customer Success Manager",
+   "url": "https://coreyjames.ai/agents/roles/customer-success-manager/"
+  },
+  {
+   "title": "The Revenue Rescuer",
+   "url": "https://coreyjames.ai/agents/roles/revenue-rescuer/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/subscription-retention-agent/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/subscription-retention-agent",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

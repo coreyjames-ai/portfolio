@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/note-queue-reconciler/",
+ "kind": "agent-specialist",
+ "title": "Note Queue Reconciler",
+ "subtitle": "Checks that every queued note reached storage, flags stragglers past a grace period, and records a summary.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Checks that every queued note reached storage, flags stragglers past a grace period, and records a summary.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A platform lead",
+ "group": "Code intelligence and team memory",
+ "specialist_kind": "Keeps knowledge",
+ "roles": [
+  {
+   "title": "The Institutional Memory",
+   "url": "https://coreyjames.ai/agents/roles/institutional-memory/"
+  },
+  {
+   "title": "The Search Auditor",
+   "url": "https://coreyjames.ai/agents/roles/search-auditor/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/note-queue-reconciler/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/note-queue-reconciler",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

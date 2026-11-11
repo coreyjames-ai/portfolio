@@ -1,0 +1,36 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/project-planning-clerk/",
+ "kind": "agent-specialist",
+ "title": "Project Planning Clerk",
+ "subtitle": "It turns what you want done into a fully specified plan grounded in the real code and project, checks it before anyone begins, records the facts it relied on with two independent checks, and handles approved changes to a plan already under way.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "It turns what you want done into a fully specified plan grounded in the real code and project, checks it before anyone begins, records the facts it relied on with two independent checks, and handles approved changes to a plan already under way.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "An engineering manager who wants work specified before it starts",
+ "group": "Building software",
+ "specialist_kind": "Does the work",
+ "roles": [
+  {
+   "title": "The Planning Room",
+   "url": "https://coreyjames.ai/agents/roles/planning-room/"
+  },
+  {
+   "title": "The Migration Planner",
+   "url": "https://coreyjames.ai/agents/roles/migration-planner/"
+  },
+  {
+   "title": "The Follow-Through Engineer",
+   "url": "https://coreyjames.ai/agents/roles/follow-through-engineer/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/project-planning-clerk/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/project-planning-clerk",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

@@ -1,0 +1,28 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/screening-rule-writer/",
+ "kind": "agent-specialist",
+ "title": "Screening Rule Writer",
+ "subtitle": "Writes the rules that tighten or relax acceptance for particular topics and switches individual rules on and off.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Writes the rules that tighten or relax acceptance for particular topics and switches individual rules on and off.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A knowledge base owner whose acceptance rules differ by topic",
+ "group": "AI models and performance",
+ "specialist_kind": "Audits and guards",
+ "roles": [
+  {
+   "title": "The Knowledge Gardener",
+   "url": "https://coreyjames.ai/agents/roles/knowledge-gardener/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/screening-rule-writer/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/screening-rule-writer",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

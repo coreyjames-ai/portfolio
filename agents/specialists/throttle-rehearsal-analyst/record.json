@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/throttle-rehearsal-analyst/",
+ "kind": "agent-specialist",
+ "title": "Throttle Rehearsal Analyst",
+ "subtitle": "Runs a new limit in rehearsal mode, where every decision is logged and nothing is delayed, then reports which jobs would have waited before the limit is enforced.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Runs a new limit in rehearsal mode, where every decision is logged and nothing is delayed, then reports which jobs would have waited before the limit is enforced.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A database owner who wants to tighten limits without breaking anything",
+ "group": "Machines, data and operations",
+ "specialist_kind": "Runs infrastructure",
+ "roles": [
+  {
+   "title": "The Database Guard",
+   "url": "https://coreyjames.ai/agents/roles/database-guard/"
+  },
+  {
+   "title": "The Safe Change Desk",
+   "url": "https://coreyjames.ai/agents/roles/safe-change-desk/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/throttle-rehearsal-analyst/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/throttle-rehearsal-analyst",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/decision-panel-moderator/",
+ "kind": "agent-specialist",
+ "title": "Decision Panel Moderator",
+ "subtitle": "It convenes several AI models as a panel on your question and agrees the goal with you first.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "It convenes several AI models as a panel on your question and agrees the goal with you first. The models then work in parallel, challenge each other and propose numbered versions, and the panel closes only when all of them agree on exactly one version.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A founder or leadership team facing a hard call",
+ "group": "Decisions and deliberation",
+ "specialist_kind": "Challenges decisions",
+ "roles": [
+  {
+   "title": "The Advisory Board",
+   "url": "https://coreyjames.ai/agents/roles/advisory-board/"
+  },
+  {
+   "title": "The Planning Room",
+   "url": "https://coreyjames.ai/agents/roles/planning-room/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/decision-panel-moderator/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/decision-panel-moderator",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

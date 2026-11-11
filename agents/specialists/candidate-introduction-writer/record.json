@@ -1,0 +1,28 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/candidate-introduction-writer/",
+ "kind": "agent-specialist",
+ "title": "Candidate Introduction Writer",
+ "subtitle": "It writes a one-paragraph introduction of the person for a research, enterprise or GPU audience, citing the pages it draws on and avoiding superlatives.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "It writes a one-paragraph introduction of the person for a research, enterprise or GPU audience, citing the pages it draws on and avoiding superlatives.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A recruiter preparing a shortlist, or an event organiser",
+ "group": "The public front door",
+ "specialist_kind": "Speaks to people",
+ "roles": [
+  {
+   "title": "The Recruiter's Counterpart",
+   "url": "https://coreyjames.ai/agents/roles/recruiters-counterpart/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/candidate-introduction-writer/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/candidate-introduction-writer",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

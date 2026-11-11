@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/expert-review-panel/",
+ "kind": "agent-specialist",
+ "title": "Expert Review Panel",
+ "subtitle": "Puts a question to several AI models at once, has them propose, challenge and revise in turns, and returns a written record of where they agree, where they differ, and what needs your decision.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Puts a question to several AI models at once, has them propose, challenge and revise in turns, and returns a written record of where they agree, where they differ, and what needs your decision.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "An engineering manager or strategy lead",
+ "group": "Decisions and deliberation",
+ "specialist_kind": "Challenges decisions",
+ "roles": [
+  {
+   "title": "The Delegate",
+   "url": "https://coreyjames.ai/agents/roles/delegate/"
+  },
+  {
+   "title": "The Planning Room",
+   "url": "https://coreyjames.ai/agents/roles/planning-room/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/expert-review-panel/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/expert-review-panel",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

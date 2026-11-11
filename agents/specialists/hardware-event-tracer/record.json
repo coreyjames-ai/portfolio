@@ -1,0 +1,28 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/hardware-event-tracer/",
+ "kind": "agent-specialist",
+ "title": "Hardware Event Tracer",
+ "subtitle": "This agent records low-level hardware events and queue activity and attributes each delay to its cause.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "This agent records low-level hardware events and queue activity and attributes each delay to its cause.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A performance engineer chasing an intermittent slowdown",
+ "group": "AI models and performance",
+ "specialist_kind": "Runs infrastructure",
+ "roles": [
+  {
+   "title": "The Speed Detective",
+   "url": "https://coreyjames.ai/agents/roles/speed-detective/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/hardware-event-tracer/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/hardware-event-tracer",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

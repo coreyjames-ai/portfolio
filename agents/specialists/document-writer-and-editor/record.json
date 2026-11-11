@@ -1,0 +1,40 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/document-writer-and-editor/",
+ "kind": "agent-specialist",
+ "title": "Document Writer and Editor",
+ "subtitle": "Drafts a plan, checklist or report in the team chat, revises it when asked, keeps every earlier version, and retires documents that are out of date.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Drafts a plan, checklist or report in the team chat, revises it when asked, keeps every earlier version, and retires documents that are out of date.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "Anyone who owns plans, checklists or reports",
+ "group": "Meetings, voice and the AI colleague",
+ "specialist_kind": "Does the work",
+ "roles": [
+  {
+   "title": "The Chief of Staff",
+   "url": "https://coreyjames.ai/agents/roles/chief-of-staff/"
+  },
+  {
+   "title": "The Digital Employee",
+   "url": "https://coreyjames.ai/agents/roles/digital-employee/"
+  },
+  {
+   "title": "The Presenter",
+   "url": "https://coreyjames.ai/agents/roles/presenter/"
+  },
+  {
+   "title": "The Research Desk",
+   "url": "https://coreyjames.ai/agents/roles/research-desk/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/document-writer-and-editor/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/document-writer-and-editor",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

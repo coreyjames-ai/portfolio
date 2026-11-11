@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/smoke-test-runner/",
+ "kind": "agent-specialist",
+ "title": "Smoke Test Runner",
+ "subtitle": "Sends a small harmless batch through the service, once or on a trigger, and confirms it came out the other end.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Sends a small harmless batch through the service, once or on a trigger, and confirms it came out the other end.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "An engineer who has just changed a processing service",
+ "group": "Machines, data and operations",
+ "specialist_kind": "Runs infrastructure",
+ "roles": [
+  {
+   "title": "The Pipeline Foreman",
+   "url": "https://coreyjames.ai/agents/roles/pipeline-foreman/"
+  },
+  {
+   "title": "The Safe Change Desk",
+   "url": "https://coreyjames.ai/agents/roles/safe-change-desk/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/smoke-test-runner/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/smoke-test-runner",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

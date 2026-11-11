@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/list-and-segment-keeper/",
+ "kind": "agent-specialist",
+ "title": "List and Segment Keeper",
+ "subtitle": "It keeps mailing lists and segments tidy, adds and removes people, organises lists into folders, and reports who is on each list.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "It keeps mailing lists and segments tidy, adds and removes people, organises lists into folders, and reports who is on each list.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "a marketing lead",
+ "group": "Email, text and messaging",
+ "specialist_kind": "Keeps knowledge",
+ "roles": [
+  {
+   "title": "The Email Marketer",
+   "url": "https://coreyjames.ai/agents/roles/email-marketer/"
+  },
+  {
+   "title": "The Message Centre",
+   "url": "https://coreyjames.ai/agents/roles/message-centre/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/list-and-segment-keeper/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/list-and-segment-keeper",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

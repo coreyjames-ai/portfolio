@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/credential-free-contributor/",
+ "kind": "agent-specialist",
+ "title": "Credential-Free Contributor",
+ "subtitle": "Clones a repository, makes and tests a change on its own branch and asks a trusted steward to open the merge request, never holding the repository key itself.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Clones a repository, makes and tests a change on its own branch and asks a trusted steward to open the merge request, never holding the repository key itself.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A team that wants outside or automated contributors without handing out repository keys",
+ "group": "Building software",
+ "specialist_kind": "Does the work",
+ "roles": [
+  {
+   "title": "The Ticket Clearer",
+   "url": "https://coreyjames.ai/agents/roles/ticket-clearer/"
+  },
+  {
+   "title": "The Contractor Pass",
+   "url": "https://coreyjames.ai/agents/roles/contractor-pass/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/credential-free-contributor/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/credential-free-contributor",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

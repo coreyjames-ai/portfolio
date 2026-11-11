@@ -1,0 +1,73 @@
+{
+ "url": "https://coreyjames.ai/agents/roles/systems-bridge/",
+ "kind": "agent-role",
+ "title": "The Systems Bridge",
+ "subtitle": "For an operations lead whose processes span several apps.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "A record changes in one app and something has to happen in another. The agent keeps a synced copy of the other app's records, so staff get answers at once and the app is not flooded with requests. When a change is needed, it checks the rules, confirms nobody else edited the record first and reads the result back. It reports whether the change went through, was refused or was out of date, and notes it on the related ticket.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "function": "Engineering",
+ "function_url": "https://coreyjames.ai/agents/functions/engineering/",
+ "specialists": [
+  {
+   "title": "Fast Data Lookup Assistant",
+   "url": "https://coreyjames.ai/agents/specialists/fast-data-lookup-assistant/"
+  },
+  {
+   "title": "Safe Update Clerk",
+   "url": "https://coreyjames.ai/agents/specialists/safe-update-clerk/"
+  },
+  {
+   "title": "Change Notification Handler",
+   "url": "https://coreyjames.ai/agents/specialists/change-notification-handler/"
+  },
+  {
+   "title": "Outside Change Follow-up Agent",
+   "url": "https://coreyjames.ai/agents/specialists/outside-change-follow-up-agent/"
+  },
+  {
+   "title": "Integration Health Checker",
+   "url": "https://coreyjames.ai/agents/specialists/integration-health-checker/"
+  },
+  {
+   "title": "Order Desk",
+   "url": "https://coreyjames.ai/agents/specialists/order-desk/"
+  },
+  {
+   "title": "Application Event Responder",
+   "url": "https://coreyjames.ai/agents/specialists/application-event-responder/"
+  },
+  {
+   "title": "Systems Connection Specialist",
+   "url": "https://coreyjames.ai/agents/specialists/systems-connection-specialist/"
+  },
+  {
+   "title": "Event Delivery Watchdog",
+   "url": "https://coreyjames.ai/agents/specialists/event-delivery-watchdog/"
+  }
+ ],
+ "featured": false,
+ "routes": [],
+ "related": [
+  {
+   "title": "Business systems as safe agent tools",
+   "url": "https://coreyjames.ai/capabilities/business-systems-as-safe-agent-tools/",
+   "kind": "Capability"
+  },
+  {
+   "title": "Reconcile, never resubmit",
+   "url": "https://coreyjames.ai/ideas/reconcile-never-resubmit/",
+   "kind": "Idea"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/roles/systems-bridge/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/roles/systems-bridge",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

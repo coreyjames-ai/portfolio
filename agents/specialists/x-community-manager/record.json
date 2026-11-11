@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/x-community-manager/",
+ "kind": "agent-specialist",
+ "title": "X Community Manager",
+ "subtitle": "It watches each new post's replies in its first hour, answers questions with facts, likes good replies, quotes worthwhile posts, follows people it talks to, and closes each conversation.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "It watches each new post's replies in its first hour, answers questions with facts, likes good replies, quotes worthwhile posts, follows people it talks to, and closes each conversation.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "a community manager",
+ "group": "Social media",
+ "specialist_kind": "Speaks to people",
+ "roles": [
+  {
+   "title": "The Conversation Finder",
+   "url": "https://coreyjames.ai/agents/roles/conversation-finder/"
+  },
+  {
+   "title": "The Reputation Guard",
+   "url": "https://coreyjames.ai/agents/roles/reputation-guard/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/x-community-manager/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/x-community-manager",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

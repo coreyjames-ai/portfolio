@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/ai-teammate-with-its-own-account/",
+ "kind": "agent-specialist",
+ "title": "AI Teammate With Its Own Account",
+ "subtitle": "Joins the company directory as a named colleague with its own email, chat and calendar, so work it does is signed with its name and the company's normal access rules decide what it may touch.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Joins the company directory as a named colleague with its own email, chat and calendar, so work it does is signed with its name and the company's normal access rules decide what it may touch.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A founder or operations lead",
+ "group": "Meetings, voice and the AI colleague",
+ "specialist_kind": "Speaks to people",
+ "roles": [
+  {
+   "title": "The Digital Employee",
+   "url": "https://coreyjames.ai/agents/roles/digital-employee/"
+  },
+  {
+   "title": "The Project Room",
+   "url": "https://coreyjames.ai/agents/roles/project-room/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/ai-teammate-with-its-own-account/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/ai-teammate-with-its-own-account",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

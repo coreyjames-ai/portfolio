@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/project-document-writer/",
+ "kind": "agent-specialist",
+ "title": "Project Document Writer",
+ "subtitle": "It writes proper documents inside the conversation, keeps every version, refuses edits based on an out-of-date copy, and finds the files already attached to the conversation.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "It writes proper documents inside the conversation, keeps every version, refuses edits based on an out-of-date copy, and finds the files already attached to the conversation.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A team that wants documents instead of long chat replies",
+ "group": "Meetings, voice and the AI colleague",
+ "specialist_kind": "Does the work",
+ "roles": [
+  {
+   "title": "The Planning Room",
+   "url": "https://coreyjames.ai/agents/roles/planning-room/"
+  },
+  {
+   "title": "The Project Room",
+   "url": "https://coreyjames.ai/agents/roles/project-room/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/project-document-writer/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/project-document-writer",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

@@ -1,0 +1,84 @@
+{
+ "url": "https://coreyjames.ai/agents/roles/pocket-operator/",
+ "kind": "agent-role",
+ "title": "The Pocket Operator",
+ "subtitle": "For an owner who runs the business from a phone.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "A text message is enough to start work. The agent turns the request into a plan, puts a team on it and sends progress to the owner's phone. When it reaches a choice only the owner can make, it asks by text or email and waits for the answer. The finished result comes back the way the request went out.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "function": "Running the company",
+ "function_url": "https://coreyjames.ai/agents/functions/running-the-company/",
+ "specialists": [
+  {
+   "title": "Owner Phone Assistant",
+   "url": "https://coreyjames.ai/agents/specialists/owner-phone-assistant/"
+  },
+  {
+   "title": "Phone-to-Done Assistant",
+   "url": "https://coreyjames.ai/agents/specialists/phone-to-done-assistant/"
+  },
+  {
+   "title": "Ask the Owner by Email Agent",
+   "url": "https://coreyjames.ai/agents/specialists/ask-the-owner-by-email-agent/"
+  },
+  {
+   "title": "Project Planner",
+   "url": "https://coreyjames.ai/agents/specialists/project-planner/"
+  },
+  {
+   "title": "AI Team Dispatcher",
+   "url": "https://coreyjames.ai/agents/specialists/ai-team-dispatcher/"
+  },
+  {
+   "title": "Project Status Reporter",
+   "url": "https://coreyjames.ai/agents/specialists/project-status-reporter/"
+  },
+  {
+   "title": "Plan-to-project Packager",
+   "url": "https://coreyjames.ai/agents/specialists/plan-to-project-packager/"
+  },
+  {
+   "title": "Delivery Manager",
+   "url": "https://coreyjames.ai/agents/specialists/delivery-manager/"
+  },
+  {
+   "title": "Software Delivery Crew",
+   "url": "https://coreyjames.ai/agents/specialists/software-delivery-crew/"
+  },
+  {
+   "title": "Idea-to-Approved-Plan Agent",
+   "url": "https://coreyjames.ai/agents/specialists/idea-to-approved-plan-agent/"
+  }
+ ],
+ "featured": false,
+ "routes": [
+  "A text becomes a finished project"
+ ],
+ "related": [
+  {
+   "title": "Governed autonomous engineering",
+   "url": "https://coreyjames.ai/capabilities/governed-autonomous-engineering/",
+   "kind": "Capability"
+  },
+  {
+   "title": "A human at the privileged step",
+   "url": "https://coreyjames.ai/ideas/a-human-at-the-privileged-step/",
+   "kind": "Idea"
+  },
+  {
+   "title": "From a conversation to a work order",
+   "url": "https://coreyjames.ai/stories/from-a-conversation-to-a-work-order/",
+   "kind": "Engineering story"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/roles/pocket-operator/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/roles/pocket-operator",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

@@ -1,0 +1,83 @@
+{
+ "url": "https://coreyjames.ai/agents/roles/front-desk/",
+ "kind": "agent-role",
+ "title": "The Front Desk",
+ "subtitle": "For a small business with a phone that rings.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "The agent answers calls and chats in a natural voice, at the pace of a conversation. It answers from what the company knows, takes a message when it cannot and sends anything urgent to the owner's phone.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "function": "Sales and customers",
+ "function_url": "https://coreyjames.ai/agents/functions/sales-and-customers/",
+ "specialists": [
+  {
+   "title": "Phone and Call Receptionist",
+   "url": "https://coreyjames.ai/agents/specialists/phone-and-call-receptionist/"
+  },
+  {
+   "title": "Chat Front Desk",
+   "url": "https://coreyjames.ai/agents/specialists/chat-front-desk/"
+  },
+  {
+   "title": "Spoken Team Assistant",
+   "url": "https://coreyjames.ai/agents/specialists/spoken-team-assistant/"
+  },
+  {
+   "title": "Team Knowledge Desk",
+   "url": "https://coreyjames.ai/agents/specialists/team-knowledge-desk/"
+  },
+  {
+   "title": "Owner Phone Assistant",
+   "url": "https://coreyjames.ai/agents/specialists/owner-phone-assistant/"
+  },
+  {
+   "title": "Hands-Free Office Assistant",
+   "url": "https://coreyjames.ai/agents/specialists/hands-free-office-assistant/"
+  },
+  {
+   "title": "Customer Support Desk Agent",
+   "url": "https://coreyjames.ai/agents/specialists/customer-support-desk-agent/"
+  },
+  {
+   "title": "Support Inbox Triage Agent",
+   "url": "https://coreyjames.ai/agents/specialists/support-inbox-triage-agent/"
+  },
+  {
+   "title": "Fast Data Lookup Assistant",
+   "url": "https://coreyjames.ai/agents/specialists/fast-data-lookup-assistant/"
+  }
+ ],
+ "featured": false,
+ "routes": [],
+ "related": [
+  {
+   "title": "Voice agents in calls and meetings",
+   "url": "https://coreyjames.ai/capabilities/voice-agents-in-meetings/",
+   "kind": "Capability"
+  },
+  {
+   "title": "From two seconds to under one",
+   "url": "https://coreyjames.ai/stories/from-two-seconds-to-under-one/",
+   "kind": "Engineering story"
+  },
+  {
+   "title": "Interruptions that only people can make",
+   "url": "https://coreyjames.ai/stories/interruptions-that-only-people-can-make/",
+   "kind": "Engineering story"
+  },
+  {
+   "title": "The same brain, typed or spoken",
+   "url": "https://coreyjames.ai/stories/the-same-brain-typed-or-spoken/",
+   "kind": "Engineering story"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/roles/front-desk/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/roles/front-desk",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

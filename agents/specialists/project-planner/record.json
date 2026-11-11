@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/project-planner/",
+ "kind": "agent-specialist",
+ "title": "Project Planner",
+ "subtitle": "Turns a goal into a scoped project plan with acceptance criteria, a task breakdown, who may change which files and a staffed team, and hands it back for one yes or no.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Turns a goal into a scoped project plan with acceptance criteria, a task breakdown, who may change which files and a staffed team, and hands it back for one yes or no.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "An engineering manager or founder with a goal and no plan",
+ "group": "Building software",
+ "specialist_kind": "Does the work",
+ "roles": [
+  {
+   "title": "The Pocket Operator",
+   "url": "https://coreyjames.ai/agents/roles/pocket-operator/"
+  },
+  {
+   "title": "The Software Department",
+   "url": "https://coreyjames.ai/agents/roles/software-department/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/project-planner/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/project-planner",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

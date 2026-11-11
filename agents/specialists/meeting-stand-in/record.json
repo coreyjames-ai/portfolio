@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/meeting-stand-in/",
+ "kind": "agent-specialist",
+ "title": "Meeting Stand-In",
+ "subtitle": "Attends a meeting on your behalf, listens, answers questions within its brief, and hands you a short summary of what happened and what was asked of you.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Attends a meeting on your behalf, listens, answers questions within its brief, and hands you a short summary of what happened and what was asked of you.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A busy executive",
+ "group": "Meetings, voice and the AI colleague",
+ "specialist_kind": "Speaks to people",
+ "roles": [
+  {
+   "title": "The Chief of Staff",
+   "url": "https://coreyjames.ai/agents/roles/chief-of-staff/"
+  },
+  {
+   "title": "The Delegate",
+   "url": "https://coreyjames.ai/agents/roles/delegate/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/meeting-stand-in/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/meeting-stand-in",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

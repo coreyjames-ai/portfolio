@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/business-event-switchboard/",
+ "kind": "agent-specialist",
+ "title": "Business Event Switchboard",
+ "subtitle": "It connects payments, email, social activity, inbound mail and the website so every customer signal lands in one team inbox, where it can become a task.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "It connects payments, email, social activity, inbound mail and the website so every customer signal lands in one team inbox, where it can become a task.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "a founder of a small online business",
+ "group": "Connecting tools and signals",
+ "specialist_kind": "Runs infrastructure",
+ "roles": [
+  {
+   "title": "The Operations Desk",
+   "url": "https://coreyjames.ai/agents/roles/operations-desk/"
+  },
+  {
+   "title": "The Integration Engineer",
+   "url": "https://coreyjames.ai/agents/roles/integration-engineer/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/business-event-switchboard/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/business-event-switchboard",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

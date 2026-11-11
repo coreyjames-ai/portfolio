@@ -1,0 +1,36 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/agent-directory-listing-agent/",
+ "kind": "agent-specialist",
+ "title": "Agent Directory Listing Agent",
+ "subtitle": "It lists the agent in a public agent registry and publishes the description files and discovery records that other agents look for, together with a readable text copy of every page.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "It lists the agent in a public agent registry and publishes the description files and discovery records that other agents look for, together with a readable text copy of every page.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A business that wants its own AI agent to be found by other agents",
+ "group": "The public front door",
+ "specialist_kind": "Does the work",
+ "roles": [
+  {
+   "title": "The Recruiter's Counterpart",
+   "url": "https://coreyjames.ai/agents/roles/recruiters-counterpart/"
+  },
+  {
+   "title": "The Publisher of Record",
+   "url": "https://coreyjames.ai/agents/roles/publisher-of-record/"
+  },
+  {
+   "title": "The Assistant-Ready Website",
+   "url": "https://coreyjames.ai/agents/roles/assistant-ready-website/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/agent-directory-listing-agent/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/agent-directory-listing-agent",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

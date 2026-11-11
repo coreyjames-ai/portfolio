@@ -1,0 +1,87 @@
+{
+ "url": "https://coreyjames.ai/agents/functions/running-the-company/",
+ "kind": "agent-function",
+ "title": "Running the company",
+ "subtitle": "The owner's side of the business: meetings, decisions, briefings and the work that follows them.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "The owner's side of the business: meetings, decisions, briefings and the work that follows them. Roles: The Chief of Staff; The Pocket Operator; The Advisory Board; The Morning Brief; The Digital Employee; The Delegate; The Planning Room; The Meeting Concierge; The Project Room; The Week in Review; The Operations Desk.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "roles": [
+  {
+   "title": "The Chief of Staff",
+   "url": "https://coreyjames.ai/agents/roles/chief-of-staff/"
+  },
+  {
+   "title": "The Pocket Operator",
+   "url": "https://coreyjames.ai/agents/roles/pocket-operator/"
+  },
+  {
+   "title": "The Advisory Board",
+   "url": "https://coreyjames.ai/agents/roles/advisory-board/"
+  },
+  {
+   "title": "The Morning Brief",
+   "url": "https://coreyjames.ai/agents/roles/morning-brief/"
+  },
+  {
+   "title": "The Digital Employee",
+   "url": "https://coreyjames.ai/agents/roles/digital-employee/"
+  },
+  {
+   "title": "The Delegate",
+   "url": "https://coreyjames.ai/agents/roles/delegate/"
+  },
+  {
+   "title": "The Planning Room",
+   "url": "https://coreyjames.ai/agents/roles/planning-room/"
+  },
+  {
+   "title": "The Meeting Concierge",
+   "url": "https://coreyjames.ai/agents/roles/meeting-concierge/"
+  },
+  {
+   "title": "The Project Room",
+   "url": "https://coreyjames.ai/agents/roles/project-room/"
+  },
+  {
+   "title": "The Week in Review",
+   "url": "https://coreyjames.ai/agents/roles/week-in-review/"
+  },
+  {
+   "title": "The Operations Desk",
+   "url": "https://coreyjames.ai/agents/roles/operations-desk/"
+  }
+ ],
+ "related": [
+  {
+   "title": "AI teammates inside Microsoft Teams and team chat",
+   "url": "https://coreyjames.ai/capabilities/ai-teammates-in-teams-and-chat/",
+   "kind": "Capability"
+  },
+  {
+   "title": "AI subscriptions as governed workers",
+   "url": "https://coreyjames.ai/capabilities/use-the-ai-subscriptions-you-already-have/",
+   "kind": "Capability"
+  },
+  {
+   "title": "Several minds in one room",
+   "url": "https://coreyjames.ai/stories/several-minds-in-one-room/",
+   "kind": "Engineering story"
+  },
+  {
+   "title": "From a conversation to a work order",
+   "url": "https://coreyjames.ai/stories/from-a-conversation-to-a-work-order/",
+   "kind": "Engineering story"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/functions/running-the-company/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/functions/running-the-company",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

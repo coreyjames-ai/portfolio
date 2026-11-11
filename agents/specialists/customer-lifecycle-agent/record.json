@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/customer-lifecycle-agent/",
+ "kind": "agent-specialist",
+ "title": "Customer Lifecycle Agent",
+ "subtitle": "It welcomes new buyers, follows their engagement, recovers failed payments, and works to keep subscribers who move to cancel.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "It welcomes new buyers, follows their engagement, recovers failed payments, and works to keep subscribers who move to cancel.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A founder or a customer success lead",
+ "group": "Signal to done",
+ "specialist_kind": "Does the work",
+ "roles": [
+  {
+   "title": "The Customer Success Manager",
+   "url": "https://coreyjames.ai/agents/roles/customer-success-manager/"
+  },
+  {
+   "title": "The Revenue Rescuer",
+   "url": "https://coreyjames.ai/agents/roles/revenue-rescuer/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/customer-lifecycle-agent/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/customer-lifecycle-agent",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

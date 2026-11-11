@@ -1,0 +1,36 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/code-reviewer/",
+ "kind": "agent-specialist",
+ "title": "Code Reviewer",
+ "subtitle": "Reviews finished code and reports against the plan, lists what is missing, extra or wrong with file and line, freezes the list after the first pass and then checks only the fixes.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Reviews finished code and reports against the plan, lists what is missing, extra or wrong with file and line, freezes the list after the first pass and then checks only the fixes.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "An engineering manager who wants every change reviewed before it counts",
+ "group": "Building software",
+ "specialist_kind": "Challenges decisions",
+ "roles": [
+  {
+   "title": "The Software Department",
+   "url": "https://coreyjames.ai/agents/roles/software-department/"
+  },
+  {
+   "title": "The Ticket Clearer",
+   "url": "https://coreyjames.ai/agents/roles/ticket-clearer/"
+  },
+  {
+   "title": "The Contractor Pass",
+   "url": "https://coreyjames.ai/agents/roles/contractor-pass/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/code-reviewer/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/code-reviewer",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

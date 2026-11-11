@@ -1,0 +1,28 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/store-catalogue-manager/",
+ "kind": "agent-specialist",
+ "title": "Store Catalogue Manager",
+ "subtitle": "It switches on the store features, keeps products and categories current one at a time or in bulk, and sets the display currency.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "It switches on the store features, keeps products and categories current one at a time or in bulk, and sets the display currency.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "an e-commerce manager",
+ "group": "Store, loyalty and payments",
+ "specialist_kind": "Does the work",
+ "roles": [
+  {
+   "title": "The Shop Manager",
+   "url": "https://coreyjames.ai/agents/roles/shop-manager/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/store-catalogue-manager/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/store-catalogue-manager",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

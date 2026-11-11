@@ -1,0 +1,95 @@
+{
+ "url": "https://coreyjames.ai/agents/roles/integration-engineer/",
+ "kind": "agent-role",
+ "title": "The Integration Engineer",
+ "subtitle": "For an IT lead who keeps being asked to connect another service.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "The agent reads the other service's documentation, generates the tools to use it and tries them with harmless read-only calls. It stores the credentials, runs the standard checks and only then lets the connection go live. From then on it receives that service's notifications, checks that each one is genuine, drops duplicates and routes it to the team that should act. When a fault sits on the supplier's side, it raises the case and follows it.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "function": "Engineering",
+ "function_url": "https://coreyjames.ai/agents/functions/engineering/",
+ "specialists": [
+  {
+   "title": "Third-Party Integration Researcher",
+   "url": "https://coreyjames.ai/agents/specialists/third-party-integration-researcher/"
+  },
+  {
+   "title": "Documentation Site Harvester",
+   "url": "https://coreyjames.ai/agents/specialists/documentation-site-harvester/"
+  },
+  {
+   "title": "Integration Wiring Engineer",
+   "url": "https://coreyjames.ai/agents/specialists/integration-wiring-engineer/"
+  },
+  {
+   "title": "Systems Connection Specialist",
+   "url": "https://coreyjames.ai/agents/specialists/systems-connection-specialist/"
+  },
+  {
+   "title": "Business Event Switchboard",
+   "url": "https://coreyjames.ai/agents/specialists/business-event-switchboard/"
+  },
+  {
+   "title": "Event Delivery Watchdog",
+   "url": "https://coreyjames.ai/agents/specialists/event-delivery-watchdog/"
+  },
+  {
+   "title": "New App Integration Engineer",
+   "url": "https://coreyjames.ai/agents/specialists/new-app-integration-engineer/"
+  },
+  {
+   "title": "Integration Health Checker",
+   "url": "https://coreyjames.ai/agents/specialists/integration-health-checker/"
+  },
+  {
+   "title": "Supplier Support Liaison",
+   "url": "https://coreyjames.ai/agents/specialists/supplier-support-liaison/"
+  },
+  {
+   "title": "API Upgrade Planner",
+   "url": "https://coreyjames.ai/agents/specialists/api-upgrade-planner/"
+  },
+  {
+   "title": "Tool Onboarding Specialist",
+   "url": "https://coreyjames.ai/agents/specialists/tool-onboarding-specialist/"
+  },
+  {
+   "title": "Event Feed Manager",
+   "url": "https://coreyjames.ai/agents/specialists/event-feed-manager/"
+  }
+ ],
+ "featured": false,
+ "routes": [],
+ "related": [
+  {
+   "title": "Business systems as safe agent tools",
+   "url": "https://coreyjames.ai/capabilities/business-systems-as-safe-agent-tools/",
+   "kind": "Capability"
+  },
+  {
+   "title": "Tools are the platform",
+   "url": "https://coreyjames.ai/ideas/tools-are-the-platform/",
+   "kind": "Idea"
+  },
+  {
+   "title": "Agents that react to the world",
+   "url": "https://coreyjames.ai/ideas/agents-that-react-to-the-world/",
+   "kind": "Idea"
+  },
+  {
+   "title": "Agents with real tools and no keys",
+   "url": "https://coreyjames.ai/stories/agents-with-real-tools-and-no-keys/",
+   "kind": "Engineering story"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/roles/integration-engineer/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/roles/integration-engineer",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

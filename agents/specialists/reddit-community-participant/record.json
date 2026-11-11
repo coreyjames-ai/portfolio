@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/reddit-community-participant/",
+ "kind": "agent-specialist",
+ "title": "Reddit Community Participant",
+ "subtitle": "It reads the threads where the business's subject is discussed, drafts posts for the owner to submit, and adds, corrects or removes its own comments from the owner's signed-in account.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "It reads the threads where the business's subject is discussed, drafts posts for the owner to submit, and adds, corrects or removes its own comments from the owner's signed-in account.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "an engineering-led founder or developer advocate",
+ "group": "Social media",
+ "specialist_kind": "Speaks to people",
+ "roles": [
+  {
+   "title": "The Conversation Finder",
+   "url": "https://coreyjames.ai/agents/roles/conversation-finder/"
+  },
+  {
+   "title": "The Developer Advocate",
+   "url": "https://coreyjames.ai/agents/roles/developer-advocate/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/reddit-community-participant/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/reddit-community-participant",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

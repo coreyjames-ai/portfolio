@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/phone-and-call-receptionist/",
+ "kind": "agent-specialist",
+ "title": "Phone and Call Receptionist",
+ "subtitle": "Answers direct calls to the AI teammate, listens, replies in a natural voice, and stops talking the moment the caller interrupts.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Answers direct calls to the AI teammate, listens, replies in a natural voice, and stops talking the moment the caller interrupts.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A small business owner",
+ "group": "Meetings, voice and the AI colleague",
+ "specialist_kind": "Speaks to people",
+ "roles": [
+  {
+   "title": "The Support Desk",
+   "url": "https://coreyjames.ai/agents/roles/support-desk/"
+  },
+  {
+   "title": "The Front Desk",
+   "url": "https://coreyjames.ai/agents/roles/front-desk/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/phone-and-call-receptionist/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/phone-and-call-receptionist",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

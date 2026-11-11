@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/deliverability-keeper/",
+ "kind": "agent-specialist",
+ "title": "Deliverability Keeper",
+ "subtitle": "It watches bounces, spam complaints and blocked addresses, removes bad addresses from lists, clears hard bounces once fixed, and blocks or unblocks whole domains.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "It watches bounces, spam complaints and blocked addresses, removes bad addresses from lists, clears hard bounces once fixed, and blocks or unblocks whole domains.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "a marketing operations lead",
+ "group": "Email, text and messaging",
+ "specialist_kind": "Audits and guards",
+ "roles": [
+  {
+   "title": "The Email Marketer",
+   "url": "https://coreyjames.ai/agents/roles/email-marketer/"
+  },
+  {
+   "title": "The Newsletter Editor",
+   "url": "https://coreyjames.ai/agents/roles/newsletter-editor/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/deliverability-keeper/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/deliverability-keeper",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

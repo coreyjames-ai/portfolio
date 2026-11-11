@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/help-article-video-maker/",
+ "kind": "agent-specialist",
+ "title": "Help Article Video Maker",
+ "subtitle": "Turns a help article into a short captioned how-to video so customers can watch the fix instead of reading it.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Turns a help article into a short captioned how-to video so customers can watch the fix instead of reading it.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A support desk lead",
+ "group": "Content, film and brand",
+ "specialist_kind": "Does the work",
+ "roles": [
+  {
+   "title": "The Training Department",
+   "url": "https://coreyjames.ai/agents/roles/training-department/"
+  },
+  {
+   "title": "The Support Desk",
+   "url": "https://coreyjames.ai/agents/roles/support-desk/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/help-article-video-maker/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/help-article-video-maker",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

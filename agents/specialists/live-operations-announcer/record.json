@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/live-operations-announcer/",
+ "kind": "agent-specialist",
+ "title": "Live Operations Announcer",
+ "subtitle": "It posts each event to the team in plain words as it happens.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "It posts each event to the team in plain words as it happens.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A team that wants to hear about machine events as they happen",
+ "group": "Machines, data and operations",
+ "specialist_kind": "Speaks to people",
+ "roles": [
+  {
+   "title": "The Circuit Breaker",
+   "url": "https://coreyjames.ai/agents/roles/circuit-breaker/"
+  },
+  {
+   "title": "The Watch Office",
+   "url": "https://coreyjames.ai/agents/roles/watch-office/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/live-operations-announcer/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/live-operations-announcer",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

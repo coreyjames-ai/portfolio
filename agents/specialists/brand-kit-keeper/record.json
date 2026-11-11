@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/brand-kit-keeper/",
+ "kind": "agent-specialist",
+ "title": "Brand Kit Keeper",
+ "subtitle": "Reads the company website and proposes a brand kit of logo, colours, fonts and social links.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Reads the company website and proposes a brand kit of logo, colours, fonts and social links. Once approved, it keeps the kit current so every template uses it.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A founder who wants every email and page to look like the same company",
+ "group": "Content, film and brand",
+ "specialist_kind": "Keeps knowledge",
+ "roles": [
+  {
+   "title": "The Email Marketer",
+   "url": "https://coreyjames.ai/agents/roles/email-marketer/"
+  },
+  {
+   "title": "The Agency Back Office",
+   "url": "https://coreyjames.ai/agents/roles/agency-back-office/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/brand-kit-keeper/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/brand-kit-keeper",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

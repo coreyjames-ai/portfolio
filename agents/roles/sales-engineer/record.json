@@ -1,0 +1,84 @@
+{
+ "url": "https://coreyjames.ai/agents/roles/sales-engineer/",
+ "kind": "agent-role",
+ "title": "The Sales Engineer",
+ "subtitle": "For a sales team with more demos than engineers.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "The agent joins the customer call, presents the deck and shares its screen for a live demo. When the customer asks a technical question, it answers aloud from the product's own code and documentation. After the call it sends the recap, updates the deal with what was promised and opens a request for anything the product cannot do yet.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "function": "Sales and customers",
+ "function_url": "https://coreyjames.ai/agents/functions/sales-and-customers/",
+ "specialists": [
+  {
+   "title": "Meeting Participant",
+   "url": "https://coreyjames.ai/agents/specialists/meeting-participant/"
+  },
+  {
+   "title": "Slide Presenter",
+   "url": "https://coreyjames.ai/agents/specialists/slide-presenter/"
+  },
+  {
+   "title": "Live Demo Presenter",
+   "url": "https://coreyjames.ai/agents/specialists/live-demo-presenter/"
+  },
+  {
+   "title": "Codebase Answer Desk",
+   "url": "https://coreyjames.ai/agents/specialists/codebase-answer-desk/"
+  },
+  {
+   "title": "Reference Researcher",
+   "url": "https://coreyjames.ai/agents/specialists/reference-researcher/"
+  },
+  {
+   "title": "Meeting Recap Sender",
+   "url": "https://coreyjames.ai/agents/specialists/meeting-recap-sender/"
+  },
+  {
+   "title": "Sales Pipeline Manager",
+   "url": "https://coreyjames.ai/agents/specialists/sales-pipeline-manager/"
+  },
+  {
+   "title": "Issue Triage Engineer",
+   "url": "https://coreyjames.ai/agents/specialists/issue-triage-engineer/"
+  },
+  {
+   "title": "Meeting Scheduler",
+   "url": "https://coreyjames.ai/agents/specialists/meeting-scheduler/"
+  },
+  {
+   "title": "Product Demo Clip Maker",
+   "url": "https://coreyjames.ai/agents/specialists/product-demo-clip-maker/"
+  }
+ ],
+ "featured": false,
+ "routes": [
+  "A comment becomes a customer"
+ ],
+ "related": [
+  {
+   "title": "AI teammates inside Microsoft Teams and team chat",
+   "url": "https://coreyjames.ai/capabilities/ai-teammates-in-teams-and-chat/",
+   "kind": "Capability"
+  },
+  {
+   "title": "Memory and code intelligence for agents",
+   "url": "https://coreyjames.ai/capabilities/memory-and-code-intelligence-for-agents/",
+   "kind": "Capability"
+  },
+  {
+   "title": "A meeting attendee that will not fake it",
+   "url": "https://coreyjames.ai/stories/a-meeting-attendee-that-will-not-fake-it/",
+   "kind": "Engineering story"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/roles/sales-engineer/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/roles/sales-engineer",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

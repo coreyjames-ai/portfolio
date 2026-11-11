@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/team-memory-search-desk/",
+ "kind": "agent-specialist",
+ "title": "Team Memory Search Desk",
+ "subtitle": "Searches past notes by keyword, by meaning or by both, filtered by project and date.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Searches past notes by keyword, by meaning or by both, filtered by project and date. It can go straight to decisions, changes, gotchas, patterns, problems or trade-offs, find past sessions and past questions people asked, and show the timeline around any note.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "Anyone on the team asking \"have we seen this before\"",
+ "group": "Code intelligence and team memory",
+ "specialist_kind": "Keeps knowledge",
+ "roles": [
+  {
+   "title": "The Record Keeper",
+   "url": "https://coreyjames.ai/agents/roles/record-keeper/"
+  },
+  {
+   "title": "The Institutional Memory",
+   "url": "https://coreyjames.ai/agents/roles/institutional-memory/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/team-memory-search-desk/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/team-memory-search-desk",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

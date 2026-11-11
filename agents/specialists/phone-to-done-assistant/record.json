@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/phone-to-done-assistant/",
+ "kind": "agent-specialist",
+ "title": "Phone-to-Done Assistant",
+ "subtitle": "It passes the instruction to the agent team, turns it into a task for the right teammate, and sends the owner a short note when the task is done.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "It passes the instruction to the agent team, turns it into a task for the right teammate, and sends the owner a short note when the task is done.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A founder or a business owner who runs things from a phone",
+ "group": "Signal to done",
+ "specialist_kind": "Speaks to people",
+ "roles": [
+  {
+   "title": "The Pocket Operator",
+   "url": "https://coreyjames.ai/agents/roles/pocket-operator/"
+  },
+  {
+   "title": "The Delegate",
+   "url": "https://coreyjames.ai/agents/roles/delegate/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/phone-to-done-assistant/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/phone-to-done-assistant",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

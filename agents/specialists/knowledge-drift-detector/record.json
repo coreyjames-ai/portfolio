@@ -1,0 +1,28 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/knowledge-drift-detector/",
+ "kind": "agent-specialist",
+ "title": "Knowledge Drift Detector",
+ "subtitle": "Runs a deeper clustering analysis on selected topics and reports those whose content has drifted from where it started.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Runs a deeper clustering analysis on selected topics and reports those whose content has drifted from where it started.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A knowledge base owner who wants to know when topics shift",
+ "group": "AI models and performance",
+ "specialist_kind": "Audits and guards",
+ "roles": [
+  {
+   "title": "The Knowledge Gardener",
+   "url": "https://coreyjames.ai/agents/roles/knowledge-gardener/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/knowledge-drift-detector/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/knowledge-drift-detector",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

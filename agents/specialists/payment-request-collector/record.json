@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/payment-request-collector/",
+ "kind": "agent-specialist",
+ "title": "Payment Request Collector",
+ "subtitle": "It sends a client a payment request with a reference and amount, turns on automatic reminders, checks whether it was paid, and withdraws requests that are no longer due.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "It sends a client a payment request with a reference and amount, turns on automatic reminders, checks whether it was paid, and withdraws requests that are no longer due.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "a freelancer or small service business",
+ "group": "Store, loyalty and payments",
+ "specialist_kind": "Does the work",
+ "roles": [
+  {
+   "title": "The Revenue Rescuer",
+   "url": "https://coreyjames.ai/agents/roles/revenue-rescuer/"
+  },
+  {
+   "title": "The Accounts Office",
+   "url": "https://coreyjames.ai/agents/roles/accounts-office/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/payment-request-collector/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/payment-request-collector",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

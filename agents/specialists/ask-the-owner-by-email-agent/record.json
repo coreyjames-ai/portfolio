@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/ask-the-owner-by-email-agent/",
+ "kind": "agent-specialist",
+ "title": "Ask the Owner by Email Agent",
+ "subtitle": "It emails the owner the question with options, waits for the reply at the team's own address, and continues the work with the answer.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "It emails the owner the question with options, waits for the reply at the team's own address, and continues the work with the answer.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A team that needs a business decision from someone who lives in email",
+ "group": "Signal to done",
+ "specialist_kind": "Speaks to people",
+ "roles": [
+  {
+   "title": "The Pocket Operator",
+   "url": "https://coreyjames.ai/agents/roles/pocket-operator/"
+  },
+  {
+   "title": "The Delegate",
+   "url": "https://coreyjames.ai/agents/roles/delegate/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/ask-the-owner-by-email-agent/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/ask-the-owner-by-email-agent",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

@@ -1,0 +1,36 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/product-demo-clip-maker/",
+ "kind": "agent-specialist",
+ "title": "Product Demo Clip Maker",
+ "subtitle": "Records a terminal or product session, masks addresses and private details, paces it and returns a captioned demo clip ready to post.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Records a terminal or product session, masks addresses and private details, paces it and returns a captioned demo clip ready to post.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "A sales team or product marketer",
+ "group": "Content, film and brand",
+ "specialist_kind": "Does the work",
+ "roles": [
+  {
+   "title": "The Training Department",
+   "url": "https://coreyjames.ai/agents/roles/training-department/"
+  },
+  {
+   "title": "The Developer Advocate",
+   "url": "https://coreyjames.ai/agents/roles/developer-advocate/"
+  },
+  {
+   "title": "The Sales Engineer",
+   "url": "https://coreyjames.ai/agents/roles/sales-engineer/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/product-demo-clip-maker/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/product-demo-clip-maker",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/release-engineer/",
+ "kind": "agent-specialist",
+ "title": "Release Engineer",
+ "subtitle": "Screens each candidate change for benchmark gaming, builds release images from pinned inputs, checks every hash, compares the candidate with the current baseline and promotes it, then tells the other teams to rebase.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Screens each candidate change for benchmark gaming, builds release images from pinned inputs, checks every hash, compares the candidate with the current baseline and promotes it, then tells the other teams to rebase.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "An engineering team shipping a performance-sensitive product",
+ "group": "Building software",
+ "specialist_kind": "Does the work",
+ "roles": [
+  {
+   "title": "The Software Department",
+   "url": "https://coreyjames.ai/agents/roles/software-department/"
+  },
+  {
+   "title": "The Engine Builder",
+   "url": "https://coreyjames.ai/agents/roles/engine-builder/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/release-engineer/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/release-engineer",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

@@ -1,0 +1,28 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/weekly-content-producer/",
+ "kind": "agent-specialist",
+ "title": "Weekly Content Producer",
+ "subtitle": "It plans and produces a week of LinkedIn and X posts: it researches what is live, checks the facts, picks a theme with the owner, writes per platform, edits to the house voice, renders images or short video, and puts everything in front of the owner to approve.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "It plans and produces a week of LinkedIn and X posts: it researches what is live, checks the facts, picks a theme with the owner, writes per platform, edits to the house voice, renders images or short video, and puts everything in front of the owner to approve.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "a founder or content producer",
+ "group": "Content, film and brand",
+ "specialist_kind": "Does the work",
+ "roles": [
+  {
+   "title": "The Newsroom",
+   "url": "https://coreyjames.ai/agents/roles/newsroom/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/weekly-content-producer/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/weekly-content-producer",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

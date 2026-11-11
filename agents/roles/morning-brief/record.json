@@ -1,0 +1,66 @@
+{
+ "url": "https://coreyjames.ai/agents/roles/morning-brief/",
+ "kind": "agent-role",
+ "title": "The Morning Brief",
+ "subtitle": "For an owner who wants one message a day.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Before the day starts the agent reads yesterday's payments, the sales pipeline, the response to every post and email, the health of the machines and the compute bill. It writes one page, records it as an audio briefing and sends both. Anything waiting on the owner's decision sits at the top.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "function": "Running the company",
+ "function_url": "https://coreyjames.ai/agents/functions/running-the-company/",
+ "specialists": [
+  {
+   "title": "Revenue Reporter",
+   "url": "https://coreyjames.ai/agents/specialists/revenue-reporter/"
+  },
+  {
+   "title": "Pipeline Weekly Reviewer",
+   "url": "https://coreyjames.ai/agents/specialists/pipeline-weekly-reviewer/"
+  },
+  {
+   "title": "Social Analytics Reporter",
+   "url": "https://coreyjames.ai/agents/specialists/social-analytics-reporter/"
+  },
+  {
+   "title": "Campaign Results Analyst",
+   "url": "https://coreyjames.ai/agents/specialists/campaign-results-analyst/"
+  },
+  {
+   "title": "Morning Operations Briefer",
+   "url": "https://coreyjames.ai/agents/specialists/morning-operations-briefer/"
+  },
+  {
+   "title": "Compute Cost Reporter",
+   "url": "https://coreyjames.ai/agents/specialists/compute-cost-reporter/"
+  },
+  {
+   "title": "Audio Briefing Producer",
+   "url": "https://coreyjames.ai/agents/specialists/audio-briefing-producer/"
+  },
+  {
+   "title": "Reputation Watch Officer",
+   "url": "https://coreyjames.ai/agents/specialists/reputation-watch-officer/"
+  }
+ ],
+ "featured": false,
+ "routes": [
+  "A decision becomes a launch"
+ ],
+ "related": [
+  {
+   "title": "Business systems as safe agent tools",
+   "url": "https://coreyjames.ai/capabilities/business-systems-as-safe-agent-tools/",
+   "kind": "Capability"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/roles/morning-brief/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/roles/morning-brief",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

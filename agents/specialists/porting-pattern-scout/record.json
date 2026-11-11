@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/porting-pattern-scout/",
+ "kind": "agent-specialist",
+ "title": "Porting Pattern Scout",
+ "subtitle": "Finds how a reference library or specification solves a problem and where the team's own code would host the equivalent.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Finds how a reference library or specification solves a problem and where the team's own code would host the equivalent. It writes up the method so the team can implement it themselves instead of copying outside code.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "An architect adopting a technique from a standard or an open library",
+ "group": "Code intelligence and team memory",
+ "specialist_kind": "Keeps knowledge",
+ "roles": [
+  {
+   "title": "The Migration Planner",
+   "url": "https://coreyjames.ai/agents/roles/migration-planner/"
+  },
+  {
+   "title": "The Engine Builder",
+   "url": "https://coreyjames.ai/agents/roles/engine-builder/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/porting-pattern-scout/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/porting-pattern-scout",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}

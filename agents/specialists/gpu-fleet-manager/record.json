@@ -1,0 +1,32 @@
+{
+ "url": "https://coreyjames.ai/agents/specialists/gpu-fleet-manager/",
+ "kind": "agent-specialist",
+ "title": "GPU Fleet Manager",
+ "subtitle": "Starts a GPU worker on whichever machine you name, tells you what is running where, and shuts down idle workers with their final cost.",
+ "systems": [],
+ "technologies": [],
+ "stats": [],
+ "lede": "Starts a GPU worker on whichever machine you name, tells you what is running where, and shuts down idle workers with their final cost. You stop tracking which card is busy and which one is wasting power.",
+ "quote": "",
+ "evidence": [],
+ "application_number": null,
+ "status": null,
+ "who": "An IT operations lead who runs GPU machines",
+ "group": "Machines, data and operations",
+ "specialist_kind": "Runs infrastructure",
+ "roles": [
+  {
+   "title": "The Bulk Run Manager",
+   "url": "https://coreyjames.ai/agents/roles/bulk-run-manager/"
+  },
+  {
+   "title": "The Branch Office Engineer",
+   "url": "https://coreyjames.ai/agents/roles/branch-office-engineer/"
+  }
+ ],
+ "canonical": "https://coreyjames.ai/agents/specialists/gpu-fleet-manager/",
+ "datePublished": "2026-11-11",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/portfolio/tree/main/agents/specialists/gpu-fleet-manager",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
+}
