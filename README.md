@@ -9,6 +9,7 @@ MCP server: https://coreyjames.ai/mcp · A2A agent card: https://coreyjames.ai/.
 Scale: 4,038,736 lines of source, 5,048 commits, 12 languages, 10 systems, 90 engineering stories, 15 ideas, 517 MCP tools, 5 provisional patent applications.
 
 
+
 Agents: 426 specialist agents, combined into 88 whole roles, in 10 business functions; 362 of those specialists work in more than one role.
 
 ## Systems, each its own repository
